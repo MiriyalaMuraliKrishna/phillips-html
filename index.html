@@ -8,8 +8,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/vnd.microsoft.icon" sizes="150x150" href="images/mstile-150x150.png">
-<link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="images/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-144x144.png">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
 <meta name="keywords" content="HTML, CSS, XML, PHP, JavaScript, jQuery"/>
@@ -17,7 +16,7 @@
 <link rel="stylesheet" type="text/css" href="./style.css" media="all"/>
 </head>
 <body>
-<header class="main_header">
+<header class="main-header">
   <div class="container">
     <div class="header flex">
       <div class="logo"><a href="index.html"><img src="images/White-logo.svg" alt="Phillips Lytle"></a></div>
@@ -93,6 +92,26 @@
     </div>
   </div>
 </header>
+
+<section class="default-banner-section pos-relative">
+  <picture class="default-banner-image object-fit">
+    <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)"/>
+    <img src="images/education-banner-mobile@2x.jpg" alt="education-banner-mobile">
+</picture>
+<div class="default-banner-main flex">
+    <div class="default-banner-right">
+
+    </div>
+    <div class="default-banner-left pos-relative">
+        <div class="default-banner-pos flex flex-vcenter">
+            <div class="default-banner-text">
+                <h1>punchy headline about running education</h1>
+                <p>At netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut. Tortor in vitae libero magnis cursus justo. Fermentum tortor, eu, sem nulla</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
 <script src="./dist/core.bundle.js"></script>
 </body>
