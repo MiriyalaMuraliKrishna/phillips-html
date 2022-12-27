@@ -1,2 +1,35 @@
 
-.main-header{width: 100%; position: fixed;}
+.main-header{width: 100%; top: 0; left: 0; position: fixed;}
+.fixed_header{background-color: var(--white);}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+
+    .navigation{flex: 1; flex-wrap: nowrap;}
+    ul.main_menu{margin: 0; justify-content: flex-end;}
+    ul.main_menu li::before{display: none;}
+    ul.main_menu > li{margin-left: 42px; display: inline-block; margin-bottom: 0;}
+    ul.main_menu > li > a{padding: 0; color: var(--text-color); font-size: 1rem; line-height: 28px; font-weight: normal; letter-spacing: normal; display: inline-block; position: relative;}
+    ul.main_menu > li.button{padding: 5px 12px 5px;}
+    ul.main_menu > li.button > a{color: var(--slate-color);}
+    ul.main_menu > li.button:hover > a{color: var(--slate-color);}
+    ul.main_menu > li.current-menu-parent > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li.current-page-ancestor > a{color: var(--slate-color);}
+    ul.main_menu > li:hover > a, ul.main_menu > li > a:hover{color: var(--blaze-color);}
+
+    ul.main_menu > li.menu-item-has-children > a::after{width: 58px; height: 43px; opacity: 0; top: 28px; right: 0; position: absolute; content: ""; background-image: url('../images/pointer-down.svg'); background-size: contain; background-repeat: no-repeat; transition: opacity 0.3s ease-in-out; }
+    ul.main_menu > li.menu-item-has-children:hover > a::after{opacity: 1;}
+
+    ul.main_menu > li > ul{margin: 0; position: absolute;}
+    
+    ul.main_menu > li.products{position: static;}
+    ul.main_menu > li.products > ul{left: 0; top: 50%;  width: 100%; gap: 40px 0; height: 0; opacity: 0; overflow: hidden; border-radius: 0 0 32px 32px; background-color: var(--slate-color); color: var(--white); display: flex; text-align: center; flex-wrap: wrap; z-index: -1; transition: opacity 0.3s ease-in-out;}
+    ul.main_menu > li.products:hover > ul{height: auto; opacity: 1; padding: 99px 0 50px;}
+    ul.main_menu > li.products > ul > li{margin: 0; width: 33.3333%; border-left: 1px dashed var(--mercury-color);}
+    ul.main_menu > li.products > ul > li:nth-child(3n+1){border-left: none;}
+
+    ul.main_menu > li.community{position: static;}
+    ul.main_menu > li.community > ul{left: 0; top: 50%; width: 100%; gap: 40px 0; height: 0; opacity: 0; overflow: hidden; border-radius: 0 0 32px 32px; background-color: var(--slate-color); color: var(--white); display: flex; text-align: center; flex-wrap: wrap; z-index: -1; transition: opacity 0.3s ease-in-out;}
+    ul.main_menu > li.community:hover > ul{height: auto; opacity: 1; padding: 99px 0 64px;}
+    ul.main_menu > li.community > ul > li{margin: 0; width: 20%; border-left: 1px dashed var(--mercury-color);}
+    ul.main_menu > li.community > ul > li:nth-child(5n+1){border-left: none;}
+}

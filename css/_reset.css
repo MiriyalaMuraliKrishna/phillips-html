@@ -34,3 +34,10 @@ h6 {font-size: 1rem; line-height: 1.5;}
 .f-700{font-weight: 700;}
 
 
+/*-- media css starts here --*/
+@media only screen and (min-width: 1300px){
+    .container{max-width: 1200px; margin-inline: auto;}
+}
+@media only screen and (min-width: 1440px){
+    .container.lg{max-width: 1458px;}
+}
