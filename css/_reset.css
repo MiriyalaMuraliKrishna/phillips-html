@@ -16,10 +16,74 @@ h4 {font-size: 1.25rem; line-height: 1.5; margin-bottom: 16px;}
 h5 {font-size: 1.125rem; line-height: 1.375rem;}
 h6 {font-size: 1rem; line-height: 1.5;}
 
+figure {margin: 0;}
+fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
+legend {white-space: normal;}
+button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 100%; margin: 0; max-width: 100%; vertical-align: baseline; appearance: none;}
+button, input {line-height: normal;}
+input, textarea {background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));}
+
+/* Removing the inner shadow, rounded corners on iOS inputs */
+button, input[type="button"], input[type="reset"], input[type="submit"] {appearance: button; cursor: pointer;}
+button[disabled], input[disabled] {cursor: default;}
+input[type="checkbox"], input[type="radio"] {padding: 0;}
+input[type="search"] {appearance: textfield;}
+input[type="search"]::-webkit-search-decoration {appearance: none;}
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
+textarea {overflow: auto; vertical-align: top;}
 
 /* Genericons */
 .clearfix {clear: both;}
 *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
+table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 0; max-width: 100%; width: 100%;}
+table tr td:first-child {padding-left: 15px; text-align: left; font-weight: 600;}
+table tr th:first-child {text-align: left; padding-left: 21px;}
+table tbody img {margin: 0 auto;}
+th {border-width: 0; font-size: 0.688rem; font-weight: bold; line-height: normal; letter-spacing: 0.4px; padding: 14px 0 17px; background-color: var(--gray-color); color: var(--white); text-transform: uppercase;}
+th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
+td {border-width: 0; padding: 13px 0 11px; text-align: center; border-bottom: solid 1px rgb(255 255 255 / 10%); vertical-align: middle;}
+table tr:nth-child(even) td{background-color: var(--light-gray);}
+
+caption, th, td {text-align: left;}
+del {color: var(--text-color);}
+hr{display: block; background-image: linear-gradient(90deg, #FFB405 -0.34%, #FF666B 108.2%); border: 0; width:100%; height: 2px; margin: 0 0 49px;}
+
+/* Support a widely-adopted but non-standard selector for text selection styles * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898. */ 
+::selection {background-color: var(--text-color); color: var(--white);}
+::-moz-selection {background-color: var(--text-color); color: var(--white);}
+
+/* Input fields */
+input[type="search"], input, select, textarea {outline: 0; width: 100%; font-size: 14px; line-height: 25px; letter-spacing: normal; background: var(--tin-color); box-shadow: none; padding: 9px 20px 9px; vertical-align: middle; font-family: 'Decimal', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: none; border-radius: 20px;}
+textarea {width: 100%; resize: none; height: 118px;}
+input:focus, textarea:focus{outline: 0;}
+input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--red-color); font-weight: bold; letter-spacing: normal; position: relative; transition: all 0.3s linear; text-transform: uppercase; text-align: center; color: var(--white); font-family: 'Roboto', sans-serif; }
+input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--white);}
+input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
+.search-field {width: 100%;}
+.search-submit {display: none;}
+
+/* Buttons */
+button, .button{ display: inline-block; font-size: 1.125rem; font-weight: 600; font-family: 'Roboto', sans-serif; line-height: 1.22; letter-spacing: normal; padding: 8px 17px 9px; vertical-align: middle; cursor: pointer; border: none; background-color: transparent; border-radius: 26px; background-image: linear-gradient(to right, #ffb405 0%, #ff666b 108%); position: relative; transition: all 0.3s ease-in-out; text-transform: lowercase; text-align: center; color: var(--text-color); z-index: 1; font-variant: small-caps;}
+button:hover, .button:hover{background-image: linear-gradient(to left, #ffb405 0%, #ff666b 108%); color: var(--text-color);}
+
+/* Placeholder text color -- selectors need to be separate to work. */ 
+::-webkit-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif;}
+:-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 1; }
+::-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 1;}
+:-ms-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 1;}
+
+/* Responsive images. Fluid images for posts, comments, and widgets */
+embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
+p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
+/* Alignment */
+.alignleft {float: left;}
+.alignright {float: right;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}
+img.alignnone{margin: 6px 0 25px;}
+blockquote.alignleft, img.alignleft {margin: 6px 25px 25px 0;}
+.hide {display: none;}
 
 /*-- flex css starts here --*/
 .flex{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-wrap: wrap; width: 100%; }

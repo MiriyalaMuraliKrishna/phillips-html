@@ -16,45 +16,57 @@
 <link rel="stylesheet" type="text/css" href="./style.css" media="all"/>
 </head>
 <body>
+<div class="home">
 <header class="main-header">
-  <div class="container lg">
+<div class="container lg">
     <div class="header flex flex-vcenter">
-      <div class="logo"><a href="index.html"><img src="images/White-logo.svg" alt="Phillips Lytle"></a></div>
-        <nav class="navigation">
-          <ul class="main_menu flex">
-            <li class="menu-item-has-children"><a href="#">Expertise</a></li>
-            <li><a href="#">Our People</a> </li>
-            <li><a href="#">Insights</a></li>
-            <li><a href="#">News & Events</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <form action=""></form>
+        <div class="logo">
+            <span class="reverse_logo"><a href="index.html"><img src="images/logo-white.svg" alt="Phillips Lytle"></a></span><!-- only home page logo white-->
+            <span class="normal_logo"><a href="index.html"><img src="images/logo-black.svg" alt="Phillips Lytle"></a></span>
+        </div>
+        <nav class="navigation flex flex-vcenter">
+            <ul class="main_menu flex">
+                <li class="menu-item-has-children"><a href="#">Expertise</a></li>
+                <li><a href="#">Our People</a> </li>
+                <li><a href="#">Insights</a></li>
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Our Firm</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <form action="" class="header_srch flex">
+                <input type="search" name="search" id="search" placeholder="Search">
+                <div class="header_srch_btn">
+                    <input type="submit" value="search"/>
+                    <span></span>
+                </div>
+            </form>
         </nav>
     </div>
-  </div>
+</div>
 </header>
+<div class="site-main-cover">
+    <section class="default-banner-section pos-relative">
+    <picture class="default-banner-image object-fit">
+        <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)"/>
+        <img src="images/education-banner-mobile@2x.jpg" alt="education-banner-mobile">
+    </picture>
+    <div class="default-banner-main flex">
+        <div class="default-banner-right">
 
-<section class="default-banner-section pos-relative">
-  <picture class="default-banner-image object-fit">
-    <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)"/>
-    <img src="images/education-banner-mobile@2x.jpg" alt="education-banner-mobile">
-</picture>
-<div class="default-banner-main flex">
-    <div class="default-banner-right">
-
-    </div>
-    <div class="default-banner-left pos-relative">
-        <div class="default-banner-pos flex flex-vcenter">
-            <div class="default-banner-text">
-                <h1>punchy headline about running education</h1>
-                <p>At netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut. Tortor in vitae libero magnis cursus justo. Fermentum tortor, eu, sem nulla</p>
+        </div>
+        <div class="default-banner-left pos-relative">
+            <div class="default-banner-pos flex flex-vcenter">
+                <div class="default-banner-text">
+                    <h1>punchy headline about running education</h1>
+                    <p>At netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut. Tortor in vitae libero magnis cursus justo. Fermentum tortor, eu, sem nulla</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</section>
-
+    </section>
+</div><!-- site-main-cover ends -->
 <script src="./dist/core.bundle.js"></script>
+</div><!-- home div ends here -->
 </body>
 </html>
