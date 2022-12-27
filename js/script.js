@@ -1,6 +1,6 @@
 var $ = jQuery.noConflict();
 $(document).ready(function(){
-    $(window).on('scroll', function(){
+    $(window).on('scroll load', function(){
         var scroll = $(this).scrollTop();
         if(scroll > 5){
             $('.main-header').addClass('fixed_header').removeClass('sticky_header');

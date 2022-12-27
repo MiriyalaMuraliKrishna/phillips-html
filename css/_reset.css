@@ -8,15 +8,22 @@ a {color: var(--copperplate-color); text-decoration: none; transition-duration: 
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--text-color);}
-h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 14px; color: var(--black); letter-spacing: normal; font-weight: 700; font-family: 'Decimal', sans-serif; text-transform: lowercase; font-variant: small-caps;}
-h1 {font-size: 2.75rem; line-height: 2.75rem; margin-bottom: 23px;}
+h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 14px; color: var(--black); letter-spacing: normal; font-weight: normal; font-family: 'Lora', serif;}
+h1 {font-size: 50px; line-height: 57px; margin-bottom: 23px;}
 h2 {font-size: 1.75rem; line-height: 2.25rem; margin-bottom: 15px;}
 h3 {font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 15px;}
 h4 {font-size: 1.25rem; line-height: 1.5; margin-bottom: 16px;}
 h5 {font-size: 1.125rem; line-height: 1.375rem;}
 h6 {font-size: 1rem; line-height: 1.5;}
+address { margin-bottom: 9px;}
+abbr[title] {border-bottom: 1px dotted #2b2b2b; cursor: help;}
+b, strong {font-weight: 700;}
+cite, dfn, em, i {font-style: italic;}
+mark, ins {background: #fff9c0; text-decoration: none;}
+p {margin-bottom: 24px;}
+p:last-child{margin-bottom: 0;}
 
-figure {margin: 0;}
+figure{margin: 0;}
 fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
 legend {white-space: normal;}
 button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 100%; margin: 0; max-width: 100%; vertical-align: baseline; appearance: none;}
@@ -65,7 +72,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button{ display: inline-block; font-size: 1.125rem; font-weight: 600; font-family: 'Roboto', sans-serif; line-height: 1.22; letter-spacing: normal; padding: 8px 17px 9px; vertical-align: middle; cursor: pointer; border: none; background-color: transparent; border-radius: 26px; background-image: linear-gradient(to right, #ffb405 0%, #ff666b 108%); position: relative; transition: all 0.3s ease-in-out; text-transform: lowercase; text-align: center; color: var(--text-color); z-index: 1; font-variant: small-caps;}
+button, .button{ display: inline-block; font-size: 1.125rem; font-weight: 500; font-family: 'Roboto', sans-serif; line-height: 1.22; letter-spacing: normal; padding: 8px 17px 9px; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--text-color); }
 button:hover, .button:hover{background-image: linear-gradient(to left, #ffb405 0%, #ff666b 108%); color: var(--text-color);}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
@@ -96,6 +103,17 @@ blockquote.alignleft, img.alignleft {margin: 6px 25px 25px 0;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 .f-500{font-weight: 500;}
 .f-700{font-weight: 700;}
+
+span.optional-text{font-size: 20px; line-height: 24px; font-weight: 500; margin-bottom: 15px; color: var(--f2t-text-50); display: block; text-transform: uppercase; font-family: 'Teko', sans-serif;}
+span.optional-text.white{color: var(--white);}
+span.optional-text.yellow{color: var(--f2t-yellow-50);}
+
+.background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
+.background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
+.pos-relative{position: relative;}
+figure.object-fit{width: 100%; height: 100%; display: block;}
+picture.object-fit{width: 100%; height: 100%; display: block;}
+.object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 
 
 /*-- media css starts here --*/

@@ -1,5 +1,5 @@
 
-.main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white);}
+.main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white); z-index: 1200; transition: background-color 0.3s ease;}
 .header{padding: 7px 0 6px;}
 .logo{margin-top: 7px;}
 .logo a{width: 100%; height: auto; display: block;}
@@ -11,13 +11,18 @@
 .sticky_header .reverse_logo{display: block;}
 .sticky_header ul.main_menu > li > a{color: var(--white-70);}
 
+.sticky_header .header_srch input::-webkit-input-placeholder {color: var(--white-70);}
+.sticky_header .header_srch input:-moz-placeholder {color: var(--white-70); }
+.sticky_header .header_srch input::-moz-placeholder {color: var(--white-70);}
+.sticky_header .header_srch input:-ms-input-placeholder {color: var(--white-70);}
+
 /** -- fixed Header --*/
 .fixed_header{background-color: var(--white);}
 
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-
     .navigation{flex: 1; gap: 127px; flex-wrap: nowrap;}
     ul.main_menu{margin: 0; padding-top: 22px; flex: 1; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}
@@ -32,7 +37,7 @@
     ul.main_menu > li > ul{margin: 0; position: absolute;}
 
     .header_srch{position: relative; width: 227px;}
-    .header_srch input:not(input[type="submit"]){border-radius: 22px; background-color: rgb(151 151 151 / 30%);}
+    .header_srch input:not(input[type="submit"]){border-radius: 22px; background-color: rgb(151 151 151 / 30%); color: var(--white);}
     .header_srch_btn{right: 0; position: absolute;}
     .header_srch_btn input{padding: 0; width: 17px; height: 17px; background-color: var(--white); font-size: 0; line-height: 0;}
 
