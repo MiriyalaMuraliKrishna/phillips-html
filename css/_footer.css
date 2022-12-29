@@ -1,6 +1,6 @@
-.footer-main{padding: 109px 0 0; z-index: 1;}
+.footer-main{z-index: 1;}
 .footer-overlay{position: absolute; width: 100%; height: 100%; background-color: var(--black); opacity: 0.93; top: 0; z-index: 0;}
-.footer{z-index: 2;}
+.footer{padding: 109px 0 0; z-index: 2;}
 .footer-row{margin-bottom: 31px; }
 .footer-logo{margin-bottom: 12px; }
 .footer-logo a{display: inline-block; }
@@ -22,17 +22,26 @@ ul.footer-links > li a:hover{color: var(--copperplate-color); opacity: 1;}
 .copyrights-main::before{content: ""; position: absolute; width: 100%; top: 0; border-top: solid 1px #fff; opacity: 0.1;}
 .copyrights-text{font-size: 14px; line-height: 1.79; color: var(--white-70); }
 ul.copyrights-links{margin: 0}
-ul.copyrights-links > li{font-size: 14px; line-height: 1.79; margin-left: 31px; margin-bottom: 0}
+ul.copyrights-links > li{font-size: 14px; line-height: 1.79; margin-bottom: 0}
 ul.copyrights-links > li:before{display: none;} 
 ul.copyrights-links > li > a{color: var(--white); opacity: 0.7; }
 ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1300px){
 	.footer-lt{width: 306px; margin-right: 84px;}
 	.footer-rt{flex: 1; gap: 53px; padding-top: 6px;}
 	.footer-menu{flex: 1;}
 	.footer-menu:nth-child(1){flex: 0 0 188px;}
 	.footer-menu:nth-child(2){flex: 0 0 180px;}
 	.footer-menu:nth-child(4){flex: 0 0 100px;}
+	ul.copyrights-links > li{margin-left: 31px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+	.footer{padding-top: 69px;}
+	.footer-row{display: block;}
+	.footer-lt{max-width: 50%; margin-bottom: 50px;}
+	.footer-rt{gap: 32px;}
+	.footer-menu{flex: 1;}
+	ul.copyrights-links > li{margin-left: 14px;}
 }
