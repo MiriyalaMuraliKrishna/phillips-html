@@ -22,6 +22,30 @@ cite, dfn, em, i {font-style: italic;}
 mark, ins {background: #fff9c0; text-decoration: none;}
 p {margin-bottom: 24px;}
 p:last-child{margin-bottom: 0;}
+code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
+pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none;}
+blockquote {color: var(--slate-color); font-weight: 700; font-size: 2rem; line-height: 2.5rem; font-style: normal; padding: 0 104px; position: relative; letter-spacing: 0; border-radius: 0; background: transparent; margin: 23px 0 56px;}
+blockquote p::before, blockquote p::after{top: 50%; transform: translateY(-50%); font-size: 4rem; line-height: normal; color: var(--white); font-family: "Font Awesome 6 Sharp"; font-weight: 900; position: absolute;}
+blockquote p::before{content: "\f10d"; left: 0;}
+blockquote p::after{content: "\f10e"; right: 0;}
+blockquote cite, blockquote small {color: rgba(31, 56, 74, 0.6); font-size: 1rem;}
+blockquote em, blockquote i, blockquote cite {font-style: normal;}
+small {font-size: smaller;}
+big {font-size: 125%;}
+sup, sub {font-size: 0.625rem; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
+sup {bottom: 1ex;}
+sub {top: 0;}
+dl {margin-bottom: 24px;}
+dd {margin-bottom: 24px;}
+ul {list-style: none; margin: 24px 0 26px 22px; font-size: 0.875rem; line-height: 1.375rem; font-weight: 400;}
+ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
+ul > li:before {content: "\f00c"; position: absolute; top: 1px; left: -22px; background-image: linear-gradient(to bottom, #ffb405 0%, #ff666b 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; font-family: "Font Awesome 6 Sharp";}
+li > ul {margin: 25px 0 26px 25px;}
+ol {counter-reset: section; list-style: none; margin: 29px 0 26px 27px; font-size: 0.875rem; line-height: 1.375rem; font-weight: 400;}
+ol > li {counter-increment: li; position: relative; margin-bottom: 10px;}
+ol > li:before{top: 4px; left: -26px; width: 14px; height: 15px; font-weight: 900; position: absolute; counter-increment: section; content: counter(section, decimal) ""; font-size: 0.563rem; align-items: center; display: flex; justify-content: center; background: linear-gradient(180deg, #FFB405 0%, #FF666B 100%); color: var(--white); font-family: "Font Awesome 6 Sharp"; }
+li > ol {margin: 25px 0 26px 25px;}
 
 figure{margin: 0;}
 fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
@@ -84,7 +108,6 @@ button:hover, .button:hover{background-image: linear-gradient(to left, #ffb405 0
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
-/* Alignment */
 .alignleft {float: left;}
 .alignright {float: right;}
 .aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}

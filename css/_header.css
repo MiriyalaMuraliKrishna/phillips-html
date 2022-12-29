@@ -5,7 +5,7 @@
 .logo a{width: 100%; height: auto; display: block;}
 .reverse_logo{display: none;}
 
-/** -- Reverse Header --*/
+/*-- Reverse Header --*/
 .sticky_header{background-color: transparent;}
 .sticky_header .normal_logo{display: none;}
 .sticky_header .reverse_logo{display: block;}
@@ -16,7 +16,7 @@
 .sticky_header .header_srch input::-moz-placeholder {color: var(--white-70);}
 .sticky_header .header_srch input:-ms-input-placeholder {color: var(--white-70);}
 
-/** -- fixed Header --*/
+/*-- fixed Header --*/
 .fixed_header{background-color: var(--white);}
 
 
