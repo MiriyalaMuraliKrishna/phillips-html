@@ -127,7 +127,7 @@ blockquote.alignleft, img.alignleft {margin: 6px 25px 25px 0;}
 .f-500{font-weight: 500;}
 .f-700{font-weight: 700;}
 
-span.optional-text{font-size: 20px; line-height: 24px; font-weight: 500; margin-bottom: 15px; color: var(--f2t-text-50); display: block; text-transform: uppercase; font-family: 'Teko', sans-serif;}
+span.optional-text{font-size: 20px; line-height: 24px; font-weight: 500; margin-bottom: 15px; color: var(--f2t-text-50); display: block; text-transform: uppercase; font-family: 'Copperplate-Regular', sans-serif;}
 span.optional-text.white{color: var(--white);}
 span.optional-text.yellow{color: var(--f2t-yellow-50);}
 
