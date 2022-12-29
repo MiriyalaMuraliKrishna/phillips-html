@@ -18,4 +18,5 @@ Text Domain:
 @import url("css/_reset.css");
 @import url("css/_header.css");
 @import url("css/_footer.css");
-@import url("css/_home-banner-section.css");
+@import url("css/home-page.css");
+

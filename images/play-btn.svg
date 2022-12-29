@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Triangle</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001---Home" transform="translate(-1150.000000, -1337.000000)" fill="#FFFFFF">
+            <g id="Intro" transform="translate(200.000000, 949.000000)">
+                <g id="Video" transform="translate(711.000000, 162.000000)">
+                    <g id="Play-Button" transform="translate(215.000000, 204.000000)">
+                        <polygon id="Triangle" transform="translate(32.500000, 30.357143) rotate(90.000000) translate(-32.500000, -30.357143) " points="32.5 22.1428571 40.7142857 38.5714286 24.2857143 38.5714286"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
