@@ -8,7 +8,6 @@
 .our-firm-top{max-width: 1100px; margin: 0 auto; padding: 93px 0;}
 .our-firm-lt{max-width: 505px; width: 46%; margin-right: 106px; z-index: 2;}
 .our-firm-lt::before{content: ""; position: absolute; background-image: url("../images/logo-symbol.svg"); background-size: cover; width: 171px; height: 442px; top: -79px; left: -101px; z-index: -1;}
-.our-firm-lt span{font-family: Copperplate, serif; font-size: 20px; line-height: 0.9; opacity: 0.6; display: block; color: var(--white); text-transform: uppercase; margin-bottom: 31px; }
 .our-firm-lt h2{color: var(--white); margin-bottom: 24px;}
 .our-firm-lt p{color: var(--white); opacity: 0.9; max-width: 385px; margin-bottom: 25px;}
 .our-firm-lt .button{font-size: 16px; font-weight: 500; line-height: 1.75; border: solid 1px #ebb89c; padding: 9px 41px 11px 40px; color: var(--white); }
