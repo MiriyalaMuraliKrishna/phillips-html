@@ -1,0 +1,20 @@
+
+.custom-cta-section{ background-color: #f8f4f2; }
+.custom-cta-wrap{padding: 112px 0 112px;}
+.custom-cta-main{background: var(--white);}
+.custom-cta-text{padding: 116px 100px 97px;}
+.custom-cta-text h2{font-size: 34px; line-height: 1; margin-bottom: 23px;}
+.custom-cta-text .button{margin-top: 4px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+	.custom-cta-text{width: 691px;}
+	.custom-cta-image{width: calc(100% - 691px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
