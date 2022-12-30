@@ -152,6 +152,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
     .container{max-width: 1200px; margin-inline: auto;}
+    .container.md{max-width: 952px;}
 }
 @media only screen and (min-width: 1440px){
     .container.lg{max-width: 1458px;}
