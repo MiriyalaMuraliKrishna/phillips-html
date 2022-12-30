@@ -96,7 +96,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button{ display: inline-block; font-size: 1.125rem; font-weight: 500; font-family: 'Roboto', sans-serif; line-height: 1.22; letter-spacing: normal; padding: 8px 17px 9px; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--text-color); }
+button, .button{padding: 13px 42px 13px;  display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
 button:hover, .button:hover{background-image: linear-gradient(to left, #ffb405 0%, #ff666b 108%); color: var(--text-color);}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
