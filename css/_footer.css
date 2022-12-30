@@ -17,8 +17,8 @@ ul.social-icons > li > a:hover::before{background-color: var(--copperplate-color
 ul.footer-links{margin: 0;}
 ul.footer-links > li{font-size: 14px; line-height: 1.14; margin-bottom: 16px; }
 ul.footer-links > li:before{display: none;}
-ul.footer-links > li a{color: var(--white-60); display: inline-block;}
-ul.footer-links > li a:hover{color: var(--copperplate-color); opacity: 1;}
+ul.footer-links > li a{display: inline-block; background-image: linear-gradient(to right, var(--copperplate-color), var(--slate-color) 50%, var(--white-60) 50%); background-size: 200% 100%; background-position: -100%; position: relative; -webkit-background-clip: text; -webkit-text-fill-color: transparent; transition: all 0.5s ease-in-out; }
+ul.footer-links > li a:hover{background-position: 0;}
 
 .copyrights-main{position: relative; padding: 43px 0 53px; justify-content: space-between;}
 .copyrights-main::before{content: ""; position: absolute; width: 100%; top: 0; border-top: solid 1px #fff; opacity: 0.1;}
