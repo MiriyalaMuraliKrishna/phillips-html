@@ -1,0 +1,12 @@
+
+.custom-cta-sec{padding: 50px 0; background: #f8f4f2; }
+.custom-cta-main{background: var(--white); }
+.custom-cta-lt{max-width: 691px; width: 58%; padding: 116px 100px 97px;}
+.custom-cta-lt span{font-family: Copperplate, serif; font-size: 18px; line-height: 1; display: inline-block; opacity: 0.9; color: var(--copperplate-color); margin-bottom: 16px;}
+.custom-cta-lt h2{font-size: 34px; line-height: 1; margin-bottom: 23px;}
+.custom-cta-lt p{color: #2d2d2d; margin-bottom: 27px;}
+.custom-cta-lt .button{display: inline-block; padding: 11px 43px; background-color: var(--copperplate-color); color: var(--white); font-weight: 500; line-height: 1.75; }
+
+
+
+.custom-cta-rt{width: calc(100% - 691px); }
