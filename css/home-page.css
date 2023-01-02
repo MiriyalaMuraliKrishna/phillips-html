@@ -21,6 +21,8 @@
 .number-count{color: var(--white-90); line-height: 1.25;}
 .num-value{font-family: Lora, serif; font-size: 55px; line-height: 60px; color: #dca586; text-align: center; margin-bottom: 12px;}
 
+.home .news-event-wrap { padding: 148px 0 308px; }
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
