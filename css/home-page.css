@@ -21,9 +21,9 @@
 .number-count{color: var(--white-90); line-height: 1.25;}
 .num-value{font-family: Lora, serif; font-size: 55px; line-height: 60px; color: #dca586; text-align: center; margin-bottom: 12px;}
 
-.home .news-event-wrap{padding: 148px 0 308px; }
+.home-page .news-event-wrap{padding: 148px 0 308px; }
 
-.home .two-grid-wrap{padding: 154px 0 366px; }
+.home-page .two-grid-wrap{padding: 154px 0 366px; }
 
 .box-grid-main{gap: 20px; }
 .box-grid-list{width: 590px; height: 543px; justify-content: center;}

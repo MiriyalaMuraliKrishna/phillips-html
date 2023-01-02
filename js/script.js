@@ -9,9 +9,9 @@ $(document).ready(function(){
             $('.main-header').removeClass('fixed_header');
         }
     });
-    let reverseHeader = $('.home');
+    let reverseHeader = $('.home-page');
     if(reverseHeader !='undefined' && reverseHeader.length > 0){
         $('.main-header').addClass('sticky_header');
         $('.site-main-cover').addClass('no_space');
-    }    
+    }
 });
