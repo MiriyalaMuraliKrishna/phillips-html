@@ -4,7 +4,7 @@
 .home-banner-text h1{color: var(--white);}
 .home-banner-desc{max-width: 508px; opacity: 0.9;}
 
-.our-firm-section{background-image: linear-gradient(to bottom, #a86b49, #a86b49);}
+.our-firm-section{background-color: var(--copperplate-color);}
 .our-firm-main{padding: 183px 0 115px 102px;}
 .our-firm-text{color: var(--white-90);}
 .our-firm-text::before{content: ""; position: absolute; background-image: url("../images/logo-symbol.svg"); background-size: cover; width: 171px; height: 442px; top: -79px; left: -101px; z-index: -1;}
@@ -21,7 +21,19 @@
 .number-count{color: var(--white-90); line-height: 1.25;}
 .num-value{font-family: Lora, serif; font-size: 55px; line-height: 60px; color: #dca586; text-align: center; margin-bottom: 12px;}
 
-.home .news-event-wrap { padding: 148px 0 308px; }
+.home .news-event-wrap{padding: 148px 0 308px; }
+
+.home .two-grid-wrap{padding: 154px 0 366px; }
+
+.box-grid-main{gap: 20px; }
+.box-grid-list{width: 590px; height: 543px; justify-content: center;}
+.box-grid-image{height: 100%;}
+.box-grid-image::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #120D0A; opacity: 0.83; }
+.box-grid-image::after{content: ""; position: absolute; width: 550px; height: 508px; border: solid 1px #a86b49; z-index: 1; top: 18px; left: 21px; }
+.box-grid-text{position: absolute; width: 390px; text-align: center; z-index: 2;}
+.box-grid-icon{display: block; margin-bottom: 14px; }
+.box-grid-text h3{color: var(--white); margin-bottom: 11px;}
+.box-grid-text p{color: var(--white-90); margin-bottom: 32px;}
 
 
 /*-- media css starts here --*/

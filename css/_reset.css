@@ -11,7 +11,7 @@ a:hover{color: var(--text-color);}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 14px; color: var(--black); letter-spacing: normal; font-weight: normal; font-family: 'Lora', serif;}
 h1 {font-size: 50px; line-height: 57px; margin-bottom: 23px;}
 h2 {font-size: 40px; line-height: 1.25; margin-bottom: 15px;}
-h3 {font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 15px;}
+h3 {font-size: 32px; line-height: 1.31; margin-bottom: 15px;}
 h4 {font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
 h5 {font-size: 1.125rem; line-height: 1.375rem;}
 h6 {font-size: 1rem; line-height: 1.5;}
@@ -140,7 +140,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; }
-.play-btn-main .play-btn{width: 80px; height: 80px; z-index: 1;}
+.play-btn{width: 80px; height: 80px; z-index: 1;}
 .play-btn-bg{width: 100%; height: 100%; transition: all 0.3s ease-in-out;}
 .play-btn-bg img{margin-left: 3px; transform: scale(1); transition: all 0.3s ease-in-out;}
 .play-btn-bg:hover img{transform: scale(1.125);}

@@ -1,0 +1,22 @@
+
+.two-grid-section{background-color: #f8f4f2;}
+.two-grid-section .container{max-width: 1600px; margin: 0 auto; width: 100%;}
+.two-grid-wrap{padding: 108px 0 112px;}
+.two-grid-main{gap: 106px;}
+.two-grid-text{flex-direction: column; justify-content: center;}
+.two-grid-text .optional-text{margin-bottom: 12px; line-height: 0.9;}
+.two-grid-text h2{margin-bottom: 23px; }
+.two-grid-text p{margin-bottom: 30px; }
+.two-grid-text .button { width: max-content; }
+
+.two-grid-list:nth-child(2n){flex-direction: row-reverse; }
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .two-grid-image{width: 790px; height: 581px; margin-right: 101px; }
+    .two-grid-text{width: 423px;}
+    .two-grid-list:nth-child(2n) .two-grid-image{margin:0 0 0 101px; }
+      
+}
