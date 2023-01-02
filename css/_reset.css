@@ -129,9 +129,8 @@ blockquote.alignleft, img.alignleft {margin: 6px 25px 25px 0;}
 .f-500{font-weight: 500;}
 .f-700{font-weight: 700;}
 
-span.optional-text{font-size: 20px; line-height: 24px; font-weight: 500; margin-bottom: 15px; color: var(--f2t-text-50); display: block; text-transform: uppercase; font-family: 'Copperplate-Regular', sans-serif;}
-span.optional-text.white{color: var(--white);}
-span.optional-text.yellow{color: var(--f2t-yellow-50);}
+span.optional-text{font-size: 20px; line-height: 24px; font-weight: 500; margin-bottom: 15px; color: var(--copperplate-color); display: block; text-transform: uppercase; font-family: 'Copperplate-Regular', sans-serif;}
+span.optional-text.white-60{color: var(--white-60);}
 
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
