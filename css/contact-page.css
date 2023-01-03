@@ -13,16 +13,17 @@
 .contact-office-wrap{padding: 56px 0 131px;}
 .contact-office-head{margin-bottom: 62px; }
 .contact-office-image{margin-bottom: 4px;}
+.contact-office-thumb a{display: block; width: 100%; height: 100%;}
 .contact-office-lists{gap: 36px 20px; }
 .contact-office-description h5{font-size: 20px; line-height: 1.35; margin-bottom: 16px;}
 .contact-office-description h5 a{color: var(--black);}
 .contact-office-description h5 a:hover{color: var(--copperplate-color);}
 .contact-office-description address{color: #9c5f3d; margin-bottom: 14px;}
-ul.contact-office-ul{margin: 0; }
-ul.contact-office-ul > li::before{display: none;}
+ul.phone-list{margin: 0; }
+ul.phone-list > li::before{display: none;}
 .contact-office-icon{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
-ul.contact-office-ul li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
-ul.contact-office-ul li a:hover{color: var(--black);}
+ul.phone-list li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
+ul.phone-list li a:hover{color: var(--black);}
 
 
 /* Contact office section */
