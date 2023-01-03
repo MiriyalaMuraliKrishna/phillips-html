@@ -13,9 +13,11 @@
 .contact-office-section{background-color: #f8f4f2; }
 .contact-office-wrap{padding: 57px 0 142px; }
 .contact-office-head{margin-bottom: 50px; }
+
 /* Contact office section */
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .contact-office-head{max-width: 490px; }
+    .contact-office-head{width: 490px; }
+    .contact-office-list{width: 230px; }
 }
