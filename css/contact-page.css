@@ -1,0 +1,10 @@
+
+/* Banner section start */
+.default-banner-main {padding: 172px 0 137px !important;}
+.default-banner-main p{opacity: 0.9; margin-bottom: 33px !important; }
+.default-banner-main ul.social-icons{margin: 0; justify-content: center; }
+.default-banner-main ul.social-icons > li { margin: 0 0 0 11px; }
+.default-banner-main ul.social-icons > li:first-child { margin: 0; }
+.default-banner-main ul.social-icons > li > a { width: 40px; height: 37px; color: var(--white);}
+.default-banner-main ul.social-icons > li > a::before {opacity: 1;}
+/* Banner section end */
