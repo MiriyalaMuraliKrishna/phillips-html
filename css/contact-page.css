@@ -1,10 +1,21 @@
 
 /* Banner section start */
 .default-banner-main {padding: 172px 0 137px !important;}
-.default-banner-main p{opacity: 0.9; margin-bottom: 33px !important; }
+.default-banner-main p{color: var(--white-90); margin-bottom: 33px !important; }
 .default-banner-main ul.social-icons{margin: 0; justify-content: center; }
 .default-banner-main ul.social-icons > li { margin: 0 0 0 11px; }
 .default-banner-main ul.social-icons > li:first-child { margin: 0; }
 .default-banner-main ul.social-icons > li > a { width: 40px; height: 37px; color: var(--white);}
 .default-banner-main ul.social-icons > li > a::before {opacity: 1;}
 /* Banner section end */
+
+/* Contact office section */
+.contact-office-section{background-color: #f8f4f2; }
+.contact-office-wrap{padding: 57px 0 142px; }
+.contact-office-head{margin-bottom: 50px; }
+/* Contact office section */
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .contact-office-head{max-width: 490px; }
+}
