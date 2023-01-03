@@ -1,18 +1,29 @@
 
 /* Banner section start */
-.default-banner-main {padding: 172px 0 137px !important;}
-.default-banner-main p{color: var(--white-90); margin-bottom: 33px !important; }
-.default-banner-main ul.social-icons{margin: 0; justify-content: center; }
-.default-banner-main ul.social-icons > li { margin: 0 0 0 11px; }
-.default-banner-main ul.social-icons > li:first-child { margin: 0; }
-.default-banner-main ul.social-icons > li > a { width: 40px; height: 37px; color: var(--white);}
-.default-banner-main ul.social-icons > li > a::before {opacity: 1;}
+.contact-page .default-banner-main {padding: 172px 0 137px;}
+.contact-page .default-banner-main p{color: var(--white-90); margin-bottom: 33px; }
+.contact-page ul.banner-icons > li{margin-left: 11px;}
+.contact-page ul.banner-icons > li > a{width: 40px; height: 37px;}
+.contact-page ul.banner-icons > li > a::before{opacity: 1;}
+
 /* Banner section end */
 
 /* Contact office section */
 .contact-office-section{background-color: #f8f4f2; }
-.contact-office-wrap{padding: 57px 0 142px; }
-.contact-office-head{margin-bottom: 50px; }
+.contact-office-wrap{padding: 56px 0 131px;}
+.contact-office-head{margin-bottom: 62px; }
+.contact-office-image{margin-bottom: 4px;}
+.contact-office-lists{gap: 36px 20px; }
+.contact-office-description h5{font-size: 20px; line-height: 1.35; margin-bottom: 16px;}
+.contact-office-description h5 a{color: var(--black);}
+.contact-office-description h5 a:hover{color: var(--copperplate-color);}
+.contact-office-description address{color: #9c5f3d; margin-bottom: 14px;}
+ul.contact-office-ul{margin: 0; }
+ul.contact-office-ul > li::before{display: none;}
+.contact-office-icon{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
+ul.contact-office-ul li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
+ul.contact-office-ul li a:hover{color: var(--black);}
+
 
 /* Contact office section */
 
@@ -20,4 +31,6 @@
 @media only screen and (min-width: 1024px){
     .contact-office-head{width: 490px; }
     .contact-office-list{width: 230px; }
+    .contact-office-text{width: 730px; margin-right: 84px; }
+    .contact-office-form{width: calc(100% - 814px); }
 }

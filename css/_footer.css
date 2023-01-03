@@ -7,6 +7,7 @@
 .footer-lt{font-size: 14px; line-height: 1.79; color: var(--white-60);}
 ul.social-icons{margin: 26px 0 0; }
 ul.social-icons > li{margin-left: 10px; margin-bottom: 0;}
+ul.social-icons > li:first-child{margin: 0;}
 ul.social-icons > li:before{display: none;}
 ul.social-icons > li > a{width: 42px; height: 39px; color: var(--copperplate-color); font-size: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1;}
 ul.social-icons > li > a:hover{color: var(--white);}
