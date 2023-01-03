@@ -4,7 +4,7 @@
 .news-event-heading{margin-bottom: 37px; }
 .news-event-title h2{margin: 0; }
 
-.news-event-slider{gap: 22px; }
+
 .news-event-category{position: absolute; top: 22px; left: 0; gap: 10px;}
 .news-event-category .button{padding: 10px 11px 9px; font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; text-transform: uppercase; }
 .news-event-text h4{font-family: 'Playfair Display', serif; font-size: 22px; line-height: 1.36; max-width: 300px; margin: 0; }
@@ -14,5 +14,9 @@
 @media only screen and (min-width: 1024px){
     .news-event-title{flex-basis: 50%; }
     .news-event-btn{flex-basis: 50%; justify-content: flex-end; align-items: end; }
-    .news-event-list{width: 386px; }
+    .news-event-row{gap: 22px; grid-template-columns: repeat(3, 1fr);}
+    .news-event-slider.slick-slider{display: block; width: 100vw;}
+    .news-event-slider .news-event-list{margin-right: 21px; width: 386px;}
+    ul.news-slick-dots{right: 0; top: -74px; width: 100vw; max-width: 1200px; align-items: flex-end; justify-content: flex-end; } 
+
 }
