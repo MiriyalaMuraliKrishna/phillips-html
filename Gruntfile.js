@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       uglify: {
         my_target: {
           files: {
-            'dist/core.bundle.js': ['js/jquery-3.6.1.min.js', 'js/script.js']
+            'dist/core.bundle.js': ['js/slick.min.js', 'js/custom-slick.js', 'js/script.js']
           }
         }
       },
