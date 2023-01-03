@@ -3,12 +3,13 @@
 .default-banner-main h1{color: var(--white); margin-bottom: 18px; }
 .default-banner-main p{margin-bottom: 37px; }
 ul.banner-icons{margin: 26px 0 0; }
-ul.banner-icons > li{margin-left: 10px; margin-bottom: 0;}
-ul.banner-icons > li:first-child{margin: 0;}
+ul.banner-icons > li{margin: 0 5px;}
 ul.banner-icons > li:before{display: none;}
 ul.banner-icons > li > a{width: 42px; height: 39px; color: var(--white); font-size: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1;}
 ul.banner-icons > li > a:hover{color: var(--white);}
-ul.banner-icons > li > a::before{content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: solid 1px var(--slate-color); opacity: 0.3; transition: opacity 0.3s linear; z-index: -1;}
+ul.banner-icons > li > a::before{content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: solid 1px var(--slate-color); opacity: 1; transition: opacity 0.3s linear; z-index: -1; box-sizing: border-box;}
 ul.banner-icons > li > a:hover::before{background-color: var(--copperplate-color); border-color: var(--copperplate-color); opacity: 1;}
 
 /* Banner section end */
+
+

@@ -4,11 +4,12 @@
 .news-event-heading{margin-bottom: 37px; }
 .news-event-title h2{margin: 0; }
 
-
 .news-event-category{position: absolute; top: 22px; left: 0; gap: 10px;}
 .news-event-category .button{padding: 10px 11px 9px; font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; text-transform: uppercase; }
-.news-event-text h4{font-family: 'Playfair Display', serif; font-size: 22px; line-height: 1.36; max-width: 300px; margin: 0; }
-
+.news-event-text{padding-top: 21px;}
+.news-event-text h4{font-family: 'Playfair Display', serif; font-size: 22px; line-height: 1.36;}
+.news-event-text h4 a{color: var(--text-color);}
+.news-event-text h4 a:hover{color: var(--copperplate-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -18,5 +19,5 @@
     .news-event-slider.slick-slider{display: block; width: 100vw;}
     .news-event-slider .news-event-list{margin-right: 21px; width: 386px;}
     ul.news-slick-dots{right: 0; top: -74px; width: 100vw; max-width: 1200px; align-items: flex-end; justify-content: flex-end; } 
-
+    .news-event-text h4{max-width: 300px; margin: 0; }
 }

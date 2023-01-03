@@ -2,9 +2,6 @@
 /* Banner section start */
 .contact-page .default-banner-main {padding: 172px 0 137px;}
 .contact-page .default-banner-main p{color: var(--white-90); margin-bottom: 33px; }
-.contact-page ul.banner-icons > li{margin-left: 11px;}
-.contact-page ul.banner-icons > li > a{width: 40px; height: 37px;}
-.contact-page ul.banner-icons > li > a::before{opacity: 1;}
 
 /* Banner section end */
 
@@ -12,13 +9,14 @@
 .contact-office-section{background-color: #f8f4f2; }
 .contact-office-wrap{padding: 56px 0 131px;}
 .contact-office-head{margin-bottom: 62px; }
-.contact-office-image{margin-bottom: 4px;}
-.contact-office-thumb a{display: block; width: 100%; height: 100%;}
+.contact-office-thumb a{display: block; width: 100%; height: 100%; max-height: 201px;}
+.contact-office-thumb img{height: auto;}
 .contact-office-lists{gap: 36px 20px; }
-.contact-office-description h5{font-size: 20px; line-height: 1.35; margin-bottom: 16px;}
-.contact-office-description h5 a{color: var(--black);}
-.contact-office-description h5 a:hover{color: var(--copperplate-color);}
-.contact-office-description address{color: #9c5f3d; margin-bottom: 14px;}
+.contact-office-desc{color: #9c5f3d; padding-top: 13px;}
+.contact-office-desc h5{font-size: 20px; line-height: 1.35; margin-bottom: 16px;}
+.contact-office-desc h5 a{color: var(--black);}
+.contact-office-desc h5 a:hover{color: var(--copperplate-color);}
+
 ul.phone-list{margin: 0; }
 ul.phone-list > li::before{display: none;}
 .contact-office-icon{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
@@ -30,7 +28,7 @@ ul.phone-list li a:hover{color: var(--black);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .contact-office-head{width: 490px; }
+    .contact-office-head{max-width: 490px; }
     .contact-office-list{width: 230px; }
     .contact-office-text{width: 730px; margin-right: 84px; }
     .contact-office-form{width: calc(100% - 814px); }
