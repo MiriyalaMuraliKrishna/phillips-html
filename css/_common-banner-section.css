@@ -1,13 +1,16 @@
 /* Common Banner section start */
 .common-banner-main{background-color: var(--copperplate-color); color: var(--white-90); z-index: 1;}
-.common-banner-text h1{color: var(--white); margin-bottom: 20px;}
-.common-banner-text::after{content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); width: 171px; height: 412px; bottom: 0; left: 99px; z-index: -1;}
+.common-banner-text h1{color: var(--white); margin-bottom: 14px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .common-banner-text{width: 891px;}
-    .common-banner-content{width: 500px; }
+    .common-banner-text{flex: 50%;}
+    .common-banner-image{flex: 0 0 710px;}
+    .common-banner-desc{max-width: 691px; margin-left: auto; padding-right: 111px; z-index: 1;}
+    .common-banner-desc::after {width: 171px; height: 412px; top: -90px; left: -101px; content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
     .common-banner-thumb{height: 100%;}
-    .common-banner-image{width: calc(100% - 891px);}
-    .common-banner-main::before{content: ""; position: absolute; width: 1000%; height: 100%; background-color: var(--copperplate-color); left: auto; top: 0; right: 100%; }
+}
+@media only screen and (min-width: 1601px){
+    .common-banner-text{flex: 50%;}
+    .common-banner-image{flex: 50%;} 
 }
