@@ -1,0 +1,19 @@
+
+.common-grid-section{background-color: #f8f4f2;}
+.common-grid-section .container{max-width: 1600px; margin: 0 auto; width: 100%;}
+.common-grid-wrap{padding: 108px 0 112px;}
+.common-grid-main{gap: 106px;}
+.common-grid-text{flex-direction: column; justify-content: center;}
+.common-grid-text .optional-text{margin-bottom: 12px; line-height: 0.9;}
+.common-grid-text h2{margin-bottom: 23px; }
+.common-grid-text p{margin-bottom: 30px; }
+.common-grid-text .button { width: max-content; }
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .common-grid-list.reverse{flex-direction: row-reverse; }
+    .common-grid-image{width: 790px; margin-right: 101px; }
+    .common-grid-text{width: 423px;}
+    .common-grid-list:nth-child(2n) .common-grid-image{margin:0 0 0 101px; }     
+}

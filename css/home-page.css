@@ -22,7 +22,7 @@
 .num-value{font-family: Lora, serif; font-size: 55px; line-height: 60px; color: #dca586; text-align: center; margin-bottom: 12px;}
 
 .home-page .news-event-wrap{padding: 148px 0 308px; }
-.home-page .two-grid-wrap{padding: 154px 0 161px; }
+.home-page .common-grid-wrap{padding: 154px 0 161px; }
 
 .home-landing-section{z-index: 1; background-color: #f8f4f2;}
 .home-practice-list{justify-content: center;}
@@ -33,11 +33,12 @@
 .home-practice-icon{display: block; margin-bottom: 14px; }
 .home-practice-text h3{color: var(--white); margin-bottom: 11px;}
 .home-practice-text p{color: var(--white-90); margin-bottom: 32px;}
+.home-practice-text .btn-transparent:hover{background-color: var(--border-color); border-color: var(--border-color); }
 
 
 .our-team-wrap{padding: 144px 0 284px; } /*padding: 482px 0 284px;*/
 .our-team-text{background-color: #f8f4f2; padding: 80px 80px 87px 81px; position: absolute; right: 0; top: 138px; }
-span.optional-text{line-height: 0.9; margin-bottom: 11px; }
+.our-team-text .optional-text{line-height: 0.9; margin-bottom: 11px; }
 
 
 /*-- media css starts here --*/
