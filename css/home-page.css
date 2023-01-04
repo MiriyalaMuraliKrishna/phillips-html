@@ -25,17 +25,18 @@
 
 .home-page .two-grid-wrap{padding: 154px 0 366px; }
 
-.box-grid-main{gap: 20px; position: absolute; top: -205px;}
-.box-grid-list{width: 590px; height: 543px; justify-content: center;}
-.box-grid-image{height: 100%;}
-.box-grid-image::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #120D0A; opacity: 0.83; }
-.box-grid-image::after{content: ""; position: absolute; width: 550px; height: 508px; border: solid 1px var(--copperplate-color); z-index: 1; top: 18px; left: 21px; }
-.box-grid-text{position: absolute; width: 390px; text-align: center; z-index: 2;}
-.box-grid-icon{display: block; margin-bottom: 14px; }
-.box-grid-text h3{color: var(--white); margin-bottom: 11px;}
-.box-grid-text p{color: var(--white-90); margin-bottom: 32px;}
+.home-landing-section{background-image: url("../images/out-team-bg@2x.jpg"); background-size: cover;}
+.home-practice-main{gap: 20px; position: absolute; top: -205px;}
+.home-practice-list{justify-content: center;}
+.home-practice-image{height: 100%;}
+.home-practice-image::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #120D0A; opacity: 0.83; }
+.home-practice-image::after{content: ""; position: absolute; width: 550px; height: 508px; border: solid 1px var(--copperplate-color); z-index: 1; top: 18px; left: 21px; }
+.home-practice-text{position: absolute; width: 390px; text-align: center; z-index: 2;}
+.home-practice-icon{display: block; margin-bottom: 14px; }
+.home-practice-text h3{color: var(--white); margin-bottom: 11px;}
+.home-practice-text p{color: var(--white-90); margin-bottom: 32px;}
 
-.our-team-section{background-image: url("../images/out-team-bg@2x.jpg"); }
+
 .our-team-wrap{padding: 482px 0 284px; }
 .our-team-text{background-color: #f8f4f2; padding: 80px 80px 87px 81px; position: absolute; right: 0; top: 138px; }
 span.optional-text{line-height: 0.9; margin-bottom: 11px; }
@@ -48,6 +49,8 @@ span.optional-text{line-height: 0.9; margin-bottom: 11px; }
 
 	.number-count-main{gap: 95px; justify-content: center;}
 	.number-count{flex: 0 0 calc(25% - 72px);}
+
+	.home-practice-list{width: 590px;}
 
 	.our-team-main{max-width: 993px; margin: 0 auto; }
 	.our-team-image{width: 588px; }
