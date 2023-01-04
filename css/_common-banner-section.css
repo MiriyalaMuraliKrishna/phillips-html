@@ -1,0 +1,13 @@
+/* Common Banner section start */
+.common-banner-main{background-color: var(--copperplate-color); color: var(--white-90); z-index: 1;}
+.common-banner-text h1{color: var(--white); margin-bottom: 20px;}
+.common-banner-text::after{content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); width: 171px; height: 412px; bottom: 0; left: 99px; z-index: -1;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .common-banner-text{width: 891px;}
+    .common-banner-content{width: 500px; }
+    .common-banner-thumb{height: 100%;}
+    .common-banner-image{width: calc(100% - 891px);}
+    .common-banner-main::before{content: ""; position: absolute; width: 1000%; height: 100%; background-color: var(--copperplate-color); left: auto; top: 0; right: 100%; }
+}

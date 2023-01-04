@@ -9,7 +9,7 @@ a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--text-color);}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 14px; color: var(--black); letter-spacing: normal; font-weight: normal; font-family: 'Lora', serif;}
-h1 {font-size: 50px; line-height: 57px; margin-bottom: 23px;}
+h1 {font-size: 50px; line-height: 1.14; margin-bottom: 23px;}
 h2 {font-size: 40px; line-height: 1.25; margin-bottom: 15px;}
 h3 {font-size: 32px; line-height: 1.31; margin-bottom: 15px;}
 h4 {font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
@@ -79,7 +79,7 @@ table tr:nth-child(even) td{background-color: var(--light-gray);}
 
 caption, th, td {text-align: left;}
 del {color: var(--text-color);}
-hr{display: block; background-image: linear-gradient(90deg, #FFB405 -0.34%, #FF666B 108.2%); border: 0; width:100%; height: 2px; margin: 0 0 49px;}
+hr{display: block; background-color: #9c5f3d; border: 0; width: 100%; height: 1px; margin: 0;}
 
 /* Support a widely-adopted but non-standard selector for text selection styles * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898. */ 
 ::selection {background-color: var(--text-color); color: var(--white);}

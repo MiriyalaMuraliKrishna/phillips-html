@@ -25,7 +25,7 @@
 
 .home-page .two-grid-wrap{padding: 154px 0 366px; }
 
-.box-grid-main{gap: 20px; }
+.box-grid-main{gap: 20px; position: absolute; top: -205px;}
 .box-grid-list{width: 590px; height: 543px; justify-content: center;}
 .box-grid-image{height: 100%;}
 .box-grid-image::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #120D0A; opacity: 0.83; }
@@ -35,6 +35,11 @@
 .box-grid-text h3{color: var(--white); margin-bottom: 11px;}
 .box-grid-text p{color: var(--white-90); margin-bottom: 32px;}
 
+.our-team-section{background-image: url("../images/out-team-bg@2x.jpg"); }
+.our-team-wrap{padding: 482px 0 284px; }
+.our-team-text{background-color: #f8f4f2; padding: 80px 80px 87px 81px; position: absolute; right: 0; top: 138px; }
+span.optional-text{line-height: 0.9; margin-bottom: 11px; }
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -43,4 +48,8 @@
 
 	.number-count-main{gap: 95px; justify-content: center;}
 	.number-count{flex: 0 0 calc(25% - 72px);}
+
+	.our-team-main{max-width: 993px; margin: 0 auto; }
+	.our-team-image{width: 588px; }
+	.our-team-text{width: 588px;}
 }
