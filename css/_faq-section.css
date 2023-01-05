@@ -6,8 +6,12 @@
 .faq-content{position: absolute; right: 0; top: 124px; background-image: url("../images/faq-bg@2x.jpg"); background-size: cover; padding: 116px 204px 92px 326px; color: var(--white-90); z-index: -1; }
 .faq-content h2{color: var(--white); margin-bottom: 20px;}
 
-.accordion-title{font-size: 20px; line-height: 1.5; color: var(--white); }
-.accordion-btn{width: 100%; text-align: right; }
+.accordion-item{margin-bottom: 38px; }
+.accordion-title{font-family: Lora, serif;font-size: 20px; line-height: 1.5; color: var(--white); margin-bottom: 24px;}
+.accordion-content{display: none;}
+.accordion-btn{width: 100%; text-align: right; padding-top: 10px;}
+.accordion-title .fa-plus{right: 10px; position: absolute; }
+.accordion-line{background-color: var(--white-50); }
 
 
 /*-- media css starts here --*/
