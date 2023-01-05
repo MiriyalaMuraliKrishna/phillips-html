@@ -1,42 +1,43 @@
 
-.search-form-section .default-banner-main{width: 735px; padding: 88px 0 42px;}
+.search-results-main{padding: 88px 0 42px;}
 .search-feild{margin-bottom: 18px;}
-.search-text-feild{width: 590px; }
-.search-text-feild .search{width: 590px; background-color: var(--white); padding: 19px 133px 17px 30px; border-radius: 0; font-size: 20px; line-height: 1.6; font-family: lora, serif;}
-.clear-btn{position: absolute; right: 25px; color: var(--copperplate-color); font-size: 16px; font-weight: 500; line-height: 1.75; opacity: 0.9; text-align: center; top: 50%; transform: translateY(-50%); width: 66px; text-transform: uppercase; justify-content: space-between; align-items: center;}
-input.search-btn{width: auto; background: #9c5f3d; padding: 20px 40px 20px 41px; font-size: 16px; font-weight: 500; line-height: 1.75; margin-left: 2px;}
-.search-txt { color: #f0eae7;}
+.search-text-feild{flex: 1;}
+input.search{background-color: var(--white); padding: 19px 133px 17px 30px; border-radius: 0; font-size: 20px; line-height: 1.6; font-family: lora, serif;}
+.srch-clear{position: absolute; right: 25px; color: var(--copperplate-color); font-size: 16px; font-weight: 500; line-height: 1.75; opacity: 0.9; text-align: center; top: 50%; transform: translateY(-50%); width: 66px; text-transform: uppercase; justify-content: space-between; align-items: center;}
+input.search-btn{width: 146px; background: #9c5f3d; padding: 20px 40px 20px 41px; font-size: 16px; font-weight: 500; line-height: 1.75; margin-left: 2px;}
+.srch-txt{ color: #f0eae7;}
 
 
-.search-section{background-color: #f8f4f2; }
-.search-wrap{padding: 99px 0 86px; }
-.search-main{padding-bottom: 59px; border-bottom: solid 1px rgba(0, 0, 0, 0.15); }
+.search-content-section{background-color: #f8f4f2; }
+.search-content-wrap{padding: 99px 0 86px; }
+.search-content-main{padding-bottom: 59px; border-bottom: solid 1px rgba(0, 0, 0, 0.15); }
 .search-filter{margin:14px 82px 0 0; }
 .search-filter h4 { margin-bottom: 37px; }
-ul.filter-name{margin: 0;}
-ul.filter-name li::before{display: none; }
-ul.filter-name li{font-size: 20px; font-family: Lora, serif; line-height: 1.2; margin-bottom: 24px;}
-ul.filter-name li a{color: var(--black); opacity: 0.7;}
-ul.filter-name li a:hover{color: var(--copperplate-color); opacity: 1;}
-ul.filter-name li span{color: #aeaeae; margin-left: 5px;}
-ul.filter-name li a:hover span{color: var(--copperplate-color);}
+ul.filter-list{margin: 0;}
+ul.filter-list li::before{display: none; }
+ul.filter-list li{font-size: 20px; font-family: Lora, serif; line-height: 1.2; margin-bottom: 24px;}
+ul.filter-list li a{color: var(--black); opacity: 0.7;}
+ul.filter-list li a:hover{color: var(--copperplate-color); opacity: 1;}
+ul.filter-list li span{color: #aeaeae; margin-left: 5px;}
+ul.filter-list li a:hover span{color: var(--copperplate-color);}
 
-.search-content-list{padding-bottom: 26px; border-bottom: solid 1px rgba(0, 0, 0, 0.1); margin-bottom: 26px; }
-.search-content-list:last-child{padding: 0; border-bottom: none; margin: 0; }
-.search-content-image{margin-right: 20px; }
-.search-content-text{font-size: 15px; line-height: 1.6; }
-.search-content-text .optional-text{font-size: 15px; line-height: 1.2; margin-bottom: 4px;}
-.search-content-text h5{font-size: 22px; line-height: 1.36; margin-bottom: 12px;}
-.search-content-text h5 a{color: var(--black);}
-.search-content-text h5 a:hover{color: var(--copperplate-color);}
+.srch-results-list{padding-bottom: 26px; border-bottom: solid 1px rgba(0, 0, 0, 0.1); margin-bottom: 26px; }
+.srch-results-list:last-child{padding: 0; border-bottom: none; margin: 0; }
+.srch-results-image{margin-right: 20px; }
+.srch-results-text{font-size: 15px; line-height: 1.6; }
+.srch-results-text .optional-text{font-size: 15px; line-height: 1.2; margin-bottom: 4px;}
+.srch-results-text h5{font-size: 22px; line-height: 1.36; margin-bottom: 12px;}
+.srch-results-text h5 a{color: var(--black);}
+.srch-results-text h5 a:hover{color: var(--copperplate-color);}
 
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .search-results-main{max-width: 735px; margin: 0 auto;}
     .search-filter{width: 203px;}
     .search-content{width: calc(100% - 285px); }
-    .search-content-image{width: 203px;}
-    .search-content-text{width: calc(100% - 223px); }
+    .srch-results-image{width: 203px;}
+    .srch-results-text{width: calc(100% - 223px); }
 }
