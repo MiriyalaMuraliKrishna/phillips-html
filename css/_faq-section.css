@@ -11,7 +11,7 @@
 .accordion-header:after{width: calc(100% - 27px); height: 1px; left: 27px; bottom: 0; opacity: 0.5; background-color: var(--white); content: ""; display: block; position: absolute; transition: all 0.3s ease;}
 .accordion-active .accordion-header:after, .accordion-header:hover:after{opacity: 0;}
 .accordion-header span.icon{right: 10px; position: absolute; }
-.accordion-active .accordion-header span:before{}
+.accordion-active .accordion-header span:before{content: "\f068";}
 .accordion-content{display: none; padding: 0 27px 40px;}
 .accordion-active{background-color: var(--copperplate-color);}
 .faq-btn{text-align: right; margin-top: 48px;}
