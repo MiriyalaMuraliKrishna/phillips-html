@@ -14,4 +14,11 @@ $(document).ready(function(){
         $('.main-header').addClass('sticky_header');
         $('.site-main-cover').addClass('no_space');
     }
+    $('.accordion-header').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().removeClass('accordion-active');
+        $(this).parent().addClass("accordion-active");
+        $(this).parent().siblings().find('.accordion-content').slideUp(300);
+        $(this).siblings('.accordion-content').slideDown(300);
+    })
 });
