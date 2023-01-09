@@ -30,6 +30,7 @@ Text Domain:
 @import url("css/_common-banner-section.css");
 @import url("css/_insight-featured-section.css");
 @import url("css/_faq-section.css");
+@import url("css/_cta-panel-section.css");
 
 @import url("css/home-page.css");
 @import url("css/practices-page.css");

@@ -1,0 +1,35 @@
+
+/* Banner section */
+.industries-page .default-banner-main{padding: 118px 0 62px;}
+.industries-page .default-banner-main p{margin-bottom: 29px; }
+
+.industries-page .number-count-main{padding: 28px 0 45px; }
+.industries-page .number-count-bg{background-color: transparent;}
+.industries-page .num-value{font-size: 46px; line-height: normal; color: var(--white); margin-bottom: 6px;}
+.industries-page .number-count{color: var(--white-70);}
+.industries-page .number-count-main{border-top: 1px solid rgba(255, 255, 255, 0.15);}
+
+.industries-section{background-color: #f8f4f2; }
+.industries-wrap{padding: 88px 0 112px; }
+.industries-main{justify-content: center; }
+.industries-desc{font-size: 15px; line-height: 1.6; }
+.industries-thumb{margin-bottom: 20px; }
+.industries-list h5{font-size: 20px; line-height: 1.35; margin-bottom: 7px;}
+.industries-list h5 a{color: var(--black);}
+.industries-list h5 a:hover{color: var(--copperplate-color);}
+.industries-desc p{margin-bottom: 15px; }
+.read-btn { font-size: 14px; font-weight: 500; line-height: 1; padding-right: 22px; color: #9c5f3d; }
+.angle-icon{font-size: 12px; }
+
+/* News Events Section */
+.industries-page .news-event-section{background-color: #f0eae7; }
+.industries-page .news-event-wrap{padding: 112px 0 368px; }
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .industries-main{gap: 112px 20px;}
+    .industries-list{flex-basis: 23%; }
+    .industries-desc{max-width: 250px;}
+    .industries-thumb img{max-width: 285px; }
+}

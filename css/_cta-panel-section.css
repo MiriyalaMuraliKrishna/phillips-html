@@ -1,0 +1,14 @@
+
+.cta-panel-section{background-color: #f8f4f2; margin-top: -241px;}
+.cta-panel-content{position: absolute; top: 0; width: 100%; height: 100%; padding: 16px 14px 16px 16px;}
+.cta-panel-inner{height: 100%; border: solid 1px rgba(248, 212, 192, 0.3); padding: 104px 0 78px 85px; max-width: 470px; font-size: 16px; color: rgba(255, 255, 255, 0.9);}
+.cta-panel-inner .optional-text{font-size: 18px; line-height: 1; color: rgba(255, 255, 255, 0.7); text-transform: uppercase; font-family: Copperplate; }
+.cta-panel-inner a{color: var(--white);}
+.cta-panel-inner a:hover{color: var(--copperplate-color);}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .cta-panel-image img{max-width: 1200px;}
+
+}
