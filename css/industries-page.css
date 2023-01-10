@@ -3,11 +3,10 @@
 .industries-page .default-banner-main{padding: 118px 0 62px;}
 .industries-page .default-banner-main p{margin-bottom: 29px; }
 
-.industries-page .number-count-main{padding: 28px 0 45px; }
+.industries-page .number-count-main{padding: 28px 0 45px; border-top: 1px solid rgba(255, 255, 255, 0.15);}
 .industries-page .number-count-bg{background-color: transparent;}
 .industries-page .num-value{font-size: 46px; line-height: normal; color: var(--white); margin-bottom: 6px;}
 .industries-page .number-count{color: var(--white-70);}
-.industries-page .number-count-main{border-top: 1px solid rgba(255, 255, 255, 0.15);}
 
 .industries-section{background-color: #f8f4f2; }
 .industries-wrap{padding: 88px 0 112px; }
