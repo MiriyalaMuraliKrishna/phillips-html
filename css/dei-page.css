@@ -24,8 +24,12 @@ ul.dei-point-droplist > li::before{content: ""; position: absolute; top: 7px; le
 
 /* Affinity Section */
 .affinity-section{background-color: #f8f4f2; }
-.affinity-wrap{padding: 370px 0 148px; }
+.affinity-wrap{padding: 370px 0 166px; }
 .affinity-title{margin-bottom: 45px; }
+.affinity-thumb{margin-bottom: 12px; }
+.affinity-thumb img{width: 285px; }
+.affinity-desc{font-size: 15px; line-height: 1.6;}
+.affinity-desc h5{font-size: 20px; line-height: 1.35; }
 
 
 
@@ -40,5 +44,6 @@ ul.dei-point-droplist > li::before{content: ""; position: absolute; top: 7px; le
 
     .affinity-title{width: 590px;}
     .affinity-main{gap: 20px; }
-    .affinity-list{flex-basis: 33.33%; }
+    .affinity-list{flex-basis: 23.27%; }
+    .affinity-desc{width: 250px; }
 }
