@@ -1,0 +1,16 @@
+
+/* Short headline section */
+.careers-group-page .short-headline-wrap{padding: 111px 0 80px; }
+
+/* Testimonial section */
+.careers-group-page .testimonial-wrap{padding: 49px 0 51px; }
+
+/* Perks section */
+.careers-group-page .perks-section { background-color: var(--white); }
+.careers-group-page .perks-wrap { padding: 60px 0 111px; }
+
+/* Custom cta section */
+.custom-cta-wrap{padding: 104px 0 52px; }
+
+/* Careers Opportunities section */
+.careers-opportunities-wrap{padding: 54px 0 140px; }

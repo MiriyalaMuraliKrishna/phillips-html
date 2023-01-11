@@ -1,0 +1,14 @@
+
+.testimonial-section{background-color: #f8f4f2; }
+.testimonial-wrap{padding: 88px 0; }
+.testimonial-list{background-color: var(--white); }
+.testimonial-content{font-size: 20px; font-style: italic; line-height: 1.7; opacity: 0.9; padding: 88px 102px;}
+.testimonial-name{padding-top: 10px; }
+.testimonial-name h6{color: var(--copperplate-color); font-size: 18px; line-height: 1; font-family: 'Copperplate', serif; margin-bottom: 2px;}
+.testimonial-name span{font-size: 16px; line-height: 1.75; font-style: normal;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .testimonial-image{width: 509px; }
+    .testimonial-content{width: calc(100% - 509px); }
+}

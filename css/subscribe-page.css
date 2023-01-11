@@ -1,0 +1,14 @@
+
+
+.subscribe-page-section{background-color: #f8f4f2; }
+.subscribe-page-wrap{padding: 124px 0 81px; }
+.subscribe-page-text{margin-right: 122px; z-index: 1;}
+.subscribe-page-text::before{content: ""; position: absolute; top: -26px; left: -103px; background-image: url('../images/gray-banner-symbol.svg'); z-index: -1; width: 171px; height: 442px; }
+.subscribe-page-form{background-color: var(--white); }
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .subscribe-page-text{width: 488px;}
+    .subscribe-page-form{width: calc(100% - 610px);}
+
+}

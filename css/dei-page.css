@@ -23,14 +23,19 @@ ul.dei-point-droplist > li::before{content: ""; position: absolute; top: 7px; le
 .dei-point-value-list:hover ul.dei-point-droplist{display: block;}
 
 /* Affinity Section */
-.affinity-section{background-color: #f8f4f2; }
+.affinity-section{background-color: #f8f4f2; margin-top: -257px;}
 .affinity-wrap{padding: 370px 0 166px; }
 .affinity-title{margin-bottom: 45px; }
 .affinity-thumb{margin-bottom: 12px; }
 .affinity-thumb img{width: 285px; }
 .affinity-desc{font-size: 15px; line-height: 1.6;}
 .affinity-desc h5{font-size: 20px; line-height: 1.35; }
+.affinity-desc h5 a{color: var(--black); }
+.affinity-desc h5 a:hover{color: var(--copperplate-color); }
 
+/* CTA Panel Section */
+.dei-page .cta-panel-section{background-color: #f0eae7; margin-top: 0;}
+.dei-page .cta-panel-wrap{padding: 109px 0 112px;}
 
 
 
