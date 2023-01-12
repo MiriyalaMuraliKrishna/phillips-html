@@ -4,7 +4,36 @@
 .subscribe-page-wrap{padding: 124px 0 81px; }
 .subscribe-page-text{margin-right: 122px; z-index: 1;}
 .subscribe-page-text::before{content: ""; position: absolute; top: -26px; left: -103px; background-image: url('../images/gray-banner-symbol.svg'); z-index: -1; width: 171px; height: 442px; }
-.subscribe-page-form{background-color: var(--white); }
+.subscribe-page-form{background-color: var(--white); padding: 40px 61px 58px 66px;}
+.subscribe-frm-field .frm-half{width: 48%; margin-left: 18px; }
+.subscribe-frm-field .frm-half:first-child{margin-left: 0; }
+.subscribe-frm-field input:focus{background-color: transparent; border: 1px solid #cdb3a5; }
+.subscribe-frm-field h5{font-size: 20px; line-height: 1.35; margin: 16px 0 23px; width: 100%;}
+
+.communication-list{padding-bottom: 26px; border-bottom: 1px solid #9c5f3d; margin-bottom: 35px; }
+.communication-list span{margin-bottom: 11px;}
+.communication-list .checkbox{width: 17px; height: 17px; background: transparent; border: 1px solid #9c5f3d; padding: 0; margin: 0 14px 0 0; }
+.communication-list label{font-size: 14px; line-height: 1.5; color: rgba(0, 0, 0, 0.7); }
+
+.understand-list{margin-bottom: 17px; }
+.understand-list .checkbox{width: 17px; height: 17px; background: transparent; border: 1px solid #9c5f3d; padding: 0; margin: 0 20px 0 0; }
+.understand-list label{font-size: 14px; line-height: 1.21; color: rgba(0, 0, 0, 0.7); margin-bottom: 11px; width: calc(100% - 37px);}
+
+.subscribe-frm-field .button{width: 100%; }
+
+.subscribe-frm-field input{ outline: 0; width: 100%; font-size: 16px; line-height: 1.75; letter-spacing: normal; background-color: #f9f8f8; box-shadow: none; padding: 10px 16px; vertical-align: middle; font-family: 'Roboto', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; border: 1px solid var(--white); border-radius: 0; margin-bottom: 18px; }
+.subscribe-frm-field ::-webkit-input-placeholder {opacity: 0.5;}
+.subscribe-frm-field :-moz-placeholder {opacity: 0.5; }
+.subscribe-frm-field ::-moz-placeholder {opacity: 0.5;}
+.subscribe-frm-field :-ms-input-placeholder {opacity: 0.5;}
+
+
+  
+
+
+
+
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

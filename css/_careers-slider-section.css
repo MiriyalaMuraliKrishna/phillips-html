@@ -1,0 +1,12 @@
+
+.careers-slider-section{background-color: #f0eae7; }
+.careers-slider-wrap{padding: 87px 0 112px; }
+
+
+.careers-slider-list{width: 997px; }
+.careers-slider-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.75) 96%);}
+.careers-slider-thumb img{max-width: 997px; max-height: 606px; }
+.careers-slider-caption{position: absolute; bottom: 0; width: 100%; padding: 26px 54px 38px; }
+.careers-slider-caption::before{content:""; position: absolute; bottom: 0; left: 0; background-color: var(--copperplate-color); mix-blend-mode: multiply; width: 100%; height: 100%;  }
+.careers-slider-caption h4{color: var(--white); position: relative; margin-bottom: 6px;}
+.careers-slider-caption span{color: var(--white-90); position: relative; }
