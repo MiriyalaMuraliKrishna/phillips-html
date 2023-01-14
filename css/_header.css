@@ -44,3 +44,13 @@
     .site-main-cover{padding-top: 86px;}
     .site-main-cover.no_space{padding-top: 0;}
 } 
+/*-- media css starts here --*/
+@media only screen and (max-width: 1599px) and (min-width: 1024px){
+    .navigation{gap: 0; position: relative;}
+    ul.main_menu{padding-right: 52px;}
+    ul.main_menu > li{margin-left: 30px;}
+    .header_srch{width: 24px; right: 0; position: absolute; transition: width 0.5s linear;}
+    .header_srch.open{width: 227px;}
+    .header_srch input:not(input[type="submit"]){opacity: 0;}
+    .header_srch.open input:not(input[type="submit"]){opacity: 1;}
+}

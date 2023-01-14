@@ -14,6 +14,10 @@ $(document).ready(function(){
         $('.main-header').addClass('sticky_header');
         $('.site-main-cover').addClass('no_space');
     }
+    $('.header_srch_btn input').on('click', function(e){
+        e.preventDefault();
+        $('.header_srch').addClass('open');
+    });
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().removeClass('accordion-active');
