@@ -1,0 +1,37 @@
+
+.news-events-default-section{background-color: #f8f4f2; }
+.news-events-default-wrap{padding: 0 0 43px; }
+.download-print-main{justify-content: space-between; padding: 26px 0;}
+.social-media .social-icons{margin: 0; }
+.download-print{flex-basis: 50%; align-items: center; }
+.download-print-text{font-size: 16px; font-weight: 600; margin-left: 34px; }
+.download-print-text:first-child{margin-left: 0; }
+.download-print-text .icon{font-size: 18px; margin-right: 8px; opacity: 0.8; }
+.social-icons .text{font-size: 13px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center;}
+
+.news-events-default-main{max-width: 1188px; margin: 0 auto; }
+.video-sec{margin: 60px 0 65px; }
+.news-events-default-content ul {margin: 40px 0 56px 22px;}
+.news-events-default-content ul > li::before{content: " "; position: absolute; top: 8px; left: -22px; background-color: var(--copperplate-color); font-weight: 900; width: 5px; height: 5px; border-radius: 50%; }
+.news-events-default-content ul > li{margin-bottom: 19px; }
+
+
+.news-events-default-image h4{margin-bottom: 26px; }
+.news-event-presenters-list{margin-bottom: 44px; }
+.presenters-thumb img{max-width: 260px; }
+.news-event-presenters-desc{background-color: var(--white); padding: 25px 12px 12px 26px; }
+.news-event-presenters-desc h6{font-size: 18px; line-height: 1; text-transform: uppercase; color: var(--copperplate-color); font-family: Copperplate; margin-bottom: 0;}
+.news-event-presenters-desc span{font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.7); }
+.news-event-presenters-media{margin: 11px 0 10px 0; }
+.news-event-presenters-media li{font-size: 14px; color: rgba(0, 0, 0, 0.5); line-height: 1.79; margin-bottom: 2px;}
+.news-event-presenters-media li a{color: rgba(0, 0, 0, 0.5);}
+.news-event-presenters-media li a:hover{color: var(--copperplate-color);}
+.news-event-presenters-media span{margin-right: 10px; width: 14px; color: var(--copperplate-color); }
+
+.news-default-page .cta-panel-section{background-color: #f0eae7; padding: 109px 0 112px; margin-top: 0;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .news-events-default-content{width: 813px; margin-right: 115px; }
+    .news-events-default-image{width: calc(100% - 928px); padding-top: 23px;}
+}
