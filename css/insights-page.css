@@ -1,6 +1,28 @@
+/* Insight banner */
+.insight-banner-main{max-width: 1600px; margin: 0 auto; gap: 21px;}
+.insight-banner-lt{width: 966px; }
+.insight-banner-item{max-height: 274px; }
+.insight-banner-thumb img{width: 966px; max-height: 569px;}
+.insight-banner-thumb::before{content: ""; position: absolute; width: 15; height: 100%; border: 1px solid rgba(255, 255, 255, 0.22); width: calc(100% - 33px); height: calc(100% - 33px); top: 15px; left: 15px; }
+.insight-banner-rt{width: calc(100% - 987px); }
+.insight-banner-list{gap: 21px; }
+.insight-banner-left-desc{position: absolute; bottom: 0; padding: 77px 83px; }
+
+.insight-banner-left-desc .optional-text{font-size: 18px; line-height: 1; color: var(--white-90); margin-bottom: 19px;}
+.insight-banner-left-desc h2{color: var(--white); margin-bottom: 26px;}
+.insight-banner-smthumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.74); }
+.insight-banner-item-desc{position: absolute; top: 0; padding: 74px 74px 74px 62px; width: 520px;}
+.insight-banner-item-desc .optional-text{font-size: 18px; line-height: 1; margin-bottom: 17px;}
+.insight-banner-item-desc h4{margin-bottom: 26px; }
+.insight-banner-item-desc h4 a{color: var(--white); }
+.insight-banner-item-desc h4 a:hover{color: var(--copperplate-color); }
+.insight-banner-item-desc hr{background-color: #a86b49; }
+.insight-banner-item:hover .insight-banner-smthumb::before{background-color: rgba(156, 95, 61, 0.85); }
+/* .insight-banner-item:hover .insight-banner-smthumb img{filter: saturate(0);} */
 
 
-.insight-page-section{background-color: #f0eae7; }
+.insight-page-section{background-color: #f8f4f2; z-index: 1;}
+.insight-page-section::before{content: ""; position: absolute; width: 100%; height: 1435px; background-color: #f0eae7; bottom: 0; z-index: -1;}
 .insight-page-wrap{padding: 82px 0 124px; }
 .insight-page-heading{margin-bottom: 54px; }
 .insight-page-title h2{margin-bottom: 0; }
@@ -9,7 +31,7 @@
 .insight-search input{border-radius: 0; background-color: var(--white); font-size: 16px; font-weight: normal; line-height: 1.75; padding: 11px 15px; border: solid 1px rgba(174, 174, 174, 0.5); width: 100%; }
 .insight-search input[type="submit"]{background-image: url(images/search-icon.svg) !important; background-repeat: no-repeat !important; position: absolute; right: 16px; top: -1px; bottom: 0; padding: 0 !important; width: 17px; height: 18px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0; }
 
-.insight-page-main{gap: 41px 19px; }
+.insight-page-main{gap: 41px 19px; margin-bottom: 50px;}
 .insight-page-thumb{margin-bottom: 20px; }
 .insight-page-picture img{max-width: 387px; }
 .insight-page-category{position: absolute; top: 16px; }
@@ -23,11 +45,22 @@
 .insight-page-desc h5 > a{color: var(--black);}
 .insight-page-desc h5 > a:hover{color: var(--copperplate-color);}
 
-.insight-page-list:nth-child(7n){flex-basis: 100%; }
+.insight-page-list:nth-child(7n){flex-basis: 100%; margin: 57px 0;}
 .insight-page-list:nth-child(7n) .insight-page-picture img{max-width: 100%; }
 .insight-page-list:nth-child(7n) .insight-page-thumb{margin-bottom: 0; }
 .insight-page-list:nth-child(7n) .insight-page-thumb::after{content: ""; position: absolute; width: calc(100% - 26px); height: calc(100% - 29px); border: solid 1px rgba(255, 255, 255, 0.22); z-index: 1; top: 15px; left: 12px;}
-.insight-page-list:nth-child(7n) .insight-page-desc{position: absolute; top: 0; padding: 0 79px; width: 100%; height: 100%;}
+.insight-page-list:nth-child(7n) .insight-page-desc{position: absolute; top: 0; padding: 0 79px; width: 100%; height: 100%; align-items: center; z-index: 1;}
+.insight-page-content{max-width: 440px; color: var(--white-90);}
+.insight-page-content .optional-text{font-size: 18px; line-height: 1; margin-bottom: 12px; }
+.insight-page-content h3{line-height: 1.25; margin-bottom: 20px;}
+.insight-page-content h3 a{color: var(--white);}
+.insight-page-content h3 a:hover{color: var(--copperplate-color);}
+.insight-page-content p{margin-bottom: 35px; }
+.insight-page-btn .button{padding: 13px 34px; }
+
+
+/* CTA panel section */
+.insights-page .cta-panel-section{margin-top: 0; padding: 112px 0 108px; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
