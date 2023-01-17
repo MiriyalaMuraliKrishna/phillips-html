@@ -1,0 +1,17 @@
+
+.logo-slider-main{gap: 19px; }
+.logo-slider-item{width: 183px; height: 121px; justify-content: center; align-items: center; border: 1px solid #aeaeae; }
+.logo-slider-item:hover .logo-slider-thumb img{opacity: 1;}
+.logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 0.4;}
+
+/* short subheadline section */
+.office-page .short-headline-wrap{padding: 56px 0 134px; }
+
+/* News & events */
+.news-event-section{background-color: #f0eae7; }
+
+/* Careers Opportunities */
+.office-page .careers-opportunities-wrap{padding: 130px 0 105px; }
+
+/* CTA section */
+.office-page .cta-panel-section{ margin-top: 0; padding: 0 0 112px; }
