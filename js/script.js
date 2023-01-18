@@ -24,5 +24,5 @@ $(document).ready(function(){
         $(this).parent().addClass("accordion-active");
         $(this).parent().siblings().find('.accordion-content').slideUp(300);
         $(this).siblings('.accordion-content').slideDown(300);
-    })
+    });
 });
