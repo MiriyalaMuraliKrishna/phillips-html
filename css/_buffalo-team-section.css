@@ -15,6 +15,7 @@
 .buffalo-team-item:hover .buffalo-name span{color: var(--white-90);}
 .buffalo-name{width: calc(100% - 81px); }
 .buffalo-team .button{padding: 13px 27px 13px 27px; }
+.buffalo-team-item::before{display: none; }
 
 .buffalo-team-content{width: calc(100% - 407px); }
 .buffalo-team-image{width: 387px; height: 491px; }
