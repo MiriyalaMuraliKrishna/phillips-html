@@ -1,6 +1,5 @@
 
 .faq-section{background-color: #f8f4f2; }
-.faq-section .container{max-width: 1600px; margin: 0 inherit; width: 100%;}
 .faq-wrap{padding: 188px 0 342px; }
 .faq-main{z-index: 1;}
 .faq-content{position: absolute; right: 0; top: 124px; background-image: url("../images/faq-bg@2x.jpg"); background-size: cover; padding: 116px 204px 92px 326px; color: var(--white-90); z-index: -1; }
@@ -18,8 +17,10 @@
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 1600px){
+    .faq-section .container{max-width: 1600px; width: 100%;}
+}
 @media only screen and (min-width: 1024px){
     .faq-image{width: 688px; }
     .faq-content{width: 1161px;}
-
 }

@@ -29,7 +29,7 @@
 
 .insight-dropdown select{background-color: var(--white); border-radius: 0; padding: 11px 15px; font-size: 16px; line-height: 1.75; border: solid 1px #cdb3a5; }
 .insight-search input{border-radius: 0; background-color: var(--white); font-size: 16px; font-weight: normal; line-height: 1.75; padding: 11px 15px; border: solid 1px rgba(174, 174, 174, 0.5); width: 100%; }
-input[type="submit"]{background-image: url(images/search-icon.svg) !important; background-repeat: no-repeat !important; position: absolute; right: 16px; top: -1px; bottom: 0; padding: 0 !important; width: 17px; height: 18px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0; }
+.insight-search input[type="submit"]{background-image: url(images/search-icon.svg) !important; background-repeat: no-repeat !important; position: absolute; right: 16px; top: -1px; bottom: 0; padding: 0 !important; width: 17px; height: 18px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0; }
 
 .insight-page-main{gap: 41px 19px; margin-bottom: 50px;}
 .insight-page-thumb{margin-bottom: 20px; }

@@ -18,13 +18,13 @@ module.exports = function(grunt) {
       uglify: {
         my_target: {
           files: {
-            'dist/core.bundle.js': ['js/slick.min.js', 'js/custom-slick.js', 'js/script.js']
+            'dist/core.bundle.js': ['js/slick.min.js', 'js/custom-slick.js', 'js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js']
           }
         }
       },
       concat: {
         dist: {
-          src: ['js/jquery-3.6.1.min.js', 'js/script.js'],
+          src: ['js/slick.min.js', 'js/custom-slick.js', 'js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js'],
           dest: 'dist/core.bundle.js'
         }
       },
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
  
     // Default task(s).
-    grunt.registerTask('dist', ['concat', 'uglify']);
+    grunt.registerTask('dist', ['concat', 'grunt']);
     grunt.registerTask('default', ['watch']);
   
   };
