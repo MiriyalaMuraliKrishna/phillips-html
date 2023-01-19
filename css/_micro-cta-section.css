@@ -1,0 +1,13 @@
+
+.micro-cta-section{background-color: #f8f4f2; }
+.micro-cta-wrap{padding: 109px 0 111px; }
+.micrco-cta-content{position: absolute; top: 0; padding: 72px 91px 61px 92px; width: 611px; }
+.micrco-cta-content .optional-text{line-height: 0.9; color: var(--white-70); }
+.micrco-cta-content h3{line-height: 1.25; color: var(--white); }
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .micro-cta-thumb img{width: 100%; }
+
+}
