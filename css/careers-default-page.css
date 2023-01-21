@@ -1,0 +1,20 @@
+
+/* Banner section */
+.default-banner-main .optional-text{line-height: 0.9; color: var(--white-60); }
+.default-banner-main{color: var(--white-90); }
+
+/* Careers default page */
+.careers-default-section{background-color: #f8f4f2;}
+.careers-default-wrap{padding: 103px 0;}
+.careers-default-main h3{max-width: 794px; margin-bottom: 28px; }
+.careers-default-main .video-sec{margin: 77px 0 76px; }
+.careers-default-button{background-color: #f0eae7; padding: 33px 0; }
+
+/* Careers opportunities section */
+.careers-default-page .careers-opportunities-wrap { padding: 102px 0 140px; }
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .careers-default-main { max-width: 997px; margin: 0 auto; }
+}

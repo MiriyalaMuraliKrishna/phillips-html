@@ -1,0 +1,10 @@
+
+.product-liability-section{background-color: #f8f4f2;}
+.product-liability-wrap{padding: 109px 0; }
+.product-liability-main{background: var(--white); padding: 70px 82px 55px 81px; }
+.product-liability-main h4{margin-bottom: 23px; }
+.product-liability-main span{font-weight: bold;}
+.product-liability-text ul{margin: 35px 0 35px 37px;}
+
+.product-liability-matters{gap: 36px; }
+.product-liability-text{width: 425px; }

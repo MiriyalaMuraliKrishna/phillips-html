@@ -2,6 +2,16 @@
 .common-banner-main{background-color: var(--copperplate-color); color: var(--white-90); z-index: 1;}
 .common-banner-text h1{color: var(--white); margin-bottom: 14px;}
 
+.common-banner-list{background-color: #f0eae7; margin: 0; padding: 22px 0 19px; }
+.common-banner-item{margin: 0; gap: 26px; align-items: center;}
+.common-banner-item li{width: 149px; text-align: center; font-size: 16px; line-height: 1.25; padding: 0 13px; margin: 0; position: relative;}
+.common-banner-item li::before { display: none; }
+.common-banner-item li > a{color: var(--black); }
+.common-banner-item li > a:hover{color: var(--copperplate-color); }
+/* .common-banner-item li.active{border-bottom: 1px solid var(--copperplate-color);} */
+.common-banner-item li.active a { color: var(--copperplate-color); }
+.common-banner-item li.active ::before{content: ""; position: absolute; width: 100%; border-bottom: 1px solid var(--copperplate-color); bottom: -19px; left: 0; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .common-banner-text{flex: 50%;}

@@ -21,7 +21,7 @@
 
 .subscribe-frm-field .button{width: 100%; }
 
-.subscribe-frm-field input{ outline: 0; width: 100%; font-size: 16px; line-height: 1.75; letter-spacing: normal; background-color: #f9f8f8; box-shadow: none; padding: 10px 16px; vertical-align: middle; font-family: 'Roboto', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; border: 1px solid var(--white); border-radius: 0; margin-bottom: 18px; }
+.subscribe-frm-field input{ outline: 0; width: 100%; font-size: 16px; line-height: 1.75; letter-spacing: normal; background-color: #f9f8f8; box-shadow: none; padding: 10px 16px; vertical-align: middle; font-family: 'Roboto', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; border: 1px solid var(--white); border-radius: 0; margin-bottom: 23px; }
 .subscribe-frm-field ::-webkit-input-placeholder {opacity: 0.5;}
 .subscribe-frm-field :-moz-placeholder {opacity: 0.5; }
 .subscribe-frm-field ::-moz-placeholder {opacity: 0.5;}
