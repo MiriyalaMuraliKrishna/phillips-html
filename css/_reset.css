@@ -82,6 +82,7 @@ table tr:nth-child(even) td{background-color: var(--light-gray);}
 caption, th, td {text-align: left;}
 del {color: var(--text-color);}
 hr{display: block; background-color: #9c5f3d; border: 0; width: 100%; height: 1px; margin: 0;}
+hr.small{width: 50px; height: 4px; background-color: #9c5f3d;}
 
 /* Support a widely-adopted but non-standard selector for text selection styles * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898. */ 
 ::selection {background-color: var(--text-color); color: var(--white);}

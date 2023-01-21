@@ -2,7 +2,6 @@
 .buffalo-team-section{background-color: #f8f4f2; }
 .buffalo-team-wrap{padding: 73px 0 112px; }
 .buffalo-team-heading{margin-bottom: 80px; }
-.buffalo-team-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px; }
 
 .buffalo-team{margin: 0 57px 0 0; width: 350px; }
 .buffalo-team li{padding: 15px 23px 14px;}
