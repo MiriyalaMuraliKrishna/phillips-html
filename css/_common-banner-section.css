@@ -12,6 +12,12 @@
 .common-banner-item li.active a { color: var(--copperplate-color); }
 .common-banner-item li.active ::before{content: ""; position: absolute; width: 100%; border-bottom: 1px solid var(--copperplate-color); bottom: -19px; left: 0; }
 
+.position-location span{line-height: 1; color: var(--white-90); padding: 0 18px; border-left: 1px solid var(--white); }
+.position-location span:first-child{padding: 0 18px 0 0; border-left: none; }
+.common-banner-location ul{margin: 0 0 0 12px; }
+.common-banner-location ul li{margin-bottom: 0; }
+.common-banner-location ul > li::before{left: -10px; background-color: #f0eae7; opacity: 0.7; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .common-banner-text{flex: 50%;}

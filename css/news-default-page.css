@@ -2,7 +2,7 @@
 .common-banner-dates{flex-basis: 40%;}
 .common-banner-location{flex-basis: 40%;}
 .banner-icon{margin-right: 10px; width: 14px;}
-.common-banner-dates-item span{font-size: 14px; line-height: 1.79; color: var(--white-90); }
+.common-banner-dates-item span{font-size: 14px; line-height: 1.79; color: var(--white-90); display: inline-block;}
 .common-banner-location span{font-size: 14px; line-height: 1.79; color: var(--white-90);}
 
 

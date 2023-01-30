@@ -15,5 +15,5 @@
     .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-image{width: 790px; margin-right: 101px; }
     .common-grid-text{width: 423px;}
-    .common-grid-list:nth-child(2n) .common-grid-image{margin:0 0 0 101px; }
+    .common-grid-list.reverse .common-grid-image{margin:0 0 0 101px; }
 }

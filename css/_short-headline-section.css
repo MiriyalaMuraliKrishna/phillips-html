@@ -1,12 +1,15 @@
 
 .short-headline-section{background-color: #f8f4f2; }
 .short-headline-wrap{padding: 99px 0 143px; }
-.short-headline-title{background: var(--white); height: 100%; padding: 56px 33px 60px 52px; }
+.short-headline-title{background: var(--white); padding: 56px 33px 60px 52px; }
 .short-headline-title .optional-text{line-height: 0.9; margin-bottom: 12px; }
 .short-headline-title h4{margin-bottom: 38px; }
 
+.short-headline-logo .optional-text{margin-bottom: 65px; }
+.short-logo-list img{width: 132px; opacity: 0.6; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .short-headline-title{width: 387px; margin-right: 101px; }
+    .short-headline-heading{width: 387px; margin-right: 101px; }
     .short-headline-content{width: calc(100% - 488px); }
 }

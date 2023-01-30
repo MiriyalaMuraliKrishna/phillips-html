@@ -3,3 +3,8 @@
 .logo-slider-section{background-color: #f8f4f2; }
 .logo-slider-wrap{padding: 105px 0 0; }
 .logo-slider-section h5{text-align: center; font-size: 20px; color: var(--copperplate-color); line-height: 0.9; font-family: 'Copperplate-Regular', sans-serif; margin-bottom: 31px;}
+
+.logo-slider-main{gap: 19px; }
+.logo-slider-item{width: 183px; height: 121px; justify-content: center; align-items: center; border: 1px solid #aeaeae; }
+.logo-slider-item:hover .logo-slider-thumb img{opacity: 1;}
+.logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 0.6;}

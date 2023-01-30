@@ -162,6 +162,11 @@ ul.slick-dots li button::before {width: 9px; height: 9px; top: 50%; left: 50%; t
 ul.slick-dots li.slick-active button::before {width: 13px; height: 13px; background: var(--white); }
 ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; position: absolute; border: 1px solid var(--white); display: block; border-radius: 50%; }
 
+/* Breakpoint logo */
+.breakpoint-thumb{width: 712px; margin: 32px auto; text-align: center; }
+.breakpoint-thumb::before{content: ""; position: absolute; top: 50%; transform: translateY(-50%); width: 45%; border: solid 1px #dacfca; left: 0; }
+.breakpoint-thumb::after{content: ""; position: absolute; top: 50%; transform: translateY(-50%); width: 45%; border: solid 1px #dacfca; right: 0; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
     .container{max-width: 1200px; margin-inline: auto;}

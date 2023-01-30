@@ -1,0 +1,49 @@
+
+/* Banner section */
+.industries-default-page .default-banner-main{width: 630px;}
+
+/* Short headline section */
+.industries-default-page .short-headline-section{z-index: 1;}
+.industries-default-page .short-headline-wrap{padding: 108px 0 29px; }
+.industries-default-page .download-print-main{padding: 26px 0 36px; }
+.industries-default-page .short-headline-title{margin-bottom: 59px; }
+.industries-default-page .short-headline-section::before{content: ""; position: absolute; width: 100%; height: 705px; background-color: #f0eae7; bottom: 0; z-index: -1;}
+
+/* Logo slider section */
+.industries-default-page .logo-slider-wrap{padding: 62px 0 84px; }
+.industries-default-page .logo-slider-main{margin-bottom: 80px; }
+.industries-default-page .logo-slider-item{border: none; }
+
+.how-help-main{background-color: var(--white); padding: 58px 82px 63px; }
+
+/* Product liability section */
+.industries-default-page .product-liability-wrap{padding: 109px 0 0; }
+.industries-default-page .product-liability-main{padding: 70px 82px 72px 81px; }
+
+/* Sub Topic section */
+.industries-default-page .sub-topic-section{background-color: #f8f4f2; }
+.industries-default-page .sub-topic-wrap{padding: 71px 0 114px; }
+.industries-default-page .sub-topic-heading h2{margin-bottom: 24px; }
+.industries-default-page .sub-topic-heading .small{margin-bottom: 33px; }
+
+/* Buffalo team section */
+.industries-default-page .buffalo-team-section{background-color: #f0eae7; }
+.industries-default-page .buffalo-team-wrap{padding: 98px 0 322px; }
+
+/* Micro cta section */
+.industries-default-page .micro-cta-wrap{padding: 0; }
+
+/* FAQ section */
+.industries-default-page .faq-wrap{padding: 163px 0 329px; }
+.industries-default-page .faq-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2); }
+
+/* CTA PAnel section */
+.industries-default-page .cta-panel-section{margin-top: 0; padding: 0 0 108px; }
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .how-help-text{width: 308px; margin-right: 119px; }
+    .how-help-frm{width: calc(100% - 427px); }
+
+}

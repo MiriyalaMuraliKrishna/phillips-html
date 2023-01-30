@@ -7,6 +7,7 @@
 .subscribe-page-form{background-color: var(--white); padding: 40px 61px 58px 66px;}
 .subscribe-frm-field .frm-half{width: 48%; margin-left: 18px; }
 .subscribe-frm-field .frm-half:first-child{margin-left: 0; }
+.subscribe-frm-field .frm-half:nth-child(2n+1) { margin-left: 0; }
 .subscribe-frm-field input:focus{background-color: transparent; border: 1px solid #cdb3a5; }
 .subscribe-frm-field h5{font-size: 20px; line-height: 1.35; margin: 16px 0 23px; width: 100%;}
 

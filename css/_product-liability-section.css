@@ -8,3 +8,8 @@
 
 .product-liability-matters{gap: 36px; }
 .product-liability-text{width: 425px; }
+
+.fullwidth-horizontal{flex-direction: column; }
+.fullwidth-horizontal .product-liability-text{width: 100%; background-color: #f9f8f8;}
+.fullwidth-horizontal .product-liability-text ul li{font-size: 16px;}
+.product-liability-main span:nth-child(2n){margin-bottom: 11px; display: block; }

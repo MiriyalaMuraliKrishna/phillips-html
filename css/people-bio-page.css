@@ -1,0 +1,50 @@
+
+/* Banner section */
+.people-bio-page .common-banner-location{border-left: solid 0.3px var(--white); padding-left: 42px; }  
+.people-bio-page .position-location{margin-bottom: 27px; }
+
+/* Our people section */
+.bio-people-section{background-color: #f8f4f2; }
+.bio-people-wrap{padding: 26px 0 138px; }
+
+.bio-people-overview{background-color: var(--white); padding: 32px 43px 19px 52px; margin-bottom: 25px;}
+.bio-people-overview h4{margin-bottom: 30px; }
+.bio-people-overview ul{margin: 0; }
+.bio-people-overview ul > li::before{display: none;}
+.bio-people-overview ul > li{font-size: 20px; font-family: Lora; line-height: 1.15; margin-bottom: 23px;}
+.bio-people-overview ul > li a{color: rgba(0, 0, 0, 0.7); }
+.bio-people-overview ul > li a:hover{color: var(--copperplate-color);}
+
+.bio-people-news{background-color: var(--white); padding: 32px 53px 55px 52px; margin-bottom: 25px;}
+.bio-people-news h4{margin-bottom: 26px; }
+.bio-people-news-list{padding-bottom: 19px; border-bottom: solid 1px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
+.bio-people-news-list:last-of-type{border-bottom: none; padding-bottom: 0; margin-bottom: 17px;}
+.bio-people-news-list .optional-text{font-size: 15px; line-height: 1.2; margin-bottom: 4px; }
+.bio-people-news-list h5{font-size: 20px; line-height: 1.35; margin-bottom: 0;}
+.bio-people-news-list h5 a{color: rgba(0, 0, 0, 0.7); }
+.bio-people-news-list h5 a:hover{color: var(--copperplate-color); }
+.bio-people-btn{font-size: 16px; font-weight: 500; opacity: 0.9;}
+span.bio-people-arrow{margin-left: 18px; }
+
+.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 50px 41px; color: var(--white); }
+.bio-people-expertise h3{color: var(--white); }
+.bio-people-expertise i{width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 58px;}
+
+.bio-people-expertise-practice{flex-basis: 50%; }
+.bio-people-expertise-practice h4{color: var(--white); margin-bottom: 14px; }
+.bio-people-expertise-practice ul{margin: 0 0 0 23px; }
+.bio-people-expertise-practice ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0;}
+.bio-people-expertise-practice ul > li::before{top:12px; background-color: var(--white-50);}
+
+.bio-people-expertise-industries{flex-basis: 50%; }
+.bio-people-expertise-industries h4{color: var(--white); margin-bottom: 14px; }
+.bio-people-expertise-industries ul{margin: 0 0 0 23px; }
+.bio-people-expertise-industries ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0;}
+.bio-people-expertise-industries ul > li::before{top:12px; background-color: var(--white-50);}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
+    .bio-people-content { width: calc(100% - 487px); }
+
+}
