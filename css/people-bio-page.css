@@ -4,8 +4,9 @@
 .people-bio-page .position-location{margin-bottom: 27px; }
 
 /* Our people section */
-.bio-people-section{background-color: #f8f4f2; }
-.bio-people-wrap{padding: 26px 0 138px; }
+.bio-people-section{background-color: #f8f4f2; z-index: 1;}
+.bio-people-section::before{content: ""; position: absolute; top: 639px; width: 100%; height: 1323px; background-color: #f0eae7; z-index: -1;}
+.bio-people-wrap{padding: 26px 0 78px; }
 
 .bio-people-overview{background-color: var(--white); padding: 32px 43px 19px 52px; margin-bottom: 25px;}
 .bio-people-overview h4{margin-bottom: 30px; }
@@ -26,7 +27,7 @@
 .bio-people-btn{font-size: 16px; font-weight: 500; opacity: 0.9;}
 span.bio-people-arrow{margin-left: 18px; }
 
-.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 50px 41px; color: var(--white); }
+.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 50px 41px; color: var(--white); margin-bottom: 100px;}
 .bio-people-expertise h3{color: var(--white); }
 .bio-people-expertise i{width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 58px;}
 
@@ -42,9 +43,54 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-people-expertise-industries ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0;}
 .bio-people-expertise-industries ul > li::before{top:12px; background-color: var(--white-50);}
 
+.honor-awards{margin-bottom: 65px; }
+
+.icon-heading{margin-bottom: 32px; }
+.icon-heading{margin-bottom: 32px; }
+.icon-heading span{display: inline-flex; margin-right: 15px; }
+.icon-heading h3{margin-bottom: 0; }
+
+.bio-people-practice{flex-basis: 50%; }
+.bio-people-education{flex-basis: 50%; }
+.bio-people-practice h5, .bio-people-education h5{line-height: 1.2; font-size: 20px; color: var(--copperplate-color); }
+.bio-people-practice ul, .bio-people-education ul{margin: 28px 0 40px 53px; }
+.bio-people-practice ul > li, .bio-people-education ul > li{font-size: 16px; line-height: 1.31; }
+
+.education-admissions{margin-bottom: 24px; }
+
+.representative-matters{margin-bottom: 75px; }
+.representative-matters h3{margin-bottom: 30px; }
+.representative-matters .accordion{margin-bottom: 29px; }
+.representative-matters .accordion-header{padding: 26px 27px 25px; background-color: var(--white); color: var(--copperplate-color); margin-bottom: 0;}
+.representative-matters .accordion-header span.icon{right: 36px; top: 50%; transform: translateY(-50%); }
+.representative-matters .accordion-active{background-color: var(--white); }
+.representative-matters ul{margin: 0 0 0 53px;}
+.representative-matters ul > li{font-size: 16px; line-height: 1.31; }
+
+.people-bio-page .news-event-wrap{padding: 0px 0 45px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
+.people-bio-page .news-event-title .icon-heading { margin-bottom: 0; }
+.people-bio-page .news-event-text h4{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
+.people-bio-page .news-event-text h4{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
+.people-bio-page .news-event-text h4 a{color: var(--black); }
+.people-bio-page .news-event-text h4 a:hover{color: var(--copperplate-color); }
+
+.speaking-engagements{padding: 34px 0; }
+.speaking-engagements h5{font-size: 20px; line-height: 1.2; color: var(--copperplate-color); }
+.speaking-engagements-lt{flex-basis: 50%; }
+.speaking-engagements-rt{flex-basis: 50%; }
+.speaking-engagements-lt ul, .speaking-engagements-rt ul{margin: 22px 0 25px 53px;}
+.speaking-engagements-lt li, .speaking-engagements-rt li{font-size: 16px; line-height: 1.31; color: var(--text-color); }
+.speaking-engagements-lt span, .speaking-engagements-rt span{display: block; font-weight: 500; color: var(--copperplate-color); }
+
+.people-bio-page .custom-cta-wrap{padding: 145px 0 112px; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
     .bio-people-content { width: calc(100% - 487px); }
+
+    .people-bio-page .news-event-title{flex-basis: 60%; margin-bottom: 25px;}
+    .people-bio-page .news-event-btn{flex-basis: 40%; margin-bottom: 25px;}
+    .people-bio-page .news-event-text h4 { max-width: 330px;}
 
 }
