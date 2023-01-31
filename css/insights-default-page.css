@@ -1,3 +1,4 @@
 
 /* Banner section  */
-.insights-default-page span.optional-text {color: var(--white-90);}
+.insights-default-page .common-banner-desc .optional-text{color: var(--white-60);}
+.insights-default-page .common-banner-desc p{max-width: 500px; }
