@@ -11,6 +11,10 @@
 .events-slide-text h4 a{color: var(--text-color);}
 .events-slide-text h4 a:hover{color: var(--copperplate-color);}
 
+ul.news-slick-dots li.slick-active button::before{background: var(--copperplate-color);}
+ul.news-slick-dots li.slick-active button::after {border: 1px solid var(--text-color);}
+ul.news-slick-dots li button::before {background-color: var(--text-color);}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .events-slider-title{flex-basis: 50%; }
@@ -18,6 +22,6 @@
     .events-slider-row{gap: 22px; grid-template-columns: repeat(3, 1fr);}
     .news-event-slider.slick-slider{display: block; width: 100vw;}
     .news-event-slider .events-slide-list{margin-right: 21px; width: 386px;}
-    ul.news-slick-dots{right: 0; top: -74px; width: 100vw; max-width: 1040px; align-items: flex-end; justify-content: flex-end; } 
+    ul.news-slick-dots{right: 0; top: -74px; width: 100vw; max-width: 1040px; align-items: flex-end; justify-content: flex-end; padding-right: 37px;} 
     .events-slide-text h4{max-width: 300px; margin: 0; }
 }
