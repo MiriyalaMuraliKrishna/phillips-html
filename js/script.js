@@ -19,6 +19,10 @@ $(document).ready(function(){
         $('ul.main_menu').toggleClass('hide-menu');
         $('.header_srch').toggleClass('open');
     });
+    $('.toggle_icon').on('click', function(e){
+        e.preventDefault();
+        $('.navigation').toggleClass('open');
+    });
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().removeClass('accordion-active');
@@ -26,4 +30,32 @@ $(document).ready(function(){
         $(this).parent().siblings().find('.accordion-content').slideUp(300);
         $(this).siblings('.accordion-content').slideDown(300);
     });
+});
+
+// mobileMenu starts here
+let mobileMenu = function(){
+    if($(window).width() <= 1023){
+        $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
+          event.preventDefault();
+          $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');
+          $(this).toggleClass("active");
+          $(this).parent().siblings().find('ul.sub-menu').slideUp();
+          $(this).siblings('ul.main_menu > li > ul.sub-menu').slideToggle();
+          $(this).parent().siblings().toggleClass('sib');
+        });
+        $("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
+          event.preventDefault();
+          $('ul.main_menu ul > li.menu-item-has-children > a').not($(this)).removeClass('active');
+          $(this).toggleClass("active");
+          $(this).parent().siblings().find('ul.sub-menu').slideUp();
+          $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
+        });
+    }
+}
+$(window).resize(function () {
+   mobileMenu();
+});
+
+$(document).on('ready', function () {
+    mobileMenu();
 });

@@ -20,9 +20,10 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .header{padding: 8px 0 9px;}
-    .logo{margin-top: 14px;}
     .sticky_header .header{padding: 18px 0 19px;}
     .fixed_header .header{padding: 8px 0 9px;}
+    .logo{margin-top: 14px;}
+    .toggle_icon{display: none;}
     .navigation{flex: 1; gap: 127px; flex-wrap: nowrap;}
     ul.main_menu{margin: 0; padding-top: 21px; flex: 1; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}
@@ -58,8 +59,22 @@
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .header{padding: 14px 0 14px;}
     .logo{width: 170px;}
-    .navigation{flex: 1;}
-    ul.main_menu{display: none;}
+
+    .toggle_icon{width: 24px; height: 28px; left: 0; top: 23px; font-size: 28px; line-height: normal; color: var(--f2t-text-50); cursor: pointer; position: absolute; border-radius: 0; z-index: 1; transition: color 0.3s ease-in-out;}
+    .toggle_icon:hover{color: var(--f2t-yellow-50);}
+    .toggle_icon span.fa-xmark{display: none;}
+    .toggle_icon.active{font-size: 28px; }
+    .toggle_icon.active, .toggle_icon.active:hover{border-radius: 0; background-color: var(--f2t-text-25); color: var(--f2t-yellow-50);}
+    .toggle_icon.active span.fa-xmark{display: block;}
+    .toggle_icon.active span.fa-bars{display: none;}
+
+    .navigation{left: -100%; top: 0; width: 100%; height: 100%; margin-top: 65px; max-width: 408px; border-top: 1px solid red; background-color: var(--white); display: block; position: fixed; z-index: 800; overflow-y: scroll; -webkit-overflow-scrolling: touch; transition: all 0.3s ease-in-out;}
+    .navigation.open{left: 0;}
+    ul.main_menu{display: block; margin: 0;}
+    ul.main_menu li:before{display: none;}
+    ul.main_menu > li{margin: 0; border-bottom: 1px solid var(--text-color);}
+    ul.main_menu > li > a{padding: 10px; color: var(--text-color);}
+    ul.main_menu > li > a:hover{color: var(--copperplate-color);}
 
 
     .header_srch{position: relative; width: 227px; margin-left: auto;}
