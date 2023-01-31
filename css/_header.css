@@ -1,6 +1,6 @@
 
 .main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white); z-index: 1200; transition: background-color 0.3s ease;}
-.header{padding: 8px 0 6px;}
+.header{padding: 18px 0 6px;}
 .logo{margin-top: 7px;}
 .logo a{width: 100%; height: auto; display: block;}
 .reverse_logo{display: none;}
