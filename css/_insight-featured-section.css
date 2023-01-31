@@ -15,13 +15,13 @@
 .insight-featured-item .optional-text{margin-bottom: 18px; }
 .insight-featured-item h4 { margin-bottom: 17px; }
 .insight-featured-item h4 a{color: var(--white);}
-.insight-featured-arrow{font-size: 33px; color: var(--white); position:absolute; display: none;}
-.insight-featured-arrow span { line-height: 0.55; }
+.insight-arrow{font-size: 33px; color: var(--white); position:absolute; display: none;}
+.insight-arrow span { line-height: 0.55; }
 .insight-featured-btn{text-align: right; width: 100%; margin-top: 7px;}
 .insight-featured-item:hover{background-color: var(--copperplate-color); padding-bottom:45px;} 
 .insight-featured-item:hover .optional-text{color: var(--white);}
 .insight-featured-item:hover hr{display: none;}
-.insight-featured-item:hover .insight-featured-arrow{display: block;}
+.insight-featured-item:hover .insight-arrow{display: block;}
 
 
 

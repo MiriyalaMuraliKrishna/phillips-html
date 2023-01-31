@@ -2,7 +2,7 @@
 .home-banner-main{padding: 236px 0 67px; color: var(--white);}
 .home-banner-text{max-width: 675px;}
 .home-banner-text h1{color: var(--white);}
-.home-banner-desc{max-width: 508px; opacity: 0.9;}
+.home-banner-desc{max-width: 508px; color: var(--white-90);}
 .home-banner-text p{margin-bottom: 39px; }
 
 .home-banner-category{padding: 93px 0 0; }
@@ -10,7 +10,7 @@ ul.banner-category{gap: 20px; margin: 0;}
 ul.banner-category li{width: 183px; margin-bottom: 0; text-align: left;}
 ul.banner-category li:before{display: none;}
 ul.banner-category li > a{padding:0 50px 16px 0; font-size: 1rem; line-height: 1.25; display: inline-block; color: var(--white-50); border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
-ul.banner-category li.active a{color: var(--white-90); border-bottom-color: #9c5f3d;}
+ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--white-90); border-bottom-color: #9c5f3d;}
 
 .our-firm-section{background-color: var(--copperplate-color);}
 .our-firm-main{padding: 183px 0 115px 102px;}

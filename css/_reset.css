@@ -98,12 +98,12 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button{padding: 13px 25px 13px;  display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
+button, .button{padding: 13px 25px 13px; min-width: 165px;  display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
 button:hover, .button:hover{ background-color:var(--text-color); color: var(--white);}
-.btn-transparent{background-color: transparent; border: 1px solid var(--border-color);}
+.btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--border-color);}
 .btn-transparent:hover{background-color: var(--text-color); border-color: var(--text-color);}
 .btn-white{border-color: #ebb89c;}
-.btn-width{min-width: 165px; }
+.btn-md{padding: 10px 25px 10px}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif;}
@@ -156,7 +156,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 ul.slick-dots{margin: 0; padding: 0; width: 100%; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; position: absolute;}
 ul.slick-dots li{margin: 0; display: inline-block; font-size: 0; line-height: 0;}
 ul.slick-dots li::before{display: none;}
-ul.slick-dots li button{width: 26px; height: 26px; padding: 0; font-size: 0; line-height: 0; background: none;}
+ul.slick-dots li button{width: 26px; height: 26px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: none;}
 ul.slick-dots li button:hover{background: none;}
 ul.slick-dots li button::before{width: 9px; height: 9px; top: 50%; transform: translateY(-50%); border-radius: 300px; background-color: #cdb3a5; content: ""; position: absolute;}
 ul.slick-dots li button::before {width: 9px; height: 9px; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 300px; background-color: #cdb3a5; content: ""; position: absolute; }
