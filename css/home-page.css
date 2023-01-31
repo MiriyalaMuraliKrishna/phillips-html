@@ -1,16 +1,15 @@
 /* Banner section */
-.home-banner-main{padding: 236px 0 0; color: var(--white);}
+.home-banner-main{padding: 236px 0 67px; color: var(--white);}
 .home-banner-text{max-width: 675px;}
 .home-banner-text h1{color: var(--white);}
 .home-banner-desc{max-width: 508px; opacity: 0.9;}
 
-.home-page .common-banner-list{background-color: transparent; padding: 93px 0 86px; width: calc(100% + 4px);}
-.home-page .common-banner-item{gap: 20px;}
-.home-page .common-banner-item li{  width: 184px; text-align: left; padding: 0 50px 0 0;}
-.home-page .common-banner-item li ::before{ content: ""; position: absolute; width: 100%; border-bottom: 1px solid rgba(255, 255, 255, 0.4); bottom: -19px; left: 0; }
-.home-page .common-banner-item li.active ::before{border-bottom: 1px solid #9c5f3d;}
-.home-page .common-banner-item li.active a{color: var(--white-90); }
-.home-page .common-banner-item li > a{color: var(--white-50); }
+
+ul.banner-category{gap: 20px; margin: 0;}
+ul.banner-category li{width: 183px; margin-bottom: 0; text-align: left;}
+ul.banner-category li:before{display: none;}
+ul.banner-category li > a{padding:0 50px 16px 0; font-size: 1rem; line-height: 1.25; display: inline-block; color: var(--white-50); border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+ul.banner-category li.active a{color: var(--white-90); border-bottom-color: #9c5f3d;}
 
 .our-firm-section{background-color: var(--copperplate-color);}
 .our-firm-main{padding: 183px 0 115px 102px;}

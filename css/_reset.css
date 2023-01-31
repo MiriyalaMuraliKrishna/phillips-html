@@ -102,6 +102,7 @@ button, .button{padding: 13px 25px 13px;  display: inline-block; font-size: 1rem
 button:hover, .button:hover{ background-color:var(--text-color); color: var(--white);}
 .btn-transparent{background-color: transparent; border: 1px solid var(--border-color);}
 .btn-transparent:hover{background-color: var(--text-color); border-color: var(--text-color);}
+.btn-white{border-color: #ebb89c;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif;}
