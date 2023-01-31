@@ -20,25 +20,17 @@
 .understand-list .checkbox{width: 17px; height: 17px; background: transparent; border: 1px solid #9c5f3d; padding: 0; margin: 0 20px 0 0; }
 .understand-list label{font-size: 14px; line-height: 1.21; color: rgba(0, 0, 0, 0.7); margin-bottom: 11px; width: calc(100% - 37px);}
 
-.subscribe-frm-field .button{width: 100%; }
 
 .subscribe-frm-field input{ outline: 0; width: 100%; font-size: 16px; line-height: 1.75; letter-spacing: normal; background-color: #f9f8f8; box-shadow: none; padding: 10px 16px; vertical-align: middle; font-family: 'Roboto', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; border: 1px solid var(--white); border-radius: 0; margin-bottom: 23px; }
-.subscribe-frm-field ::-webkit-input-placeholder {opacity: 0.5;}
-.subscribe-frm-field :-moz-placeholder {opacity: 0.5; }
-.subscribe-frm-field ::-moz-placeholder {opacity: 0.5;}
-.subscribe-frm-field :-ms-input-placeholder {opacity: 0.5;}
-
-
-  
-
-
-
-
+.subscribe-frm-field input::-webkit-input-placeholder {opacity: 0.5;}
+.subscribe-frm-field input:-moz-placeholder {opacity: 0.5; }
+.subscribe-frm-field input::-moz-placeholder {opacity: 0.5;}
+.subscribe-frm-field input:-ms-input-placeholder {opacity: 0.5;}
+.subscribe-frm-field .button{width: 100%; }
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .subscribe-page-text{width: 488px;}
     .subscribe-page-form{width: calc(100% - 610px);}
-
 }

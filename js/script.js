@@ -16,7 +16,8 @@ $(document).ready(function(){
     }
     $('.header_srch_btn input').on('click', function(e){
         e.preventDefault();
-        $('.header_srch').addClass('open');
+        $('ul.main_menu').toggleClass('hide-menu');
+        $('.header_srch').toggleClass('open');
     });
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
