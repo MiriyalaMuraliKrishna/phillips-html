@@ -22,8 +22,8 @@
 .practice-list:hover .practice-inner .read-btn{display: inline-block;}
 
 /* News Event section */
-.practices-page .news-event-section{background-color: #f0eae7; }
-.practices-page .news-event-wrap{padding: 70px 0 367px; }
+.practices-page .events-slider-section{background-color: #f0eae7; }
+.practices-page .events-slider-wrap{padding: 70px 0 367px; }
 
 
 /*-- media css starts here --*/

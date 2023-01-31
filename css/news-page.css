@@ -32,8 +32,8 @@
 .news-events-press .read-btn{display: block; margin: 0 auto; width: max-content; }
 
 /* News Events Module */
-.news-page .news-event-section{background-color: #f0eae7; }
-.news-page .news-event-wrap{padding: 135px 0 131px; }
+.news-page .events-slider-section{background-color: #f0eae7; }
+.news-page .events-slider-wrap{padding: 135px 0 131px; }
 
 /* Community Events Section */
 .community-event-section{background-color: #f8f4f2; }

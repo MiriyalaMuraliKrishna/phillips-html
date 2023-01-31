@@ -67,12 +67,12 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters ul{margin: 0 0 0 53px;}
 .representative-matters ul > li{font-size: 16px; line-height: 1.31; }
 
-.people-bio-page .news-event-wrap{padding: 0px 0 45px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
-.people-bio-page .news-event-title .icon-heading { margin-bottom: 0; }
-.people-bio-page .news-event-text h4{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
-.people-bio-page .news-event-text h4{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
-.people-bio-page .news-event-text h4 a{color: var(--black); }
-.people-bio-page .news-event-text h4 a:hover{color: var(--copperplate-color); }
+.people-bio-page .events-slider-wrap{padding: 0px 0 45px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
+.people-bio-page .events-slider-title .icon-heading { margin-bottom: 0; }
+.people-bio-page .events-slide-text h4{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
+.people-bio-page .events-slide-text h4{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
+.people-bio-page .events-slide-text h4 a{color: var(--black); }
+.people-bio-page .events-slide-text h4 a:hover{color: var(--copperplate-color); }
 
 .speaking-engagements{padding: 34px 0; }
 .speaking-engagements h5{font-size: 20px; line-height: 1.2; color: var(--copperplate-color); }
@@ -89,8 +89,8 @@ span.bio-people-arrow{margin-left: 18px; }
     .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
     .bio-people-content { width: calc(100% - 487px); }
 
-    .people-bio-page .news-event-title{flex-basis: 60%; margin-bottom: 25px;}
-    .people-bio-page .news-event-btn{flex-basis: 40%; margin-bottom: 25px;}
-    .people-bio-page .news-event-text h4 { max-width: 330px;}
+    .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
+    .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px;}
+    .people-bio-page .events-slide-text h4 { max-width: 330px;}
 
 }

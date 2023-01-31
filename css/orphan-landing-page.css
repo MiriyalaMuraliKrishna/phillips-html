@@ -18,8 +18,8 @@
 .orphan-landing-page .insight-featured-section{background-image: url("../images/insight-bg-two@2x.jpg");}
 
 /* News & events section */
-.orphan-landing-page .news-event-section{background-color: #f8f4f2; }
-.orphan-landing-page .news-event-wrap { padding: 146px 0 371px; }
+.orphan-landing-page .events-slider-section{background-color: #f8f4f2; }
+.orphan-landing-page .events-slider-wrap { padding: 146px 0 371px; }
 
 /* Custom CTA section */
 .orphan-landing-page .custom-cta-wrap{padding: 0;}
