@@ -13,3 +13,32 @@
 .full-width-content{position: absolute; bottom: 50px; left: 16%; display: block; transform: translateX(-16%); }
 .full-width-content h4{color: var(--white); margin-bottom: 14px;}
 .full-width-content p{color: var(--white-90); max-width: 370px; line-height: 1.38;}
+
+/* Another  short section*/
+.another-short-section{background-color: #f8f4f2; }
+.another-short-wrap{padding: 118px 0 82px; }
+.another-short-one{ margin-bottom: 52px; }
+.another-short-thumb img{width: 496px; max-height: 394px;}
+.another-short-inner{background-color: #f0eae7; padding: 73px 82px 82px 94px; }
+.another-short-two{width: 978px; margin: 0 auto; }
+.another-short-two-thumb{z-index: 1; }
+.another-short-two-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; border: solid 1px var(--copperplate-color); top: -19px; left: 21px; z-index: -1; }
+
+/* image caption  section*/
+.image-caption-section{padding: 82px 0 104px; }
+.image-caption-main{gap: 20px; }
+.image-caption-list{width: calc(50% - 10px); }
+.image-caption-text{position: absolute; bottom: 0; padding: 19px 44px 34px; text-align: center; background-color: rgba(168, 107, 73, 0.8); color: var(--white-90); width: 100%;}
+.image-caption-list:hover .image-caption-text{top:50%; left: 50%; transform: translate(-50% , -50%); bottom: auto; padding: 52px 50px 57px; background-color: var(--copperplate-color); width: 554px;}
+
+.image-caption-text h4{color: var(--white); }
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .another-short-image{width: 496px; }
+    .another-short-content{width: calc(100% - 496px); }
+    .another-short-two-content{width: 509px; margin-right: 81px; }
+    .another-short-two-image{width:calc(100% - 590px); }
+}
