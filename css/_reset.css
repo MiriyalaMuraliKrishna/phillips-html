@@ -69,7 +69,7 @@ textarea {overflow: auto; vertical-align: top;}
 .clearfix {clear: both;}
 *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
-table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
+/* table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 0; max-width: 100%; width: 100%;}
 table tr td:first-child {padding-left: 15px; text-align: left; font-weight: 600;}
 table tr th:first-child {text-align: left; padding-left: 21px;}
@@ -77,7 +77,19 @@ table tbody img {margin: 0 auto;}
 th {border-width: 0; font-size: 0.688rem; font-weight: bold; line-height: normal; letter-spacing: 0.4px; padding: 14px 0 17px; background-color: var(--gray-color); color: var(--white); text-transform: uppercase;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 0 11px; text-align: center; border-bottom: solid 1px rgb(255 255 255 / 10%); vertical-align: middle;}
-table tr:nth-child(even) td{background-color: var(--light-gray);}
+table tr:nth-child(even) td{background-color: var(--light-gray);} */
+
+table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
+table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 75px auto 96px; max-width: 995px; width: 100%;}
+table tbody img {margin: 0 auto;}
+table tr{border-bottom: 1.1px solid #e2dcd9;}
+th {border-width: 0; font-size: 20px; line-height: 24px; padding: 9px 7px 17px; text-align: center; font-family: 'Roboto', sans-serif; font-weight: bold;}
+td {border-width: 0; padding: 10px 18px 7px; font-size: 17px; line-height: 1.65; text-align: center; border-bottom: solid 1px rgb(255 255 255 / 10%); vertical-align: middle;}
+th:first-child{text-align: left; padding-left: 0;}
+tr:last-child td{border-bottom: 0;}
+table tr:nth-child(odd) td{background-color: #f0eae7;}
+table tr td i.fa-check{font-size: 26px; line-height: normal; color: var(--copperplate-color);}
+table tr td i.fa-times{font-size: 26px; line-height: normal; color: var(--copperplate-color);}
 
 caption, th, td {text-align: left;}
 del {color: var(--text-color);}
@@ -169,6 +181,7 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 .breakpoint-thumb::after{content: ""; position: absolute; top: 50%; transform: translateY(-50%); width: 45%; border: solid 1px #dacfca; right: 0; }
 
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
+.w-790{width: 790px; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
