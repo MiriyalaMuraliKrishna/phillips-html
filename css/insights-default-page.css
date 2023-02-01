@@ -33,6 +33,13 @@
 
 .image-caption-text h4{color: var(--white); }
 
+/* Medium headline section */
+.medium-headline{padding: 50px 0; }
+.medium-headline-thumb{z-index: 1; }
+.medium-headline-thumb img{max-height: 374px; }
+.medium-headline-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; border: 1px solid var(--copperplate-color); top: -26px; left: -26px; z-index: -1; }
+
+
 
 
 /*-- media css starts here --*/
@@ -41,4 +48,7 @@
     .another-short-content{width: calc(100% - 496px); }
     .another-short-two-content{width: 509px; margin-right: 81px; }
     .another-short-two-image{width:calc(100% - 590px); }
+
+    .medium-headline-image{width: 362px; margin-right: 122px; }
+    .medium-headline-content{width: calc(100% - 484px); }
 }

@@ -19,38 +19,40 @@
 <body>
 <div class="about-page">
 <header class="main-header">
-<div class="container lg">
-    <div class="header flex">
-        <div class="toggle_icon flex flex-center">
-            <span class="far fa-bars"></span>
-        </div>
-        <div class="logo">
-            <a href="index.html"><img src="images/logo-black.svg" alt="Phillips Lytle"></a>
-        </div>
-        <nav class="navigation flex flex-vcenter">
-            <ul class="main_menu flex">
-                <li class="menu-item-has-children"><a href="#">Expertise</a></li>
-                <li><a href="#">Our People</a> </li>
-                <li><a href="#">Insights</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Our Firm</a>
-                    <ul class="sub-menu"> 
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Offices</a></li>
-                        <li><a href="#">Diversity, Equity and Inclusion</a>
-                            <ul class="sub-menu">
-                                <li><a href="#">Pro Bono & Community Service</a></li>
-                                <li><a href="#">The Phillips Lytle Pipeline</a></li>
-                                <li><a href="#">Building Our Team</a></li>
-                                <li><a href="#">Women’s Affinity Group</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Affiliations & Partner Organizations</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="container lg">
+        <div class="header flex flex-vcenter">
+            <div class="toggle_icon flex flex-center" aria-hidden="false">
+                <span class="far fa-bars"></span>
+            </div>
+            <nav class="navigation flex flex-vcenter">
+                <ul class="main_menu flex">
+                    <li class="menu-item-has-children"><a href="#">Expertise</a></li>
+                    <li><a href="#">Our People</a> </li>
+                    <li><a href="#">Insights</a></li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Our Firm</a>
+                        <ul class="sub-menu"> 
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Offices</a></li>
+                            <li class="menu-item-has-children"><a href="#">Diversity, Equity and Inclusion</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Pro Bono & Community Service</a></li>
+                                    <li><a href="#">The Phillips Lytle Pipeline</a></li>
+                                    <li><a href="#">Building Our Team</a></li>
+                                    <li><a href="#">Women’s Affinity Group</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Affiliations & Partner Organizations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <span class="reverse_logo"><a href="index.html"><img src="images/logo-white.svg" alt="Phillips Lytle"></a></span><!-- only home page logo white-->
+                <span class="normal_logo"><a href="index.html"><img src="images/logo-black.svg" alt="Phillips Lytle"></a></span>
+            </div>
             <form action="" class="header_srch flex">
                 <input type="search" name="search" id="search" placeholder="Search">
                 <div class="header_srch_btn flex flex-center">
@@ -58,9 +60,8 @@
                     <span class="fa-regular fa-magnifying-glass"></span>
                 </div>
             </form>
-        </nav>
+        </div>
     </div>
-</div>
 </header>
 <div class="site-main-cover">
 <section class="default-banner-section pos-relative">
