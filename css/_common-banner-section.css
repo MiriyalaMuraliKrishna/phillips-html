@@ -19,6 +19,11 @@
 .common-banner-location ul > li::before{left: -10px; background-color: #f0eae7; opacity: 0.7; }
 
 /*-- media css starts here --*/
+@media only screen and (max-width: 1420px) and (min-width: 1024px){
+    .common-banner-image{flex: 50% !important;}
+    .common-banner-desc {padding: 0 5% !important;}
+}
+
 @media only screen and (min-width: 1024px){
     .common-banner-text{flex: 50%;}
     .common-banner-image{flex: 0 0 710px;}
@@ -30,3 +35,9 @@
     .common-banner-text{flex: 50%;}
     .common-banner-image{flex: 50%;} 
 }
+
+@media only screen and (max-width: 1023px) and (min-width: 375px){
+    .common-banner-main{flex-direction: column-reverse; }
+
+}
+
