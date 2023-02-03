@@ -5,10 +5,10 @@
 
 /* Contact office section */
 .contact-office-section{background-color: #f8f4f2; }
-.contact-office-wrap{padding: 56px 0 131px;}
 .contact-office-head{margin-bottom: 62px; }
-.contact-office-thumb a{display: block; width: 100%; height: 100%; max-height: 201px;}
-.contact-office-thumb img{height: auto;}
+figure.contact-office-thumb{height: auto;}
+figure.contact-office-thumb a{display: block; width: 100%; height: 100%;}
+figure.contact-office-thumb img{object-position: 0% 0%; -o-object-position: 0% 0%;}
 .contact-office-lists{gap: 36px 20px; }
 .contact-office-desc{color: #9c5f3d; padding-top: 13px;}
 .contact-office-desc h5{font-size: 20px; line-height: 1.35; margin-bottom: 16px;}
@@ -20,15 +20,25 @@ ul.phone-list li::before{display: none;}
 ul.phone-list li{margin-bottom: 8px;}
 ul.phone-list li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
 ul.phone-list li a:hover{color: var(--black);}
-.contact-office-icon{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
-
-.contact-office-form-inner{ background: var(--white); padding: 37px 45px 57px 52px;}
+ul.phone-list li a span{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
+.office-form-bg{ background: var(--white); padding: 37px 45px 57px 52px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .contact-office-head{max-width: 490px; }
-    .contact-office-main{gap: 0 84px;}
+    .contact-office-main{gap: 84px; padding: 56px 0 131px;}
     .contact-office-text{flex: 1;}
     .contact-office-list{flex: 0 0 calc(33.3333% - 14px);}
+    figure.contact-office-thumb img{height: 201px;}
     .contact-office-form{flex: 0 0 386px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .contact-office-main{gap: 32px;}
+    .office-form-bg{padding: 37px 32px 57px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .contact-office-main{display: block; padding: 56px 0 80px;}
+    .contact-office-text{margin-bottom: 60px;}
+    .contact-office-list{flex: 0 0 calc(50% - 10px);}
+    figure.contact-office-thumb img{height: 249px;}
 }
