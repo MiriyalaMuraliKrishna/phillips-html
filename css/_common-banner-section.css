@@ -38,6 +38,11 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 375px){
     .common-banner-main{flex-direction: column-reverse; }
+    .common-banner-text{padding: 48px 24px; }
+    .common-banner-text h1{font-size: 30px; margin-bottom: 23px;}
+    .common-banner-image{padding-top: 75px;}
+    .common-banner-desc{z-index: 1; }
+    .common-banner-desc::after {width: 171px; height: 412px; top: 0px; left: -101px; content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
 
 }
 
