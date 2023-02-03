@@ -38,8 +38,7 @@
 .we-help{background-color: var(--white); padding: 27px 24px 24px 26px;}
 .we-help h5{font-size: 20px; line-height: 1.35; margin-bottom: 10px;}
 .we-help p{font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.7);}
-.we-help .understand-list{margin-bottom: 7px; }
-.we-help .understand-list label{line-height: 1.36;}
+
 
 .news-default-page .cta-panel-section{background-color: #f0eae7; padding: 109px 0 112px; margin-top: 0;}
 

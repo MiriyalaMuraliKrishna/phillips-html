@@ -11,9 +11,6 @@
 .communication-list .checkbox{width: 17px; height: 17px; background: transparent; border: 1px solid #9c5f3d; padding: 0; margin: 0 14px 0 0; }
 .communication-list label{font-size: 14px; line-height: 1.5; color: rgba(0, 0, 0, 0.7); }
 
-.understand-list{margin-bottom: 17px; }
-.understand-list .checkbox{width: 17px; height: 17px; background: transparent; border: 1px solid #9c5f3d; padding: 0; margin: 0 20px 0 0; }
-.understand-list label{font-size: 14px; line-height: 1.21; color: rgba(0, 0, 0, 0.7); margin-bottom: 11px; width: calc(100% - 37px);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
