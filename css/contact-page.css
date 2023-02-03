@@ -16,10 +16,11 @@
 .contact-office-desc h5 a:hover{color: var(--copperplate-color);}
 
 ul.phone-list{margin: 0; }
-ul.phone-list > li::before{display: none;}
-.contact-office-icon{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
+ul.phone-list li::before{display: none;}
+ul.phone-list li{margin-bottom: 8px;}
 ul.phone-list li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
 ul.phone-list li a:hover{color: var(--black);}
+.contact-office-icon{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
 
 .contact-office-form-inner{ background: var(--white); padding: 37px 45px 57px 52px;}
 

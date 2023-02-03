@@ -8,19 +8,19 @@ body .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{height: auto; padding: 14px 16px 14px; font-size: 1rem; line-height: 1.5rem; font-weight: normal; letter-spacing: normal; font-family: 'Roboto', sans-serif; color: var(--slate-color); border-radius: 0; background-color: #f9f8f8; border: none; box-shadow: none; text-transform: capitalize;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus{background-color: var(--tin-color); box-shadow: none;}
+body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus{background-color: transparent; box-shadow: none; border-color: var(--btn-color);}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{color: var(--text-color); background-color: #f9f8f8; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5; }
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5;}
 body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio label{padding-left: 30px; display: block; font-size: 14px; line-height: 1.21; color: var(--text-color); text-indent: 0;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 18px; height: 20px; left: 0; padding: 0; cursor: pointer; border-bottom: 2px solid var(--slate-color); background: linear-gradient(180deg, #FFB405 0%, #FF666B 100%); border-radius: 0; position: absolute;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid var(--btn-color); background: none; border-radius: 0; position: absolute;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before, 
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before {width: 12px; height: 10px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--slate-color); }
-body .frm_forms .frm_form_fields .frm_submit{text-align: center; position: relative; margin-top: 56px; z-index: 1;}
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{margin: 0; font-size: 1rem; line-height: 1.5; font-weight: 400; font-family: 'Roboto', sans-serif; letter-spacing: normal; padding: 8px 17px 10px; border: none; border-radius: 0; background: var(--btn-color); position: relative; transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: var(--white-90); z-index: 1; width: 100%; }
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: linear-gradient(to left, #ffb405 0%, #ff666b 108%); color: var(--slate-color); }
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before {width: 12px; height: 10px; margin: 2px 0 0 2px; box-shadow: inset 8px 8px var(--text-color); }
+body .frm_forms .frm_form_fields .frm_submit{text-align: center; position: relative; margin-top: 26px; z-index: 1;}
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{margin: 0; font-size: 1rem; line-height: 1.5; font-weight: 400; font-family: 'Roboto', sans-serif; letter-spacing: normal; padding: 13px 17px 13px; border: none; border-radius: 0; background: var(--btn-color); position: relative; transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: var(--white-90); z-index: 1; width: 100%; }
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--text-color); color: var(--white); }
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::after{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
