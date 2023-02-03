@@ -39,7 +39,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 .home-practice-icon{display: block; margin-bottom: 14px; }
 .home-practice-text h3{color: var(--white); margin-bottom: 11px;}
 .home-practice-text p{color: var(--white-90); margin-bottom: 32px;}
-.home-practice-text .btn-transparent:hover{background-color: var(--border-color); border-color: var(--border-color); }
+.home-practice-text .btn-transparent:hover{background-color: var(--btn-color); border-color: var(--btn-color); }
 
 
 .our-team-wrap{padding: 144px 0 284px; } /*padding: 482px 0 284px;*/

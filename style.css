@@ -20,9 +20,11 @@ Text Domain:
 @import url("css/_reset.css");
 @import url("css/_header.css");
 @import url("css/_footer.css");
+@import url("css/_cookibar.css");
 @import url("css/_subscribe-section.css");
-@import url("css/_custom-cta-section.css");
+@import url("css/_custom-formidable.css");
 @import url("css/_custom-selectBox.css");
+@import url("css/_custom-cta-section.css");
 @import url("css/_our-office-section.css");
 @import url("css/_events-slider-section.css");
 @import url("css/_common-grid-section.css");

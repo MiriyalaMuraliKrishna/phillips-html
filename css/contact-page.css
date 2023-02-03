@@ -3,8 +3,6 @@
 .contact-page .default-banner-main {padding: 172px 0 137px;}
 .contact-page .default-banner-main p{color: var(--white-90); margin-bottom: 33px; }
 
-/* Banner section end */
-
 /* Contact office section */
 .contact-office-section{background-color: #f8f4f2; }
 .contact-office-wrap{padding: 56px 0 131px;}
@@ -25,13 +23,11 @@ ul.phone-list li a:hover{color: var(--black);}
 
 .contact-office-form-inner{ background: var(--white); padding: 37px 45px 57px 52px;}
 
-
-/* Contact office section */
-
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .contact-office-head{max-width: 490px; }
-    .contact-office-list{width: 230px; }
-    .contact-office-text{width: 730px; margin-right: 84px; }
-    .contact-office-form{width: calc(100% - 814px); }
+    .contact-office-main{gap: 0 84px;}
+    .contact-office-text{flex: 1;}
+    .contact-office-list{flex: 0 0 calc(33.3333% - 14px);}
+    .contact-office-form{flex: 0 0 386px;}
 }

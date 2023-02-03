@@ -112,7 +112,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 /* Buttons */
 button, .button{padding: 13px 25px 13px; min-width: 165px;  display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
 button:hover, .button:hover{ background-color:var(--text-color); color: var(--white);}
-.btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--border-color);}
+.btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--btn-color);}
 .btn-transparent:hover{background-color: var(--text-color); border-color: var(--text-color);}
 .btn-white{border-color: #ebb89c;}
 .btn-md{padding: 10px 25px 10px}
