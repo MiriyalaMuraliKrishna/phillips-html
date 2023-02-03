@@ -1,23 +1,25 @@
 /* Insight banner */
+.insight-banner-section{background-color: #f8f4f2;}
 .insight-banner-main{max-width: 1600px; margin: 0 auto; gap: 21px;}
-.insight-banner-lt{width: 966px; }
-.insight-banner-item{max-height: 274px; }
-.insight-banner-thumb img{width: 966px; max-height: 569px;}
-.insight-banner-thumb::before{content: ""; position: absolute; width: 15; height: 100%; border: 1px solid rgba(255, 255, 255, 0.22); width: calc(100% - 33px); height: calc(100% - 33px); top: 15px; left: 15px; }
-.insight-banner-rt{width: calc(100% - 987px); }
+.insight-banner-thumb::before{content: ""; position: absolute; border: 1px solid rgba(255, 255, 255, 0.22); width: calc(100% - 36px); height: calc(100% - 36px); top: 16px; left: 15px; }
 .insight-banner-list{gap: 21px; }
-.insight-banner-left-desc{position: absolute; bottom: 0; padding: 77px 83px; }
+.insight-banner-desc{position: absolute; bottom: 0; padding: 77px 83px; }
+.insight-banner-desc .optional-text{font-size: 18px; line-height: 1; color: var(--white-90); margin-bottom: 19px;}
+.insight-banner-desc h2{color: var(--white); margin-bottom: 26px;}
 
-.insight-banner-left-desc .optional-text{font-size: 18px; line-height: 1; color: var(--white-90); margin-bottom: 19px;}
-.insight-banner-left-desc h2{color: var(--white); margin-bottom: 26px;}
-.insight-banner-smthumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.74); }
-.insight-banner-item-desc{position: absolute; top: 0; padding: 74px 74px 74px 62px; width: 520px;}
-.insight-banner-item-desc .optional-text{font-size: 18px; line-height: 1; margin-bottom: 17px;}
-.insight-banner-item-desc h4{margin-bottom: 26px; }
-.insight-banner-item-desc h4 a{color: var(--white); }
-.insight-banner-item-desc h4 a:hover{color: var(--copperplate-color); }
-.insight-banner-item-desc hr{background-color: #a86b49; }
-.insight-banner-item:hover .insight-banner-smthumb::before{background-color: rgba(156, 95, 61, 0.85); }
+.insight-item-desc{position: absolute; top: 0; padding: 74px 74px 74px 62px; width: 100%; height: 100%; max-width: 520px;}
+.insight-item-thumb::before{content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.74); }
+.insight-banner-item:hover .insight-item-thumb::before{background-color: rgba(156, 95, 61, 0.85); }
+.insight-banner-item:hover hr{display: none;}
+.insight-banner-item:hover .insight-item-arrow{display: block;}
+.insight-banner-item:hover .optional-text{color: var(--white);}
+.insight-item-desc .optional-text{font-size: 18px; line-height: 1; margin-bottom: 17px;}
+.insight-item-desc h4{margin-bottom: 11px; }
+.insight-item-desc h4 a{color: var(--white); }
+.insight-item-desc h4 a:hover{color: var(--white); }
+.insight-item-desc hr{background-color: #a86b49; margin: 26px 0 0;}
+.insight-item-arrow{ font-size: 33px; line-height: 1.5; color: var(--white); display: none;}
+.insight-item-arrow:hover{color: var(--white);}
 
 .insight-page-section{background-color: #f8f4f2; z-index: 1;}
 .insight-page-section::before{content: ""; position: absolute; width: 100%; height: 1435px; background-color: #f0eae7; bottom: 0; z-index: -1;}
@@ -62,6 +64,10 @@
 .insights-page .cta-panel-section{margin-top: 0; padding: 112px 0 108px; }
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 1600px){
+    .insight-banner-lt{width: 966px; }
+    .insight-banner-rt{width: calc(100% - 987px); }
+}
 @media only screen and (min-width: 1024px){
     .insight-page-title{flex-basis: 35%; }
     .insight-page-filter{flex-basis: 65%; gap: 21px; justify-content: end;}
