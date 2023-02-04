@@ -2,7 +2,7 @@
 
 .subscribe-page-section{background-color: #f8f4f2; }
 .subscribe-page-wrap{padding: 124px 0 81px; }
-.subscribe-page-text{margin-right: 122px; z-index: 1;}
+.subscribe-page-text{z-index: 1;}
 .subscribe-page-text::before{content: ""; position: absolute; top: -26px; left: -103px; background-image: url('../images/gray-banner-symbol.svg'); z-index: -1; width: 171px; height: 442px; }
 .subscribe-page-form{background-color: var(--white); padding: 40px 61px 58px 66px;}
 
@@ -13,7 +13,18 @@
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .subscribe-page-mobile{display: none;}
+}
 @media only screen and (min-width: 1024px){
-    .subscribe-page-text{width: 488px;}
+    .subscribe-page-text{width: 488px; margin-right: 122px;}
     .subscribe-page-form{width: calc(100% - 610px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .subscribe-page-main{display: block;}
+    .subscribe-page-text{margin-bottom: 60px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .subscribe-page-desktop{display: none;}
+    .subscribe-page-mobile{display: block; padding: 40px 30px 58px;}
 }

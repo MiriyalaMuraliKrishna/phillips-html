@@ -155,6 +155,7 @@ span.optional-text.small{font-size: 15px; line-height: 18px; margin-bottom: 5px;
 figure.object-fit{width: 100%; height: 100%; display: block;}
 picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
+img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; }
 .play-btn{width: 80px; height: 80px; z-index: 1;}

@@ -33,7 +33,6 @@
 
 .insight-page-main{margin-bottom: 50px;}
 .insight-page-image{margin-bottom: 20px; }
-.insight-page-thumb img{max-width: 387px; }
 .insight-page-category{position: absolute; top: 16px; }
 .insight-page-category a{font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; color: var(--white); background-color: var(--copperplate-color); text-transform: uppercase; padding: 10px 12px 9px 11px; margin: 0 0 10px 10px; }
 .insight-page-category a:hover{background-color: var(--text-color); }
@@ -94,7 +93,9 @@
     .insight-page-list{flex: 0 0 calc(50% - 10px); }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .insight-page-wrap { padding: 32px 0 56px; }
     .insight-page-heading{display: block;}
+    .insight-page-title h2{font-size: 30px; line-height: 38px;}
     .insight-page-filter{display: block;}
     .insight-search{margin-top: 16px;}
     .insight-page-main{display: block;}
