@@ -48,3 +48,7 @@ ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 	.footer-list{flex: 1;}
 	ul.copyrights-links > li{margin-left: 14px;}
 }
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.footer-row{display: block;}
+	.footer-rt{display: none;}
+}
