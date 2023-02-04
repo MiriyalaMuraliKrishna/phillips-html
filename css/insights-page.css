@@ -99,7 +99,14 @@
     .insight-search{margin-top: 16px;}
     .insight-page-main{display: block;}
     .insight-page-list{margin-bottom: 26px;}
-    .insight-page-list:nth-child(7n) .insight-page-desc {
-        padding: 43px 40px;
-    }
+    .insight-page-list:nth-child(7n) .insight-page-desc{padding: 48px 34px; }
+
+    .insight-banner-thumb::before{display: none;}
+    .insight-banner-desc{text-align: center; padding: 77px 46px;}
+    .insight-banner-desc h2{font-size: 30px; line-height: 1.27; margin-bottom: 24px; }
+    .insight-page-title{margin-bottom: 20px; }
+
+    .insight-page-content .optional-text{font-size: 16px; line-height: 1.13; margin-bottom: 9px; }
+    .insight-page-content h3{line-height: 1.25; margin-bottom: 20px; font-size: 30px; line-height: 1.27; }
+    .insight-page-content p{margin-bottom: 23px; }
 }
