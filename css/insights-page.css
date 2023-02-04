@@ -1,6 +1,5 @@
 /* Insight banner */
 .insight-banner-section{background-color: #f8f4f2;}
-.insight-banner-main{max-width: 1600px; margin: 0 auto; gap: 21px;}
 .insight-banner-thumb::before{content: ""; position: absolute; border: 1px solid rgba(255, 255, 255, 0.22); width: calc(100% - 36px); height: calc(100% - 36px); top: 16px; left: 15px; }
 .insight-banner-list{gap: 21px; }
 .insight-banner-desc{position: absolute; bottom: 0; padding: 77px 83px; }
@@ -40,7 +39,6 @@
 .insight-page-category a:hover{background-color: var(--text-color); }
 .insight-page-category a:nth-child(2n+1){margin-left: 0; }
 .insight-page-category a:nth-child(3n+1){margin-left: 0; }
-.insight-page-desc{width: 340px;}
 .insight-page-desc .optional-text{font-size: 15px; line-height: 1.2; color: #9c5f3d; margin-bottom: 7px; }
 .insight-page-desc h5{font-size: 20px; line-height: 1.35; }
 .insight-page-desc h5 > a{color: var(--black);}
@@ -48,9 +46,9 @@
 
 .insight-page-list:nth-child(7n){flex-basis: 100%; margin: 57px 0;}
 .insight-page-list:nth-child(7n) .insight-page-thumb img{max-width: 100%; }
-.insight-page-list:nth-child(7n) .insight-page-image{margin-bottom: 0; }
+.insight-page-list:nth-child(7n) .insight-page-image{margin-bottom: 0; height: 100%;}
 .insight-page-list:nth-child(7n) .insight-page-image::after{content: ""; position: absolute; width: calc(100% - 26px); height: calc(100% - 29px); border: solid 1px rgba(255, 255, 255, 0.22); z-index: 1; top: 15px; left: 12px;}
-.insight-page-list:nth-child(7n) .insight-page-desc{position: absolute; top: 0; padding: 0 79px; width: 100%; height: 100%; align-items: center; z-index: 1;}
+.insight-page-list:nth-child(7n) .insight-page-desc{position: absolute; top: 0; padding: 0 79px; max-width: 100%; width: 100%; height: 100%; align-items: center; z-index: 1;}
 .insight-page-content{max-width: 440px; color: var(--white-90);}
 .insight-page-content .optional-text{font-size: 18px; line-height: 1; margin-bottom: 12px; }
 .insight-page-content h3{line-height: 1.25; margin-bottom: 20px;}
@@ -64,14 +62,28 @@
 .insights-page .cta-panel-section{margin-top: 0; padding: 112px 0 108px; }
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1600px){
-    .insight-banner-lt{width: 966px; }
-    .insight-banner-rt{width: calc(100% - 987px); }
-}
 @media only screen and (min-width: 1024px){
-    .insight-page-title{flex-basis: 35%; }
-    .insight-page-filter{flex-basis: 65%; gap: 21px; justify-content: end;}
-    .insight-dropdown{flex-basis: 48.1%; }
-    .insight-search{flex-basis: 48%; }
-    .insight-page-list{flex-basis: 32.25%; }
+    .insight-page-heading{gap: 19px;}
+    .insight-page-title{flex: 0 0 calc(33.3333% - 13px);}
+    .insight-page-filter{flex: 1; gap: 19px; justify-content: end;}
+    .insight-dropdown{flex: 1;}
+    .insight-search{flex: 1;}
+    .insight-page-list{flex: 0 0 calc(33.3333% - 13px); }
+    .insight-page-desc{max-width: 340px;}
+    .insight-banner-main{gap: 21px;}
+    .insight-banner-lt{flex: 1;}
+    .insight-banner-rt{flex: 1;}
+}
+@media only screen and (min-width: 1600px){
+    .insight-banner-main{max-width: 1600px; margin: 0 auto;}
+    .insight-banner-lt{flex: 0 0 966px;}
+    .insight-banner-rt{flex: 0 0 calc(100% - 987px); }
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .insight-banner-main{display: block;}
+    .insight-banner-rt{display: none;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .insight-banner-main{display: block;}
+    .insight-banner-rt{display: none;}
 }

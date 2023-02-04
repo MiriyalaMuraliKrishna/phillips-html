@@ -185,7 +185,7 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
-    .container{max-width: 1200px; margin-inline: auto;}
+    .container{max-width: 1200px; margin: 0 auto;}
     .container.md{max-width: 952px;}
     .container.x-md{max-width: 997px;}
     
