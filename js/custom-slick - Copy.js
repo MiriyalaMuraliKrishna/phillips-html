@@ -45,28 +45,6 @@ $(document).ready(function() {
    if (typeof $newsContainer !== "undefined" && $newsContainer.length > 0){
       $newsContainer.addClass('news-slick-dots');
     }
-    $('.presenters-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        variableWidth: true,
-        responsive: [
-            {
-            breakpoint: 1023,
-                settings: {
-                    vertical: false,
-                    autoplay: false,
-                }
-            }
-        ]
-    });
-    const $presentersContainer = $(".presenters-slider ul.slick-dots");
-    if (typeof $presentersContainer !== "undefined" && $presentersContainer.length > 0){
-        $presentersContainer.addClass('news-slick-dots');
-    }
 
     $('.timeline-slider-for').slick({
         asNavFor: '.resources-slider-for',

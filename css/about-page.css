@@ -10,24 +10,6 @@
 /* Logo slider section */
 .about-page .logo-slider-wrap{padding: 40px 0 81px; }
 
-/* Milestone slider section */
-.milestone-slider-section{background-color: #f0eae7; }
-.milestone-slider-wrap{padding: 74px 0 130px; }
-.milestone-slider-heading .small{margin: 23px auto 35px; }
-
-.milestone-slider-year{padding: 60px 0 114px; }
-ul.milestone-year{margin: 0; gap: 286px;}
-ul.milestone-year li{font-family: Copperplate; font-size: 20px; color: #aeaeae; line-height: 0.9; margin-bottom: 0; }
-ul.milestone-year li::before{content: " "; position: absolute; top: auto; bottom: -33px; background-color: transparent; width: 18px; height: 18px; border-radius: 50%; left: 50%; transform: translateX(-50%); border: solid 1.5px #aeaeae; }
-ul.milestone-year li.active{color: var(--copperplate-color);}
-ul.milestone-year li.active::before{background-color: var(--copperplate-color); border: solid 1.5px var(--copperplate-color);}
-ul.milestone-year li.active::after{content: " "; position: absolute; top: auto; bottom: -42px; width: 34px; height: 34px; border-radius: 50%; left: 50%; transform: translateX(-50%); border: solid 2px rgba(156, 95, 61, 0.6); }
-
-.milestone-slider-picture::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(168, 107, 73, 0.4);}
-.milestone-slider-details{align-items: center; }
-.milestone-slider-text{background-color: #f8f4f2; padding: 65px 20px 67.5px 39px; }
-.milestone-slider-text h3{margin-bottom: 12px; }
-
 /* our people section */
 .about-page .our-people-section{background-color: #f0eae7; }
 .about-page .our-people-wrap{padding: 110px 0 323px; }
@@ -51,8 +33,8 @@ ul.milestone-year li.active::after{content: " "; position: absolute; top: auto; 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .milestone-slider-content{width: 1037px; margin: 0 auto; }
-    .milestone-slider-thumb{width: 508px; }
-    .milestone-slider-details{width: calc(100% - 508px); }
+    .timeline-slide-image{width: 508px; }
+    .timeline-slide-content{width: calc(100% - 508px); }
 
     .about-page .our-people-main{width: 100%;}
 
