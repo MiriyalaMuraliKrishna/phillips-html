@@ -12,9 +12,24 @@
 	.custom-cta-text{width: 691px;}
 	.custom-cta-image{width: calc(100% - 691px);}
 }
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+	.custom-cta-text{width: 620px; padding: 116px 75px 97px;}
+	.custom-cta-image{width: calc(100% - 620px); }
+
+}
+
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+	.custom-cta-main{flex-direction: column-reverse; }
+	.custom-cta-wrap{padding: 56px 0; }
+	.custom-cta-image{width: 100%; }
+	.custom-cta-text{padding: 36px 40px; width: 100%; }
+	.custom-cta-text .optional-text{font-size: 16px; opacity: 0.9; line-height: 1.13; margin-bottom: 9px;}
+	.custom-cta-text h2{font-size: 28px; line-height: 1.36; margin-bottom: 23px; }
+	.custom-cta-text p{margin-bottom: 16px; }
+
 
 }

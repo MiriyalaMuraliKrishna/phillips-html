@@ -58,6 +58,10 @@ body .with_frm_style .frm_message p{color: var(--slate-color);}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    body .frm_forms .frm_form_fields .frm_submit{margin-top: 32px;}
+    body .frm_forms .frm_form_fields .frm_submit{margin-top: 18px;} /*margin-top: 32px;*/
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
+
+    body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 16px;}
+    body .frm_forms .frm_form_fields .frm_form_field.vertical_radio label{line-height: 1.36; opacity: 0.7;}
+    .frm_form_field.vertical_radio { margin: 32px 0 10px; }
 }

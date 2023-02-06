@@ -1,5 +1,5 @@
 /* Common Banner section start */
-.common-banner-main{background-color: var(--copperplate-color); color: var(--white-90); z-index: 1;}
+.common-banner-main{background-color: var(--copperplate-color); color: var(--white-90); z-index: 1; overflow: hidden;}
 .common-banner-text h1{color: var(--white); margin-bottom: 14px;}
 
 .common-banner-list{background-color: #f0eae7; margin: 0; padding: 22px 0 19px; }
@@ -40,9 +40,11 @@
     .common-banner-main{flex-direction: column-reverse; }
     .common-banner-text{padding: 48px 24px; }
     .common-banner-text h1{font-size: 30px; margin-bottom: 23px;}
-    .common-banner-image{padding-top: 75px;}
+    /* .common-banner-image{padding-top: 75px;} */
     .common-banner-desc{z-index: 1; }
     .common-banner-desc::after {width: 171px; height: 412px; top: 0px; left: -101px; content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
+    .common-banner-dates{flex-basis: 100%; }
+    .common-banner-location{flex-basis: 100%; }
 
 }
 

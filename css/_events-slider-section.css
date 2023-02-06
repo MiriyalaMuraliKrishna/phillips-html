@@ -5,7 +5,7 @@
 .events-slider-title h2{margin: 0; }
 .events-slider-btn .button{min-width: 165px}
 .events-slide-category{position: absolute; top: 22px; left: 0; gap: 10px;}
-.events-slide-category .button{padding: 10px 11px 9px; font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; text-transform: uppercase; }
+.events-slide-category .button{padding: 10px 11px 9px; font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; text-transform: uppercase; min-width: auto;}
 .events-slide-text{padding-top: 21px;}
 .events-slide-text h4{font-family: 'Playfair Display', serif; font-size: 22px; line-height: 1.36;}
 .events-slide-text h4 a{color: var(--text-color);}
