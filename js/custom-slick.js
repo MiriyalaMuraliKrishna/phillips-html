@@ -69,6 +69,10 @@ $(document).ready(function() {
     }
 
     $('.timeline-slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false,
         asNavFor: '.resources-slider-for',
     });
     $('.timeline-slider-nav').slick({
