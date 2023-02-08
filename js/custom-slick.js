@@ -73,14 +73,14 @@ $(document).ready(function() {
         slidesToScroll: 1,
         dots: false,
         arrows: false,
-        asNavFor: '.resources-slider-for',
+        asNavFor: '.timeline-slider-for',
     });
     $('.timeline-slider-nav').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        asNavFor: '.resources-slider-for',
+        asNavFor: '.timeline-slider-for',
         prevArrow: '<span class="timeline-arrow prev-arrow fa-light fa-angle-left flex flex-center"></span>',
         nextArrow: '<span class="timeline-arrow next-arrow fa-light fa-angle-right flex flex-center"></span>',
         autoplay: false,
