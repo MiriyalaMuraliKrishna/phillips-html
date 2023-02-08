@@ -3,14 +3,14 @@
 .timeline-slider-wrap{padding: 74px 0 130px; }
 .timeline-heading .small{margin: 23px auto 35px; }
 
-.timeline-year-main{padding: 60px 0 114px; }
-ul.timeline-year{margin: 0; gap: 286px; position: relative;}
-ul.timeline-year:after{width: 100%; height: 2px; bottom: -25px; left: 0; background-color: gray; content: ""; display: block; position: absolute;}
-ul.timeline-year li{font-family: Copperplate; font-size: 20px; color: #aeaeae; line-height: 0.9; margin-bottom: 0; }
-ul.timeline-year li::before{content: " "; position: absolute; top: auto; bottom: -33px; background-color: transparent; width: 18px; height: 18px; border-radius: 50%; left: 50%; transform: translateX(-50%); border: solid 1.5px #aeaeae; }
-ul.timeline-year li.active{color: var(--copperplate-color);}
-ul.timeline-year li.active::before{background-color: var(--copperplate-color); border: solid 1.5px var(--copperplate-color);}
-ul.timeline-year li.active::after{content: " "; position: absolute; top: auto; bottom: -42px; width: 34px; height: 34px; border-radius: 50%; left: 50%; transform: translateX(-50%); border: solid 2px rgba(156, 95, 61, 0.6); }
+.timeline-year-main{padding: 60px 0 114px 197px; }
+.timeline-year{border-bottom: 2px solid gray;}
+.timeline-for-slide.slick-slide{position: relative;}
+.timeline-for-slide span{font-family: Copperplate; font-size: 20px; color: #aeaeae; line-height: 0.9; padding-bottom: 30px; display: inline-block; position: relative;}
+.timeline-for-slide span::before{content: " "; position: absolute; top: auto; bottom: 0; background-color: transparent; width: 18px; height: 18px; border-radius: 50%; left: 0%; transform: translateX(0%); border: solid 1.5px #aeaeae; }
+.timeline-for-slide.slick-current span{color: var(--copperplate-color);}
+.timeline-for-slide.slick-current span span::before{background-color: var(--copperplate-color); border: solid 1.5px var(--copperplate-color);}
+.timeline-for-slide.slick-current span::after{content: " "; position: absolute; top: auto; bottom: 0; width: 34px; height: 34px; border-radius: 50%; left: 0%; transform: translateX(-0%); border: solid 2px rgba(156, 95, 61, 0.6); }
 
 .timeline-slide-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(168, 107, 73, 0.4);}
 .timeline-slide-content{align-items: center; }
