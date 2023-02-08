@@ -160,4 +160,27 @@ $(document).ready(function() {
         $presentersContainer1.addClass('news-slick-dots');
     }
 
+    
+
+  $('.buffalo-slider-for').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        prevArrow: '<span class="slick-arrow prev-arrow fa-light fa-angle-left flex flex-center"></span>',
+        nextArrow: '<span class="slick-arrow next-arrow fa-light fa-angle-right flex flex-center"></span>',
+        focusOnSelect: true,
+        vertical: true,
+        verticalSwiping: true,
+        asNavFor: '.buffalo-slider-nav',
+  });
+
+    $('.buffalo-slider-nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.buffalo-slider-for'
+    });
+
 });

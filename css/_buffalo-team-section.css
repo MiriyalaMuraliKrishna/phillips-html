@@ -4,17 +4,18 @@
 .buffalo-team-heading{margin-bottom: 80px; }
 
 .buffalo-team{margin: 0 57px 0 0; width: 350px; }
-.buffalo-team li{padding: 15px 23px 14px;}
+.buffalo-team-item{padding: 15px 23px 14px;}
 .buffalo-team-item:hover{background-color: var(--copperplate-color); }
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
 .buffalo-sm-image img{width: 58px; height: 58px; }
-.buffalo-name .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 0;}
-.buffalo-team-item:hover .buffalo-name .optional-tex{background-color: var(--white); }
-.buffalo-name span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 1.79; }
-.buffalo-team-item:hover .buffalo-name span{color: var(--white-90);}
-.buffalo-name{width: calc(100% - 81px); }
-.buffalo-team .button{padding: 13px 27px 13px 27px; }
-.buffalo-team-item::before{display: none; }
+.buffalo-text .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 0;}
+.buffalo-team-item:hover .buffalo-text .optional-tex{background-color: var(--white); }
+.buffalo-text span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 1.79; }
+.buffalo-team-item:hover .buffalo-text span{color: var(--white-90);}
+.buffalo-text{width: calc(100% - 81px); }
+.buffalo-team-btn{margin-top: 40px;}
+.buffalo-team-btn .button{padding: 13px 27px 13px 27px; }
+
 
 .buffalo-team-content{width: calc(100% - 407px); }
 .buffalo-team-image{width: 387px; height: 491px; }
