@@ -183,4 +183,6 @@ $(document).ready(function() {
         asNavFor: '.buffalo-slider-for'
     });
 
+
+    
 });
