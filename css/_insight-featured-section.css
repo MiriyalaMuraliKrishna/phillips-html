@@ -28,7 +28,14 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .insight-featured-main{max-width: 1115px; margin: 0 auto; }
-    .insight-featured-big{width: 590px; margin-right: 82px; }
+    .insight-featured-big{width: 590px; margin-right: 82px; height: 100%; }
     .insight-featured-image{max-height: 631px; }
     .insight-featured-sm { width: calc(100% - 672px); }
+}
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .insight-featured-big{width: 540px; margin-right: 40px;}
+    .insight-featured-sm{width: calc(100% - 580px); }
+    .insight-featured-list{padding-top: 84px; }
+
 }

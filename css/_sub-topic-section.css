@@ -23,3 +23,9 @@
     .sub-topic-content{width: 590px; margin-right: 151px; }
     .sub-topic-image{width: calc(100% - 741px); }
 }
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .sub-topic-main{width: 100%;}
+    .sub-topic-content{width: 540px; margin-right: 80px; }
+    .sub-topic-image{width: calc(100% - 620px); }
+}

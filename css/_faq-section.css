@@ -17,22 +17,19 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1600px){
-    .faq-section .container{max-width: 1600px; width: 100%;}
+    .faq-main{flex-wrap: nowrap; align-items: flex-start; max-width: 1600px; margin: 0 auto;}
+    .faq-image{width: 688px; flex: 0 0 688px; transform: translateY(-124px); }
+    .faq-content{width: 1161px; flex: 0 0 1161px; transform: translateX(-200px); }
 }
-@media only screen and (min-width: 1024px){
-    .faq-main {
-    flex-wrap: nowrap;
-    align-items: flex-start;
+@media only screen and (max-width: 1599px) and (min-width: 1300px){
+    .faq-main{flex-wrap: nowrap; align-items: flex-start; }
+    .faq-image{width: 35%; transform: translateY(-124px); }
+    .faq-content{width: calc(65% + 200px); margin-left: -200px; padding: 116px 204px 92px 250px;}
 }
-.faq-image {
-    width: 688px;
-    flex: 0 0 688px;
-    transform: translateY(-124px);
-}
-.faq-content {
-    width: 1161px;
-    flex: 0 0 1161px;
-    transform: translateX(-200px);
-}
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .faq-main{flex-direction: column; }
+    .faq-image{width: 100%; flex: 0 0 100%; transform: none; padding: 0 32px;}
+    .faq-content{width: calc(100% + 64px); flex: 0 0 100%; transform: translateX(-32px); padding: 116px 64px 92px;}
 
 }
