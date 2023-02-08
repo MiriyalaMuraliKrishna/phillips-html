@@ -4,12 +4,13 @@
 .subscribe-page-wrap{padding: 124px 0 81px; }
 .subscribe-page-text{z-index: 1;}
 .subscribe-page-text::before{content: ""; position: absolute; top: -26px; left: -103px; background-image: url('../images/gray-banner-symbol.svg'); z-index: -1; width: 171px; height: 442px; }
-.subscribe-page-form{background-color: var(--white); padding: 40px 61px 58px 66px;}
+.subscribe-page-form{background-color: var(--white); padding:40px 60px 58px 64px;} /*padding:40px 61px 58px 66px*/
 
 .communication-list{padding-bottom: 26px; border-bottom: 1px solid #9c5f3d; margin-bottom: 35px; }
 .communication-list span{margin-bottom: 11px;}
 .communication-list .checkbox{width: 17px; height: 17px; background: transparent; border: 1px solid #9c5f3d; padding: 0; margin: 0 14px 0 0; }
 .communication-list label{font-size: 14px; line-height: 1.5; color: rgba(0, 0, 0, 0.7); }
+.frm_fields_container hr{margin: 37px 0 33px; }
 
 
 /*-- media css starts here --*/
@@ -27,4 +28,5 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .subscribe-page-desktop{display: none;}
     .subscribe-page-mobile{display: block; padding: 40px 30px 58px;}
+    .subscribe-page-form{padding: 30px 33px 32px 31px; }
 }

@@ -38,7 +38,7 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 35px 0 35px 53px; font-size: 0.875rem; line-height: 1.375rem; font-weight: 400;}
+ul {list-style: none; margin: 35px 0 35px 53px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 19px;}
 ul > li::before{content: " "; position: absolute; top: 8px; left: -23px; background-color: var(--copperplate-color); width: 5px; height: 5px; border-radius: 50%; }
 li > ul {margin: 25px 0 26px 25px;}

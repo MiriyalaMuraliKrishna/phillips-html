@@ -2,7 +2,7 @@
 .events-slider-section{background-color: #f8f4f2; }
 .events-slider-wrap{padding: 148px 0 308px; }
 .events-slider-heading{margin-bottom: 37px; }
-.events-slider-title h2{margin: 0; }
+.events-slider-heading h2{margin: 0; }
 .events-slider-btn .button{min-width: 165px}
 .events-slide-category{position: absolute; top: 22px; left: 0; gap: 10px;}
 .events-slide-category .button{padding: 10px 11px 9px; font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; text-transform: uppercase; min-width: auto;}
@@ -15,13 +15,35 @@ ul.news-slick-dots li.slick-active button::before{background: var(--copperplate-
 ul.news-slick-dots li.slick-active button::after {border: 1px solid var(--text-color);}
 ul.news-slick-dots li button::before {background-color: var(--text-color);}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .events-slider-title{flex-basis: 50%; }
-    .events-slider-btn{flex-basis: 50%; justify-content: flex-end; align-items: end; }
+    .events-slider-heading{width: calc(100% - 500px); }
+    .events-slider-btn{position: absolute; top: 0; right: 0; }
     .events-slider-row{gap: 22px; grid-template-columns: repeat(3, 1fr);}
     .news-event-slider.slick-slider{display: block; width: 100vw;}
     .news-event-slider .events-slide-list{margin-right: 21px; width: 386px;}
     ul.news-slick-dots{right: 0; top: -74px; width: 100vw; max-width: 1040px; align-items: flex-end; justify-content: flex-end; padding-right: 37px;} 
     .events-slide-text h4{max-width: 300px; margin: 0; }
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px){
+    .events-slide-list{max-width: 344px; margin-right: 20px;}
+    .events-slider-btn{text-align: center;}
+    .events-slider-row ul.slick-dots{bottom: -93px; }
+
+}
+
+
+@media only screen and (max-width: 767px) and (min-width:200px){
+    .events-slider-wrap{padding: 58px 0 61px; }
+    .events-slide-list{max-width: 327px; margin: 0 20px 4px 0;}
+    .events-slider-heading{margin-bottom: 31px; }
+    .events-slider-heading h2{font-size: 28px; text-align: center; }
+    .events-slide-text{text-align: center; }
+    .events-slider-btn{text-align: center;}
+    .events-slider-row ul.slick-dots{bottom: -93px; }
+    .events-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 75px; }
+    .events-view-btn .right-icon{margin-left: 10px; }
+
 }

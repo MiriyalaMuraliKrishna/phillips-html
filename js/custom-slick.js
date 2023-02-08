@@ -37,6 +37,7 @@ $(document).ready(function() {
                     settings: {
                     vertical: false,
                     autoplay: false,
+                    slidesToShow: 2,
                 }
             }
         ]

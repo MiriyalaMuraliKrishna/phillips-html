@@ -1,4 +1,9 @@
 
+/* Banner section */
+.orphan-landing-page .common-banner-desc .btn-transparent{border: 1px solid #ebb89c; }
+.orphan-landing-page .common-banner-desc .btn-transparent:hover{border: 1px solid var(--text-color); }
+
+
 .orphan-landing-section{background-color: #f8f4f2; z-index: 1;}
 .orphan-landing-section::before{content: ""; position: absolute; width: 100%; height: 1274px; background-color: #f0eae7; bottom: 0; z-index: -1; }
 .orphan-landing-wrap{padding: 0 0 51px; }
@@ -14,7 +19,7 @@
 
 
 /* FAQ section */
-.orphan-landing-page .faq-wrap{padding: 0 0 246px; }
+.orphan-landing-page .faq-wrap{padding: 124px 0 81px; }
 .orphan-landing-page .insight-featured-section{background-image: url("../images/insight-bg-two@2x.jpg");}
 
 /* News & events section */
@@ -25,21 +30,18 @@
 .orphan-landing-page .custom-cta-wrap{padding: 0;}
 .orphan-landing-page .custom-cta-main{position: absolute; top: -232px;}
 
-
-
-
-
-
-
-
-
-
-
 .orphan-landing-page .cta-panel-section{ margin-top: 0; padding: 28px 0 109px; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .orphan-landing-content{width: 708px; margin-right: 104px; }
     .orphan-landing-form{width: calc(100% - 812px); }
+
+}
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .orphan-landing-content{width: 640px; margin-right: 40px; }
+    .orphan-landing-form{width: calc(100% - 680px); }
+    .orphan-landing-inner{padding: 50px 30px 45px; }
 
 }

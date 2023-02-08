@@ -4,6 +4,7 @@
 .banner-icon{margin-right: 10px; width: 14px;}
 .common-banner-dates-item span{font-size: 14px; line-height: 1.79; color: var(--white-90); display: inline-block;}
 .common-banner-location span{font-size: 14px; line-height: 1.79; color: var(--white-90);}
+.location-text{width: calc(100% - 24px); }
 
 
 .news-events-default-section{background-color: #f8f4f2; }
