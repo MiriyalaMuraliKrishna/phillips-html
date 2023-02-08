@@ -70,23 +70,27 @@ $(document).ready(function() {
     }
 
     $('.timeline-slider-for').slick({
+        centerMode: true,
+        centerPadding: '278px',
+        dots: false,
+        infinity: false,
+        speed: 300,
+        arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
-        dots: false,
-        arrows: false,
-        asNavFor: '.timeline-slider-for',
+        focusOnSelect: true,
+        asNavFor: '.timeline-slider-nav',
     });
     $('.timeline-slider-nav').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
-        asNavFor: '.timeline-slider-for',
         arrows: true,
-        prevArrow: '<span class="slick-arrow prev-arrow fa-light fa-angle-left flex flex-center"></span>',
-        nextArrow: '<span class="slick-arrow next-arrow fa-light fa-angle-right flex flex-center"></span>',
         autoplay: false,
-        autoplaySpeed: 2000,
+        draggable: false,
+        asNavFor: '.timeline-slider-for',
     });
+
+
     $('.community-event-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -155,5 +159,5 @@ $(document).ready(function() {
     if (typeof $presentersContainer1 !== "undefined" && $presentersContainer1.length > 0){
         $presentersContainer1.addClass('news-slick-dots');
     }
-    
+
 });
