@@ -9,8 +9,13 @@
 .logo-slider-item:hover .logo-slider-thumb img{opacity: 1;}
 .logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 0.6;}
 
-
+/*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .logo-slider-item{width: 15%;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .logo-slider-item{width: 31.55%;}
 
 }

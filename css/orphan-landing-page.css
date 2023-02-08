@@ -46,5 +46,10 @@
 
 }
 
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .orphan-landing-content{width: 100%; }
+    .orphan-landing-form{width: 100%; }
+    .orphan-landing-page .events-slider-wrap{padding: 80px 0 100px; }
+    .orphan-landing-page .custom-cta-main{position: relative; top: 0; }
 
-.buffalo-team .slick-list{height: 400px; padding: 37px 0px; }
+}

@@ -180,7 +180,15 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.buffalo-slider-for'
+        asNavFor: '.buffalo-slider-for',
+        responsive: [
+            {
+            breakpoint: 1024,
+                settings: {
+                    arrows: true,
+                }
+            },
+        ]
     });
 
 

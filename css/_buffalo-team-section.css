@@ -3,7 +3,7 @@
 .buffalo-team-wrap{padding: 73px 0 112px; }
 .buffalo-team-heading{margin-bottom: 80px; }
 
-.buffalo-team{margin: 0 57px 0 0; width: 350px; }
+.buffalo-team-main{margin: 0 57px 0 0; width: 350px; }
 .buffalo-team-item{padding: 15px 23px 14px;}
 .buffalo-team-item:hover{background-color: var(--copperplate-color); }
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
@@ -11,6 +11,8 @@
 .buffalo-text .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 0;}
 .buffalo-team-item:hover .buffalo-text .optional-tex{background-color: var(--white); }
 .buffalo-text span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 1.79; }
+.buffalo-text span a{color: rgba(0, 0, 0, 0.7); }
+.buffalo-team-item:hover .buffalo-text span a{color: var(--white); transition: none;}
 .buffalo-team-item:hover .buffalo-text span{color: var(--white-90);}
 .buffalo-text{width: calc(100% - 81px); }
 .buffalo-team-btn{margin-top: 40px;}
@@ -21,7 +23,36 @@
 .buffalo-team-image{width: 387px; height: 491px; }
 .buffalo-team-text{width: calc(100% - 387px); align-items: center;}
 .buffalo-team-inner{background-color: var(--copperplate-color); padding: 61px 46px 63px 68px;}
+.buffalo-team-inner img{width: 23px; height: 19px; margin-left: -28px; }
 .buffalo-team-inner p{font-size: 16px; font-style: italic; line-height: 1.75; color: var(--white-90); margin-bottom: 38px;}
 .buffalo-team-name{margin-bottom: 24px; }
 .buffalo-team-name .optional-text{color: var(--white-90); line-height: 0.9; margin-bottom: 0; }
 .buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 1.79; }
+.buffalo-team-inner .button{border: solid 1px #ebb89c; }
+.buffalo-team-inner .button:hover{border: solid 1px var(--text-color); }
+
+.buffalo-team .slick-arrow.next-arrow{top: 60%; left: -48px; transform: rotateZ(90deg); width: 15px; height: 25px; color: var(--copperplate-color); background: transparent; }
+.buffalo-team .slick-arrow.prev-arrow{top: 47%; left: -48px; transform: rotateZ(90deg); width: 15px; height: 25px; color: var(--copperplate-color); background: transparent; }
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .buffalo-team-main{margin: 0 30px 0 0; width: 300px; }
+    .buffalo-team-content{width: calc(100% - 330px); }
+    .buffalo-team-image{width: 357px; height: 461px; }
+    .buffalo-team-text{width: calc(100% - 357px); }
+    .buffalo-team-inner{padding: 40px 25px; }
+    .buffalo-team-inner img{margin-left: -10px; }
+    .buffalo-team .slick-arrow.next-arrow, .buffalo-team .slick-arrow.prev-arrow{left: 0;}
+
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .buffalo-team-main{display: none; }
+    .buffalo-team-content{width: 100%;}
+    .buffalo-team-content .slick-track{width: 100% !important;}
+    .buffalo-nav-slide{width: 100% !important; }
+    .buffalo-team-list{flex-direction: column; }
+    .buffalo-team-text{width: 100%;}
+}

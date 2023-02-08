@@ -29,3 +29,11 @@
     .sub-topic-content{width: 540px; margin-right: 80px; }
     .sub-topic-image{width: calc(100% - 620px); }
 }
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .sub-topic-wrap{padding: 80px 0; }
+    .sub-topic-heading{margin-bottom: 50px; }
+    .sub-topic-content{width: 100%; margin-bottom: 70px; }
+    .sub-topic-image{margin-left: 50px; }
+
+}
