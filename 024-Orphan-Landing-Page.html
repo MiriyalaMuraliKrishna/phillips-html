@@ -644,12 +644,14 @@
     <div class="container">
         <div class="micro-cta-wrap">
             <div class="micro-cta-main pos-relative">
-                <div class="micro-cta-image">
-                    <div class="micro-cta-thumb hide-mobile" style="background-image: url('images/micro-cta@2x.jpg');"></div>
-                    <div class="micro-cta-thumb hide-tablet hide-desktop" style="background-image: url('images/micro-cta-mobile@2x.jpg');"></div>
+                <div class="micro-cta-image pos-relative">
+                    <picture class="micro-cta-thumb object-fit">
+                        <source srcset="images/micro-cta@2x.jpg" media="(min-width: 768px)">
+                        <img src="images/micro-cta-mobile@2x.jpg" alt="micro-cta-mobile">
+                    </picture>
                 </div>
-                <div class="micrco-cta-content">
-                    <span class="optional-text">micro cta panel</span>
+                <div class="micrco-cta-text">
+                    <span class="micrco-cta-optional optional-text">micro cta panel</span>
                     <h3>Ask a question the user aims to solve on this page?</h3>
                     <a href="#" class="button">Learn More</a>
                 </div>
