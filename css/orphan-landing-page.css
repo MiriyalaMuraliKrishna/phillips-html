@@ -86,8 +86,14 @@
     .orphan-landing-page .sub-topic-heading{margin-bottom: 30px; }
     .orphan-landing-page .sub-topic-thumb::before{content: ""; position: absolute; width: 100%; height: 100%;}
     .orphan-landing-page .sub-topic-thumb img{max-width: 288px; }
-    .orphan-landing-page .sub-topic-content{margin-bottom: 83px; }
+    .orphan-landing-page .sub-topic-content{margin-bottom: 83px; width: 100%;}
     .orphan-landing-page .sub-topic-image{margin: 0 auto; }
+
+    .orphan-landing-page .micro-cta-wrap{padding: 56px 0; }
+
+    .orphan-landing-page .faq-wrap{padding: 40px 0; }
+
+    .orphan-landing-page .cta-panel-section{padding: 16px 0 56px; }
     
 
 }
