@@ -33,6 +33,11 @@ $(document).ready(function(){
 });
 
 // mobileMenu starts here
+$("ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children > a").on("click", function(event){
+    event.preventDefault();
+    $('ul.main_menu > li.expertise-nav-item > ul').toggleClass('expertise-submenu');
+});
+
 let mobileMenu = function(){
     if($(window).width() <= 1023){
         $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
