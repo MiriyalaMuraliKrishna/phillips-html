@@ -13,3 +13,7 @@
     .short-headline-heading{width: 387px; margin-right: 101px; }
     .short-headline-content{width: calc(100% - 488px); }
 }
+
+@media only screen and (min-width: 767px) and (min-width:200px){
+
+}

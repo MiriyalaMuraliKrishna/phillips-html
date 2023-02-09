@@ -47,12 +47,20 @@
 
 }
 
-
 @media only screen and (max-width: 1023px) and (min-width: 200px){
+    .buffalo-team-slider{display: block;}
     .buffalo-team-main{display: none; }
     .buffalo-team-content{width: 100%;}
-    .buffalo-team-content .slick-track{width: 100% !important;}
-    .buffalo-nav-slide{width: 100% !important; }
-    .buffalo-team-list{flex-direction: column; }
-    .buffalo-team-text{width: 100%;}
+    .buffalo-team-list{display: block; }
+    .buffalo-team-image{width: 248px; height: 314px; margin: 0 auto; }
+    .buffalo-team-inner{padding: 151px 15px 41px 25px; }
+    .buffalo-team-inner img{margin: 0 0 13px 7px; }
+    .buffalo-team-text{width: 100%; display: block; margin-top: -130px;}
+    .buffalo-team-inner p{margin-bottom: 17px; }
+    .buffalo-team-name{margin-bottom: 19px; }
+    .buffalo-team-content .slick-dots{margin: 17px 0; position: relative;}
+    .buffalo-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 32px; }
+    .buffalo-view-btn .right-icon{margin-left: 10px; }
 }
+
+

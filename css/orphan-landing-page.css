@@ -53,3 +53,18 @@
     .orphan-landing-page .custom-cta-main{position: relative; top: 0; }
 
 }
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .orphan-landing-page .download-print-main{padding: 10px 0; margin-bottom: 40px;}
+    .orphan-landing-page .download-print{justify-content: center; margin-bottom: 0;}
+    .orphan-landing-page .logo-slider-wrap{padding: 17px 0 57px; }
+    .orphan-landing-page .logo-slider-section h5{margin-bottom: 21px; }
+    .orphan-landing-page .logo-slider-main{gap: 7px; justify-content: center; }        
+    .orphan-landing-page .logo-slider-item{width: 160px; height: 105px;}
+    .orphan-landing-content h2{font-size: 30px; line-height: 1.27; }
+    .orphan-landing-content h3{font-size: 26px; line-height: 1.15; }
+    .orphan-landing-content .extramargin{margin-bottom: 60px; }
+    .orphan-landing-content ol, .orphan-landing-content ul{margin: 48px 0 33px 25px; }
+
+}
+
