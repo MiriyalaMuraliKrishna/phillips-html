@@ -201,14 +201,14 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
     .container{max-width: 100%; padding: 0 32px;}
 }
 @media only screen and (min-width: 1024px){
-    .hide-in-desktop{display: none!important;}
+    .hide-desktop{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .hide-in-tab{display: none!important;}
+    .hide-tablet{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .container{max-width: 100%; padding: 0 24px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .hide-in-mobile{display: none!important;}
+    .hide-mobile{display: none;}
 }
