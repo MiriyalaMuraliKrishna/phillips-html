@@ -154,7 +154,7 @@
                         <li>Consonantia, there live the blind texts.</li>
                     </ul>
                 </div>
-                <div class="orphan-landing-form">
+                <div class="orphan-landing-form hide-tablet hide-mobile">
                     <div class="orphan-landing-inner">
                         <h4>Request a Call</h4>
                         <p>This is a sample quick connect form to drive conversions from key pages that are most engaging for users.</p>
@@ -535,7 +535,12 @@
                 </div>
                 <a href="#" class="hide-desktop hide-tablet events-view-btn">View All<span class="fa-regular fa-arrow-right right-icon"></span></a>
             </div>
+            <figure class="breakpoint-thumb pos-relative hide-desktop hide-tablet">
+                <img src="images/small-logo.svg" alt="small-logo">
+            </figure>
         </div>
+
+        
 
 
         <div class="custom-cta-wrap pos-relative">
@@ -557,11 +562,12 @@
     </div>
 </section>
 
-<section class="sub-topic-section">
+<section class="sub-topic-section pos-relative">
     <div class="container">
         <div class="sub-topic-wrap">
             <div class="sub-topic-heading aligncenter">
                 <h3>Sub Topics</h3>
+                <hr class="small aligncenter">
                 <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large language ocean and many more stuff and more more more.</p>
             </div>
             <div class="sub-topic-main flex">
@@ -624,9 +630,10 @@
                     </div>
                 </div>
                 <div class="sub-topic-image">
-                    <figure class="sub-topic-thumb pos-relative flex">
-                        <img src="images/sub-topic-thumb@2x.jpg" alt="sub-topic-thumb">
-                    </figure>
+                    <picture class="sub-topic-thumb pos-relative flex">
+                        <source srcset="images/sub-topic-thumb@2x.jpg" media="(min-width: 768px)"/>
+                        <img src="images/sub-topic-thumb-mobile@2x.jpg" alt="sub-topic-thumb-mobile">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -638,7 +645,8 @@
         <div class="micro-cta-wrap">
             <div class="micro-cta-main pos-relative">
                 <div class="micro-cta-image">
-                    <div style="background-image: url('images/micro-cta@2x.jpg');" class="micro-cta-thumb"></div>
+                    <div class="micro-cta-thumb hide-mobile" style="background-image: url('images/micro-cta@2x.jpg');"></div>
+                    <div class="micro-cta-thumb hide-tablet hide-desktop" style="background-image: url('images/micro-cta-mobile@2x.jpg');"></div>
                 </div>
                 <div class="micrco-cta-content">
                     <span class="optional-text">micro cta panel</span>

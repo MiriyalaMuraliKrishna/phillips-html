@@ -110,8 +110,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-.button{min-width: 165px;}
-button, .button{padding: 13px 25px 13px; display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
+button, .button{padding: 13px 25px 13px; min-width: 165px;  display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
 button:hover, .button:hover{ background-color:var(--text-color); color: var(--white);}
 .btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--btn-color);}
 .btn-transparent:hover{background-color: var(--text-color); border-color: var(--text-color);}
@@ -156,7 +155,7 @@ span.optional-text.small{font-size: 15px; line-height: 18px; margin-bottom: 5px;
 figure.object-fit{width: 100%; height: 100%; display: block;}
 picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
-img{ -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto; }
+img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; }
 .play-btn{width: 80px; height: 80px; z-index: 1;}
@@ -212,4 +211,8 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .hide-mobile{display: none;}
+
+    .breakpoint-thumb{width: 100%;}
+    .breakpoint-thumb::before{width: 38%;}
+    .breakpoint-thumb::after{width: 38%;}
 }

@@ -23,14 +23,18 @@
 .orphan-landing-page .insight-featured-section{background-image: url("../images/insight-bg-two@2x.jpg");}
 
 /* News & events section */
-.orphan-landing-page .events-slider-section{background-color: #f8f4f2; }
-.orphan-landing-page .events-slider-wrap { padding: 146px 0 371px; }
+.orphan-landing-page .events-slider-section{background-color: var(--gray-color); }
+.orphan-landing-page .events-slider-wrap { padding: 146px 0 140px; }
 
 /* Custom CTA section */
-.orphan-landing-page .custom-cta-wrap{padding: 0;}
-.orphan-landing-page .custom-cta-main{position: absolute; top: -232px;}
+.orphan-landing-page .custom-cta-wrap{padding: 0; z-index: 1;}
 
 .orphan-landing-page .cta-panel-section{ margin-top: 0; padding: 28px 0 109px; }
+
+/* Sub topic */
+.orphan-landing-page .sub-topic-section::before{content: ""; position: absolute; width: 100%; height: 232px; background-color: #f0eae7; top: -232px; }
+.orphan-landing-page .sub-topic-heading h3{margin-bottom: 15px; }
+.orphan-landing-page .sub-topic-heading .small{margin-bottom: 15px; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -55,6 +59,7 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .orphan-landing-wrap{padding: 0 0 19px; }
     .orphan-landing-page .download-print-main{padding: 10px 0; margin-bottom: 40px;}
     .orphan-landing-page .download-print{justify-content: center; margin-bottom: 0;}
     .orphan-landing-page .logo-slider-wrap{padding: 17px 0 57px; }
@@ -64,7 +69,26 @@
     .orphan-landing-content h2{font-size: 30px; line-height: 1.27; }
     .orphan-landing-content h3{font-size: 26px; line-height: 1.15; }
     .orphan-landing-content .extramargin{margin-bottom: 60px; }
-    .orphan-landing-content ol, .orphan-landing-content ul{margin: 48px 0 33px 25px; }
+    .orphan-landing-content ol{margin: 48px 0 33px 25px; }
+    .orphan-landing-content ul{margin: 37px 0 33px 25px; }
+    .orphan-landing-page .video-sec{margin: 29px 0 31px; }
+
+    .orphan-landing-page .buffalo-team-wrap{padding: 51px 0 112px; }
+    .orphan-landing-page .buffalo-team-heading{margin-bottom: 31px; }
+
+    .orphan-landing-page .insight-featured-section{background-image: url("../images/insight-bg-two-mobile@2x.jpg"); }
+
+    .orphan-landing-page .events-slider-wrap {padding: 56px 0 0; }
+    .orphan-landing-page .breakpoint-thumb{margin: 43px auto 32px;}
+
+    .orphan-landing-page .sub-topic-section::before{height: 483px; top: -483px; }
+    .orphan-landing-page .sub-topic-wrap{padding: 91px 0 55px; }
+    .orphan-landing-page .sub-topic-heading{margin-bottom: 30px; }
+    .orphan-landing-page .sub-topic-thumb::before{content: ""; position: absolute; width: 100%; height: 100%;}
+    .orphan-landing-page .sub-topic-thumb img{max-width: 288px; }
+    .orphan-landing-page .sub-topic-content{margin-bottom: 83px; }
+    .orphan-landing-page .sub-topic-image{margin: 0 auto; }
+    
 
 }
 
