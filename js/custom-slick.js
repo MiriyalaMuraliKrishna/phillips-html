@@ -147,8 +147,8 @@ if($(window).width() >= 1024){
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
-        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
+        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-up flex flex-center"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-down flex flex-center"></span></div>',
         focusOnSelect: true,
         vertical: true,
         verticalSwiping: true,
@@ -171,6 +171,17 @@ if($(window).width() <= 1023){
         dots: true,
         infinity: true,
         focusOnSelect: true,
+    });
+}
+if($(window).width() <= 1023){
+    $('.partner-organization-slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        infinity: false,
+        focusOnSelect: true,
+        variableWidth: true,
     });
 }
 

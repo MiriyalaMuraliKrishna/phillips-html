@@ -31,19 +31,22 @@
 .buffalo-team-inner .button{border: solid 1px #ebb89c; }
 .buffalo-team-inner .button:hover{border: solid 1px var(--text-color); }
 
-.buffalo-team .slick-arrow{top: 60%; left: -48px; transform: rotateZ(90deg); width: 15px; height: 25px; margin: 0;}
-.buffalo-team .slick-arrow.slick-prev{top: 47%; left: -48px; transform: rotateZ(90deg);}
+.buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 15px; height: 25px; margin: 0;}
+.buffalo-team .slick-arrow.slick-prev{top: calc(50% - 22px);}
 .buffalo-team .slick-btn{color: var(--copperplate-color); background-color: transparent; width: auto; height: auto;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .buffalo-team-wrap{padding-left: 45px;}
-    .buffalo-team-main{margin: 0 30px 0 0; width: 300px; }
-    .buffalo-team-content{width: calc(100% - 330px); }
+    .buffalo-team-main{margin: 0 30px 0 0; width: 220px; }
+    .buffalo-team-content{width: calc(100% - 250px); }
     .buffalo-team-image{width: 357px;}
+    .buffalo-sm-image{display: none; }
+    .buffalo-text { width: 100%; }
     .buffalo-team-text{width: calc(100% - 357px); }
     .buffalo-team-inner{padding: 40px 25px; }
     .buffalo-team-inner img{margin-left: -10px; }
+    .buffalo-team .slick-arrow{left: -46px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .buffalo-team-slider{display: block;}

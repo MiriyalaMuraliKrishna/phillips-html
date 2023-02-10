@@ -11,3 +11,10 @@ ul.banner-icons > li > a::before{content: ""; position: absolute; width: 100%; h
 ul.banner-icons > li > a:hover::before{background-color: var(--btn-light-color); border-color: var(--btn-light-color); opacity: 1;}
 
 
+/*-- media css starts here --*/
+@media only screen and (max-width:767px) and (min-width:200px){
+    .default-banner-main{padding: 218px 0 140px;}
+    .default-banner-main h1{font-size: 33px; line-height: 1.27; margin-bottom: 18px;}
+    .default-banner-main p{margin-bottom: 24px; }
+
+}

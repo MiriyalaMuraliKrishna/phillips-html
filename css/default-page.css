@@ -11,7 +11,7 @@
 /* Sub topic section */
 .default-page .sub-topic-section{background-color: #f8f4f2; }
 .default-page .sub-topic-wrap{padding: 106px 0 107px; }
-.default-page .sub-topic-heading h2{margin-bottom: 31px; }
+.default-page .sub-topic-heading h2{margin-bottom: 23px; }
 
 /* cta panel section */
 .default-page .cta-panel-section{background-color: #f0eae7; margin-top: 0; padding: 109px 0 112px; }
@@ -24,7 +24,7 @@
 
 .partner-organization-main{gap: 22px; }
 .partner-organization-list{flex-basis: 23.59%; border: solid 1px rgba(174, 174, 174, 0.5); min-height: 183px;}
-.partner-organization-thumb img{max-width: 155px; max-height: 155px; opacity: 0.6; filter: saturate(0);}
+.partner-organization-thumb img{max-width: 155px; /*max-height: 155px;*/ opacity: 0.6; filter: saturate(0);}
 .partner-organization-list:hover .partner-organization-thumb img{opacity: 1; filter: saturate(1);}
 
 /* Events slider section */
@@ -33,3 +33,30 @@
 /* custom cta section */
 .custom-cta-section{background-color: #f0eae7; }
 .custom-cta-wrap{padding: 110px 0 111px; }
+
+/*-- media css starts here --*/
+@media only screen and (max-width:1299px) and (min-width:1024px){
+    .partner-organization-list{flex-basis: 23.25%;}
+}
+
+@media only screen and (max-width:767px) and (min-width:200px){
+    .general-default-section::before{height: 1886px;}
+    .default-page .download-print-main{padding: 11px 0 20px; justify-content: center; margin-bottom: 23px;}
+    .default-page .download-print{justify-content: center;}
+
+    .general-default-wrap{padding: 0 0 10px; }
+    .general-default-wrap h2{font-size: 30px;}
+    .general-default-wrap h3{font-size: 26px; }
+    .default-page .video-sec{margin: 35px 0 30px; }
+    .default-page .micro-cta-wrap{padding: 10px 0 32px; }
+
+    .default-page .sub-topic-wrap{padding: 50px 0 56px; }
+
+    .default-page .cta-panel-section{padding: 56px 0; }
+
+    .partner-organization-heading{width: 100%; margin-bottom: 38px;}
+    .partner-organization-heading h2{font-size: 30px; margin-bottom: 20px; }
+    .partner-organization-main{gap: 9px; }
+    .partner-organization-list{width: 159px; flex-basis: auto; min-height: 100%;}
+    .partner-organization-thumb img{max-width: 108px;}
+}
