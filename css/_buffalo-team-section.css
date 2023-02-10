@@ -20,7 +20,7 @@
 
 
 .buffalo-team-content{width: calc(100% - 407px); }
-.buffalo-team-image{width: 387px; height: 491px; }
+.buffalo-team-image{width: 387px; }
 .buffalo-team-text{width: calc(100% - 387px); align-items: center;}
 .buffalo-team-inner{background-color: var(--copperplate-color); padding: 61px 46px 63px 68px;}
 .buffalo-team-inner img{width: 23px; height: 19px; margin-left: -28px; }
@@ -31,28 +31,26 @@
 .buffalo-team-inner .button{border: solid 1px #ebb89c; }
 .buffalo-team-inner .button:hover{border: solid 1px var(--text-color); }
 
-.buffalo-team .slick-arrow.next-arrow{top: 60%; left: -48px; transform: rotateZ(90deg); width: 15px; height: 25px; color: var(--copperplate-color); background: transparent; }
-.buffalo-team .slick-arrow.prev-arrow{top: 47%; left: -48px; transform: rotateZ(90deg); width: 15px; height: 25px; color: var(--copperplate-color); background: transparent; }
-
+.buffalo-team .slick-arrow{top: 60%; left: -48px; transform: rotateZ(90deg); width: 15px; height: 25px; margin: 0;}
+.buffalo-team .slick-arrow.slick-prev{top: 47%; left: -48px; transform: rotateZ(90deg);}
+.buffalo-team .slick-btn{color: var(--copperplate-color); background-color: transparent; width: auto; height: auto;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .buffalo-team-wrap{padding-left: 45px;}
     .buffalo-team-main{margin: 0 30px 0 0; width: 300px; }
     .buffalo-team-content{width: calc(100% - 330px); }
-    .buffalo-team-image{width: 357px; height: 461px; }
+    .buffalo-team-image{width: 357px;}
     .buffalo-team-text{width: calc(100% - 357px); }
     .buffalo-team-inner{padding: 40px 25px; }
     .buffalo-team-inner img{margin-left: -10px; }
-    .buffalo-team .slick-arrow.next-arrow, .buffalo-team .slick-arrow.prev-arrow{left: 0;}
-
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .buffalo-team-slider{display: block;}
     .buffalo-team-main{display: none; }
     .buffalo-team-content{width: 100%;}
     .buffalo-team-list{display: block; }
-    .buffalo-team-image{width: 248px; height: 314px; margin: 0 auto; }
+    .buffalo-team-image{width: 248px; margin: 0 auto; }
     .buffalo-team-inner{padding: 151px 15px 41px 25px; }
     .buffalo-team-inner img{margin: 0 0 13px 7px; }
     .buffalo-team-text{width: 100%; display: block; margin-top: -130px;}
