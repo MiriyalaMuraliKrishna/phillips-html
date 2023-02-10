@@ -48,10 +48,6 @@
 .community-event-text h3 a{color: var(--white);}
 .community-event-text h3 a:hover{color: var(--copperplate-color);}
 
-.community-event-slider .next-arrow{position: absolute; right: 0; top: 50%; transform: translateY(-50%); min-width: inherit; padding: 32px 18px 32px;}
-.community-event-slider .prev-arrow{position: absolute; left: 0; top: 50%; transform: translateY(-50%); min-width: inherit; padding: 32px 18px 32px;}
-
-/* Custom CTA section */
 .news-page .custom-cta-section{background-color: #f0eae7; }
 .news-page .custom-cta-wrap{padding: 111px 0 112px; }
 
