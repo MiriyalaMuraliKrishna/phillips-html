@@ -15,11 +15,18 @@
 .our-office-list:hover .our-office-image::before{background-color:rgba(0, 0, 0, 0.52);}
 .our-office-list:hover .our-office-arrow{display: block;}
 
+.our-office-slider ul.slick-dots li button::before {width: 9px; height: 9px; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 300px; background-color: var(--btn-light-color); content: ""; position: absolute; }
+.our-office-slider ul.slick-dots li.slick-active button::before {width: 13px; height: 13px; background: var(--white); }
+.our-office-slider ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; position: absolute; border: 1px solid var(--btn-light-color); display: block; border-radius: 50%; }
+
+     
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
 	.our-office-title{max-width: 588px; }
     .our-office-row{gap: 19px; grid-template-columns: repeat(4, 1fr);}
     .our-office-slider.slick-slider{display: block; width: 100vw;}
     .our-office-slider .our-office-list{margin-right: 19px; width: 286px;}
-    ul.office-slick-dots{right: 0; top: -74px; width: 100vw; max-width: 1200px; align-items: flex-end; justify-content: flex-end; } 
+    .our-office-slider ul.slick-dots{right: 0; left: 0; top: -74px; width: 100vw; max-width: 1040px; align-items: flex-end; justify-content: flex-end; padding-right: 37px;} 
+     
 }

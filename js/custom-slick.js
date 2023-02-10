@@ -19,10 +19,7 @@ $(document).ready(function() {
                 }
             ]
     });
-    const $dotsContainer = $(".our-office-slider ul.slick-dots");
-    if (typeof $dotsContainer !== "undefined" && $dotsContainer.length > 0){
-        $dotsContainer.addClass('office-slick-dots');
-    }
+
     $('.news-event-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -42,10 +39,7 @@ $(document).ready(function() {
             }
         ]
     });
-    const $newsContainer = $(".news-event-slider ul.slick-dots");
-   if (typeof $newsContainer !== "undefined" && $newsContainer.length > 0){
-      $newsContainer.addClass('news-slick-dots');
-    }
+
     $('.presenters-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -64,10 +58,6 @@ $(document).ready(function() {
             }
         ]
     });
-    const $presentersContainer = $(".presenters-slider ul.slick-dots");
-    if (typeof $presentersContainer !== "undefined" && $presentersContainer.length > 0){
-        $presentersContainer.addClass('news-slick-dots');
-    }
 
     $('.timeline-slider-for').slick({
         centerMode: true,
@@ -120,12 +110,7 @@ $(document).ready(function() {
                 }
         ]
     });
-
-    const $communityContainer = $(".community-event-slider ul.slick-dots");
-    if (typeof $communityContainer !== "undefined" && $communityContainer.length > 0){
-        $communityContainer.addClass('news-slick-dots');
-    }
-    
+  
     $('.careers-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -155,11 +140,6 @@ $(document).ready(function() {
                 }
         ]
     });
-    const $presentersContainer1 = $(".careers-slider ul.slick-dots");
-    if (typeof $presentersContainer1 !== "undefined" && $presentersContainer1.length > 0){
-        $presentersContainer1.addClass('news-slick-dots');
-    }
-
     
 if($(window).width() >= 1024){
   $('.buffalo-slider-for').slick({
@@ -192,10 +172,6 @@ if($(window).width() <= 1023){
         infinity: true,
         focusOnSelect: true,
     });
-    const $buffaloContainer = $(".buffalo-slider-nav ul.slick-dots");
-    if (typeof $buffaloContainer !== "undefined" && $buffaloContainer.length > 0){
-        $buffaloContainer.addClass('news-slick-dots');
-    }
 }
 
 });
