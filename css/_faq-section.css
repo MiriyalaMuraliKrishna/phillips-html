@@ -1,5 +1,8 @@
 
 .faq-section{background-color: #f8f4f2; }
+.faq-wrap {
+	padding: 181px 0 110px;
+}
 .faq-main{z-index: 1;}
 .faq-content{background-image: url("../images/faq-bg@2x.jpg"); background-size: cover; padding: 116px 204px 92px 326px; color: var(--white-90); z-index: -1;}
 .faq-title{margin-bottom: 38px; padding: 0 27px;}
@@ -26,18 +29,14 @@
     .faq-image{width: 35%; transform: translateY(-124px); }
     .faq-content{width: calc(65% + 200px); margin-left: -200px; padding: 116px 204px 92px 250px;}
 }
-
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .faq-main{flex-direction: column; }
     .faq-image{width: 100%; flex: 0 0 100%; transform: none; padding: 0 32px;}
     .faq-content{width: calc(100% + 64px); flex: 0 0 100%; transform: translateX(-32px); padding: 116px 64px 92px;}
-
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .faq-image{padding: 0 24px; }
     .faq-content{padding: 116px 24px 45px; margin-top: -86px;}
     .faq-title { margin-bottom: 38px; padding: 0; }
     .faq-btn { text-align: center; margin-top: 40px; }
-
 }

@@ -27,6 +27,6 @@
     .our-office-row{gap: 19px; grid-template-columns: repeat(4, 1fr);}
     .our-office-slider.slick-slider{display: block; width: 100vw;}
     .our-office-slider .our-office-list{margin-right: 19px; width: 286px;}
-    .our-office-slider ul.slick-dots{right: 0; left: 0; top: -74px; width: 100vw; max-width: 1040px; align-items: flex-end; justify-content: flex-end; padding-right: 37px;} 
+    .our-office-slider ul.slick-dots{right: 0; left: 0; padding: 0; top: -74px; width: 100vw; max-width: 1200px; align-items: flex-end; justify-content: flex-end;} 
      
 }

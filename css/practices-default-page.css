@@ -26,10 +26,7 @@
 
 /* News event section */
 .practices-default-page .events-slider-section{background-color: #f8f4f2; }
-.practices-default-page .events-slider-wrap{padding: 100px 0 126px; }
-
-/* FAQ section */
-.practices-default-page .faq-wrap{padding: 52px 0 221px; }
+.practices-default-page .events-slider-wrap{padding-top: 100px;}
 
 
 /*-- media css starts here --*/
