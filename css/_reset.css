@@ -172,7 +172,6 @@ img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-wi
 .slick-btn{width: 45px; height: 89px; font-size: 2rem; line-height: 2.5rem; background-color: var(--copperplate-color); color: var(--white); cursor: pointer; z-index: 1;}
 .slick-next .slick-btn{margin-left: auto;}
 
-ul.slick-dots{margin: 0; padding: 0; width: auto; left: auto; right: 175px; top: -89px; display: flex; justify-content: center; flex-wrap: wrap; position: absolute;}
 ul.slick-dots li{margin: 0; display: inline-block; font-size: 0; line-height: 0;}
 ul.slick-dots li::before{display: none;}
 ul.slick-dots li button{width: 26px; height: 26px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: none;}
@@ -206,6 +205,8 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 }
 @media only screen and (min-width: 1024px){
     .hide-desktop{display: none;}
+    ul.slick-dots{margin: 0; padding: 0; width: auto; left: auto; right: 175px; top: -89px; display: flex; justify-content: center; flex-wrap: wrap; position: absolute;}
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .hide-tablet{display: none;}
@@ -222,4 +223,7 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 
     ul{margin: 25px 0 39px 24px; }
     ul > li{margin-bottom: 28px; }
+
+    ul.slick-dots{margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; width: 100%;}
+
 }

@@ -38,7 +38,7 @@ $("ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-childr
     $('ul.main_menu > li.expertise-nav-item > ul').toggleClass('expertise-submenu');
 });
 
-let mobileMenu = function(){
+let mobileIpad = function(){
     if($(window).width() <= 1023){
         $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
           event.preventDefault();
@@ -57,10 +57,6 @@ let mobileMenu = function(){
         });
     }
 }
-$(window).resize(function () {
-   mobileMenu();
-});
+$(window).resize(function () { mobileIpad(); });
+$(document).on('ready', function () { mobileIpad(); });
 
-$(document).on('ready', function () {
-    mobileMenu();
-});
