@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
     $('.toggle_icon').on('click', function(e){
         e.preventDefault();
-        $('.main-header').toggleClass('open').addClass('fixed_header');
+        $('.main-header').toggleClass('header_mobile');
         $(this).toggleClass('active');
         $('.navigation').toggleClass('open');
     });

@@ -10,12 +10,10 @@
 .news-events-default-section{background-color: #f8f4f2; }
 .news-events-default-wrap{padding: 0 0 43px; }
 .download-print-main{justify-content: space-between; padding: 26px 0;}
-.social-media .social-icons{margin: 0; }
 .download-print{flex-basis: 50%; align-items: center; }
 .download-print-text{font-size: 16px; font-weight: 600; margin-left: 34px; }
 .download-print-text:first-child{margin-left: 0; }
 .download-print-text .icon{font-size: 18px; margin-right: 8px; opacity: 0.8; }
-.social-icons .text{font-size: 13px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center;}
 
 .news-events-default-main{max-width: 1188px; margin: 0 auto; }
 .video-sec{margin: 60px 0 65px; }
