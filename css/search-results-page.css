@@ -2,7 +2,7 @@
 .search-results-main{padding: 88px 0 42px;}
 .search-feild{margin-bottom: 18px;}
 .search-text-feild{flex: 1;}
-input.search{background-color: var(--white); padding: 19px 133px 17px 30px; border-radius: 0; font-size: 20px; line-height: 1.6; font-family: lora, serif;}
+input.search{background-color: var(--white); padding: 19px 133px 17px 30px; border-radius: 0; font-size: 20px; line-height: 1.6; font-family: 'Lora', serif;}
 .srch-clear{position: absolute; right: 25px; color: var(--copperplate-color); font-size: 16px; font-weight: 500; line-height: 1.75; opacity: 0.9; text-align: center; top: 50%; transform: translateY(-50%); width: 66px; text-transform: uppercase; justify-content: space-between; align-items: center;}
 input.search-btn{width: 146px; background: #9c5f3d; padding: 20px 40px 20px 41px; font-size: 16px; font-weight: 500; line-height: 1.75; margin-left: 2px;}
 .srch-txt{ color: #f0eae7;}

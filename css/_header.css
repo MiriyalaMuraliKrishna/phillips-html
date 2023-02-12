@@ -95,21 +95,42 @@
     .header_srch.open input:not(input[type="submit"]){opacity: 1;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .header{padding: 12px 23px 10px; position: relative;}
-    .logo{width: 170px; margin-left: 56px;}
+    .main-header.open{background-color: var(--white);}
+    .header{padding: 12px 23px 10px;}
+    .logo{width: 170px; margin-left: 56px; position: relative; z-index: 850;}
 
-    .toggle_icon{width: 27px; height: 23px; left: 0; top: 23px; cursor: pointer; position: absolute; z-index: 1; transition: color 0.3s ease-in-out;}
-    .toggle_bar{width: 100%; height: 100%; background-image: url("../images/toggle-icon-black.svg"); background-repeat: no-repeat; display: block;}
+    .toggle_icon{width: 74px; height: 65px; left: 0; top: 0; cursor: pointer; position: absolute; z-index: 850; transition: color 0.3s ease-in-out;}
+    .toggle_icon.active{background-color: var(--copperplate-color);}
+    .toggle_bar{width: 100%; height: 100%; background-image: url("../images/toggle-icon-black.svg"); background-position: center; background-repeat: no-repeat; display: block;}
     .sticky_header:not(.fixed_header) .toggle_bar{background-image: url('../images/toggle-icon-white.svg');}
 
-    .navigation{left: -100%; top: 0; width: 100%; height: 100%; margin-top: 65px; max-width: 408px; border-top: 1px solid red; background-color: var(--white); display: block; position: fixed; z-index: 800; overflow-y: scroll; -webkit-overflow-scrolling: touch; transition: all 0.3s ease-in-out;}
+    .navigation{left: -100%; top: 0; width: 100%; height: 100%; margin-top: 65px; max-width: 408px; background-color: var(--white); display: block; position: fixed; z-index: 800; overflow-y: scroll; -webkit-overflow-scrolling: touch; transition: all 0.3s ease-in-out;}
     .navigation.open{left: 0;}
     ul.main_menu{display: block; margin: 0;}
-    ul.main_menu li:before{display: none;}
-    ul.main_menu > li{margin: 0; border-bottom: 1px solid var(--text-color);}
-    ul.main_menu > li > a{padding: 10px; color: var(--text-color);}
+    ul.main_menu > li{margin: 0;}
+    ul.main_menu li::before{display: none;}
+    ul.main_menu > li:before{width: 100%; height: 1px; left: 0; right: 0; top: 0; bottom: auto; background-color: var(--text-color); opacity: 0.1; border-radius: 0; display: block;}
+    ul.main_menu > li.sib{opacity: 0;}
+    ul.main_menu > li > a{padding: 20px 24px 21px 31px; font-size: 20px; line-height: 30px; color: var(--text-color); display: block; font-family: 'Lora', serif; position: relative;}
+    ul.main_menu > li > a::after{right: 24px; top: 50%;transform: translateY(-50%); content: "\f105"; font-family: "Font Awesome 6 Pro"; position: absolute;}
+    ul.main_menu > li > a.active::after{color: var(--copperplate-color); content: "\f00d";}
+    ul.main_menu > li > a.active{box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.04);}
     ul.main_menu > li > a:hover{color: var(--copperplate-color);}
+    ul.main_menu > li > ul{display: none; margin: 0; padding: 14px 31px;}
+    ul.main_menu > li > ul > li{margin-bottom: 0;}
+    ul.main_menu > li > ul > li > a{font-size: 20px; line-height: 32px; color: var(--text-color); display: block;}
+    ul.main_menu > li > ul > li > a::after{width: 36px; height: 2px; content: ""; background-color: var(--btn-color); display: block;}
+    ul.main_menu > li > ul > li > ul{margin: 0; display: block;}
+    ul.main_menu > li > ul > li > ul > li{margin: 0;}
+    ul.main_menu > li > ul > li > ul > li > a{font-size: 16px; line-height: 40px; font-weight: 500; color: var(--text-color); display: block; position: relative;}
+    ul.main_menu > li > ul > li > ul > li.menu-item-has-children > a::after{right: 0px; top: 50%;transform: translateY(-50%); content: "\f105"; font-family: "Font Awesome 6 Pro"; position: absolute;}
+    ul.main_menu > li > ul > li > ul > li > ul{margin: 0; padding: 10px; display: none;}
+    ul.main_menu > li > ul > li > ul > li > ul > li{margin: 0;}
+    ul.main_menu > li > ul > li > ul > li > ul > li > a{display: block; color: var(--text-color);}
 
+    .nav-thumb-main{width: calc(100% + 60px); left: -30px; position: relative;}
+    .nav-thumb-text{bottom: 0; left: 0; padding: 53px 22px; color: var(--white); position: absolute;}
+    .nav-thumb-text span{margin-bottom: 20px; font-size: 26px; line-height: 30px; display: block; font-family: 'Lora', serif;}
 
     .header_srch{position: relative; width: 0; margin-left: auto;}
     .header_srch input:not(input[type="submit"]){padding: 11px 50px 11px 22px; opacity: 0; font-size: 14px; line-height: 1.5; border-radius: 22px; background-color: rgb(151 151 151 / 30%); color: var(--text-color);}

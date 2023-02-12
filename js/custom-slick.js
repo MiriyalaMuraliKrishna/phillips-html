@@ -176,11 +176,10 @@ $(document).ready(function(){
 });
 
 let mobileMedia = function(){
-    if($(window).width() <= 767){
-        
-        var lis = $(".partners-default-list");
-        for(var i = 0; i < lis.length; i+=6) {
-         lis.slice(i, i+6).wrapAll("<div class='partners-row flex'></div>");
+    if($(window).width() <= 767){        
+        let countList = $(".partners-default-list");
+        for(let i=0; i<countList.length; i+=6) {
+            countList.slice(i, i+6).wrapAll("<div class='partners-row flex'></div>");
         }
         $('.partners-default-slider').slick({
             slidesToShow: 1,

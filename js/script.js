@@ -2,7 +2,7 @@ var $ = jQuery.noConflict();
 $(document).ready(function(){
     $(window).on('scroll load', function(){
         var scroll = $(this).scrollTop();
-        if(scroll > 5){
+        if(scroll > 4){
             $('.main-header').addClass('fixed_header');
         }
         else{
@@ -21,6 +21,8 @@ $(document).ready(function(){
     });
     $('.toggle_icon').on('click', function(e){
         e.preventDefault();
+        $('.main-header').toggleClass('open').addClass('fixed_header');
+        $(this).toggleClass('active');
         $('.navigation').toggleClass('open');
     });
     $('.accordion-header').on('click', function(e){
@@ -55,6 +57,7 @@ let mobileIpad = function(){
           $(this).parent().siblings().find('ul.sub-menu').slideUp();
           $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
         });
+
     }
 }
 $(window).resize(function () { mobileIpad(); });
