@@ -60,14 +60,13 @@ $(document).ready(function(){
     });
 
     $('.timeline-slider-for').slick({
-        centerMode: true,
-        centerPadding: '278px',
         dots: false,
         infinity: false,
         speed: 300,
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
+        variableWidth: true,
         focusOnSelect: true,
         asNavFor: '.timeline-slider-nav',
     });
@@ -75,6 +74,8 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
         autoplay: false,
         draggable: false,
         asNavFor: '.timeline-slider-for',
@@ -111,33 +112,33 @@ $(document).ready(function(){
         ]
     });
   
-    $('.careers-slider').slick({
-        slidesToShow: 3,
+    $('.careers-slick-slider').slick({
+        slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '200px',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        variableWidth: true,
         dots: true,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
         nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
-        autoplay: false,
-        autoplaySpeed: 3000,
-        variableWidth: true,
         responsive: [
             {
-            breakpoint: 1024,
+            breakpoint: 1023,
                 settings: {
-                    vertical: false,
-                    autoplay: false,
-                    arrows: false,
+                    centerPadding: '100px',        
+                    variableWidth: false,
                 }
             },
             {
-                breakpoint: 768,
-                    settings: {
-                        vertical: false,
-                        autoplay: false,
-                        arrows: false,
-                    }
+            breakpoint: 767,
+                settings: {
+                    centerPadding: '23px',  
+                    variableWidth: false,
                 }
+            }
         ]
     });
     
