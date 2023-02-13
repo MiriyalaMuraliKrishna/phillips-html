@@ -112,8 +112,14 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 /* Buttons */
 button, .button{padding: 13px 25px 13px; min-width: 165px;  display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); }
 button:hover, .button:hover{ background-color:var(--text-color); color: var(--white);}
-.btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--btn-color);}
-.btn-transparent:hover{background-color: var(--btn-color); border-color: var(--btn-color);}
+.btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--btn-color); position: relative; overflow: hidden; z-index: 1;}
+.btn-transparent:hover{background-color: transparent; border-color: var(--btn-color);}
+.btn-transparent::before, .btn-transparent::after { top: 0; right: 0; bottom: 0; left: 0; content: ""; transition: all 0.5s ease-in-out; position: absolute; z-index: -1; }
+.btn-transparent::before { right: -50px; border-right: 50px solid transparent; border-bottom: 80px solid var(--btn-color); transform: translateX(-100%); }
+.btn-transparent:hover::before { transform: translateX(-49%); }
+.btn-transparent::after { left: -50px; border-left: 50px solid transparent; border-top: 80px solid var(--btn-color); transform: translateX(100%); }
+.btn-transparent:hover::after { transform: translateX(49%);}
+
 .btn-white{border-color: #ebb89c;}
 .btn-md{padding: 10px 25px 10px}
 
