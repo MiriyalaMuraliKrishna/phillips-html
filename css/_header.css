@@ -87,7 +87,7 @@
     .site-main-cover{padding-top: 86px;}
     .site-main-cover.no_space{padding-top: 0;}
 } 
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1400px){
     .sticky_header:not(.fixed_header) .header_srch input::-webkit-input-placeholder {color: var(--white-70);}
     .sticky_header:not(.fixed_header) .header_srch input:-moz-placeholder {color: var(--white-70); }
     .sticky_header:not(.fixed_header) .header_srch input::-moz-placeholder {color: var(--white-70);}
@@ -102,7 +102,7 @@
     .header{gap: 0;}
     .navigation{padding-right: 40px;}
     ul.main_menu > li > a{padding: 32px 16px 31px;}
-    .header_srch{height: 43px; right: -15px; top: 50%; transform: translateY(-50%); position: absolute;}
+    .header_srch{height: 43px; right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
     .header_srch input:not(input[type="submit"]){width: 0; right: 0; opacity: 0; padding: 0; height: 43px; position: absolute; transition: all 0.5s linear; background-color: #f8f4f2;}
     .header_srch.open input:not(input[type="submit"]){width: 227px; opacity: 1; padding: 11px 50px 11px 22px;}
     .sticky_header .header_srch input:not(input[type="submit"]){color: var(--text-color);}
@@ -111,7 +111,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .header{padding: 12px 0 10px;}
     .logo{width: 170px; margin-left: 79px; position: relative; z-index: 850;}
-    .main-header::after{left: -100%; top: 0; width: 100%; height: 100%; position: absolute; background-color: var(--white); content: ""; display: block; transition: left 0.3s ease-in-out;}
+    .main-header::after{left: -100%; top: 0; width: 100%; height: 100%; min-height: 65px; position: absolute; background-color: var(--white); content: ""; display: block; transition: left 0.3s ease-in-out; z-index: -1;}
     .header_mobile::after{left: 0;}
     .header_mobile .reverse_logo{display: none;}
     .header_mobile .normal_logo{display: block;}
