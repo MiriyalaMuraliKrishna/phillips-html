@@ -84,6 +84,7 @@ span.bio-people-arrow{margin-left: 18px; }
 
 .people-bio-page .custom-cta-wrap{padding: 145px 0 112px; }
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
