@@ -81,7 +81,6 @@ $(document).ready(function(){
         asNavFor: '.timeline-slider-for',
     });
 
-
     $('.community-event-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -141,21 +140,28 @@ $(document).ready(function(){
             }
         ]
     });
+
+    $('.video-sec-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
+    });
     
     if($(window).width() >= 1024){
-    $('.buffalo-slider-for').slick({
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            dots: false,
-            arrows: true,
-            prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-up flex flex-center"></span></div>',
-            nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-down flex flex-center"></span></div>',
-            focusOnSelect: true,
-            vertical: true,
-            verticalSwiping: true,
-            asNavFor: '.buffalo-slider-nav',
-    });
-
+        $('.buffalo-slider-for').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-up flex flex-center"></span></div>',
+                nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-down flex flex-center"></span></div>',
+                focusOnSelect: true,
+                vertical: true,
+                verticalSwiping: true,
+                asNavFor: '.buffalo-slider-nav',
+        });
         $('.buffalo-slider-nav').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
