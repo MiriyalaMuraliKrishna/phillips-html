@@ -15,7 +15,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .header{gap: 32px; position: relative;}
+    .header{gap: 32px;}
     .logo{order: 1;}
     .toggle_icon{display: none;}
     .navigation{flex: 1; order: 2; padding-right: 68px; }
@@ -48,20 +48,20 @@
 
     /* expertise-menu-item */
     ul.main_menu > li.expertise-nav-item{position: static;}
-    ul.main_menu > li.expertise-nav-item > ul{display: none; justify-content: space-between; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 246px; max-width: 1660px; margin: 0 auto; position: absolute; background-color: var(--gray-color); box-shadow: 0 0px 3px var(--text-color);} 
+    ul.main_menu > li.expertise-nav-item > ul{display: none; justify-content: space-between; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 246px; max-width: 1660px; margin: 0 auto; position: absolute; background-color: var(--gray-color); box-shadow: 0 0px 3px var(--text-color); overflow: hidden;} 
     ul.main_menu > li.expertise-nav-item:hover > ul{display: flex;}
-    ul.main_menu > li.expertise-nav-item > ul > li{flex:  0 0 200px; padding: 33px 0 0; position: static;} 
+    ul.main_menu > li.expertise-nav-item > ul > li{flex:  0 0 200px; padding: 33px 0 0; margin: 0; position: static;} 
     ul.main_menu > li.expertise-nav-item > ul > li:nth-child(2){flex: 0 0 315px;}
     ul.main_menu > li.expertise-nav-item > ul > li:last-child{flex: 0 0 533px; padding: 0; }
     ul.main_menu > li.expertise-nav-item > ul > li > a{padding: 0 0 13px; font-size: 24px; line-height: 1.3; font-family: 'Lora', serif; position: relative;}
     ul.main_menu > li.expertise-nav-item > ul > li > a::after{width: 36px; height: 2px; bottom: 0; left: 0; background-color: var(--btn-color); content: ""; display: block; position: absolute;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul{margin: 19px 0 0; display: block; background-color: transparent; position: relative;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li{position: static; margin-bottom: 0;}
-    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > a{color: var(--text-color); opacity: 1;}
+    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > a{color: var(--text-color); opacity: 1; font-size: 15px; line-height: 1.5; font-weight: 500;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > a:hover{color: var(--btn-color);}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children > a::after{color: var(--text-color); content: "\f105"; padding-left: 5px; font-size: 14px; line-height: 1.2; display: inline-block; font-family: "Font Awesome 6 Pro"; transition: padding-left 0.5s ;}
 	ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children > a:hover::after{padding-left: 10px; content: "\f101"; color: var(--btn-color);}
-    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul{display: none; margin: 0; top: 0; left: 100%; width: 100%; min-width: 366px; position: absolute; background-color: #f4ece7;}
+    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul{display: none; margin: 0; top: -84px; padding-top: 84px; left: 100%; width: 100%; height: 100vh; min-width: 366px; position: absolute; background-color: #f4ece7;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul > li{margin-bottom: 0;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul > li > a{padding: 10px 20px; display: block; color: var(--text-color); font-size: 14px; line-height: 18px;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul > li > a:hover{background-color: var(--btn-color); color: var(--white);} 

@@ -20,18 +20,7 @@ span.share-text{font-size: 13px; letter-spacing: 1px; font-weight: 600; text-tra
 .social-share-icons .at-share-btn-elements a.at-icon-wrapper span.at-icon-wrapper svg {display: none; }
 .social-share-icons .at-resp-share-element .at-share-btn:focus, .social-share-icons .at-resp-share-element .at-share-btn:hover {transform: none; }
 .social-share-icons .at-share-btn-elements a.at-icon-wrapper {padding: 0; margin: 0 0 8px; width: 40px; height: 40px; font-size: 20px; line-height: normal; border-radius: 0 !important; background-color: transparent !important; color: var(--copperplate-color); position: relative; display: block; }
-.social-share-icons .at-share-btn-elements a.at-icon-wrapper::before {
-	content: "";
-	position: absolute;
-	width: calc(100% - 2px);
-	height: calc(100% - 2px);
-	top: 0;
-	left: 0;
-	border: solid 1px var(--btn-light-color);
-	opacity: 1;
-	transition: opacity 0.3s linear;
-	z-index: -1;
-}
+.social-share-icons .at-share-btn-elements a.at-icon-wrapper::before { width: calc(100% - 2px); height: calc(100% - 2px); top: 0; left: 0; opacity: 1; border: solid 1px var(--btn-light-color); transition: opacity 0.3s linear; content: ""; position: absolute; z-index: -1; }
 .social-share-icons .at-share-btn-elements a.at-icon-wrapper:hover{background: var(--slate-color) !important; color: var(--white) !important;}
 .social-share-icons .at-share-btn-elements a.at-icon-wrapper span.at-label{display: none;}
 .social-share-icons .at-share-btn-elements a.at-icon-wrapper span.at-icon-wrapper {width: 100% !important; height: 100% !important; line-height: inherit !important; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; float: none; font-family: "Font Awesome 6 Brands"; font-weight: 400; letter-spacing: 0; margin: 0 auto;}
@@ -51,7 +40,7 @@ span.share-text{font-size: 13px; letter-spacing: 1px; font-weight: 600; text-tra
     .social-share-icons{gap: 10px; flex: 1; justify-content: flex-end;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.social-share-icons{gap: 10px; flex: 1; justify-content: flex-end;}
+	.social-share-icons{gap: 10px; justify-content: center;}
     .at-share-btn-elements{gap: 24px; display: flex; flex-wrap: wrap; align-items: center;}
     .social-share-icons .at-share-btn-elements a.at-icon-wrapper{margin: 0;}
     .social-share-icons .at-share-btn-elements a.at-icon-wrapper.at-svc-compact{width: 24px; margin: 0;}
