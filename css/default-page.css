@@ -56,10 +56,11 @@
     .default-page .cta-panel-section{padding: 56px 0; }
 
     .slick-slider .partners-row.slick-slide{width: 100%; display: flex; flex-wrap: wrap;}
-    .partners-default-lists{display: block;}
+    .partners-default-lists{display: block; }
     .partners-default-heading{width: 100%; margin-bottom: 38px;}
     .partners-default-heading h2{font-size: 30px; margin-bottom: 20px; }
-    .partners-row{gap: 20px;}
-    .partners-default-list{flex: 0 0 calc(50% - 10px);}
+    .partners-row{gap: 8px;}
+    .partners-default-list{flex: 0 0 calc(50% - 10px); min-height: 103px;}
     .partners-default-thumb img{max-width: 108px;}
+    figure.partners-default-thumb{height: auto;}
 }
