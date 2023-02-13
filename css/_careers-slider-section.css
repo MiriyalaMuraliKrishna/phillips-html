@@ -31,12 +31,20 @@
     .careers-slick-slider .slick-arrow.slick-next{right: 0;}
     .careers-slider-caption{opacity: 0;}
     .slick-current .careers-slider-caption{opacity: 1;}
-    .careers-slick-slider ul.slick-dots{margin: 40px 0 0;}
+
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .careers-slider-wrap{padding: 46px 0 40px; }
     .careers-slider-thumb{position: relative;}
-    .careers-slider-caption{padding: 10px; font-size: 14px; line-height: 25px; position: static; color: var(--text-color);}
+    .careers-slider-caption{padding: 19px 0 10px; font-size: 14px; line-height: 25px; position: static; color: var(--text-color);}
     .careers-slider-caption::before{display: none;}
     .careers-slick-slider .slick-slide{margin: 0 5px; }
+
+    .careers-slick-slider .slick-btn{font-size: 26px; width: 20px; height: 26px;}
+    .careers-slick-slider .slick-arrow{height: auto; top: 25%; transform: translateY(-25%);}
+    .careers-slick-slider .slick-arrow.slick-prev{z-index: 2; }
+
+       
+        
 
 }

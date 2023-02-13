@@ -40,6 +40,8 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .partners-default-lists{gap: 20px; }
     .partners-default-list{flex: 0 0 calc(50% - 10px);}
+
+    .default-page .events-slider-wrap{padding: 80px 0; }
 }
 @media only screen and (max-width:767px) and (min-width:200px){
     .general-default-section::before{height: 1886px;}
@@ -65,4 +67,13 @@
     .partners-default-thumb img{max-width: 108px;}
     figure.partners-default-thumb{height: auto;}
     .partners-default-lists ul.slick-dots{margin-top: 21px; }
+
+    .insight-featured-section{background-image: url("../images/insight-bg-mobile@2x.jpg");}
+
+    .default-page .events-slider-wrap{padding: 56px 0 64px; }
+    .default-page .events-slide-text h4{margin-bottom: 0; }
+    .default-page .events-slider-btn{margin-top: -10px; }
+    .default-page .events-slider-row ul.slick-dots { bottom: -83px;}
+
+    .default-page .custom-cta-wrap { padding: 56px 0; }
 }

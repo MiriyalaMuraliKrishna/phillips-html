@@ -1,6 +1,7 @@
 
 
-.find-person-section{background-color: #f0eae7; }
+.find-person-section{background-color: #f0eae7; z-index: 1;}
+.find-person-section::before{content: ""; position: absolute; width: 100%; height: 210px; background-color: #f8f4f2; z-index: -1; }
 .find-person-wrap{padding: 0 0 50px; }
 .our-people-filter{background-color: var(--white); padding: 59px 97px 101px 101px; }
 .our-people-heading{margin-bottom: 45px; }
@@ -12,6 +13,7 @@
 .our-people-frm::before{content: "\f002"; position: absolute; font-family: "Font Awesome 6 pro"; font-size: 20px; line-height: 1.4; opacity: 0.5; top: 50%; transform: translateY(-50%); left: 14px; }
 .our-people-frm input{width: 620px; margin: 0; padding: 20px 55px;}
 .our-people-frm input::placeholder{opacity: 0.5; font-size: 20px;}
+.our-people-frm button{min-width: auto; width: calc(100% - 620px); }
 .our-people-name{width: 152px; margin-right: 14px; }
 .our-people-alphabet{width: calc(100% - 166px); }
 .our-people-alphabet ul{margin: 0;}

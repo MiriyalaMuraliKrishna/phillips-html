@@ -28,7 +28,7 @@
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .events-slide-list{max-width: 344px; margin-right: 20px;}
     .events-slider-btn{text-align: center;}
-    .events-slider-row ul.slick-dots{bottom: -93px; }
+    .events-slider-row ul.slick-dots{text-align: center; margin-left: 0;}
 
 }
 
@@ -40,7 +40,7 @@
     .events-slider-heading h2{font-size: 28px; text-align: center; }
     .events-slide-text{text-align: center; }
     .events-slider-btn{text-align: center;}
-    .events-slider-row ul.slick-dots{bottom: -93px; }
+    .events-slider-row ul.slick-dots{bottom: -93px; position: relative;}
     .events-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 75px; }
     .events-view-btn .right-icon{margin-left: 10px; }
 
