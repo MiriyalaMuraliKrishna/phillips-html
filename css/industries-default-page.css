@@ -28,10 +28,11 @@
 
 /* Buffalo team section */
 .industries-default-page .buffalo-team-section{background-color: #f0eae7; }
-.industries-default-page .buffalo-team-wrap{padding: 98px 0 322px; }
+.industries-default-page .buffalo-team-wrap{padding: 98px 0 164px;}
 
 /* Micro cta section */
-.industries-default-page .micro-cta-wrap{padding: 0; }
+.industries-default-page .micro-cta-section::before{content: ""; position: absolute; width: 100%; height: 158px; background-color: #f0eae7; top: 0; }
+.industries-default-page .micro-cta-wrap{padding: 0 0 124px; }
 
 /* FAQ section */
 .industries-default-page .faq-wrap{padding: 163px 0 329px; }

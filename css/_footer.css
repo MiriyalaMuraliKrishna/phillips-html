@@ -7,7 +7,7 @@
 
 .footer-list span{font-family: 'Lora', sans-serif; font-size: 17px; line-height: 1.06; color: var(--copperplate-color); margin-bottom: 36px; display: block;}
 ul.footer-links{margin: 0;}
-ul.footer-links > li{font-size: 14px; line-height: 1.14; margin-bottom: 16px; }
+ul.footer-links > li{font-size: 14px; line-height: 1.5; margin-bottom: 16px; }
 ul.footer-links > li:before{display: none;}
 ul.footer-links > li a{display: inline-block; background-image: linear-gradient(to right, var(--btn-color), var(--btn-light-color) 50%, var(--white-60) 50%); background-size: 200% 100%; background-position: -100%; position: relative; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; transition: all 0.5s ease-in-out; }
 ul.footer-links > li a:hover{background-position: 0;}

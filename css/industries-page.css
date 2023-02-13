@@ -24,6 +24,10 @@
 .industries-page .events-slider-section{background-color: #f0eae7; }
 .industries-page .events-slider-wrap{padding: 112px 0 368px; }
 
+/* CTA panel section */
+.industries-page .cta-panel-section{padding-bottom: 92px; }
+.industries-page .cta-panel-section:before{content: ""; position: absolute; width: 100%; background-color: #f0eae7; height: 241px; top: 0; }
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

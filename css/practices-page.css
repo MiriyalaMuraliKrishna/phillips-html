@@ -25,6 +25,10 @@
 .practices-page .events-slider-section{background-color: #f0eae7; }
 .practices-page .events-slider-wrap{padding: 70px 0 367px; }
 
+/* CTA panel section */
+.practices-page .cta-panel-section{padding-bottom: 92px; }
+.practices-page .cta-panel-section:before{content: ""; position: absolute; width: 100%; background-color: #f0eae7; height: 241px; top: 0; }
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
