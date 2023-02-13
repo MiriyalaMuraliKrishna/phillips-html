@@ -44,7 +44,7 @@ ul > li::before{content: " "; position: absolute; top: 8px; left: -23px; backgro
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 48px 0 31px 54px; font-size: 0.875rem; line-height: 1.375rem; font-weight: 400;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 17px;}
-ol > li::before{top: 2px; left: -26px; width: 14px; height: 15px; font-weight: bold; position: absolute; counter-increment: section; content: counter(section, decimal) "."; font-size: 16px; align-items: center; display: flex; justify-content: center; color: var(--copperplate-color); font-family: 'Lora', serif; }
+ol > li::before{top: 2px; left: -25px; width: 14px; height: 15px; font-weight: bold; position: absolute; counter-increment: section; content: counter(section, decimal) "."; font-size: 16px; align-items: center; display: flex; justify-content: center; color: var(--copperplate-color); font-family: 'Lora', serif; }
 li > ol {margin: 25px 0 26px 25px;}
 
 figure{margin: 0;}
@@ -68,16 +68,6 @@ textarea {overflow: auto; vertical-align: top;}
 /* Genericons */
 .clearfix {clear: both;}
 *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
-
-/* table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
-table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 0; max-width: 100%; width: 100%;}
-table tr td:first-child {padding-left: 15px; text-align: left; font-weight: 600;}
-table tr th:first-child {text-align: left; padding-left: 21px;}
-table tbody img {margin: 0 auto;}
-th {border-width: 0; font-size: 0.688rem; font-weight: bold; line-height: normal; letter-spacing: 0.4px; padding: 14px 0 17px; background-color: var(--gray-color); color: var(--white); text-transform: uppercase;}
-th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
-td {border-width: 0; padding: 13px 0 11px; text-align: center; border-bottom: solid 1px rgb(255 255 255 / 10%); vertical-align: middle;}
-table tr:nth-child(even) td{background-color: var(--light-gray);} */
 
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 75px auto 96px; max-width: 995px; width: 100%;}
@@ -235,4 +225,7 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
     ul{margin: 25px 0 39px 24px; }
     ul > li{margin-bottom: 28px; }
     ul.slick-dots{margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; width: 100%;}
+
+    ol{margin: 36px 0 54px 24px; }
+    ol > li{margin-bottom: 19px; }
 }
