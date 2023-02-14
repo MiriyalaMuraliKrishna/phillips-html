@@ -14,3 +14,7 @@
 
 /* Careers Opportunities section */
 .careers-group-page .careers-opportunities-wrap{padding: 54px 0 140px; }
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .testimonial-sider.slick-slider{padding: 032px;}
+}
