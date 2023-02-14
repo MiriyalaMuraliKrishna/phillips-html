@@ -48,11 +48,11 @@
 
     /* expertise-menu-item */
     ul.main_menu > li.expertise-nav-item{position: static;}
-    ul.main_menu > li.expertise-nav-item > ul{display: none; justify-content: space-between; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 246px; max-width: 1660px; margin: 0 auto; position: absolute; background-color: var(--gray-color); box-shadow: 0 0px 3px var(--text-color); overflow: hidden;} 
+    ul.main_menu > li.expertise-nav-item > ul{display: none; justify-content: space-between; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 146px; max-width: 1660px; margin: 0 auto; position: absolute; background-color: var(--gray-color); box-shadow: 0 0px 3px var(--text-color); overflow: hidden;} 
     ul.main_menu > li.expertise-nav-item:hover > ul{display: flex;}
-    ul.main_menu > li.expertise-nav-item > ul > li{flex:  0 0 200px; padding: 33px 0 180px; margin: 0; position: static;} 
-    ul.main_menu > li.expertise-nav-item > ul > li:nth-child(2){flex: 0 0 315px;}
-    ul.main_menu > li.expertise-nav-item > ul > li:last-child{flex: 0 0 533px; padding: 0; }
+    ul.main_menu > li.expertise-nav-item > ul > li{width: 200px; padding: 33px 0 180px; margin: 0; position: static;} 
+    ul.main_menu > li.expertise-nav-item > ul > li:nth-child(2){width: 315px; margin-left: auto; transition: all 0.3s ease-in-out;}
+    ul.main_menu > li.expertise-nav-item > ul > li:last-child{width: 533px; padding: 0; margin-left: auto;}
     ul.main_menu > li.expertise-nav-item > ul > li > a{padding: 0 0 13px; font-size: 24px; line-height: 1.3; font-family: 'Lora', serif; position: relative;}
     ul.main_menu > li.expertise-nav-item > ul > li > a::after{width: 36px; height: 2px; bottom: 0; left: 0; background-color: var(--btn-color); content: ""; display: block; position: absolute;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul{margin: 34px 0 0; display: block; background-color: transparent; position: relative;}
@@ -61,13 +61,15 @@
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > a:hover{color: var(--btn-color);}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children > a::after{color: var(--text-color); content: "\f105"; padding-left: 5px; font-size: 14px; line-height: 1.2; display: inline-block; font-family: "Font Awesome 6 Pro"; transition: padding-left 0.5s ;}
 	ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children > a:hover::after{padding-left: 10px; content: "\f101"; color: var(--btn-color);}
+    ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children:hover > ul{display: block;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul{display: none; margin: 0; top: -99px; padding-top: 95px; left: 100%; width: 100%; height: 100vh; min-width: 366px; position: absolute; background-color: #f4ece7;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul > li{margin-bottom: 0;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul > li > a{padding: 10px 20px; display: block; color: var(--text-color); font-size: 14px; line-height: 18px;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul > li > a:hover{background-color: var(--btn-color); color: var(--white);} 
-    ul.main_menu > li.expertise-nav-item > ul.expertise-submenu{padding-left: 120px;}
-    ul.main_menu > li.expertise-nav-item > ul.expertise-submenu > li:nth-child(2){margin-left: auto;}
-    ul.main_menu > li.expertise-nav-item > ul.expertise-submenu > li > ul > li > ul{display: block;}
+
+    ul.main_menu > li.expertise-nav-item > ul > li.expertise-submenu{margin-left: auto;}
+    ul.main_menu > li.expertise-nav-item > ul > li.expertise-submenu:last-child{margin-left: 0;}
+
 
     .nav-thumb-main{width: 100%; height: 100%;}
     .nav-thumb-text{position: absolute; bottom: 0; font-size: 16px; color: var(--white); line-height: 1.75; padding: 47px 67px 34px 47px;}
@@ -96,6 +98,8 @@
     .header{gap: 15px;}
     .navigation{padding-right: 15px;}
     ul.main_menu > li > a{padding: 32px 18px 31px;}
+    ul.main_menu > li.expertise-nav-item > ul{padding-left: 126px;}
+    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul{min-width: 200px;}
 }
 @media only screen and (max-width: 1399px) and (min-width: 1024px){
     .header{gap: 0;}
@@ -108,6 +112,8 @@
     .sticky_header:not(.fixed_header) .header_srch.open .header_srch_btn{color: var(--text-color);}
     ul.main_menu > li.expertise-nav-item > ul{padding-left: 32px;}
     ul.main_menu > li.expertise-nav-item > ul.expertise-submenu{padding-left: 32px;}
+    ul.main_menu > li.expertise-nav-item > ul > li{width: 240px;}
+    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > ul { top: 0; padding-top: 0; left: 0; width: 100%; height: auto; min-width: 100%; position: relative; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .header{padding: 12px 0 10px;}
