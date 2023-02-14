@@ -3,7 +3,10 @@
 .careers-group-page .short-headline-wrap{padding: 111px 0 80px; }
 
 /* Testimonial section */
-.careers-group-page .testimonial-wrap{padding: 49px 0 51px; }
+.careers-group-page .testimonial-wrap{padding: 49px 0 38px; }
+
+/* Careers-cta-section */
+.careers-cta-wrap{padding: 48px 0 128px; }
 
 /* Perks section */
 .careers-group-page .perks-section { background-color: var(--white); }
@@ -12,5 +15,25 @@
 /* Custom cta section */
 .careers-group-page .custom-cta-wrap{padding: 104px 0 52px; }
 
+
+
 /* Careers Opportunities section */
+.careers-group-page .careers-opportunities-section{background-color: #f0eae7; }
 .careers-group-page .careers-opportunities-wrap{padding: 54px 0 140px; }
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .careers-group-page .short-headline-wrap{padding: 40px 0; }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width:200px){
+    .default-banner-main{padding: 164px 0 166px; }
+    .careers-group-page .short-headline-wrap{padding: 26px 0 30px; }
+    .careers-group-page .testimonial-wrap{padding: 21px 0 37px; }
+    .careers-group-page .careers-cta-wrap{padding: 48px 0 56px; }
+    .careers-group-page .perks-wrap{padding: 55px 0; }
+    .careers-group-page .custom-cta-wrap{padding: 55px 0 30px; }
+    .careers-group-page .careers-opportunities-wrap{padding: 26px 0 56px;}
+
+}

@@ -16,5 +16,16 @@
     .careers-cta-main{max-width: 1037px; margin: 0 auto; }
     .careers-cta-text{width: 325px; margin-right: 102px; }
     .careers-cta-image{width: calc(100% - 427px); }
+}
 
+@media only screen and (max-width: 1023px) and (min-width:200px){
+    .careers-cta-wrap{padding: 56px 0; }
+    .careers-cta-main{gap: 50px; }
+    .careers-cta-list{flex-direction: column-reverse; }
+    .careers-cta-image{margin-bottom: 32px; }
+    .careers-cta-text h2{font-size: 30px; line-height: 1.27; margin-bottom: 16px;}
+    .careers-cta-text p{margin-bottom: 19px; }
+
+    .careers-cta-list.reverse{flex-direction: column-reverse; }
+    .careers-cta-list.reverse .careers-cta-text{margin: 0; }
 }
