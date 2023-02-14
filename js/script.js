@@ -63,3 +63,13 @@ let mobileIpad = function(){
 $(window).resize(function () { mobileIpad(); });
 $(document).on('ready', function () { mobileIpad(); });
 
+$('.banner-category-mobile').on('click', function(e){
+    e.preventDefault();
+    $('ul.banner-category').slideToggle(900);
+});
+$('ul.banner-category li a').on('click', function(e){
+    e.preventDefault();
+    let text = $(this).text();
+    $('.banner-category-mobile span').text(text);
+    $('ul.banner-category').slideUp();
+});
