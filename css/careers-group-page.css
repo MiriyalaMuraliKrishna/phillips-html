@@ -22,6 +22,9 @@
 .careers-group-page .careers-opportunities-wrap{padding: 54px 0 140px; }
 
 /*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .testimonial-sider.slick-slider{padding: 0 32px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .careers-group-page .short-headline-wrap{padding: 40px 0; }
 
