@@ -11,7 +11,7 @@
 .news-events-inner .optional-text{color: var(--black); opacity: 0.5; font-size: 15px; line-height: 1.2; margin-bottom: 8px;}
 .news-events-inner h4 a{color: var(--black); }
 .news-events-inner h4 a:hover{color: var(--copperplate-color); }
-.read-btn{font-size: 16px; font-weight: 500; line-height: 1.75; opacity: 0.9;  padding-right: 22px;}
+.read-btn{font-size: 16px; line-height: 1.75; }
 .angle-icon{position: absolute; top: 50%; transform: translateY(-50%); right: 4px; transition: all .5s ease;}
 .read-btn:hover .angle-icon{right: 0;}
 .news-events-image .button{color: var(--copperplate-color); }
