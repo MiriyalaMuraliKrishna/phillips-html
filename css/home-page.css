@@ -80,4 +80,8 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.home-banner-text h1{font-size: 33px; text-align: center; line-height: 1.27; }
 	.home-banner-desc{text-align: center; }
 	.home-banner-desc p{display: none; }
+
+	.our-firm-main{padding: 120px 0; }
+	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px;}
+	.our-firm-text h2{font-size: 30px; line-height: 1.27;}
 }
