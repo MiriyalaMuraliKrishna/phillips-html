@@ -3,7 +3,6 @@
 .events-slider-wrap{padding: 131px 0 130px; }
 .events-slider-heading{margin-bottom: 37px; }
 .events-slider-heading h2{margin: 0; }
-.events-slider-btn .button{min-width: 165px}
 .events-slide-category{position: absolute; top: 22px; left: 0; gap: 10px;}
 .events-slide-category .button{padding: 10px 11px 9px; font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; text-transform: uppercase; min-width: auto;}
 .events-slide-text{padding-top: 21px;}
@@ -13,6 +12,7 @@
 
 .bio-people-content .events-slider-heading{width: 100%;}
 .bio-people-content .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; top: -150px;}
+.people-bio-page .events-slider-btn .button{min-width: inherit}
 
 
 /*-- media css starts here --*/
