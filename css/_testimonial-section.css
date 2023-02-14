@@ -8,6 +8,12 @@
 .testimonial-name span{font-size: 16px; line-height: 1.75; font-style: normal;}
 
 /*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width:1024px){
+    .testimonial-image{width: 440px; }
+    .testimonial-content{width: calc(100% - 440px); padding: 51px 55px;}
+
+}
+
 @media only screen and (min-width: 1024px){
     .testimonial-image{width: 509px; }
     .testimonial-content{width: calc(100% - 509px); }
@@ -17,6 +23,12 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .testimonial-sider .slick-list.draggable { overflow: inherit; }
     .testimonial-side{max-width: 600px; margin: 0 45px; }
-    .testimonial-sider ul.slick-dots{margin-left: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; width: 100%; }
+    .testimonial-sider ul.slick-dots{margin: 44px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; width: 100%; }
+}
+
+@media only screen and (max-width: 767px) and (min-width:200px){
+    .testimonial-wrap{padding: 30px 0; }
+    .testimonial-content{font-size: 16px; line-height: 1.75; padding: 29px 33px 40px 31px; }
+    .testimonial-sider ul.slick-dots{margin-top: 30px; }
 
 }
