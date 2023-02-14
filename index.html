@@ -238,9 +238,10 @@
         <div class="home-practice-main flex">
             <div class="home-practice-list flex flex-vcenter">
                 <div class="home-practice-image pos-relative">
-                    <figure class="object-fit">
-                        <img src="images/area-practice@2x.jpg" alt="Area Practice">
-                    </figure>
+                    <picture class="object-fit">
+                        <source srcset="images/area-practice@2x.jpg" media="(min-width:768px)">
+                        <img src="images/area-practice-mobile@2x.jpg" alt="area-practice-mobile">
+                    </picture>
                     <div class="home-practice-mobile">
                         <span class="home-practice-icon">
                             <img src="images/puzzle-icon.svg" alt="Puzzle Icon">
@@ -249,7 +250,7 @@
                     </div>
                 </div>
                 <div class="home-practice-text">
-                    <div class="home-practice-desktop">
+                    <div class="home-practice-desktop hide-mobile">
                         <span class="home-practice-icon">
                             <img src="images/puzzle-icon.svg" alt="Puzzle Icon">
                         </span>
@@ -261,9 +262,10 @@
             </div>
             <div class="home-practice-list flex flex-vcenter">
                 <div class="home-practice-image pos-relative">
-                    <figure class="object-fit">
-                        <img src="images/industries-serve@2x.jpg" alt="Area Practice">
-                    </figure>
+                    <picture class="object-fit">
+                        <source srcset="images/industries-serve@2x.jpg" media="(min-width:768px)">
+                        <img src="images/industries-serve-mobile@2x.jpg" alt="industries-serve-mobile">
+                    </picture>
                       <div class="home-practice-mobile">
                             <span class="home-practice-icon">
                                 <img src="images/geometry-icon.svg" alt="Puzzle Icon">
@@ -272,7 +274,7 @@
                     </div>
                 </div>
                 <div class="home-practice-text">
-                    <div class="home-practice-desktop">
+                    <div class="home-practice-desktop hide-mobile">
                         <span class="home-practice-icon">
                             <img src="images/geometry-icon.svg" alt="Puzzle Icon">
                         </span>

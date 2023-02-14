@@ -87,7 +87,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--btn-color);}
 	.home-practice-main{display: block;}
 	.home-practice-list{margin-bottom: 49px;}
-	.home-practice-mobile{top: 0; left: 0; z-index: 1; position: absolute;}
+	.home-practice-mobile{top: 50%; left: 0; z-index: 1; position: absolute; transform: translateY(-50%); width: 100%; text-align: center; }
 
 	.home-banner-text h1{font-size: 33px; text-align: center; line-height: 1.27; }
 	.home-banner-desc{text-align: center; }
@@ -98,14 +98,8 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	ul.banner-category li:last-child{margin: 0; }
 	ul.banner-category li > a {font-size: 14px; line-height: 1.43;}
 
-<<<<<<< HEAD
-	.our-firm-main{padding: 120px 0 52px; display: block; position: relative; z-index: 1;}
-	.our-firm-text{margin-bottom: 43px;}
-	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px;}
-=======
-	.our-firm-main{padding: 119px 0 52px;}
+	.our-firm-main{padding: 119px 0 52px; position: relative; z-index: 1;}
 	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px; margin-bottom: 19px;}
->>>>>>> 1680dd37aa2cc7a1319f5ec010374deb9d4e8bb5
 	.our-firm-text h2{font-size: 30px; line-height: 1.27;}
 	.our-firm-text{z-index: 1; margin-bottom: 11px;}
 	.our-firm-text::before{width: 99px; height: 344px; top: -39px; left: -24px;}
@@ -114,7 +108,14 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 
 	.number-count-main{gap: 16px;}
 	.number-count{flex: 0 0 calc(50% - 8px);}
-	
+
+	.home-practice-image::after{width: calc(100% - 20px); height: calc(100% - 18px); top: 8px; left: 10px; }
+	.home-practice-icon img{width: 35px; }
+	.home-practice-mobile h3{font-size: 26px; color: var(--white); }
+	.home-practice-text{text-align: center; margin-top: 25px; padding: 0 15px;}
+ 	.home-practice-text p{color: var(--text-color); margin-bottom: 17px;}
+	.home-practice-text .button{background-color: var(--copperplate-color); border-color: var(--btn-color); color: var(--white); }
+
 	.home-page .common-grid-wrap { padding: 63px 0 68px; }
 
 }
