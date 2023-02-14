@@ -5,15 +5,13 @@
 .find-person-wrap{padding: 0 0 50px; }
 .our-people-filter{background-color: var(--white); padding: 59px 97px 101px 101px; }
 .our-people-heading{margin-bottom: 45px; }
-.our-people-text{width: 226px; margin-right: 16px; }
 .our-people-name span{opacity: 0.5;}
-.our-people-search{width: calc(100% - 242px); }
 .our-people-searchfeild{margin-bottom: 51px; }
 .our-people-frm{margin-bottom: 20px; }
-.our-people-frm::before{content: "\f002"; position: absolute; font-family: "Font Awesome 6 pro"; font-size: 20px; line-height: 1.4; opacity: 0.5; top: 50%; transform: translateY(-50%); left: 14px; }
-.our-people-frm input{width: 620px; margin: 0; padding: 20px 55px;}
+.our-people-frm::before{content: "\f002"; position: absolute; font-family: "Font Awesome 6 pro"; font-size: 20px; line-height: 1.4; opacity: 0.5; top: 20px; left: 14px; }
+.our-people-frm input{width: calc(100% - 135px); margin: 0; padding: 20px 55px;}
 .our-people-frm input::placeholder{opacity: 0.5; font-size: 20px;}
-.our-people-frm button{min-width: auto; width: calc(100% - 620px); }
+.our-people-frm button { min-width: 135px; height: 100%; right: 0; position: absolute; }
 .our-people-name{width: 152px; margin-right: 14px; }
 .our-people-alphabet{width: calc(100% - 166px); }
 .our-people-alphabet ul{margin: 0;}
@@ -28,12 +26,9 @@
 .our-people-dropdown .selectBox-dropdown{border: solid 1px rgba(174, 174, 174, 0.5); }
 .our-people-dropdown .selectBox-menuShowing{border: solid 1px #cdb3a5;}
 
-.our-people-main{gap: 53px 45px; padding: 81px 0;}
-.our-people-list{width: 260px;}
+.our-people-main{padding: 81px 0;}
+figure.our-people-thumb{height: auto;}
 .our-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; }
-.our-people-thumb img{width: 260px; filter: saturate(0); }
-.our-people-list:hover{box-shadow: 0 5px 15px #945c3d;}
-.our-people-list:hover .our-people-thumb img{filter: saturate(1); }
 .our-people-list:hover .our-people-thumb::before{display: none;}
 .our-people-content{background-color: var(--white); padding: 23px 12px 23px 26px; }
 .our-people-content .optional-text{font-size: 18px; color: var(--copperplate-color); line-height: 1; margin-bottom: -2px; text-transform: uppercase;}
@@ -49,6 +44,29 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .our-people-heading{width: 652px; }
+    .our-people-search{width: calc(100% - 242px); }
+    .our-people-text{width: 226px; margin-right: 16px; }
+    .our-people-main{gap: 53px 45px;}
+    .our-people-list{flex: 0 0 calc(25% - 34px);}
 
-    .our-people-main{width: 1177px; margin: 0 auto; }
+    .our-people-thumb img{filter: saturate(0); }
+    .our-people-list:hover{box-shadow: 0 5px 15px #945c3d;}
+    .our-people-list:hover .our-people-thumb img{filter: saturate(1); }
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .our-people-filter{padding: 59px 20px 101px;}
+    .our-people-main{gap: 32px;}
+    .our-people-list{flex: 0 0 calc(50% - 16px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .our-people-filter{padding: 20px;}
+    .our-people-searchfeild{display: block;}
+    .our-people-letter{display: none;}
+
+
+    .our-people-main{display: block;}
+    .our-people-list{margin-bottom: 16px; background-color: var(--white); padding: 23px 12px 23px 0; align-items: center; display: flex; flex-wrap: wrap;}
+    figure.our-people-thumb{width: 97px; transform: translateX(-12px);}
+    .our-people-content{width: calc(100% - 97px); padding: 0; background-color: transparent;}
 }
