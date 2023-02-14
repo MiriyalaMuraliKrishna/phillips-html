@@ -43,7 +43,7 @@
     .slick-current .our-office-arrow{display: none;}
 
     .our-office-slider ul.slick-dots li button::before{width: 7px; height: 7px;}
-    ul.slick-dots li button{width: 21px; height: 22px;}
+    ul.slick-dots li button{width: 22px; height: 22px;}
     .our-office-slider ul.slick-dots li.slick-active button::before { width: 7px; height: 7px; }
     .our-office-slider ul.slick-dots li.slick-active button::after { width: 19px; height: 19px; }
 }
@@ -59,7 +59,7 @@
     .slick-current .our-office-arrow{display: none;}
 
     .our-office-slider ul.slick-dots li button::before{width: 7px; height: 7px;}
-    ul.slick-dots li button{width: 21px; height: 22px;}
+    ul.slick-dots li button{width: 22px; height: 22px;}
     .our-office-slider ul.slick-dots li.slick-active button::before { width: 7px; height: 7px; }
     .our-office-slider ul.slick-dots li.slick-active button::after { width: 19px; height: 19px; }
 }
