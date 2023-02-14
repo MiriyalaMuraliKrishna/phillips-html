@@ -13,9 +13,9 @@
 .our-office-arrow{color: var(--white); font-size: 24px; margin-top: 12px; line-height: .7; display: none;}
 
 
-.our-office-slider ul.slick-dots li button::before {width: 9px; height: 9px; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 300px; background-color: var(--btn-light-color); content: ""; position: absolute; }
-.our-office-slider ul.slick-dots li.slick-active button::before {width: 13px; height: 13px; background: var(--white); }
-.our-office-slider ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; position: absolute; border: 1px solid var(--btn-light-color); display: block; border-radius: 50%; }
+.our-office-slider ul.slick-dots li button::before { background-color: var(--btn-light-color);}
+.our-office-slider ul.slick-dots li.slick-active button::before {background: var(--white); }
+.our-office-slider ul.slick-dots li.slick-active button::after {border: 1px solid var(--btn-light-color);}
 
      
 

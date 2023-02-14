@@ -1,6 +1,5 @@
 
 .common-grid-section{background-color: #f8f4f2;}
-.common-grid-section .container{max-width: 1600px; margin: 0 auto; width: 100%;}
 .common-grid-wrap{padding: 108px 0 112px;}
 .common-grid-main{gap: 106px;}
 .common-grid-text{flex-direction: column; justify-content: center;}
@@ -11,9 +10,27 @@
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 1600px){
+    .common-grid-section .container{max-width: 1600px; margin: 0 auto; width: 100%;}
+}
 @media only screen and (min-width: 1024px){
     .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-image{width: 790px; margin-right: 101px; }
-    .common-grid-text{width: 423px;}
+    .common-grid-text{width: calc(100% - 891px); max-width: 424px;}
     .common-grid-list.reverse .common-grid-image{margin:0 0 0 101px; }
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .common-grid-image{width: 490px; margin-right: 51px;}
+    .common-grid-text{width: calc(100% - 541px); }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .common-grid-list.reverse{flex-direction: row-reverse; }
+    .common-grid-image{width: 390px; margin-right: 32px; }
+    .common-grid-text{width: calc(100% - 422px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .common-grid-main{display: block; text-align: center;}
+    .common-grid-list{display: block;}
+    .common-grid-image{margin-bottom: 43px;}
+    .common-grid-text h2{font-size: 30px; line-height: 38px; margin-bottom: 17px;}
 }

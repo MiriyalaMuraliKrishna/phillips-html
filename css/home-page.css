@@ -13,7 +13,6 @@ ul.banner-category li > a{padding: 0 0 16px; font-size: 1rem; line-height: 1.25;
 ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--white-90); border-bottom-color: #9c5f3d;}
 
 .our-firm-section{background-color: var(--copperplate-color);}
-.our-firm-main{padding: 183px 0 115px 102px;}
 .our-firm-text{color: var(--white-90);}
 .our-firm-text::before{content: ""; position: absolute; background-image: url("../images/logo-symbol.svg"); background-size: cover; width: 171px; height: 442px; top: -79px; left: -101px; z-index: -1;}
 .our-firm-text h2{color: var(--white); margin-bottom: 24px;}
@@ -40,7 +39,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 .home-practice-text h3{color: var(--white); margin-bottom: 11px;}
 .home-practice-text p{color: var(--white-90); margin-bottom: 32px;}
 
-.our-team-wrap{padding: 144px 0 284px; } /*padding: 482px 0 284px;*/
+.our-team-wrap{padding: 144px 0 284px; }
 .our-team-text{background-color: #f8f4f2; padding: 80px 80px 87px 81px; position: absolute; right: 0; top: 138px; }
 .our-team-text .optional-text{line-height: 0.9; margin-bottom: 11px; }
 
@@ -54,6 +53,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	ul.banner-category li{flex: 0 0 183px;}
 	ul.banner-category li > a span{max-width: 122px; display: block;}
 
+	.our-firm-main{padding: 183px 0 115px 102px;}
 	.our-firm-text{ width: 505px; margin-right: 106px; z-index: 2;}
 	.our-firm-image{width: calc(100% - 611px); padding-top: 83px; z-index: 1;}
 
@@ -71,6 +71,9 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	ul.banner-category li{flex: 0 0 calc(33.333% - 14px);}
 	ul.banner-category li > a span{max-width: 122px; display: block;}
 	.home-practice-list{margin-bottom: 49px;}
+	.our-firm-main{ display: block; padding: 80px 0 80px; }
+	.our-firm-text{margin-bottom: 60px; z-index: 1;}
+	.number-count-main{gap: 32px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	ul.banner-category{display: none;}
@@ -82,8 +85,17 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.home-banner-desc{text-align: center; }
 	.home-banner-desc p{display: none; }
 
-	.our-firm-main{padding: 120px 0; }
+	.our-firm-main{padding: 120px 0 52px; display: block; position: relative; z-index: 1;}
+	.our-firm-text{margin-bottom: 43px;}
 	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px;}
 	.our-firm-text h2{font-size: 30px; line-height: 1.27;}
 	.our-firm-text::before{width: 99px; height: 344px; top: -39px; left: -24px;}
+	.our-firm-image{position: static;}
+	.our-firm-bg{width: 165px; height: 194px; top: 51px; left: auto; right: -24px;}
+
+	.number-count-main{gap: 16px;}
+	.number-count{flex: 0 0 calc(50% - 8px);}
+	
+	.home-page .common-grid-wrap { padding: 63px 0 68px; }
+
 }

@@ -25,12 +25,13 @@
     .news-event-slider ul.slick-dots{right: 0; left: 0; top: -74px; width: 100vw; max-width: 1040px; align-items: flex-end; justify-content: flex-end; padding-right: 37px;} 
     .events-slide-text h4{max-width: 300px; margin: 0; }
 }
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .news-event-slider ul.slick-dots{right: 215px; left: auto; top: -74px; width: auto; max-width: 100%; padding-right: 37px;}
+}
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .events-slide-list{max-width: 344px; margin-right: 20px;}
     .events-slider-btn{text-align: center;}
     .events-slider-row ul.slick-dots{text-align: center; margin-left: 0;}
-
 }
 
 
