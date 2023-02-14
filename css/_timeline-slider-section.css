@@ -20,7 +20,6 @@
 .timeline-slide-text{background-color: #f8f4f2; padding: 65px 20px 67.5px 39px; }
 .timeline-slide-text h3{margin-bottom: 12px; }
 
-
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .timeline-slider-main{flex-direction: column-reverse;}
