@@ -69,6 +69,20 @@ $(document).ready(function(){
         variableWidth: true,
         focusOnSelect: true,
         asNavFor: '.timeline-slider-nav',
+        responsive: [
+            {
+            breakpoint: 1023,
+                settings: {
+                    dots: true,
+                }
+            },
+            {
+            breakpoint: 767,
+                settings: {
+                    dots: true,
+                }
+            }
+        ]
     });
     $('.timeline-slider-nav').slick({
         slidesToShow: 1,
@@ -79,6 +93,20 @@ $(document).ready(function(){
         autoplay: false,
         draggable: false,
         asNavFor: '.timeline-slider-for',
+        responsive: [
+            {
+            breakpoint: 1023,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+            breakpoint: 767,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
     $('.community-event-slider').slick({
