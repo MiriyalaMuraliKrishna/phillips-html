@@ -65,6 +65,7 @@ $(document).on('ready', function () { mobileIpad(); });
 
 $('.banner-category-mobile').on('click', function(e){
     e.preventDefault();
+    $(this).toggleClass('open');
     $('ul.banner-category').slideToggle(900);
 });
 $('ul.banner-category li a').on('click', function(e){
