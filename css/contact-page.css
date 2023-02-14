@@ -19,7 +19,8 @@ ul.phone-list li::before{display: none;}
 ul.phone-list li{margin-bottom: 8px;}
 ul.phone-list li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
 ul.phone-list li a:hover{color: var(--black);}
-ul.phone-list li a span{font-size: 16px; color: #9c5f3d; margin-right: 10px; }
+.contact-icon{font-size: 16px; color: #9c5f3d; margin: 5px 10px 0 0; }
+.contact-icon-text{width: calc(100% - 26px); }
 .office-form-bg{ background-color: var(--white); padding: 37px 45px 57px 52px;}
 
 /*-- media css starts here --*/

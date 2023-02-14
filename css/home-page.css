@@ -73,7 +73,15 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.home-practice-list{margin-bottom: 49px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	ul.banner-category{display: none;}
+	.home-banner-category{position: relative;}
+	.banner-category-mobile{padding: 16px 50px 16px 20px; cursor: pointer; border: solid 1px #979797; font-size: 1rem; line-height: 1.5;  position: relative;}
+	.banner-category-mobile span{display: block;}
+	.banner-category-mobile::after{right: 19px; top: 50%; transform: translateY(-50%); content: "\f107"; font-family: "Font Awesome 6 Pro"; position: absolute;}
+	.banner-category-mobile.open{background-color: var(--white); color: var(--black);}
+	.banner-category-mobile.open::after{content: "\f106";}
+	ul.banner-category{display: none; padding: 0 21px 22px; background-color: var(--white); position: absolute;  z-index: 99;}
+	ul.banner-category li > a{border: none; padding: 0; color: var(--black-80);}
+	ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--btn-color);}
 	.home-practice-main{display: block;}
 	.home-practice-list{margin-bottom: 49px;}
 	.home-practice-mobile{top: 0; left: 0; z-index: 1; position: absolute;}
@@ -81,9 +89,15 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.home-banner-text h1{font-size: 33px; text-align: center; line-height: 1.27; }
 	.home-banner-desc{text-align: center; }
 	.home-banner-desc p{display: none; }
+	.banner-category-mobile.open{border: solid 1px #fff;}
+	.banner-category-mobile.open::after{ color: var(--copperplate-color); }
+	ul.banner-category li{margin: 0 0 20px; }
+	ul.banner-category li:last-child{margin: 0; }
+	ul.banner-category li > a {font-size: 14px; line-height: 1.43;}
 
-	.our-firm-main{padding: 120px 0; }
-	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px;}
+	.our-firm-main{padding: 119px 0 52px;}
+	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px; margin-bottom: 19px;}
 	.our-firm-text h2{font-size: 30px; line-height: 1.27;}
+	.our-firm-text{z-index: 1; margin-bottom: 11px;}
 	.our-firm-text::before{width: 99px; height: 344px; top: -39px; left: -24px;}
 }
