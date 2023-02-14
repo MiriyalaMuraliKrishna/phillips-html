@@ -25,6 +25,7 @@
     .timeline-slider-main{flex-direction: column-reverse;}
     .timeline-slider-for.slick-slider{width: 100vw; display: block;}
     .timeline-slide-list{padding: 0 84px;}
+    .timeline-slider-nav{width: 100%;}
 }
 @media only screen and (max-width:1023px) and (min-width: 768px){
     .timeline-slider-wrap { padding: 74px 0 50px; }

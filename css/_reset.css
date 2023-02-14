@@ -216,6 +216,10 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .container{max-width: 100%; padding: 0 24px;}
     ul.slick-dots{margin: 30px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; width: 100%;}
+    ul.slick-dots li button{width: 22px; height: 22px;}
+    ul.slick-dots li button::before{width: 7px; height: 7px;}
+    ul.slick-dots li.slick-active button::before { width: 7px; height: 7px; }
+    ul.slick-dots li.slick-active button::after { width: 19px; height: 19px; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .hide-mobile{display: none;}

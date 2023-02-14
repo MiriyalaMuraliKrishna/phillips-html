@@ -35,7 +35,10 @@
     .milestone-slider-content{width: 1037px; margin: 0 auto; }
     .timeline-slide-image{width: 508px; }
     .timeline-slide-content{width: calc(100% - 508px); }
-
     .about-page .our-people-main{width: 100%;}
-
 }
+@media only screen and (max-width:1299px) and (min-width: 1024px){
+    .timeline-slide-image{width: 408px;}
+    .timeline-slide-content{width: calc(100% - 408px);}
+}
+@media only screen and (max-width:1023px) and (min-width: 768px){}
