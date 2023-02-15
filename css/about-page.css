@@ -11,24 +11,29 @@
 .about-page .logo-slider-wrap{padding: 40px 0 81px; }
 
 /* our people section */
-.about-page .our-people-section{background-color: #f0eae7; }
-.about-page .our-people-wrap{padding: 110px 0 323px; }
-.about-page .our-people-main{gap: 20px; padding: 0; }
-.about-page .our-people-list{width: 285px; }
-.about-page .our-people-thumb img{width: 285px;}
-.about-page .our-people-content{background-color: transparent; padding: 22px 12px 22px 18px; position: absolute; bottom: 0px; width: 100%; display: none;}
-.about-page .our-people-content h4{margin-bottom: 4px; color: var(--white); }
-.about-page .our-people-content .optional-text{color: var(--white);}
-.about-page .our-people-list:hover{box-shadow: none; }
-.about-page .our-people-list:hover .our-people-content{display: block;}
-.about-page .our-people-list:hover .our-people-thumb::after{content: ""; position: absolute; width: 100%; height: 100%; top: 0; mix-blend-mode: multiply; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 17%, rgba(40, 40, 40, 0.68) 70%, rgba(0, 0, 0, 0.76) 83%);}
+.about-people-section{background-color: #f0eae7; }
+.about-people-wrap{padding: 110px 0 76px; }
+.about-people-main{gap: 20px; padding: 0; }
+.about-people-list{width: 285px; }
+.about-people-thumb img{width: 285px; filter: saturate(0);}
+.about-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; }
+.about-people-list:hover .about-people-thumb::before{display: none;}
+.about-people-list:hover .about-people-thumb img{filter: saturate(1);}
+.about-people-content{background-color: transparent; padding: 22px 12px 22px 18px; position: absolute; bottom: 0px; width: 100%; display: none;}
+.about-people-content h4{margin-bottom: 4px; color: var(--white); }
+.about-people-content .optional-text{color: var(--white);}
+.about-people-list:hover{box-shadow: none; }
+.about-people-list:hover .about-people-content{display: block;}
+.about-people-list:hover .about-people-thumb::after{content: ""; position: absolute; width: 100%; height: 100%; top: 0; mix-blend-mode: multiply; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 17%, rgba(40, 40, 40, 0.68) 70%, rgba(0, 0, 0, 0.76) 83%);}
 
-.about-page .our-people-list:nth-child(7n){width: 49%;}
-.about-page .our-people-list:nth-child(7n) .our-people-content{display: block; background-color: var(--white); height: 100%; padding: 41px 32px 41px 53px;}
+.about-people-list:nth-child(7n){width: 49%;}
+.about-people-list:nth-child(7n) .about-people-content{display: block; background-color: var(--white); height: 100%; padding: 41px 32px 41px 53px;}
 
 /* Custom cta section */
-.about-page .custom-cta-wrap{padding: 489px 0 108px; }
-.about-page .home-practice-main{position: absolute; top: -187px; }
+.about-page .custom-cta-section{background-color: #f8f4f2; }
+.about-page .custom-cta-section::before{content: ""; position: absolute; width: 100%; height: 247px; background-color: #f0eae7; }
+.about-page .custom-cta-wrap{padding: 60px 0 108px; }
+.about-page .home-practice-main{padding: 0 0 133px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
