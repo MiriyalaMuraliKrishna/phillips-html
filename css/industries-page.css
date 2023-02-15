@@ -17,7 +17,7 @@
 .industries-list h5 a{color: var(--black);}
 .industries-list h5 a:hover{color: var(--copperplate-color);}
 .industries-desc p{margin-bottom: 15px; }
-.read-btn { font-size: 14px; font-weight: 500; line-height: 1; padding-right: 22px; color: #9c5f3d; }
+.industries-desc .read-btn { font-size: 14px; font-weight: 500; line-height: 1; padding-right: 22px; color: #9c5f3d; }
 .angle-icon{font-size: 12px; }
 
 /* News Events Section */
