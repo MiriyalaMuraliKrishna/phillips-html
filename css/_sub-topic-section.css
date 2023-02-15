@@ -9,7 +9,7 @@
 .sub-topic-section .accordion-header{padding: 26px 23px; margin-bottom: 0; line-height: 1.2; color: var(--black);}
 .sub-topic-section .accordion-header::after{width: 100%; left: 0; opacity: 1; background-color: rgba(0, 0, 0, 0.15);}
 .sub-topic-section .accordion-content{padding: 0 23px 45px;}
-.sub-topic-section .accordion-active .accordion-header, .accordion-header:hover{color: var(--white);}
+.sub-topic-section .accordion-active .accordion-header, .accordion-header:hover{color: var(--white); background-color: var(--copperplate-color);}
 .sub-topic-section .accordion-active .accordion-content{color: var(--white-90);}
 .sub-topic-section .accordion-active .accordion-header::after, .accordion-header:hover::after { opacity: 0; }
 
