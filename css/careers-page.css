@@ -10,3 +10,20 @@
 
 /* Custom cta section */
 .careers-page .custom-cta-wrap { padding: 78px 0 129px; }
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width:1023px) and (min-width:768px){
+    .careers-page .careers-cta-wrap{padding: 50px 0 50px; }
+    .careers-page .custom-cta-wrap{padding: 56px 0; }
+}
+
+
+@media only screen and (max-width:767px) and (min-width:200px){
+    .careers-page .perks-wrap{padding: 53px 0 50px;}
+    .careers-page .careers-cta-wrap{padding: 50px 0 56px; }
+
+    .careers-page .testimonial-wrap{padding: 56px 0 42px;}
+    .careers-page .custom-cta-section{background-color: #f8f4f2; }
+    .careers-page .custom-cta-wrap{padding: 51px 0 56px; }
+}
