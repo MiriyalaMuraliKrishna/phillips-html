@@ -20,7 +20,7 @@
 
 /* FAQ section */
 .orphan-landing-page .faq-wrap{padding: 124px 0 81px; }
-.orphan-landing-page .insight-featured-section{background-image: url("./images/insight-bg-two@2x.jpg");}
+
 
 /* News & events section */
 .orphan-landing-page .events-slider-section{background-color: var(--gray-color); }
@@ -75,8 +75,6 @@
 
     .orphan-landing-page .buffalo-team-wrap{padding: 51px 0 112px; }
     .orphan-landing-page .buffalo-team-heading{margin-bottom: 31px; }
-
-    .orphan-landing-page .insight-featured-section{background-image: url("./images/insight-bg-two-mobile@2x.jpg"); }
 
     .orphan-landing-page .events-slider-wrap {padding: 56px 0 0; }
     .orphan-landing-page .breakpoint-thumb{margin: 43px auto 32px;}
