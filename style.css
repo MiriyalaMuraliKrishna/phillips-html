@@ -13,3 +13,11 @@ Text Domain:
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+	font-family: 'Copperplate-Regular';
+	src: url('./fonts/Copperplate-Regular.eot');
+	src: url('./fonts/Copperplate-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/Copperplate-Regular.woff2') format('woff2'), url('../fonts/Copperplate-Regular.woff') format('woff'), url('./fonts/Copperplate-Regular.ttf') format('truetype'); font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
