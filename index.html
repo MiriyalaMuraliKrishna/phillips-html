@@ -311,9 +311,10 @@
         <div class="insight-featured-wrap">
             <div class="insight-featured-main flex">
                 <div class="insight-featured-big pos-relative">
-                    <figure class="object-fit insight-featured-image pos-relative">
-                        <img src="images/insight-thumb@2x.jpg" alt="featured-insight-image">
-                    </figure>
+                    <picture class="object-fit insight-featured-image pos-relative">
+                        <source srcset="images/insight-thumb@2x.jpg" media="(min-width:768px)">
+                        <img src="images/insight-thumb-mobile@2x.jpg" alt="insight-thumb-mobile">
+                    </picture>
                     <div class="insight-featured-content">
                         <div class="insight-featured-text flex">
                             <span class="optional-text">Featured Insight</span>
