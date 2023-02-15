@@ -11,7 +11,6 @@
 
 .practice-section{background-color: #f8f4f2; margin-top: -175px;}
 .practice-wrap{padding-bottom: 84px; z-index: 1;}
-.practice-thumb{min-height: 220px;}
 .practice-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.75); }
 .practice-content{position: absolute; top: 0; width: 100%; height: 100%; padding: 9px 7px; transition: all .3s ease;}
 .practice-inner{width: 100%; height: 100%; border: solid 1px var(--copperplate-color); padding: 33px 38px 22px 32px; color: var(--white); font-size: 15px; line-height: 1.6;}
@@ -31,9 +30,27 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .practice-big{width: 997px; margin: 0 auto 71px; }
-    .practice-big img{width: 997px; }
+    .practice-big{max-width: 997px; margin: 0 auto 71px; }
+    .practice-big img{width: 100%; }
     .practice-main{gap: 35px 22px;}
     .practice-list{flex: 0 0 calc(33.333% - 15px);}
-    .practice-thumb img{width: 385px; }
+    .practice-thumb img{min-height: 220px;}
+}
+@media only screen and (max-width:1299px) and (min-width: 1024px){
+    .practice-inner{padding: 20px;}
+}
+@media only screen and (max-width:1023px) and (min-width: 768px){
+    .practice-big{margin-bottom: 71px; }
+    .practice-main{gap: 24px;}
+    .practice-list{flex: 0 0 calc(50% - 12px);}
+    .practice-inner{padding: 20px;}
+}
+@media only screen and (max-width:767px) and (min-width: 200px){
+    .practice-wrap{padding-bottom: 40px;}
+    .practice-big{margin-bottom: 71px; }
+    .practice-main{display: block;}
+    .practice-list{margin-bottom: 15px;}
+    .practice-thumb img{min-height: 220px;}
+    .practice-inner{padding: 20px;}
+    .practices-page .events-slider-wrap { padding: 42px 0 264px; }
 }

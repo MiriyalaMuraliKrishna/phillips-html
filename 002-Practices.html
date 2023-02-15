@@ -102,9 +102,12 @@
 <section class="practice-section pos-relative">
     <div class="container">
         <div class="practice-wrap pos-relative">
-            <figure class="practice-big flex">
-                <img src="images/practice-thumb-big@2x.jpg" alt="practice-thumb-big">
-            </figure>
+            <div class="practice-big">
+                <picture class="object-fit">
+                    <source srcset="images/practice-thumb-big@2x.jpg" media="(min-width: 768px)">
+                    <img src="images/practice-thumb-mobile@2x.jpg" alt="practice-thumb-big">
+                </picture>
+            </div>
             <div class="practice-main flex">
                 <div class="practice-list pos-relative">
                     <figure class="practice-thumb object-fit pos-relative">

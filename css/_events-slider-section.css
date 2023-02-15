@@ -30,11 +30,9 @@
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .events-slide-list{max-width: 344px; margin-right: 20px;}
-    .events-slider-btn{text-align: center;}
+    .events-slider-btn{text-align: center; margin-top: 40px;}
     .events-slider-row ul.slick-dots{text-align: center; margin-left: 0;}
 }
-
-
 @media only screen and (max-width: 767px) and (min-width:200px){
     .events-slider-wrap{padding: 58px 0 61px; }
     .events-slide-list{max-width: 327px; margin: 0 20px 4px 0;}
@@ -45,5 +43,4 @@
     .events-slider-row ul.slick-dots{bottom: -93px; position: relative;}
     .events-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 75px; }
     .events-view-btn .right-icon{margin-left: 10px; }
-
 }
