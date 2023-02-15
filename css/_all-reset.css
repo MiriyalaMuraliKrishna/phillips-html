@@ -119,6 +119,9 @@ button:hover, .button:hover{background-color: var(--copperplate-color); color: v
 .btn-white{border-color: #ebb89c;}
 .btn-md{padding: 10px 25px 10px}
 
+.btn-link{display: none; color: var(--white); font-size: 14px; line-height: 1.5; font-weight: 500;}
+.btn-link span{padding-left: 5px; font-size: 12px; top: 50%; transform: translateY(-50%); position: absolute;}
+
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif;}
 :-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 1; }

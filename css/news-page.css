@@ -12,8 +12,8 @@
 .news-events-inner h4 a{color: var(--black); }
 .news-events-inner h4 a:hover{color: var(--copperplate-color); }
 .read-btn{font-size: 16px; line-height: 1.75; }
-.angle-icon{position: absolute; top: 50%; transform: translateY(-50%); right: 4px; transition: all .5s ease;}
 .read-btn:hover .angle-icon{right: 0;}
+.angle-icon{position: absolute; top: 50%; transform: translateY(-50%); right: 4px; transition: all .5s ease;}
 .news-events-image .button{color: var(--copperplate-color); }
 .news-events-image .button:hover{color: var(--white); }
 

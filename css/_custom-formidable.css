@@ -14,7 +14,7 @@ body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholde
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5; }
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5;}
 body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--text-color); font-family: 'Roboto', sans-serif; opacity: 0.5;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio label{padding-left: 30px; display: block; font-size: 14px; line-height: 1.5; color: rgba(0, 0, 0, 0.7); text-indent: 0;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio label{padding-left: 30px; cursor: pointer; display: block; font-size: 14px; line-height: 1.5; color: rgba(0, 0, 0, 0.7); text-indent: 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid var(--btn-color); background: none; border-radius: 0; position: absolute; margin: 2px 0 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before, 
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before {width: 12px; height: 10px; margin: 2px 0 0 2px; box-shadow: inset 8px 8px var(--text-color); }
