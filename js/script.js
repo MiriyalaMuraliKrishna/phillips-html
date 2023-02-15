@@ -80,4 +80,16 @@ $(document).ready(function(){
         e.preventDefault();
         $('.social-share-icons').toggleClass('open');
     });
+
+    $('.common-dropdown').on('click', function(e){
+        e.preventDefault();
+        $(this).toggleClass('open');
+        $('ul.banner-category').slideToggle(900);
+    });
+    $('ul.banner-category li a').on('click', function(e){
+        e.preventDefault();
+        let text = $(this).text();
+        $('.banner-category-mobile span').text(text);
+        $('ul.common-banner-item').slideUp();
+    });
 });

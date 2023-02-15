@@ -1,7 +1,6 @@
 
 /* Short headline section */
 .industries-default-page .short-headline-section{z-index: 1;}
-.industries-default-page .short-headline-wrap{padding: 108px 0 29px; }
 .industries-default-page .download-print-main{padding: 26px 0 36px; }
 .industries-default-page .short-headline-title{margin-bottom: 59px; }
 .industries-default-page .short-headline-section::before{content: ""; position: absolute; width: 100%; height: 705px; background-color: #f0eae7; bottom: 0; z-index: -1;}
@@ -40,8 +39,63 @@
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .industries-default-page .default-banner-main{max-width: 630px;}
+}
 @media only screen and (min-width: 1024px){
     .how-help-text{width: 308px; margin-right: 119px; }
     .how-help-frm{width: calc(100% - 427px); }
+    .industries-default-page .short-headline-wrap{padding: 108px 0 29px; }
+    .short-logo-lists{display: block;}
 }
-.industries-default-page .default-banner-main{max-width: 630px;}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .how-help-main{padding: 32px;}
+    .how-help-text{margin-bottom: 32px;}
+    .industries-default-page .product-liability-main{padding: 50px;}
+    .industries-default-page .product-liability-text{width: 100%;}
+
+    .industries-default-page .logo-slider-wrap { padding: 62px 0 56px; }
+    .industries-default-page .product-liability-main { padding: 32px 20px 72px; }
+    .industries-default-page .sub-topic-wrap { padding: 51px 0 76px; }
+
+    .industries-default-page .buffalo-team-wrap{padding: 47px 0 64px;}
+    .industries-default-page .buffalo-team-heading{margin-bottom: 31px;}
+
+    .industries-default-page .micro-cta-wrap { padding: 0 0 70px; }
+    .industries-default-page .faq-wrap { padding: 0px 0 32px; }
+    .industries-default-page .faq-thumb::before{display: none;}
+    .industries-default-page .cta-panel-section{padding-bottom: 56px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .banner-dropdown{padding: 13px 50px 12px 20px; cursor: pointer;  border: solid 1px rgba(174, 174, 174, 0.5); background-color: var(--white); font-size: 1rem; line-height: 1.5;  position: relative;}
+    .banner-dropdown span{display: block;}
+    .banner-dropdown::after{right: 19px; top: 50%; transform: translateY(-50%); content: "\f107"; font-family: "Font Awesome 6 Pro"; position: absolute;}
+    .banner-dropdown.open{background-color: var(--white); color: var(--black);}
+    .banner-dropdown.open::after{content: "\f106";}
+    ul.common-banner-item{display: none; padding: 0 21px 22px; background-color: var(--white); position: absolute;  z-index: 99;}
+    ul.common-banner-item li > a{border: none; padding: 0; color: var(--black-80);}
+    ul.common-banner-item li.active > a, ul.common-banner-item li > a:hover{color: var(--btn-color);}
+
+    .industries-default-page .short-headline-wrap{padding: 0px 0 29px;}
+    .industries-default-page .download-print{margin-bottom: 0;}
+    .industries-default-page .download-print-main{padding-bottom: 10px;}
+
+    .short-headline-logo .optional-text{margin-bottom: 15px;}
+    .extramargin { margin-bottom: 50px; padding-bottom: 50px; }
+    .industries-default-page .short-headline-section::before { height: 890px; }
+    .how-help-main{padding: 32px;}
+    .how-help-text{margin-bottom: 10px;}
+    .how-help-text h2{font-size: 28px; line-height: 28px;}
+
+    .industries-default-page .logo-slider-wrap { padding: 62px 0 56px; }
+    .industries-default-page .product-liability-main { padding: 32px 20px 72px; }
+    .industries-default-page .sub-topic-wrap { padding: 51px 0 76px; }
+
+    .industries-default-page .buffalo-team-wrap{padding: 47px 0 64px;}
+    .industries-default-page .buffalo-team-heading{margin-bottom: 31px;}
+
+    .industries-default-page .micro-cta-wrap { padding: 0 0 70px; }
+    .industries-default-page .faq-wrap { padding: 0px 0 32px; }
+    .industries-default-page .faq-thumb::before{display: none;}
+    .industries-default-page .cta-panel-section{padding-bottom: 56px;}
+}
