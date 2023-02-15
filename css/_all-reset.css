@@ -236,4 +236,6 @@ ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%
 
     ol{margin: 36px 0 54px 24px; }
     ol > li{margin-bottom: 19px; }
-}
+    
+    h2{font-size: 28px; line-height: 38px;}
+} 

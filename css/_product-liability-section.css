@@ -15,7 +15,10 @@
 /*-- media css starts heer --*/
 @media only screen and (min-width: 1024px){
     .product-liability-text ul{margin-bottom: 37px;}
-
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .fullwidth-horizontal .product-liability-text{background-color: transparent;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .fullwidth-horizontal .product-liability-text{background-color: transparent;}
 }
