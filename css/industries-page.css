@@ -37,11 +37,13 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .industries-main{gap: 32px;}
     .industries-list{flex: 0 0 calc(50% - 16px);}
+    .industries-page .events-slider-wrap { padding: 70px 0 330px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .industries-wrap { padding: 88px 0 56px; }
     .industries-main{display: block;}
     .industries-list{margin-bottom: 50px;}
     .industries-more-btn{text-align: center;}
-    .industries-page .events-slider-wrap{padding: 112px 0 23px;}
+    .industries-page .events-slider-wrap{padding: 43px 0 23px;}
     .industries-page .cta-panel-section{margin-top: 0; padding-bottom: 56px;}
 }
