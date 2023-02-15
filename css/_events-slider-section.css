@@ -32,6 +32,7 @@
     .events-slide-list{max-width: 344px; margin-right: 20px;}
     .events-slider-btn{text-align: center; margin-top: 40px;}
     .events-slider-row ul.slick-dots{text-align: center; margin-left: 0;}
+    .events-slider-wrap{padding: 60px 0; }
 }
 @media only screen and (max-width: 767px) and (min-width:200px){
     .events-slider-wrap{padding: 58px 0 61px; }

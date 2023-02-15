@@ -26,8 +26,12 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .common-grid-list.reverse{flex-direction: row-reverse; }
+    .common-grid-wrap{padding: 65px 0; }
     .common-grid-image{width: 390px; margin-right: 32px; }
     .common-grid-text{width: calc(100% - 422px);}
+    .common-grid-text .optional-text{font-size: 16px; margin-bottom: 10px;}
+    .common-grid-text h2{margin-bottom: 15px; font-size: 30px; }
+    .common-grid-text p{margin-bottom: 20px; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .common-grid-main{display: block; text-align: center;}

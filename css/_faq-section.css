@@ -32,8 +32,13 @@
     .faq-image{width: 100%; flex: 0 0 100%; transform: none; padding: 0 32px;}
     .faq-content{width: calc(100% + 64px); flex: 0 0 100%; transform: translateX(-32px); padding: 116px 64px 92px;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .faq-wrap{padding: 60px 0; }
+    .faq-thumb img{height: 550px;}
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .faq-image{padding: 0 24px; }
+    .faq-image{padding: 0 24px; margin: 0 auto;}
     .faq-content{padding: 116px 24px 45px; margin-top: -86px;}
     .faq-title { margin-bottom: 38px; padding: 0; }
     .faq-btn { text-align: center; margin-top: 40px; }
