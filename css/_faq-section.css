@@ -2,7 +2,7 @@
 .faq-section{background-color: #f8f4f2; }
 .faq-wrap { padding: 181px 0 110px; }
 .faq-main{z-index: 1;}
-.faq-content{background-image: url("../images/faq-bg@2x.jpg"); background-size: cover; padding: 116px 204px 92px 326px; color: var(--white-90); z-index: -1;}
+.faq-content{background-image: url("images/faq-bg@2x.jpg"); background-size: cover; padding: 116px 204px 92px 326px; color: var(--white-90); z-index: -1;}
 .faq-title{margin-bottom: 38px; padding: 0 27px;}
 .faq-title h2{color: var(--white); margin-bottom: 20px;}
 .accordion{margin-bottom: 13px;}

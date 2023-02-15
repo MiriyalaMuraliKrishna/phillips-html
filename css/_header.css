@@ -130,9 +130,9 @@
     
     .toggle_icon{width: 74px; height: 65px; left: 0; top: 0; cursor: pointer; position: absolute; z-index: 850; transition: color 0.3s ease-in-out;}
     .toggle_icon.active{background-color: var(--copperplate-color);}
-    .toggle_bar{width: 100%; height: 100%; background-image: url("../images/toggle-icon-black.svg"); background-position: center; background-repeat: no-repeat; display: block;}
-    .sticky_header:not(.fixed_header) .toggle_bar{background-image: url('../images/toggle-icon-white.svg');}
-    .header_mobile .toggle_bar{background-image: url('../images/toggle-icon-white.svg');}
+    .toggle_bar{width: 100%; height: 100%; background-image: url("images/toggle-icon-black.svg"); background-position: center; background-repeat: no-repeat; display: block;}
+    .sticky_header:not(.fixed_header) .toggle_bar{background-image: url('images/toggle-icon-white.svg');}
+    .header_mobile .toggle_bar{background-image: url('images/toggle-icon-white.svg');}
 
     .navigation{left: -100%; top: 0; width: 100%; height: 100%; margin-top: 65px; padding-top: 0; max-width: 408px; background-color: var(--white); display: block; position: fixed; z-index: 800; overflow-y: scroll; -webkit-overflow-scrolling: touch; transition: left 0.3s ease-in-out;}
     .navigation.open{left: 0;}

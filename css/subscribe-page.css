@@ -3,8 +3,8 @@
 .subscribe-page-section{background-color: #f8f4f2; }
 .subscribe-page-wrap{padding: 124px 0 81px; }
 .subscribe-page-text{z-index: 1;}
-.subscribe-page-text::before{content: ""; position: absolute; top: -26px; left: -103px; background-image: url('../images/gray-banner-symbol.svg'); z-index: -1; width: 171px; height: 442px; }
-.subscribe-page-form{background-color: var(--white); padding:40px 60px 58px 64px;} /*padding:40px 61px 58px 66px*/
+.subscribe-page-text::before{content: ""; position: absolute; top: -26px; left: -103px; background-image: url('images/gray-banner-symbol.svg'); z-index: -1; width: 171px; height: 442px; }
+.subscribe-page-form{background-color: var(--white); padding:40px 60px 58px 64px;}
 
 .communication-list{padding-bottom: 26px; border-bottom: 1px solid #9c5f3d; margin-bottom: 35px; }
 .communication-list span{margin-bottom: 11px;}
