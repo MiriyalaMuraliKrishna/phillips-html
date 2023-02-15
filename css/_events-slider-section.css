@@ -41,7 +41,8 @@
     .events-slider-heading h2{font-size: 28px; text-align: center; }
     .events-slide-text{text-align: center; }
     .events-slider-btn{text-align: center;}
-    .events-slider-row ul.slick-dots{bottom: -93px; position: relative;}
-    .events-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 75px; }
+    .events-slider-row ul.slick-dots{bottom: 0; position: relative;}
+    .events-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 30px; }
     .events-view-btn .right-icon{margin-left: 10px; }
+    .events-slide-link{margin-top: 30px;}
 }
