@@ -1,0 +1,49 @@
+
+/* Banner section */
+.about-page .number-count-bg{background-color:transparent; }
+.about-page .default-banner-main{padding: 180px 0 42px;}
+.about-page .num-value{color: var(--white);}
+
+/* short headline section */
+.about-page .short-headline-wrap{padding: 87px 0 40px; }
+
+/* Logo slider section */
+.about-page .logo-slider-wrap{padding: 40px 0 81px; }
+
+/* our people section */
+.about-people-section{background-color: #f0eae7; }
+.about-people-wrap{padding: 110px 0 76px; }
+.about-people-main{gap: 20px; padding: 0; }
+.about-people-list{width: 285px; }
+.about-people-thumb img{width: 285px; filter: saturate(0);}
+.about-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; }
+.about-people-list:hover .about-people-thumb::before{display: none;}
+.about-people-list:hover .about-people-thumb img{filter: saturate(1);}
+.about-people-content{background-color: transparent; padding: 22px 12px 22px 18px; position: absolute; bottom: 0px; width: 100%; display: none;}
+.about-people-content h4{margin-bottom: 4px; color: var(--white); }
+.about-people-content .optional-text{color: var(--white);}
+.about-people-list:hover{box-shadow: none; }
+.about-people-list:hover .about-people-content{display: block;}
+.about-people-list:hover .about-people-thumb::after{content: ""; position: absolute; width: 100%; height: 100%; top: 0; mix-blend-mode: multiply; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 17%, rgba(40, 40, 40, 0.68) 70%, rgba(0, 0, 0, 0.76) 83%);}
+
+.about-people-list:nth-child(7n){width: 49%;}
+.about-people-list:nth-child(7n) .about-people-content{display: block; background-color: var(--white); height: 100%; padding: 41px 32px 41px 53px;}
+
+/* Custom cta section */
+.about-page .custom-cta-section{background-color: #f8f4f2;}
+.about-page .custom-cta-section::before{content: ""; position: absolute; width: 100%; height: 247px; background-color: #f0eae7; }
+.about-page .custom-cta-wrap{padding: 60px 0 108px; }
+.about-page .home-practice-main{padding: 0 0 133px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .milestone-slider-content{width: 1037px; margin: 0 auto; }
+    .timeline-slide-image{width: 508px; }
+    .timeline-slide-content{width: calc(100% - 508px); }
+    .about-page .our-people-main{width: 100%;}
+}
+@media only screen and (max-width:1299px) and (min-width: 1024px){
+    .timeline-slide-image{width: 408px;}
+    .timeline-slide-content{width: calc(100% - 408px);}
+}
+@media only screen and (max-width:1023px) and (min-width: 768px){}
