@@ -24,7 +24,13 @@ body .cky-accordion-header .cky-always-active{color: var(--slate-color);}
 .cky-preference-header .cky-btn-close{min-width: inherit;}
 .cky-always-active:hover{color: var(--copperplate-color) !important; }
 
+/*-- media css starts heer --*/
+@media only screen and (min-width: 1024px){
+
+}
+@media only screen and (min-width: 768px){
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body .cky-consent-container {right: 0; padding: 0 20px;}
-    body .cky-notice-btn-wrapper{ margin-top: 20px;}
+    body .cky-notice-btn-wrapper{margin-top: 20px;}
 }

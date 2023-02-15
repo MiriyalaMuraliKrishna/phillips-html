@@ -8,13 +8,13 @@ module.exports = function(grunt) {
       concat: config('concat'),
       uglify: config('uglify'),
       cssmin: config('cssmin'),
-      // cssmin: {
-      //   target: {
-      //     files: {
-      //       'core.bundle.css': ['style.css', 'css/*.css']
-      //     }
-      //   }
-      // },
+      cssmin: {
+        target: {
+          files: {
+            'core.bundle.css': ['style.css', 'css/*.css']
+          }
+        }
+      },
       uglify: {
         my_target: {
           files: {
@@ -29,11 +29,11 @@ module.exports = function(grunt) {
         }
       },
       watch: {
-        // stylesheets: { 
-        //   files: ['style.css', 'css/*.css'],
-        //   tasks: ['cssmin'],
-        //   livereload: true
-        // },
+        stylesheets: { 
+          files: ['style.css', 'css/*.css'],
+          tasks: ['cssmin'],
+          livereload: true
+        },
         scripts: {
           files: ['js/**/*.js'],
            tasks: ['uglify']
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
  
     // Default task(s).
-    grunt.registerTask('dist', ['concat', 'grunt']);
+    grunt.registerTask('dist', ['concat', 'uglify', 'cssmin', 'grunt']);
     grunt.registerTask('default', ['watch']);
   
   };

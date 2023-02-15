@@ -1,5 +1,3 @@
-
-
 @charset "utf-8";
 
 /*
@@ -15,61 +13,3 @@ Text Domain:
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-@import url("css/_fonts.css");
-@import url("css/_colors.css");
-@import url("css/_reset.css");
-@import url("css/_header.css");
-@import url("css/_footer.css");
-@import url("css/_cookibar.css");
-@import url("css/_common-social-icons.css");
-@import url("css/_subscribe-section.css");
-@import url("css/_custom-formidable.css");
-@import url("css/_custom-selectBox.css");
-@import url("css/_custom-cta-section.css");
-@import url("css/_our-office-section.css");
-@import url("css/_events-slider-section.css");
-@import url("css/_common-grid-section.css");
-@import url("css/_default-banner-section.css");
-@import url("css/_common-banner-section.css");
-@import url("css/_insight-featured-section.css");
-@import url("css/_faq-section.css");
-@import url("css/_cta-panel-section.css");
-@import url("css/_short-headline-section.css");
-@import url("css/_testimonial-section.css");
-@import url("css/_careers-cta-section.css");
-@import url("css/_perks-section.css");
-@import url("css/_careers-opportunities-section.css");
-@import url("css/_careers-slider-section.css");
-@import url("css/_logo-slider-section.css");
-@import url("css/_buffalo-team-section.css");
-@import url("css/_sub-topic-section.css");
-@import url("css/_micro-cta-section.css");
-@import url("css/_product-liability-section.css");
-
-@import url("css/home-page.css");
-@import url("css/practices-page.css");
-@import url("css/practices-default-page.css");
-@import url("css/industries-page.css");
-@import url("css/people-page.css");
-@import url("css/people-bio-page.css");
-@import url("css/insights-page.css");
-@import url("css/insights-default-page.css");
-@import url("css/industries-default-page.css");
-@import url("css/subscribe-page.css");
-@import url("css/news-page.css");
-@import url("css/news-default-page.css");
-@import url("css/careers-page.css");
-@import url("css/careers-group-page.css");
-@import url("css/careers-default-page.css");
-@import url("css/about-page.css");
-@import url("css/office-page.css");
-@import url("css/dei-page.css");
-@import url("css/contact-page.css");
-@import url("css/default-page.css");
-@import url("css/confirmation-page.css");
-@import url("css/404-page.css");
-@import url("css/search-results-page.css");
-@import url("css/orphan-landing-page.css");
-@import url("css/slick.css");
-@import url("css/_timeline-slider-section.css");
-
