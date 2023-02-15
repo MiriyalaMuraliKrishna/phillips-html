@@ -28,7 +28,7 @@ $(document).ready(function(){
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().removeClass('accordion-active');
-        $(this).parent().addClass("accordion-active");
+        $(this).parent().toggleClass("accordion-active");
         $(this).parent().siblings().find('.accordion-content').slideUp(500);
         $(this).siblings('.accordion-content').slideToggle(500);
     });

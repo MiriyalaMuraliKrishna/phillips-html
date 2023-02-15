@@ -35,7 +35,7 @@
 .industries-default-page .micro-cta-wrap{padding: 0 0 124px; }
 
 /* FAQ section */
-.industries-default-page .faq-wrap{padding: 163px 0 329px; }
+.industries-default-page .faq-wrap{padding: 163px 0 162px; }
 .industries-default-page .faq-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2); }
 
 /* CTA PAnel section */
