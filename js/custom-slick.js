@@ -36,6 +36,14 @@ $(document).ready(function(){
                     autoplay: false,
                     slidesToShow: 2,
                 }
+            },
+            {
+            breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false,
+                }
             }
         ]
     });
