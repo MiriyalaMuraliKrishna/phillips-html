@@ -1,7 +1,4 @@
 
-/* Banner section */
-.industries-default-page .default-banner-main{width: 630px;}
-
 /* Short headline section */
 .industries-default-page .short-headline-section{z-index: 1;}
 .industries-default-page .short-headline-wrap{padding: 108px 0 29px; }
@@ -46,5 +43,5 @@
 @media only screen and (min-width: 1024px){
     .how-help-text{width: 308px; margin-right: 119px; }
     .how-help-frm{width: calc(100% - 427px); }
-
 }
+.industries-default-page .default-banner-main{max-width: 630px;}

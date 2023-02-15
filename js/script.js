@@ -40,6 +40,7 @@ $("ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-childr
     $(this).parent().parent().siblings('li').toggleClass('expertise-submenu')
 });
 
+
 let mobileIpad = function(){
     if($(window).width() <= 1023){
         $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){

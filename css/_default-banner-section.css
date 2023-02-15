@@ -1,6 +1,6 @@
 /* Banner section start */
 .default-banner-section{z-index: 1;}
-.default-banner-main{width: 500px; margin: 0 auto; padding: 172px 0 120px; color: var(--white); }
+.default-banner-main{max-width: 500px; margin: 0 auto; padding: 172px 0 120px; color: var(--white); }
 .default-banner-main h1{color: var(--white); margin-bottom: 18px; }
 .default-banner-main p{margin-bottom: 37px; }
 ul.banner-icons{margin: 26px 0 0; }
