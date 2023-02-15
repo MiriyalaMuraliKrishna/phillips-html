@@ -29,8 +29,8 @@ $(document).ready(function(){
         e.preventDefault();
         $(this).parent().siblings().removeClass('accordion-active');
         $(this).parent().addClass("accordion-active");
-        $(this).parent().siblings().find('.accordion-content').slideUp(300);
-        $(this).siblings('.accordion-content').slideDown(300);
+        $(this).parent().siblings().find('.accordion-content').slideUp(500);
+        $(this).siblings('.accordion-content').slideToggle(500);
     });
 });
 
