@@ -289,9 +289,10 @@
         <div class="our-team-wrap">
             <div class="our-team-main flex pos-relative">
                 <div class="our-team-image">
-                    <figure class="object-fit">
-                        <img src="images/our-team@2x.jpg" alt="Our Team Image">
-                    </figure>
+                    <picture class="object-fit">
+                        <source srcset="images/our-team@2x.jpg" media="(min-width:768px)">
+                        <img src="images/our-team-mobile@2x.jpg" alt="our-team-mobile">
+                    </picture>
                 </div>
                 <div class="our-team-text">
                     <span class="optional-text">Our Team</span>
@@ -306,15 +307,18 @@
 </section>
 
 
-<section class="insight-featured-section">
+<section class="insight-featured-section pos-relative">
+    <picture class="object-fit insight-featured-bg background-bg">
+        <source srcset="images/insight-bg@2x.jpg" media="(min-width:768px)">
+        <img src="images/insight-bg-mobile@2x.jpg" alt="insight-bg-mobile">
+    </picture>
     <div class="container">
         <div class="insight-featured-wrap">
             <div class="insight-featured-main flex">
                 <div class="insight-featured-big pos-relative">
-                    <picture class="object-fit insight-featured-image pos-relative">
-                        <source srcset="images/insight-thumb@2x.jpg" media="(min-width:768px)">
-                        <img src="images/insight-thumb-mobile@2x.jpg" alt="insight-thumb-mobile">
-                    </picture>
+                    <figure class="object-fit insight-featured-image pos-relative">
+                        <img src="images/insight-thumb@2x.jpg" alt="insight-thumb">
+                    </figure>
                     <div class="insight-featured-content">
                         <div class="insight-featured-text flex">
                             <span class="optional-text">Featured Insight</span>
@@ -418,9 +422,6 @@
                 </div>
                 <a href="#" class="hide-desktop hide-tablet events-view-btn">View All<span class="fa-regular fa-arrow-right right-icon"></span></a>
             </div>
-            <figure class="breakpoint-thumb pos-relative hide-desktop hide-tablet">
-                <img src="images/small-logo.svg" alt="small-logo">
-            </figure>
         </div>
     </div>
 </section>
@@ -430,8 +431,8 @@
         <div class="faq-main flex pos-relative">
             <div class="faq-image">
                 <picture class="object-fit faq-thumb">
-                    <source srcset="images/faq-thumb-three@2x.jpg" media="(min-width: 768px)"/>
-                    <img src="images/faq-thumb-three-mobile@2x.jpg" alt="faq-thumb-three-mobile">
+                    <source srcset="images/faq-thumb@2x.jpg" media="(min-width: 768px)"/>
+                    <img src="images/faq-thumb-mobile@2x.jpg" alt="faq-thumb-mobile">
                 </picture>
             </div>
             <div class="faq-content pos-relative">
