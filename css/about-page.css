@@ -19,9 +19,9 @@
 .about-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; }
 .about-people-list:hover .about-people-thumb::before{display: none;}
 .about-people-list:hover .about-people-thumb img{filter: saturate(1);}
-.about-people-content{background-color: transparent; padding: 22px 12px 22px 18px; position: absolute; bottom: 0px; width: 100%; display: none;}
+.about-people-content{background-color: transparent; padding: 22px 12px 20px 18px; position: absolute; bottom: 0px; width: 100%; display: none;}
 .about-people-content h4{margin-bottom: 4px; color: var(--white); }
-.about-people-content .optional-text{color: var(--white);}
+.about-people-content .optional-text{color: var(--white-90); font-size: 18px; line-height: 1; margin-bottom: 0;}
 .about-people-list:hover{box-shadow: none; }
 .about-people-list:hover .about-people-content{display: block;}
 .about-people-list:hover .about-people-thumb::after{content: ""; position: absolute; width: 100%; height: 100%; top: 0; mix-blend-mode: multiply; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 17%, rgba(40, 40, 40, 0.68) 70%, rgba(0, 0, 0, 0.76) 83%);}
