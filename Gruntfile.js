@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       cssmin: {
         target: {
           files: {
-            'core.bundle.css': ['style.css', 'css/*.css']
+            'core.bundle.css': ['css/*.css']
           }
         }
       },
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       },
       watch: {
         stylesheets: { 
-          files: ['style.css', 'css/*.css'],
+          files: ['css/*.css'],
           tasks: ['cssmin'],
           livereload: true
         },

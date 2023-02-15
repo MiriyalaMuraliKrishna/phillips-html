@@ -12,7 +12,7 @@
 .industries-wrap{padding: 88px 0 112px; }
 .industries-main{justify-content: center; }
 .industries-desc{font-size: 15px; line-height: 1.6; }
-.industries-thumb{margin-bottom: 20px; }
+figure.industries-thumb{margin-bottom: 20px; height: auto;}
 .industries-list h5{font-size: 20px; line-height: 1.35; margin-bottom: 7px;}
 .industries-list h5 a{color: var(--black);}
 .industries-list h5 a:hover{color: var(--copperplate-color);}
@@ -32,7 +32,16 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .industries-main{gap: 112px 20px;}
-    .industries-list{flex-basis: 23%; }
-    .industries-desc{max-width: 250px;}
-    .industries-thumb img{max-width: 285px; }
+    .industries-list{flex: 0 0 calc(25% - 15px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .industries-main{gap: 32px;}
+    .industries-list{flex: 0 0 calc(50% - 16px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .industries-main{display: block;}
+    .industries-list{margin-bottom: 50px;}
+    .industries-more-btn{text-align: center;}
+    .industries-page .events-slider-wrap{padding: 112px 0 23px;}
+    .industries-page .cta-panel-section{margin-top: 0; padding-bottom: 56px;}
 }
