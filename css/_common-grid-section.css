@@ -22,7 +22,7 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .common-grid-image{width: 490px; margin-right: 51px;}
     .common-grid-text{width: calc(100% - 541px); }
-    .common-grid-list.reverse .common-grid-image { margin: 0 0 0 51px; }
+    .common-grid-list.reverse .common-grid-image{margin: 0 0 0 51px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .common-grid-list.reverse{flex-direction: row-reverse; }
