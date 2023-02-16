@@ -45,7 +45,7 @@
 @media only screen and (max-width:767px) and (min-width:200px){
     .general-default-section::before{height: 1886px;}
     .default-page .download-print-main{padding: 11px 0 20px; justify-content: center; margin-bottom: 23px;}
-    .default-page .download-print{justify-content: center;}
+    .default-page .download-print{justify-content: center; margin-bottom: 0;}
 
     .general-default-wrap{padding: 0 0 10px; }
     .general-default-wrap h2{font-size: 30px;}

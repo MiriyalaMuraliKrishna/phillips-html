@@ -172,6 +172,9 @@ img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-wi
 .play-btn-bg::after{width: 60px; height: 60px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; background: var(--copperplate-color); border-radius: 300px; opacity: 1; position: absolute; z-index: -1;}
 .play-btn-bg:hover::before{opacity: 0.5;}
 
+.default-page .play-btn{width: 100px; height: 100px;}
+.default-page .play-btn-bg::after{width: 80px; height: 80px;}
+
 .slick-slider{z-index: 1;}
 .slick-arrow:not(.video-sec-slider .slick-arrow, .buffalo-slider-for .slick-arrow, .careers-slick-slider .slick-arrow){ width: 100vw; height: 89px; left: -50vw; margin-left: 50%; top: 50%; transform: translateY(-50%); position: absolute;}
 .slick-arrow.slick-next:not(.video-sec-slider .slick-next, .buffalo-slider-for .slick-arrow, .careers-slick-slider .slick-arrow){width: calc(100vw - 45px); margin-left: calc(50% + 45px);}
