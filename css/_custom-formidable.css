@@ -39,9 +39,6 @@ body .with_frm_style .frm_message p{color: var(--slate-color);}
     .frm_form_field_wrapper{width: 100%;  align-items: center; display: flex; flex-wrap: wrap;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .frm_form_field_wrapper .frm_submit{width: 160px;}
-
-    body .frm_forms .frm_form_fields .frm_submit::before, body .frm_forms .frm_form_fields .frm_submit::after{left: 0; top: 50%; transform: translateY(-50%); width: 418px; height: 32px; content: ""; background-image: url('images/divider-left.svg'); background-repeat: no-repeat; background-position: center left; position: absolute; z-index: -1;}
-    body .frm_forms .frm_form_fields .frm_submit::after{right: 0; left: auto;}
 }
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
