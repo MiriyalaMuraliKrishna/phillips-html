@@ -185,19 +185,6 @@ $(document).ready(function(){
         nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
     });
 
-    $('.dei-point-feature').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: true,
-    });
-    $('.affinity-main').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: true,
-    });
-
     $('.testimonial-sider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -271,6 +258,18 @@ let mobileMedia = function(){
             focusOnSelect: true,
         });
 
+        $('.dei-point-feature').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+        });
+        $('.affinity-main').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+        });
     }
 }
 $(window).resize(function () { mobileMedia(); });
