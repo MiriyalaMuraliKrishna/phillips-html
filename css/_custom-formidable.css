@@ -34,6 +34,9 @@ body .with_frm_style .frm_message p{color: var(--slate-color);}
 
 .frm_checkbox{margin-bottom: 10px !important;}
 
+body .frm_style_formidable-style.with_frm_style .frm_loading_prev .frm_prev_page::before, body .frm_style_formidable-style.with_frm_style .frm_loading_form .frm_button_submit::before { border: none; }
+body .with_frm_style .frm_loading_prev .frm_prev_page::before, body .with_frm_style .frm_loading_form .frm_button_submit::before{animation: none; top: 0; right: 0; bottom: 0; left: 0; width: auto; height: auto; content: ""; transition: all .5s ease-in-out; position: absolute; z-index: -1; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .frm_form_field_wrapper{width: 100%;  align-items: center; display: flex; flex-wrap: wrap;}
