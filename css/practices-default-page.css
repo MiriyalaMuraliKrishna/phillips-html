@@ -30,5 +30,23 @@
 @media only screen and (min-width: 1024px){
     .practice-default-content { width: 708px; margin-right: 104px; }
     .practice-default-form { width: calc(100% - 812px); }
-
+}
+@media only screen and (max-width:1299px) and (min-width: 1024px){
+    .practice-default-content{width: 640px; margin-right: 40px;}
+    .practice-default-form{width: calc(100% - 680px);}
+    .practice-default-inner{padding: 50px 30px 45px;}
+    .product-liability-matters{gap: 25px;}
+    .product-liability-text{width: 385px;}
+    .practices-default-page .buffalo-team-wrap{padding-left:45px;}
+    .practices-default-page .events-slider-wrap{padding: 100px 0 50px;}
+    .practices-default-page .faq-wrap{padding: 50px 0;}
+}
+@media only screen and (max-width:767px) and (min-width: 200px){
+    .practice-default-section::before{height: 667px; top: 427px;}
+    .common-banner-list{background-color: #f8f4f2; padding: 15px 0 12px;}
+    .practice-default-wrap{padding: 0 0 55px;}
+    .practices-default-page .download-print-main{padding: 11px 0 9px;}
+    .practices-default-page .download-print{margin-bottom: 0;}
+    .practices-default-page .video-sec{margin: 48px 0 38px;}
+    .practice-default-inner{padding: 34px 32px 43px;}
 }
