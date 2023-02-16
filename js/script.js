@@ -92,4 +92,10 @@ $(document).ready(function(){
         $('.banner-category-mobile span').text(text);
         $('ul.common-banner-item').slideUp();
     });
+    $('.filter_icon').on('click', function(e){
+        e.preventDefault();
+        $(this).toggleClass('open');
+        $('.our-people-letter').fadeToggle(700);
+        $('.our-people-dropdown').fadeToggle(700);
+    });
 });
