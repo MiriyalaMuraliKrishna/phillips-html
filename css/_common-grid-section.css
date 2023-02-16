@@ -17,20 +17,21 @@
     .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-image{width: 790px; margin-right: 101px; }
     .common-grid-text{width: calc(100% - 891px); max-width: 424px;}
-    .common-grid-list.reverse .common-grid-image{margin:0 0 0 101px; }
+    .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: auto;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .common-grid-image{width: 490px; margin-right: 51px;}
     .common-grid-text{width: calc(100% - 541px); }
-    .common-grid-list.reverse .common-grid-image{margin: 0 0 0 51px; }
+    .common-grid-list.reverse .common-grid-image{margin-left: 51px; margin-right: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-wrap{padding: 65px 0; }
     .common-grid-image{width: 390px; margin-right: 32px; }
+    .common-grid-list.reverse .common-grid-image{margin-left: 32px; margin-right: auto;}
     .common-grid-text{width: calc(100% - 422px);}
     .common-grid-text .optional-text{font-size: 16px; margin-bottom: 10px;}
-    .common-grid-text h2{margin-bottom: 15px; font-size: 30px; }
+    .common-grid-text h2{margin-bottom: 15px; }
     .common-grid-text p{margin-bottom: 20px; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
