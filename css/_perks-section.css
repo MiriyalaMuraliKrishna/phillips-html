@@ -1,14 +1,11 @@
 
 .perks-section{background-color: #f8f4f2;}
-.perks-wrap{padding: 89px 0 111px; }
+.perks-wrap{padding: 69px 0 0;}
 .perks-main{gap: 20px; }
-.perks-title{margin-bottom: 78px; }
-/* .perks-title h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px;} */
+.perks-title{margin-bottom: 78px;}
 .perks-icon{width: 50px; height: 50px; align-items: end; margin: 0 auto 19px; }
 .perks-icon img{max-width: 50px; }
-.perks-list h4{margin-bottom: 14px; }
-
-
+.perks-list h4{margin-bottom: 14px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

@@ -103,11 +103,11 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 /* Buttons */
 button, .button{padding: 13px 25px 13px; min-width: 165px; display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); overflow: hidden; z-index: 1;}
 button:hover, .button:hover{background-color: var(--copperplate-color); color: var(--white);}
-.button::before, .button::after { top: 0; right: 0; bottom: 0; left: 0; content: ""; transition: all 0.5s ease-in-out; position: absolute; z-index: -1; }
-.button::before { right: -50px; border-right: 50px solid transparent; border-bottom: 80px solid var(--text-color); transform: translateX(-100%); }
-.button:hover::before { transform: translateX(-49%); }
-.button::after { left: -50px; border-left: 50px solid transparent; border-top: 80px solid var(--text-color); transform: translateX(100%); }
-.button:hover::after { transform: translateX(49%);}
+button::before, button::after, .button::before, .button::after { top: 0; right: 0; bottom: 0; left: 0; content: ""; transition: all 0.5s ease-in-out; position: absolute; z-index: -1; }
+button::before, .button::before { right: -50px; border-right: 50px solid transparent; border-bottom: 80px solid var(--text-color); transform: translateX(-100%); }
+button:hover::before, .button:hover::before { transform: translateX(-49%); }
+button::after, .button::after { left: -50px; border-left: 50px solid transparent; border-top: 80px solid var(--text-color); transform: translateX(100%); }
+button:hover::after, .button:hover::after { transform: translateX(49%);}
 
 .btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--btn-color); position: relative; overflow: hidden; z-index: 1;}
 .btn-transparent:hover{background-color: transparent; border-color: var(--btn-color);}
@@ -185,10 +185,10 @@ ul.slick-dots li{margin: 0; display: inline-block; font-size: 0; line-height: 0;
 ul.slick-dots li::before{display: none;}
 ul.slick-dots li button{width: 26px; height: 26px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: none;}
 ul.slick-dots li button:hover{background: none;}
-ul.slick-dots li button::before{width: 9px; height: 9px; top: 50%; transform: translateY(-50%); border-radius: 300px; background-color: #cdb3a5; content: ""; position: absolute;}
-ul.slick-dots li button::before {width: 9px; height: 9px; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 300px; background-color: var(--text-color); content: ""; position: absolute; }
-ul.slick-dots li.slick-active button::before {width: 13px; height: 13px; background: var(--copperplate-color); }
-ul.slick-dots li.slick-active button::after {width: 23px; height: 23px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; position: absolute; border: 1px solid var(--text-color); display: block; border-radius: 50%; }
+ul.slick-dots li button::before{width: 9px; height: 9px; top: 50%; left: 50%; transform: translate(-50%, -50%); right: auto; bottom: auto; border-radius: 300px; background-color: #cdb3a5; content: ""; position: absolute; border: none; transition: none;}
+ul.slick-dots li button::after{display: none;}
+ul.slick-dots li.slick-active button::before{width: 13px; height: 13px; background: var(--copperplate-color); }
+ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; position: absolute; border: 1px solid var(--text-color); display: block; border-radius: 50%; transition: none;}
 
 /* Breakpoint logo */
 .breakpoint-thumb{width: 712px; margin: 32px auto; text-align: center; }
