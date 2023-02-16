@@ -18,7 +18,7 @@ ul.phone-list{margin: 0; }
 ul.phone-list li::before{display: none;}
 ul.phone-list li{margin-bottom: 8px;}
 ul.phone-list li:first-child{margin-bottom: 13px; }
-ul.phone-list li a{font-size: 16px; line-height: 1.75; color: #9c5f3d;}
+ul.phone-list li a{font-size: 16px; line-height: 1.75; padding-right: 15px; color: #9c5f3d;}
 ul.phone-list li a:hover{color: var(--black);}
 ul.phone-list address{margin-bottom: 4px; color: var(--text-color); line-height: 1.38;}
 .contact-icon{font-size: 16px; color: #9c5f3d; margin: 5px 10px 0 0; }
@@ -33,12 +33,14 @@ ul.phone-list address{margin-bottom: 4px; color: var(--text-color); line-height:
     .contact-office-text{flex: 1;}
     .contact-office-lists{gap: 36px 20px; }
     .contact-office-list{flex: 0 0 calc(33.3333% - 14px);}
-    figure.contact-office-thumb img{height: 201px;}
+    figure.contact-office-thumb img{height: auto;}
     .contact-office-form{flex: 0 0 386px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .contact-office-main{gap: 32px;}
-    .office-form-bg{padding: 37px 32px 57px;}
+    .office-form-bg{padding: 37px 32px 57px;}    
+    .contact-office-lists{gap: 20px; }
+    .contact-office-list{flex: 0 0 calc(50% - 10px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .contact-office-main{display: block; padding: 56px 0 80px;}

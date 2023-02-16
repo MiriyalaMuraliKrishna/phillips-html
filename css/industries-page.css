@@ -31,6 +31,7 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .industries-page .number-count-main{max-width: 960px; margin: 0 auto;}
     .industries-main{gap: 112px 20px;}
     .industries-list{flex: 0 0 calc(25% - 15px);}
 }
