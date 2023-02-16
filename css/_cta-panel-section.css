@@ -6,8 +6,8 @@
 .cta-panel-inner{padding: 104px 85px 78px; width: 100%; height: 100%; border: solid 1px rgba(248, 212, 192, 0.3);}
 .cta-panel-text{color: var(--white-90);}
 span.cta-optional-text{font-size: 18px; line-height: 1.5; color: var(--white-70); }
-.cta-panel-text a{color: var(--white);}
-.cta-panel-text a:hover{color: var(--copperplate-color);}
+.cta-panel-text a:not(.button){color: var(--white);}
+.cta-panel-text a:not(.button):hover{color: var(--copperplate-color);}
 
 
 /*-- media css starts here --*/

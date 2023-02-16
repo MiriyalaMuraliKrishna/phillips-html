@@ -91,7 +91,7 @@ hr.small{width: 50px; height: 4px; background-color: #9c5f3d;}
 ::-moz-selection {background-color: var(--text-color); color: var(--white);}
 
 /* Input fields */
-input[type="search"], input, select, textarea {outline: 0; width: 100%; font-size: 16px; line-height: 1.75; letter-spacing: normal; background: #f9f8f8; box-shadow: none; padding: 9px 20px 9px; vertical-align: middle; font-family: 'Decimal', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: none; border-radius: 0;}
+input[type="search"], input, select, textarea {outline: 0; width: 100%; font-size: 16px; line-height: 1.75; letter-spacing: normal; background: #f9f8f8; color: var(--text-color); box-shadow: none; padding: 9px 20px 9px; vertical-align: middle; font-family: 'Decimal', sans-serif; font-weight: normal; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: none; border-radius: 0;}
 textarea {width: 100%; resize: none; height: 200px;}
 input:focus, textarea:focus{outline: 0;}
 input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--red-color); font-weight: bold; letter-spacing: normal; position: relative; transition: all 0.3s linear; text-transform: uppercase; text-align: center; color: var(--white); font-family: 'Roboto', sans-serif; }
