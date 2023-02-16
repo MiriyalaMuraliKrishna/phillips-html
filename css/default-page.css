@@ -45,7 +45,7 @@
 @media only screen and (max-width:767px) and (min-width:200px){
     .general-default-section::before{height: 1886px;}
     .default-page .download-print-main{padding: 11px 0 20px; justify-content: center; margin-bottom: 23px;}
-    .default-page .download-print{justify-content: center;}
+    .default-page .download-print{justify-content: center; margin-bottom: 0;}
 
     .general-default-wrap{padding: 0 0 10px; }
     .general-default-wrap h2{font-size: 30px;}
@@ -66,7 +66,6 @@
     .partners-default-thumb img{max-width: 108px;}
     figure.partners-default-thumb{height: auto;}
     .partners-default-lists ul.slick-dots{margin-top: 21px; }
-
 
     .default-page .events-slider-wrap{padding: 56px 0 64px; }
     .default-page .events-slide-text h4{margin-bottom: 0; }

@@ -41,7 +41,7 @@ span.share-text{font-size: 13px; letter-spacing: 1px; font-weight: 600; text-tra
     .social-share-icons{gap: 10px; flex: 1; justify-content: flex-end;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.social-share-icons{gap: 10px; justify-content: center; display: none;}
+	.social-share-icons{gap: 10px; margin-top: 15px; justify-content: center; display: none;}
     .social-share-icons.open{display: flex;}
     .at-share-btn-elements{gap: 24px; display: flex; flex-wrap: wrap; align-items: center;}
     .social-share-icons .at-share-btn-elements a.at-icon-wrapper{margin: 0;}
