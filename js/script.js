@@ -25,6 +25,12 @@ $(document).ready(function(){
         $(this).toggleClass('active');
         $('.navigation').toggleClass('open');
     });
+
+    // desktop menu starts here
+    $("ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children").hover(function(event){
+        event.preventDefault();
+        $(this).parent().parent().siblings('li').toggleClass('expertise-submenu')
+    });
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().removeClass('accordion-active');
@@ -32,39 +38,7 @@ $(document).ready(function(){
         $(this).parent().siblings().find('.accordion-content').slideUp(500);
         $(this).siblings('.accordion-content').slideToggle(500);
     });
-});
 
-// mobileMenu starts here
-$("ul.main_menu > li.expertise-nav-item > ul > li > ul > li.menu-item-has-children").hover(function(event){
-    event.preventDefault();
-    $(this).parent().parent().siblings('li').toggleClass('expertise-submenu')
-});
-
-
-let mobileIpad = function(){
-    if($(window).width() <= 1023){
-        $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
-          event.preventDefault();
-          $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');
-          $(this).toggleClass("active");
-          $(this).parent().siblings().find('ul.sub-menu').slideUp();
-          $(this).siblings('ul.main_menu > li > ul.sub-menu').slideToggle();
-          $(this).parent().siblings().toggleClass('sib');
-        });
-        $("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
-          event.preventDefault();
-          $('ul.main_menu ul > li.menu-item-has-children > a').not($(this)).removeClass('active');
-          $(this).toggleClass("active");
-          $(this).parent().siblings().find('ul.sub-menu').slideUp();
-          $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
-        });
-
-    }
-}
-$(window).resize(function () { mobileIpad(); });
-$(document).on('ready', function () { mobileIpad(); });
-
-$(document).ready(function(){
     $('.banner-category-mobile').on('click', function(e){
         e.preventDefault();
         $(this).toggleClass('open');
@@ -99,3 +73,45 @@ $(document).ready(function(){
         $('.our-people-dropdown').fadeToggle(700);
     });
 });
+
+let mobileIpad = function(){
+    if($(window).width() <= 1023){
+        $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
+          event.preventDefault();
+          $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');
+          $(this).toggleClass("active");
+          $(this).parent().siblings().find('ul.sub-menu').slideUp();
+          $(this).siblings('ul.main_menu > li > ul.sub-menu').slideToggle();
+          $(this).parent().siblings().toggleClass('sib');
+        });
+        $("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
+          event.preventDefault();
+          $('ul.main_menu ul > li.menu-item-has-children > a').not($(this)).removeClass('active');
+          $(this).toggleClass("active");
+          $(this).parent().siblings().find('ul.sub-menu').slideUp();
+          $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
+        });
+
+    }
+}
+$(window).resize(function () { mobileIpad(); });
+$(document).on('ready', function () { mobileIpad(); });
+
+let mobileScreen = function(){
+    if($(window).width() <= 767){
+        $('.show_more').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().closest('.expert-expand').addClass('expert-expanded');
+            $(this).hide();
+            $(this).siblings('.show_less').show();
+        });
+        $('.show_less').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().closest('.expert-expand').removeClass('expert-expanded');
+            $(this).hide();
+            $(this).siblings('.show_more').show();
+        });
+    }
+}
+$(window).resize(function () { mobileScreen(); });
+$(document).on('ready', function () { mobileScreen(); });
