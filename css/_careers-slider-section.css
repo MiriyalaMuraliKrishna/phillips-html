@@ -42,9 +42,7 @@
 
     .careers-slick-slider .slick-btn{font-size: 26px; width: 20px; height: 26px;}
     .careers-slick-slider .slick-arrow{height: auto; top: 25%; transform: translateY(-25%);}
-    .careers-slick-slider .slick-arrow.slick-prev{z-index: 2; }
+    .careers-slick-slider .slick-arrow.slick-prev{z-index: 2;}
 
-       
-        
-
+    .careers-slider-main .slick-arrow:not(.video-sec-slider .slick-arrow){top: 103px; transform: none;}
 }
