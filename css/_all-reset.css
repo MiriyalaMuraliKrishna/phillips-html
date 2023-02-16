@@ -174,7 +174,7 @@ img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-wi
 
 .slick-slider{z-index: 1;}
 .slick-arrow:not(.video-sec-slider .slick-arrow, .buffalo-slider-for .slick-arrow){ width: 100vw; height: 89px; left: -50vw; margin-left: 50%; top: 50%; transform: translateY(-50%); position: absolute;}
-.slick-arrow.slick-next:not(.video-sec-slider .slick-next){width: calc(100vw - 45px); margin-left: calc(50% + 45px);}
+.slick-arrow.slick-next:not(.video-sec-slider .slick-next, .buffalo-slider-for .slick-arrow){width: calc(100vw - 45px); margin-left: calc(50% + 45px);}
 .slick-btn{width: 45px; height: 89px; font-size: 2rem; line-height: 2.5rem; background-color: var(--copperplate-color); color: var(--white); cursor: pointer; z-index: 1;}
 .slick-next .slick-btn{margin-left: auto;}
 
