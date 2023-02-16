@@ -20,9 +20,10 @@
 @media only screen and (min-width: 1024px){
     .careers-opportunities-title{width: 305px; margin-right: 101px; }
     .careers-opportunities-content{width: calc(100% - 406px); }
-
 }
-
+@media only screen and (max-width:1023px) and (min-width: 768px){
+    .careers-opportunities-title{width: 100%;}
+}
 @media only screen and (max-width:767px) and (min-width: 200px){
     .careers-opportunities-wrap{padding: 56px 0; }
     .careers-opportunities-heading{margin-bottom: 42px; }
