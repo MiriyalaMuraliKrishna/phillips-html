@@ -31,9 +31,9 @@
 .buffalo-team-inner .button{border: solid 1px #ebb89c; }
 .buffalo-team-inner .button:hover{border: solid 1px var(--text-color); }
 
-.buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 15px; height: 25px; margin: 0;}
-.buffalo-team .slick-arrow.slick-prev{top: calc(50% - 22px);}
-.buffalo-team .slick-btn{color: var(--copperplate-color); background-color: transparent; width: auto; height: auto;}
+.buffalo-team .slider-arrow{top: calc(50% + 22px); left: -48px; width: 15px; height: 25px; margin: 0;}
+.buffalo-team .slider-arrow.slider-prev{top: calc(50% - 22px);}
+.buffalo-team .slider-btn{color: var(--copperplate-color); background-color: transparent; width: auto; height: auto;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
