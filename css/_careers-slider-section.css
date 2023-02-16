@@ -1,6 +1,6 @@
 
 .careers-slider-section{background-color: #f0eae7; }
-.careers-slider-wrap{padding: 87px 0 86px; }
+.careers-slider-wrap{padding: 87px 0 111px; }
 .careers-slider-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.75) 96%);}
 .slick-current .careers-slider-caption{opacity: 1;}
 .careers-slider-caption{position: absolute; bottom: 0; width: 100%; padding: 26px 54px 38px; opacity: 0;}
