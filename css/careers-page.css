@@ -1,3 +1,7 @@
+/* Perk section */
+.careers-page .perks-title h2{margin-bottom: 23px; }
+.careers-page .perks-title{margin-bottom: 29px; }
+
 
 /* Join our team */
 .careers-page .perks-wrap{padding: 89px 0 51px; }
@@ -9,6 +13,7 @@
 .careers-page .testimonial-wrap{padding: 88px 0 14px; }
 
 /* Custom cta section */
+.careers-page .custom-cta-section{background-color: #f8f4f2; }
 .careers-page .custom-cta-wrap { padding: 78px 0 129px; }
 
 
@@ -24,6 +29,5 @@
     .careers-page .careers-cta-wrap{padding: 50px 0 56px; }
 
     .careers-page .testimonial-wrap{padding: 56px 0 42px;}
-    .careers-page .custom-cta-section{background-color: #f8f4f2; }
     .careers-page .custom-cta-wrap{padding: 51px 0 56px; }
 }
