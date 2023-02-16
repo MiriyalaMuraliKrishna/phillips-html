@@ -39,7 +39,10 @@
     .insight-featured-item{width: 100%;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .insight-featured-wrap{padding: 27px 0 48px;}
+    .insight-featured-list{gap: 20px; padding-top: 26px;}
     .insight-featured-text{flex-direction: column; justify-content: center; padding: 25px 9px 25px 10px; text-align: center; align-items: center; }
     .insight-featured-text .optional-text{font-size: 16px; line-height: 1.13; margin-bottom: 8px;}
     .insight-featured-text h3{font-size: 24px; margin-bottom: 20px; }
+    .insight-featured-btn{text-align: center; margin-top: 0;}
 }
