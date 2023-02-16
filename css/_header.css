@@ -1,5 +1,5 @@
 
-.main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white); z-index: 1200; transition: background-color 0.3s ease;}
+.main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white); z-index: 800; transition: background-color 0.3s ease;}
 .logo a{width: 100%; height: auto; display: block;}
 .logo img{width: 100%;}
 .reverse_logo{display: none;}

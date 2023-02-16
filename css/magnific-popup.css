@@ -154,6 +154,7 @@
     text-align: right;
     padding-right: 6px;
     width: 100%; }
+    .mfp-iframe-holder .mfp-close::before, .mfp-iframe-holder .mfp-close::after{display: none;}
   
   .mfp-counter {
     position: absolute;
@@ -224,8 +225,15 @@
       line-height: 0;
       width: 100%;
       max-width: 900px; }
-    .mfp-iframe-holder .mfp-close {
-      top: -40px; }
+    .mfp-iframe-holder .mfp-close {top: -60px;
+      width: 30px;
+      min-width: 30px;
+      font-size: 4rem;
+      line-height: 4rem;
+      opacity: 1;
+      font-family: Lora,sans-serif;
+      font-weight: normal;}
+      .mfp-iframe-holder .mfp-close:hover{color: var(--btn-color);}
   
   .mfp-iframe-scaler {
     width: 100%;
