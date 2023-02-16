@@ -6,17 +6,18 @@
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
 
 /* Sub topic section */
-.practices-default-page .sub-topic-wrap{padding: 75px 0 383px; }
+.practices-default-page .sub-topic-wrap{padding: 75px 0 49px;}
 .practices-default-page .sub-topic-heading{margin-bottom: 92px; }
 .practices-default-page .sub-topic-heading h2{margin-bottom: 61px; }
 .practices-default-page .sub-topic-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px; }
 
 /* Product liability section */
-.practices-default-page .product-liability-main{position: absolute; top: -270px; }
+/* .practices-default-page .product-liability-main{position: absolute; top: -270px; } */
 
 /* Business commerical section */
 .business-commercial-section{background-color: #f8f4f2; }
-.business-commercial-wrap{padding: 509px 0 123px;}
+.business-commercial-section::before{position: absolute; content: ""; width: 100%; height: 320px; background-color: #f0eae7;}
+.business-commercial-wrap{padding: 50px 0 123px;}
 
 /* Buffalo team section */
 .practices-default-page .buffalo-team-wrap { padding: 125px 0 85px; }
