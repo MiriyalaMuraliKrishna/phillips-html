@@ -65,5 +65,7 @@ ul.dei-point-droplist > li::before{content: ""; position: absolute; top: 7px; le
     .affinity-wrap{padding: 70px 0 80px; }
     .affinity-main{gap: 48px 24px; }
     .affinity-list{flex: 0 0 calc(50% - 12px); }
-
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .dei-point-feature{display: block; text-align: center;}
 }
