@@ -161,7 +161,7 @@ $(document).ready(function(){
         nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
         responsive: [
             {
-            breakpoint: 1023,
+            breakpoint: 1024,
                 settings: {
                     centerPadding: '100px',        
                     variableWidth: false,
@@ -170,7 +170,7 @@ $(document).ready(function(){
             {
             breakpoint: 767,
                 settings: {
-                    centerPadding: '23px',  
+                    centerPadding: '30px',  
                     variableWidth: false,
                 }
             }
