@@ -75,10 +75,8 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	ul.banner-category li{flex: 0 0 calc(33.333% - 14px);}
 	ul.banner-category li > a span{max-width: 122px; display: block;}
 	.home-practice-list{margin-bottom: 49px;}
-	/* .our-firm-section{position: relative; z-index: 1;} */
 	.our-firm-main{ display: block; padding: 80px 0 80px; }
 	.our-firm-text{margin-bottom: 60px; z-index: 1;}
-	/* .our-firm-bg{width: 165px; height: 194px; top: 51px; left: auto; right: -24px; } */
 	.number-count-main{gap: 32px;}
 	.our-team-text{position: relative; top: 0; }
 	.home-page .common-grid-wrap{padding: 65px 0; }
