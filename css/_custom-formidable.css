@@ -22,7 +22,6 @@ body .frm_forms .frm_form_fields .frm_submit{text-align: center; position: relat
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{margin: 0; font-size: 1rem; line-height: 1.5; font-weight: 400; font-family: 'Roboto', sans-serif; letter-spacing: normal; padding: 13px 17px 13px; border: none; border-radius: 0; background: var(--btn-color); position: relative; transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: var(--white-90); z-index: 1; width: 100%; }
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--text-color); color: var(--white); }
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::after{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 
 body .frm_forms form .frm_required_field::after{content: ""; font-size: 0; line-height: 0; right: 1px; top: 2px; width: 8px; height: 8px; background-image: url("images/error.svg"); background-repeat: no-repeat; background-position: center; position: absolute;}
