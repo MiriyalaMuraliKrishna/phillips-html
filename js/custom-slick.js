@@ -258,6 +258,18 @@ let mobileMedia = function(){
             focusOnSelect: true,
         });
 
+        $('.dei-point-feature').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+        });
+        $('.affinity-main').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+        });
     }
 }
 $(window).resize(function () { mobileMedia(); });
