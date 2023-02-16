@@ -16,6 +16,9 @@
 .common-banner-location ul{margin: 0 0 0 12px; }
 .common-banner-location ul li{margin-bottom: 0; }
 .common-banner-location ul > li::before{left: -10px; background-color: #f0eae7; opacity: 0.7; }
+.common-banner-dates-item span{font-size: 14px; line-height: 1.79; color: var(--white-90); display: inline-block;}
+.common-banner-location span{font-size: 14px; line-height: 1.36; color: var(--white-90);}
+.common-banner-text-right{width: calc(100% - 30px); }
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1420px) and (min-width: 1024px){
@@ -26,9 +29,12 @@
     .common-banner-text{flex: 50%;}
     .common-banner-image{flex: 0 0 710px;}
     .common-banner-desc{max-width: 692px; margin-left: auto; padding-right: 111px; z-index: 1;}
-    .common-banner-desc::after {width: 171px; height: 412px; top: -90px; left: -101px; content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
+    .common-banner-desc::after {width: 171px; height: 412px; top: -90px; left: -101px; content: ""; position: absolute; background-image: url("./images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
     .common-banner-thumb{height: 100%;}
     .common-banner-item li{width: 149px;}
+    .common-banner-dates{flex-basis: 40%;}
+    .common-banner-location{flex-basis: 40%;}
+    
 }
 @media only screen and (min-width: 1601px){
     .common-banner-text{flex: 50%;}
@@ -39,9 +45,10 @@
     .common-banner-text{padding: 48px 24px; }
     .common-banner-text h1{font-size: 30px; margin-bottom: 23px;}
     .common-banner-desc{z-index: 1; }
-    .common-banner-desc::after {width: 171px; height: 412px; top: 0px; left: -101px; content: ""; position: absolute; background-image: url("../images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
+    .common-banner-desc::after {width: 171px; height: 412px; top: 0px; left: -101px; content: ""; position: absolute; background-image: url("./images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
     .common-banner-dates{flex-basis: 100%; }
     .common-banner-location{flex-basis: 100%; }
+    .common-banner-dates-item .common-banner-text-right, .common-banner-location .common-banner-text-right{font-size: 16px; font-weight: 500; line-height: 1.75; }
 
 }
 
