@@ -93,5 +93,16 @@ span.bio-people-arrow{margin-left: 18px; }
     .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
     .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px;}
     .people-bio-page .events-slide-text h4 { max-width: 330px;}
+}
+@media only screen and (max-width:1299px) and (min-width: 1024px){
+    .bio-people-aside{width: 330px; margin-right: 40px;}
+    .bio-people-content{width: calc(100% - 370px); }
+    .people-bio-page .events-slider-title{flex: 0 0 70%;}
+    .people-bio-page .events-slider-btn{flex: 0 0 40%;}
+    .events-slider-heading{margin-bottom: 20px;}
+    .events_bio_text{margin-bottom: 30px;}
+
+}
+@media only screen and (max-width:767px) and (min-width: 200px){
 
 }
