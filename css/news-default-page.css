@@ -11,6 +11,7 @@
 .download-print-text:first-child{margin-left: 0; }
 .download-print-text .icon{font-size: 18px; margin-right: 8px; opacity: 0.8; }
 
+
 .news-events-default-main{max-width: 1188px; margin: 0 auto; }
 .video-sec{margin: 60px 0 65px; }
 .news-events-default-content ul {margin: 40px 0 56px 22px;}
@@ -39,11 +40,13 @@
 .news-default-page .cta-panel-section{background-color: #f0eae7; padding: 109px 0 112px; margin-top: 0;}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .download-print-text.share-icon{display: none;}
+}
 @media only screen and (min-width: 1024px){
     .news-events-default-content{width: 813px; margin-right: 115px; }
     .news-events-default-image{width: calc(100% - 928px); padding-top: 23px;}
 }
-
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .news-events-default-content{width: 680px; margin-right: 40px; }
     .news-events-default-image{width: calc(100% - 720px);}
