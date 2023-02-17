@@ -5,6 +5,8 @@
 
 .buffalo-team-main{margin: 0 57px 0 0; width: 350px; }
 .buffalo-team-item{padding: 15px 23px 14px;}
+.no_image.buffalo-team-item{display: block;}
+.no_image .buffalo-text{width: 100%;}
 .buffalo-team-item:hover{background-color: var(--copperplate-color); }
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
 .buffalo-sm-image img{width: 58px; height: 58px; }
