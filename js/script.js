@@ -39,21 +39,7 @@ $(document).ready(function(){
         $(this).siblings('.accordion-content').addClass('open').slideToggle(500);
     });
 
-    $('.banner-category-mobile').on('click', function(e){
-        e.preventDefault();
-        $(this).toggleClass('open');
-        $('ul.banner-category').slideToggle(900);
-    });
-    $('ul.banner-category li a').on('click', function(e){
-        e.preventDefault();
-        let text = $(this).text();
-        $('.banner-category-mobile span').text(text);
-        $('ul.banner-category').slideUp();
-    });
-    $('.share-icon').on("click", function(e){
-        e.preventDefault();
-        $('.social-share-icons').toggleClass('open');
-    });
+
 
     $('.common-dropdown').on('click', function(e){
         e.preventDefault();
@@ -111,6 +97,31 @@ let mobileScreen = function(){
             $(this).hide();
             $(this).siblings('.show_more').show();
         });
+
+        $('.banner-category-mobile').on('click', function(e){
+            e.preventDefault();
+            $(this).toggleClass('open');
+            $('ul.banner-category').slideToggle(900);
+        });
+        $('ul.banner-category li a').on('click', function(e){
+            e.preventDefault();
+            let text = $(this).text();
+            $('.banner-category-mobile span').text(text);
+            $('ul.banner-category').slideUp();
+        });
+        $('.share-icon').on("click", function(e){
+            e.preventDefault();
+            $('.social-share-icons').toggleClass('open');
+        });
+
+        $('.bio-expertise-list h4').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().siblings().find('h4').removeClass('active');
+            $(this).addClass('active');
+            $(this).parent().siblings().find('.bio-expertise-desc').slideUp(500);
+            $(this).siblings('.bio-expertise-desc').slideToggle(500);
+        });
+
     }
 }
 $(window).resize(function () { mobileScreen(); });
