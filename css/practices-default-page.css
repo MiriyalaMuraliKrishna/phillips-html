@@ -10,6 +10,7 @@
 .practices-default-page .sub-topic-heading{margin-bottom: 92px; }
 .practices-default-page .sub-topic-heading h2{margin-bottom: 61px; }
 .practices-default-page .sub-topic-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px; }
+.practices-default-page .accordion-header.accordion-active{color: var(--white); }
 
 /* Product liability section */
 /* .practices-default-page .product-liability-main{position: absolute; top: -270px; } */

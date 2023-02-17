@@ -13,7 +13,7 @@
 .accordion-active span:before{content: "\f068";}
 .accordion-active{background-color: var(--copperplate-color);}
 .accordion-content{display: none; padding: 0 27px 40px;} 
-.accordion-content.open{background-color: var(--copperplate-color);}
+.accordion-content.open{background-color: var(--copperplate-color); color: var(--white);}
 .faq-btn{text-align: right; margin-top: 48px;}
 
 /*-- media css starts here --*/
