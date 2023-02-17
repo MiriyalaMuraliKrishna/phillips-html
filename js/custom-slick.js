@@ -20,7 +20,7 @@ $(document).ready(function(){
             ]
     });
 
-    $('.news-event-slider').slick({
+    let countSlides = $('.news-event-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
@@ -47,6 +47,11 @@ $(document).ready(function(){
             }
         ]
     });
+    countSlides.on('setPosition', function(event, slick){
+        if (slick.slideCount <= 3) {
+           $('.slick-dots').hide();
+        }
+     });
 
     $('.presenters-slider').slick({
         slidesToShow: 1,
@@ -182,7 +187,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
-        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',,
+        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
         focusOnSelect: true
     });
 
