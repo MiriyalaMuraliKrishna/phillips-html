@@ -20,7 +20,6 @@
 
 
 .news-events-default-image h4{margin-bottom: 26px; }
-.news-event-presenters-list{margin-bottom: 44px; }
 .presenters-thumb img{max-width: 260px; }
 .news-event-presenters-desc{background-color: var(--white); padding: 25px 12px 12px 26px; }
 .news-event-presenters-desc h6{font-size: 18px; line-height: 1; text-transform: uppercase; color: var(--copperplate-color); font-family: Copperplate; margin-bottom: 0;}
@@ -42,35 +41,38 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .download-print-text.share-icon{display: none;}
+    .news-event-presenters-list{margin-bottom: 44px; }
 }
 @media only screen and (min-width: 1024px){
     .news-events-default-content{width: 813px; margin-right: 115px; }
     .news-events-default-image{width: calc(100% - 928px); padding-top: 23px;}
+    .news-default-page .common-banner-location{border-left: none; padding-left: 0; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .news-events-default-content{width: 680px; margin-right: 40px; }
     .news-events-default-image{width: calc(100% - 720px);}
     .presenters-thumb img{max-width: 100%; }
-
+    .news-default-page .common-banner-text h1{font-size: 37px; }
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-events-default-content{width: 100%; margin-bottom: 50px;}
     .news-events-default-image{width: 100%; }
     .presenters-thumb img{max-width: 100%; width: 100%; }
-
+    .presenters-slider{display: flex; gap: 20px;}
+    .news-event-presenters-list{flex: 0 0 calc(50% - 10px); }
 }
-
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .news-default-page .common-banner-dates{flex-basis: 100%; }
     .news-default-page .common-banner-location{flex-basis: 100%; }
-    .download-print-main{border-bottom: 1px solid #dacfca; margin-bottom: 50px; padding: 11px 0 16px;}
-    .download-print{flex-basis: 100%; margin-bottom: 20px; }
+    .news-default-page .download-print-main{border-bottom: 1px solid #dacfca; margin-bottom: 50px; padding: 11px 0 8px;}
+    .news-default-page .download-print{flex-basis: 100%; margin-bottom: 0; }
     .news-events-default-content h2{font-size: 30px; line-height: 1.27; }
     .news-events-default-content h3{font-size: 26px; }
     .video-sec{margin: 33px 0 31px; }
-
-    .news-event-presenters-list{width: 263px; }
+    .news-events-default-image{width: 100%; margin: 35px 0 0; }
+    .news-event-presenters-list.slick-slide{width: 263px; margin-right: 24px;}
+    .presenters-slider{margin-bottom: 40px; }
+    .presenters-slider .slick-list{overflow: inherit; }
     .presenters-thumb img{max-width: 100%; }
     .we-help{padding: 27px 35px 38px; }
     .we-help h5{margin-bottom: 17px; }
