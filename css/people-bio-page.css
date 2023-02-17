@@ -31,11 +31,11 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-people-expertise h3{color: var(--white); }
 .bio-people-expertise i{max-width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 58px;}
 
-.bio-people-expertise-list{flex:0 0 50%; }
-.bio-people-expertise-list h4{color: var(--white); margin-bottom: 14px; }
-.bio-people-expertise-list ul{margin: 0 0 0 23px; }
-.bio-people-expertise-list ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0;}
-.bio-people-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
+.bio-expertise-list{flex:0 0 50%; }
+.bio-expertise-list h4{color: var(--white); margin-bottom: 14px; }
+.bio-expertise-list ul{margin: 0 0 0 23px; }
+.bio-expertise-list ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0;}
+.bio-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
 
 .honor-awards{margin-bottom: 65px; }
 
@@ -115,12 +115,12 @@ span.bio-people-arrow{margin-left: 18px; }
     .people-bio-page .video-sec{margin: 23px 0 50px; }
     .video-sec-slider .slick-btn{width: 27px; height: 54px; font-size: 1.5rem;}
     .bio-people-expertise{background-color: transparent; padding: 0;}
-    .bio-people-expertise-content{background-color: var(--copperplate-color); padding: 16px 30px 28px 31px; margin-bottom: 10px;}
+    .bio-expertise-title{background-color: var(--copperplate-color); padding: 16px 30px 28px 31px; margin-bottom: 10px;}
     .bio-people-expertise i{margin-bottom: 0;}
-    .bio-people-expertise-list{flex:0 0 100%; }
-    .bio-people-expertise-list h4{padding: 19px 21px 19px 16px; background-color: var(--white); margin-bottom: 10px; color: var(--copperplate-color); font-size: 20px; line-height: 1.4;}
-    .bio-people-expertise-desc{display: none;}
-    .bio-people-expertise-list:hover{cursor: pointer;}
-    .bio-people-expertise-list h4::before{content: "\2b"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 20px; }
+    .bio-expertise-list{flex:0 0 100%; }
+    .bio-expertise-list h4{padding: 19px 21px 19px 16px; background-color: var(--white); margin-bottom: 10px; color: var(--copperplate-color); font-size: 20px; line-height: 1.4;}
+    .bio-expertise-desc{display: none;}
+    .bio-expertise-list:hover{cursor: pointer;}
+    .bio-expertise-list h4::before{content: "\2b"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 20px; }
 
 }
