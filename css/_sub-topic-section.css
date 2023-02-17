@@ -6,12 +6,8 @@
 .sub-topic-thumb img{max-width: 325px; }
 .sub-topic-heading .small{margin-bottom: 34px; }
 
-.sub-topic-section .accordion-header{padding: 26px 23px; margin-bottom: 0; line-height: 1.2; color: var(--black);}
+.sub-topic-section .accordion-header{padding: 26px 23px; line-height: 1.2; color: var(--black);}
 .sub-topic-section .accordion-header::after{width: 100%; left: 0; opacity: 1; background-color: rgba(0, 0, 0, 0.15);}
-.sub-topic-section .accordion-content{padding: 0 23px 45px;}
-.sub-topic-section .accordion-active .accordion-header, .accordion-header:hover{color: var(--white); background-color: var(--copperplate-color);}
-.sub-topic-section .accordion-active .accordion-content{color: var(--white-90);}
-.sub-topic-section .accordion-active .accordion-header::after, .accordion-header:hover::after { opacity: 0; }
 
 .sub-topic-thumb{z-index: 1; }
 .sub-topic-thumb::before{content: ""; position: absolute; width: 325px; height: 535px; border: solid 1px var(--copperplate-color); top: -29px; left: -29px; z-index: -1; }

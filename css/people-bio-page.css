@@ -55,6 +55,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters{margin-bottom: 75px; }
 .representative-matters h3{margin-bottom: 30px; }
 .representative-matters .accordion{margin-bottom: 29px; }
+.representative-matters .accordion-active .accordion-header{background-color: var(--copperplate-color); color: var(--white);}
 .representative-matters .accordion-header{padding: 26px 27px 25px; background-color: var(--white); color: var(--copperplate-color); margin-bottom: 0;}
 .representative-matters .accordion-header span.icon{right: 36px; top: 50%; transform: translateY(-50%); }
 .representative-matters .accordion-active{background-color: var(--white); }

@@ -33,10 +33,10 @@ $(document).ready(function(){
     });
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
-        $(this).parent().siblings().removeClass('accordion-active');
-        $(this).parent().toggleClass("accordion-active");
-        $(this).parent().siblings().find('.accordion-content').slideUp(500);
-        $(this).siblings('.accordion-content').slideToggle(500);
+        $(this).parent().siblings().find('.accordion-header').removeClass('accordion-active');
+        $(this).toggleClass("accordion-active");
+        $(this).parent().siblings().find('.accordion-content').removeClass('open').slideUp(500);
+        $(this).siblings('.accordion-content').addClass('open').slideToggle(500);
     });
 
     $('.banner-category-mobile').on('click', function(e){
