@@ -29,7 +29,7 @@
 .news-events-press-list h5{font-size: 20px; line-height: 1.35; margin-bottom: 0;}
 .news-events-press-list h5 a{color: var(--black); opacity: 0.7;}
 .news-events-press-list h5 a:hover{color: var(--copperplate-color); opacity: 1;}
-.news-events-press .read-btn{display: block; margin: 0 auto; width: max-content; }
+.news-events-press .read-btn{display: block; margin: 0 auto; width: max-content; padding-right: 22px;}
 
 /* News Events Module */
 .news-page .events-slider-section{background-color: #f0eae7; }

@@ -8,16 +8,14 @@
 .bio-people-section::before{content: ""; position: absolute; top: 639px; width: 100%; height: 1323px; background-color: #f0eae7; z-index: -1;}
 .bio-people-wrap{padding: 26px 0 78px; }
 
-.bio-people-overview{background-color: var(--white); padding: 32px 43px 19px 52px; margin-bottom: 25px;}
-.bio-people-overview h4{margin-bottom: 30px; }
-.bio-people-overview ul{margin: 0; }
-.bio-people-overview ul > li::before{display: none;}
-.bio-people-overview ul > li{font-size: 20px; font-family: Lora; line-height: 1.15; margin-bottom: 23px;}
-.bio-people-overview ul > li a{color: rgba(0, 0, 0, 0.7); }
-.bio-people-overview ul > li a:hover{color: var(--copperplate-color);}
+.bio-people-list{background-color: var(--white); padding: 32px 43px 19px 52px; margin-bottom: 25px;}
+.bio-people-list h4{margin-bottom: 30px; }
+.bio-people-list ul{margin: 0; }
+.bio-people-list ul > li::before{display: none;}
+.bio-people-list ul > li{font-size: 20px; font-family: Lora; line-height: 1.15; margin-bottom: 23px;}
+.bio-people-list ul > li a{color: rgba(0, 0, 0, 0.7); }
+.bio-people-list ul > li a:hover{color: var(--copperplate-color);}
 
-.bio-people-news{background-color: var(--white); padding: 32px 53px 55px 52px; margin-bottom: 25px;}
-.bio-people-news h4{margin-bottom: 26px; }
 .bio-people-news-list{padding-bottom: 19px; border-bottom: solid 1px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
 .bio-people-news-list:last-of-type{border-bottom: none; padding-bottom: 0; margin-bottom: 17px;}
 .bio-people-news-list .optional-text{font-size: 15px; line-height: 1.2; margin-bottom: 4px; }
@@ -34,7 +32,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-expertise-list{flex:0 0 50%; }
 .bio-expertise-list h4{color: var(--white); margin-bottom: 14px; }
 .bio-expertise-list ul{margin: 0 0 0 23px; }
-.bio-expertise-list ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0;}
+.bio-expertise-list ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0; color: var(--white-70);}
 .bio-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
 
 .honor-awards{margin-bottom: 65px; }
@@ -44,11 +42,17 @@ span.bio-people-arrow{margin-left: 18px; }
 .icon-heading span{display: inline-flex; margin-right: 15px; }
 .icon-heading h3{margin-bottom: 0; }
 
-.bio-people-practice{flex-basis: 50%; }
-.bio-people-education{flex-basis: 50%; }
-.bio-people-practice h5, .bio-people-education h5{line-height: 1.2; font-size: 20px; color: var(--copperplate-color); }
-.bio-people-practice ul, .bio-people-education ul{margin: 28px 0 40px 53px; }
-.bio-people-practice ul > li, .bio-people-education ul > li{font-size: 16px; line-height: 1.31; }
+/* .bio-education-list{flex-basis: 50%; } */
+/* .bio-people-education{flex-basis: 50%; } */
+.bio-education-list h5{line-height: 1.2; font-size: 20px; color: var(--copperplate-color); }
+.bio-education-list ul{margin: 28px 0 40px 53px; }
+.bio-education-list ul > li{font-size: 16px; line-height: 1.31; }
+
+.education-admissions-main.flex {
+    display: block;
+    column-count: 2;
+    column-gap: 50px;
+  }
 
 .education-admissions{margin-bottom: 24px; }
 
@@ -61,6 +65,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters .accordion-active{background-color: var(--white); }
 .representative-matters ul{margin: 0 0 0 53px;}
 .representative-matters ul > li{font-size: 16px; line-height: 1.31; }
+.representative-matters .accordion-content.open{background-color: var(--white); }
 
 .people-bio-page .events-slider-wrap{padding: 0px 0 45px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
 .people-bio-page .events-slider-heading{margin-bottom: 8px;}
@@ -72,15 +77,15 @@ span.bio-people-arrow{margin-left: 18px; }
 .people-bio-page .news-event-slider ul.slick-dots{padding-right: 205px;}
 .events_bio_text{margin-bottom: 32px;}
 
-.speaking-engagements{padding: 34px 0; }
-.speaking-engagements h5{font-size: 20px; line-height: 1.2; color: var(--copperplate-color); }
-.speaking-engagements-lt{flex-basis: 50%; }
-.speaking-engagements-rt{flex-basis: 50%; }
-.speaking-engagements-lt ul, .speaking-engagements-rt ul{margin: 22px 0 25px 53px;}
-.speaking-engagements-lt li, .speaking-engagements-rt li{font-size: 16px; line-height: 1.31; color: var(--text-color); }
-.speaking-engagements-lt span, .speaking-engagements-rt span{display: block; font-weight: 500; color: var(--copperplate-color); }
+.speaking-engagements{padding: 34px 0 20px; }
+.speaking-engagements h5{font-size: 20px; line-height: 1.2; color: var(--copperplate-color); margin-bottom: 37px;}
+.speaking-engagements-list{display: block; column-count: 2; column-gap: 0px;}
+.speaking-engagements-list ul{margin-top: 0; }
+.speaking-engagements-list ul li span{display: block; color: var(--copperplate-color); font-weight: 500; line-height: 1.31; }
 
 .people-bio-page .custom-cta-wrap{padding: 145px 0 112px; }
+
+
 
 
 /*-- media css starts here --*/
@@ -107,24 +112,29 @@ span.bio-people-arrow{margin-left: 18px; }
     .people-bio-page .download-print{margin-bottom: 0;}
 
     .bio-people-aside{width: 100%; margin-bottom: 30px;}
-    .bio-people-overview{padding: 9px 17px 11px; margin-bottom: 11px;}
-    .bio-people-overview ul{display: none;}
-    .bio-people-overview h4{margin-bottom: 0;}
-    .bio-arrow-icon{position: absolute; right: 23px; top: 18px; color: var(--copperplate-color);}
-    .bio-people-news{padding: 8px 17px 11px; margin-bottom: 0;}
-    .bio-people-news h4{margin-bottom: 0;}
-    .bio-people-news .bio-people-list-main{display: none; }
+    .bio-people-list{padding: 9px 17px 11px; margin-bottom: 11px;}
+    .bio-people-text{display: none;}
+    .bio-people-list h4{margin-bottom: 0;}
+    .bio-people-list:hover{cursor: pointer;}
+    .bio-people-list h4::before{content: "\f054"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 18px; top: 14px; }
     .bio-people-content{width: 100%;}
     .bio-people-content h2{font-size: 30px; }
     .people-bio-page .video-sec{margin: 23px 0 50px; }
     .video-sec-slider .slick-btn{width: 27px; height: 54px; font-size: 1.5rem;}
-    .bio-people-expertise{background-color: transparent; padding: 0;}
+    .bio-people-expertise{background-color: transparent; padding: 0; margin-bottom: 0;}
     .bio-expertise-title{background-color: var(--copperplate-color); padding: 16px 30px 28px 31px; margin-bottom: 10px;}
     .bio-people-expertise i{margin-bottom: 0;}
-    .bio-expertise-list{flex:0 0 100%; }
-    .bio-expertise-list h4{padding: 19px 21px 19px 16px; background-color: var(--white); margin-bottom: 10px; color: var(--copperplate-color); font-size: 20px; line-height: 1.4;}
-    .bio-expertise-desc{display: none;}
+    .bio-expertise-list{flex:0 0 100%; margin-bottom: 10px;}
+    .bio-expertise-list h4{padding: 19px 21px 19px 30px; background-color: var(--white); margin-bottom: 0; color: var(--copperplate-color); font-size: 20px; line-height: 1.4;}
+    .bio-expertise-desc{display: none; background-color: var(--copperplate-color); padding: 0 20px 13px 30px;}
     .bio-expertise-list:hover{cursor: pointer;}
+    .bio-expertise-list h4.active{background-color: var(--copperplate-color); color: var(--white); padding-bottom: 12px;}
+    .bio-expertise-list h4.active::before{color: var(--white); content: "\f068";}
     .bio-expertise-list h4::before{content: "\2b"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 20px; }
+    .honor-awards{margin-bottom: 0;}
+    .honor-awards .expert-expand-content{max-height: 450px;}
+    .honor-awards .read-btn{padding-right: 22px; }
+    
+    
 
 }
