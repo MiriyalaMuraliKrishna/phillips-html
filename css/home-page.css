@@ -1,8 +1,7 @@
 /* Banner section */
 .home-banner-main{padding: 236px 0 67px; color: var(--white);}
-.home-banner-text{max-width: 675px;}
 .home-banner-text h1{color: var(--white);}
-.home-banner-desc{max-width: 508px; color: var(--white-90);}
+.home-banner-desc{color: var(--white-90);}
 .home-banner-text p{margin-bottom: 39px; }
 
 .home-banner-category{padding: 93px 0 0; }
@@ -45,6 +44,8 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
+	.home-banner-desc{max-width: 508px; }
+	.home-banner-text{max-width: 675px;}
 	.home-landing-bg{height: calc(100% - 205px); top: auto; bottom: 0;}
 	.home-practice-mobile{display: none;}
 	.home-practice-text{position: absolute; max-width: 390px; text-align: center; z-index: 2;}
