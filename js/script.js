@@ -121,7 +121,13 @@ let mobileScreen = function(){
             $(this).parent().siblings().find('.bio-expertise-desc').slideUp(500);
             $(this).siblings('.bio-expertise-desc').slideToggle(500);
         });
-
+        $('.bio-people-list h4').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().siblings().find('h4').removeClass('active');
+            $(this).toggleClass('active');
+            $(this).parent().siblings().find('.bio-expertise-desc').slideUp(500);
+            $(this).siblings('.bio-expertise-desc').slideToggle(500);
+        });
     }
 }
 $(window).resize(function () { mobileScreen(); });
