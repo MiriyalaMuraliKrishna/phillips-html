@@ -172,6 +172,8 @@ img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-wi
 .play-btn-bg::after{width: 60px; height: 60px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; background: var(--copperplate-color); border-radius: 300px; opacity: 1; position: absolute; z-index: -1;}
 .play-btn-bg:hover::before{opacity: 0.5;}
 
+.read-btn{font-size: 14px; font-weight: 500; line-height: 1; padding-right: 22px; color: #9c5f3d;}
+
 .default-page .play-btn{width: 100px; height: 100px;}
 .default-page .play-btn-bg::after{width: 80px; height: 80px;}
 
@@ -243,4 +245,6 @@ ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%;
     ol > li{margin-bottom: 19px; }
     
     h2{font-size: 28px; line-height: 38px;}
+
+    .btn-mobile{background-color: var(--copperplate-color);}
 } 

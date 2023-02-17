@@ -10,10 +10,6 @@
 .events-slide-text h4 a{color: var(--text-color);}
 .events-slide-text h4 a:hover{color: var(--copperplate-color);}
 
-.bio-people-content .events-slider-heading{width: 100%;}
-.bio-people-content .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; top: -150px;}
-.people-bio-page .events-slider-btn .button{min-width: inherit}
-
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
