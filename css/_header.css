@@ -35,6 +35,7 @@
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > a:hover{color: var(--btn-color);}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children > a{color: var(--btn-color);}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children > a::after{right: 19px; font-size: 14px; content: "\2b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; position: absolute;}
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children:hover > a::after{content: "\f068";}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li:hover > ul{display: block;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul{margin: 0; background-color: #f4ece7; display: none;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul > li{margin-bottom: 0;}
