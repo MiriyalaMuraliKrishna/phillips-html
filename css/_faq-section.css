@@ -7,14 +7,12 @@
 .faq-title h2{color: var(--white); margin-bottom: 20px;}
 .accordion{margin-bottom: 13px;}
 .accordion-header{padding: 26px 27px 23px; margin-bottom: 0; background-color: transparent; cursor: pointer; font-family: Lora, serif; font-size: 20px; line-height: 1.5; color: var(--white); transition: all 0.3s ease;}
-.accordion-header:hover{background-color: var(--copperplate-color);}
 .accordion-header:after{width: calc(100% - 27px); height: 1px; left: 27px; bottom: 0; opacity: 0.5; background-color: var(--white); content: ""; display: block; position: absolute; transition: all 0.3s ease;}
 .accordion-active .accordion-header:after, .accordion-header:hover:after{opacity: 0;}
 .accordion-header span.icon{right: 10px; position: absolute; }
 .accordion-active .accordion-header span:before{content: "\f068";}
-.accordion-content{display: none; padding: 0 27px 40px; background-color: var(--copperplate-color); color: var(--white-90);}
+.accordion-content{display: none; padding: 0 27px 40px;}
 .faq-btn{text-align: right; margin-top: 48px;}
-
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1600px){
