@@ -139,11 +139,13 @@ span.bio-people-arrow{margin-left: 18px; }
     .bio-expertise-list h4::before{content: "\2b"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 20px; }
     .honor-awards{margin-bottom: 0;}
     .honor-awards .expert-expand-content{max-height: 450px;}
+    .honor-awards.expert-expanded .expert-expand-content{max-height: fit-content; }
     .honor-awards .read-btn, .education-admissions .read-btn{opacity: 0.9;}
     .icon-heading h3{font-size: 26px; }
     .bio-education-list{flex: 0 0 100%; }
     .education-admissions{margin-bottom: 44px; }
     .education-admissions .expert-expand-content{max-height: 480px;}
+    .education-admissions.expert-expanded .expert-expand-content{max-height: fit-content; }
     .education-admissions .expert-expand-content h5{-webkit-text-fill-color: var(--copperplate-color);}
     .representative-matters{margin-bottom: 0; }
     .representative-matters h3{margin-bottom: 26px; font-size: 26px; }
