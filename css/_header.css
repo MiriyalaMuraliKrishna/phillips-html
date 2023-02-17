@@ -154,16 +154,23 @@
     ul.main_menu > li > a:hover{color: var(--copperplate-color);}
     ul.main_menu > li > ul{display: none; margin: 0; padding: 15px 31px 14px; background: #f8f4f2;}
     ul.main_menu > li > ul > li{margin-bottom: 17px;}
-    ul.main_menu > li > ul > li > a{font-size: 20px; line-height: 32px; color: var(--text-color); display: block; font-family: 'Lora', serif;}
-    ul.main_menu > li > ul > li > a::after{width: 36px; height: 2px; content: ""; background-color: var(--btn-color); display: block; margin: 11px 0 21px;}
+    ul.main_menu > li.expertise-nav-item > ul > li > a{font-size: 20px; line-height: 32px; font-weight: 500; color: var(--text-color); display: block; font-family: 'Lora', serif;}
+    ul.main_menu > li.expertise-nav-item > ul > li > a::after{width: 36px; height: 2px; content: ""; background-color: var(--btn-color); display: block; margin: 11px 0 21px;}
     ul.main_menu > li > ul > li > ul{margin: 0; display: block;}
     ul.main_menu > li > ul > li > ul > li{margin: 0 0 10px;}
-    ul.main_menu > li > ul > li > ul > li > a{font-size: 16px; line-height: 31px; font-weight: 500; color: var(--text-color); display: block; position: relative;}
+    ul.main_menu > li.expertise-nav-item > ul > li > ul > li > a{font-size: 16px; line-height: 31px; font-weight: 500; color: var(--text-color); display: block; position: relative;}
+    ul.main_menu > li > ul > li > ul > li.current-menu-item > a{color: var(--copperplate-color);}
     ul.main_menu > li > ul > li > ul > li.menu-item-has-children > a::after{right: 0px; top: 50%;transform: translateY(-50%); content: "\f105"; font-family: "Font Awesome 6 Pro"; position: absolute;}
+    ul.main_menu > li > ul > li > ul > li > a.active::after{content: "\f107";}
     ul.main_menu > li > ul > li > ul > li > ul{margin: 0; padding: 10px; display: none;}
     ul.main_menu > li > ul > li > ul > li > ul > li{margin: 0 0 5px;}
-    ul.main_menu > li > ul > li > ul > li > ul > li > a{display: block; color: var(--text-color);}
-
+    ul.main_menu > li > ul > li > ul > li > ul > li > a{font-size: 15px; display: block; color: var(--text-color);}
+    ul.main_menu > li > ul > li > ul > li > ul > li.current-menu-item > a{color: var(--copperplate-color);}
+    
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li > a{font-size: 1rem; line-height: 1.5; font-weight: 500; color: var(--text-color); display: block; }
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul{padding: 10px;}
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul > li > a{font-size: 15px; line-height: 31px; color: var(--text-color); display: block; }
+    
     .nav-thumb-main{width: calc(100% + 60px); left: -30px; position: relative;}
     .nav-thumb-text{bottom: 0; left: 0; padding: 53px 22px; color: var(--white); position: absolute;}
     .nav-thumb-text span{margin-bottom: 20px; font-size: 26px; line-height: 30px; display: block; font-family: 'Lora', serif;}
