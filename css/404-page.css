@@ -1,6 +1,6 @@
 
 .page-not-banner{margin: 0 auto 0 0; padding: 251px 0;}
-.page-not-banner h1{color: var(--white-90); margin-bottom: 33px; }
+.page-not-banner h1{color: var(--white); margin-bottom: 33px; }
 
 /*-- media css starts here --*/
 @media  only screen and (max-width:767px) and (min-width:200px) {
