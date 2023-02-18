@@ -78,7 +78,9 @@ span.bio-people-arrow{margin-left: 18px; }
 
 
 .people-bio-page .custom-cta-wrap{padding: 145px 0 112px; }
-
+.bio-people-expand-content{max-height: 308px; margin-bottom: 18px; overflow: hidden;}
+.bio-people-expand-content.expert-expanded{max-height: fit-content;}
+.bio-expand-btns{padding-bottom: 35px;}
 
 
 

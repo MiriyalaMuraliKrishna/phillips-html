@@ -15,8 +15,8 @@
 .dei-point-text h3{color: var(--white); font-size: 30px; line-height: 1.13; margin-bottom: 25px; color: var(--white);}
 .dei-point-content{position: absolute; bottom: 0; padding: 59px 39px 29px; transform: translateY(100%); color: var(--white); width: 100%; height: 100%; transition: all .5s ease-in-out;}
 .dei-icon{color: var(--copperplate-color); margin-right: 10px;}
-ul.dei-point-droplist{margin: 24px 0 26px 18px;}
-ul.dei-point-droplist > li::before{content: ""; position: absolute; top: 7px; left: -18px; width: 5px; height: 5px; background-color: #fff; border-radius: 50%; opacity: 0.5; background-image: none; background-clip: unset;}
+.dei-point-content ul{margin: 24px 0 26px 18px;}
+.dei-point-content ul li::before{content: ""; position: absolute; top: 7px; left: -18px; width: 5px; height: 5px; background-color: #fff; border-radius: 50%; opacity: 0.5; background-image: none; background-clip: unset;}
 
 .dei-point-value-list:hover .dei-point-pos{opacity: 0; visibility: hidden; z-index: -1;}
 .dei-point-value-list:hover .dei-point-content{transform: translateY(0); background-color: var(--copperplate-color);}

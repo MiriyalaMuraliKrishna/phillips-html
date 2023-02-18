@@ -40,7 +40,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .industries-default-page .default-banner-main{max-width: 630px;}
+    .industries-default-page .default-banner-main{max-width: 630px; margin: 0 auto; text-align: center;}
 }
 @media only screen and (min-width: 1024px){
     .how-help-text{width: 308px; margin-right: 119px; }

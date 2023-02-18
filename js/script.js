@@ -60,6 +60,18 @@ let desktopScn = function(){
             event.preventDefault();
             $(this).parent().parent().siblings('li').toggleClass('expertise-submenu');
         });
+        $('.btn_show_more').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().siblings('.bio-people-expand-content').addClass('expert-expanded');
+            $(this).hide();
+            $(this).siblings('.btn_show_less').show();
+        });
+        $('.btn_show_less').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().siblings('.bio-people-expand-content').removeClass('expert-expanded');
+            $(this).hide();
+            $(this).siblings('.btn_show_more').show();
+        });
     }
 }
 $(window).resize(function () { desktopScn(); });
