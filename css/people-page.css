@@ -39,6 +39,7 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
     .our-people-frm input::placeholder{opacity: 0.5; font-size: 20px;}
     .our-people-frm button { min-width: 135px; height: 100%; right: 0; position: absolute; }
     .our-people-alphabet{width: calc(100% - 166px); }
+    .filter_icon{display: none;}
 }
 @media only screen and (min-width: 1024px){
     .our-people-heading{width: 652px; }
@@ -97,5 +98,4 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
     .our-people-list{margin-bottom: 16px; background-color: var(--white); padding: 23px 12px 23px 0; align-items: center; display: flex; flex-wrap: wrap;}
     figure.our-people-thumb{width: 97px; transform: translateX(-12px);}
     .our-people-content{width: calc(100% - 97px); padding: 0; background-color: transparent;}
-
 }

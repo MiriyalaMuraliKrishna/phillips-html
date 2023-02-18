@@ -55,7 +55,6 @@ button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing
 button, input {line-height: normal;}
 input, textarea {background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));}
 
-.extramargin{margin-bottom: 179px; }
 
 /* Removing the inner shadow, rounded corners on iOS inputs */
 button, input[type="button"], input[type="reset"], input[type="submit"] {appearance: button; cursor: pointer;}
