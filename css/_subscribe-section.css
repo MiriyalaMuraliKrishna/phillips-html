@@ -9,11 +9,7 @@
 @media only screen and (min-width: 1024px){
 	.subscribe-wrap{max-width: 645px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-
-}
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.subscribe-wrap{max-width: 230px; padding: 0 0 10px;}
 	.subscribe-main{padding: 108px 0 91px;}
-	.subscribe-main h2{font-size: 28px; line-height: 38px;}
 }
