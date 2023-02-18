@@ -2,15 +2,8 @@
 .banner-icon{margin-right: 10px; width: 14px;}
 .location-text{width: calc(100% - 24px); }
 
-
 .news-events-default-section{background-color: #f8f4f2; }
 .news-events-default-wrap{padding: 0 0 43px; }
-.download-print-main{justify-content: space-between; padding: 26px 0;}
-.download-print{flex-basis: 50%; align-items: center; }
-.download-print-text{font-size: 16px; font-weight: 600; margin-left: 34px; }
-.download-print-text:first-child{margin-left: 0; }
-.download-print-text .icon{font-size: 18px; margin-right: 8px; opacity: 0.8; }
-
 
 .news-events-default-main{max-width: 1188px; margin: 0 auto; }
 .video-sec{margin: 60px 0 65px; }
@@ -64,8 +57,6 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .news-default-page .common-banner-dates{flex-basis: 100%; }
     .news-default-page .common-banner-location{flex-basis: 100%; }
-    .news-default-page .download-print-main{border-bottom: 1px solid #dacfca; margin-bottom: 50px; padding: 11px 0 8px;}
-    .news-default-page .download-print{flex-basis: 100%; margin-bottom: 0; }
     .news-events-default-content h2{font-size: 30px; line-height: 1.27; }
     .news-events-default-content h3{font-size: 26px; }
     .video-sec{margin: 33px 0 31px; }
