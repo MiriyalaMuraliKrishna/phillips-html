@@ -86,6 +86,7 @@
             <div class="download-print flex">
                 <span class="download-print-text"><a href="#"><span class="fa-solid fa-file-arrow-down icon"></span>Download</a></span>
                 <span class="download-print-text"><a href="#"><span class="fa-solid fa-print icon"></span>Print</a></span>
+                <span class="download-print-text share-icon"><a href="#"><span class="fa-solid fa-share-square icon"></span>Share</a></span>
             </div>
             <div class="social-share-icons flex flex-vcenter">
                 <span class="share-text">share</span>
@@ -122,9 +123,10 @@
             <div class="full-width-image">
                 <div class="fluid-container pos-relative flex">
                     <div class="full-width-thumb">
-                        <figure class="object-fit">
-                            <img src="images/full-width-thumb@2x.jpg" alt="full-width-thumb">
-                        </figure>
+                        <picture class="object-fit">
+                            <source srcset="images/full-width-thumb@2x.jpg" media="(min-width:768px)">
+                            <img src="images/full-width-thumb-mobile@2x.jpg" alt="full-width-thumb-mobile">
+                        </picture>
                     </div>
                     <div class="full-width-content">
                         <h4>A third headline as H4</h4>
@@ -274,13 +276,13 @@
                     </div>
                 </div>
             </div>
-            <div class="w-790 aligncenter">
+            <div class="insight-default-sm-sec">
                 <h3>Another short headline as H3</h3>
                 <p>By creating an Account on our service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send.</p>
             </div>
             <div class="medium-headline flex">
                 <div class="medium-headline-image">
-                    <figure class="medium-headline-thumb pos-relative flex">
+                    <figure class="object-fit medium-headline-thumb pos-relative">
                         <img src="images/medium-headline-thumb@2x.jpg" alt="medium-headline-thumb">
                     </figure>
                 </div>
@@ -307,7 +309,7 @@
             <p>Connecting networks or devices. Credit card information is always encrypted during transfer over networks. You understand that your content (not including credit card information), may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices. Credit card information is always encrypted during transfer over networks.</p>
             <div class="medium-headline reverse flex">
                 <div class="medium-headline-image">
-                    <figure class="medium-headline-thumb pos-relative flex">
+                    <figure class="object-fit medium-headline-thumb pos-relative">
                         <img src="images/medium-headline-thumb2@2x.jpg" alt="medium-headline-thumb2">
                     </figure>
                 </div>
@@ -399,9 +401,13 @@
                 <a href="#" class="button">Previous</a>
                 <a href="#" class="button">Next</a>
             </div>
+            <figure class="breakpoint-thumb pos-relative hide-desktop hide-tablet">
+                <img src="images/small-logo.svg" alt="small-logo">
+            </figure>
         </div>
     </div>
 </section>
+
 
 <section class="events-slider-section">
     <div class="container">
