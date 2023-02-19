@@ -27,8 +27,8 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_
 
 body .frm_forms form .frm_required_field::after{content: ""; font-size: 0; line-height: 0; right: 1px; top: 2px; width: 8px; height: 8px; background-image: url("images/error.svg"); background-repeat: no-repeat; background-position: center; position: absolute;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; font-size: 10px; line-height: 14px; color: var(--error); position: absolute;}
-body .with_frm_style .frm_message, .frm_success_style{font-weight: 700; color: var(--slate-color); border: none; background: none; text-align: center; } 
-body .with_frm_style .frm_message p{color: var(--slate-color);}
+body .with_frm_style .frm_message, .frm_success_style{font-weight: 700; color: var(--text-color); border: none; background: none; text-align: center; } 
+body .with_frm_style .frm_message p{color: var(--text-color);}
 
 .field_line_wrap{margin-bottom: 32px;width: 100%;float: left;border-bottom: 1px dotted var(--mercury-color);clear: both;}
 .field_line_wrap::after{content: ""; display: block; clear: both;}
