@@ -1,0 +1,6 @@
+
+.confirmation-page .common-banner-text h1{margin-bottom: 18px;}
+
+@media only screen and (max-width:767px) and (min-width:200px){
+    .confirmation-page .common-banner-text{padding: 45px 24px 42px;}
+}

@@ -12,9 +12,9 @@
 
 
 .dei-point-pos{position: absolute; bottom: 0; padding: 59px 39px 29px; color: var(--white); width: 100%; transition: all .5s ease-in-out;}
-.dei-point-text h3{color: var(--white); font-size: 30px; line-height: 1.13; margin-bottom: 25px; color: var(--white);}
+.dei-point-text h3{font-size: 30px; line-height: 1.13; margin-bottom: 25px; color: var(--white); padding-left: 48px; position: relative;}
 .dei-point-content{position: absolute; bottom: 0; padding: 59px 39px 29px; transform: translateY(100%); color: var(--white); width: 100%; height: 100%; transition: all .5s ease-in-out; overflow: auto;}
-.dei-icon{color: var(--copperplate-color); margin-right: 10px;}
+.dei-icon{color: var(--copperplate-color); position: absolute; left: 0;}
 .dei-point-content ul{margin: 24px 0 26px 18px;}
 .dei-point-content ul li::before{content: ""; position: absolute; top: 7px; left: -18px; width: 5px; height: 5px; background-color: #fff; border-radius: 50%; opacity: 0.5; background-image: none; background-clip: unset;}
 

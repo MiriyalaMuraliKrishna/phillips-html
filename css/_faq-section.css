@@ -5,13 +5,10 @@
 .faq-content{background-image: url("images/faq-bg@2x.jpg"); background-size: cover; padding: 116px 204px 92px 326px; color: var(--white-90); z-index: -1;}
 .faq-title{margin-bottom: 38px; padding: 0 27px;}
 .faq-title h2{color: var(--white); margin-bottom: 20px;}
-.accordion{margin-bottom: 13px;}
 .accordion-header{padding: 26px 27px 23px; border-bottom: 1px solid var(--white-50); background-color: transparent; cursor: pointer; font-family: Lora, serif; font-size: 20px; line-height: 1.5; color: var(--white);}
-.accordion-active{border-bottom-color: transparent;}
-/* .accordion-header.accordion-active{padding: 26px 27px 13px; } */
-.accordion-header span.icon{right: 10px; position: absolute; }
+.accordion-header span.icon{right: 28px; position: absolute; }
 .accordion-active span:before{content: "\f068";}
-.accordion-active{background-color: var(--copperplate-color);}
+.accordion-active{background-color: var(--copperplate-color); margin-top: -1px; border-bottom-color: transparent;}
 .accordion-content{display: none; padding: 0 27px 40px;} 
 .accordion-content.open{background-color: var(--copperplate-color); color: var(--white);}
 .faq-btn{text-align: right; margin-top: 48px;}
