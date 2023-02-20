@@ -17,21 +17,30 @@
 @media only screen and (min-width: 768px){
     .subscribe-page-mobile{display: none;}
     .subscribe-page-text h1{font-size: 40px; line-height: 50px; margin-bottom: 26px; max-width: 450px;}
-    .subscribe-page-text h3{padding-top: 30px;}
+    .subscribe-page-text h3{padding-top: 30px; margin-bottom: 21px;}
 }
 @media only screen and (min-width: 1024px){
     .subscribe-page-text{width: 488px; margin-right: 122px;}
     .subscribe-page-form{width: calc(100% - 610px);}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .subscribe-page-text{margin-right: 70px;}
+    .subscribe-page-form{width: calc(100% - 558px); padding: 40px 30px 58px;}
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .subscribe-page-main{display: block;}
     .subscribe-page-text{margin-bottom: 60px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .subscribe-page-wrap { padding: 103px 0 81px;}
+    .subscribe-page-wrap{padding: 103px 0 81px;}
     .subscribe-page-desktop{display: none;}
     .subscribe-page-mobile{display: block; padding: 40px 30px 58px;}
-    .subscribe-page-form{padding: 30px 33px 32px 31px; }
+    .subscribe-page-text{margin-bottom: 44px;}
+    .subscribe-page-form{padding: 30px 33px 32px 31px;}
     .subscribe-page-text h1{font-size: 29px; line-height: 38px; margin-bottom: 26px;}
 	.subscribe-page-text h3{padding-top: 30px; font-size: 26px; line-height: 30px;}
+    .subscribe-page .frm_fields_container hr{margin: 29px 0 33px;}
+    body .subscribe-page .frm_forms .frm_form_fields .frm_submit{margin-top: 32px;}
+    body .subscribe-page .frm_forms .frm_form_fields .frm_form_field.vertical_radio label{opacity: 1; }
 }

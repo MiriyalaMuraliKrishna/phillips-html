@@ -42,7 +42,6 @@ $(document).ready(function(){
     });
     $('ul.common-banner-item li:first').addClass('active');
     $('ul.common-banner-item li > a').on('click', function(e){
-        e.preventDefault();
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
     });
@@ -160,7 +159,6 @@ let mobileScreen = function(){
             $('ul.common-banner-item').slideToggle(900);
         });
         $('ul.common-banner-item li > a').on('click', function(e){
-            e.preventDefault();
             let text = $(this).text();
             $('.banner-dropdown span').text(text);
             $('ul.common-banner-item').slideUp();
