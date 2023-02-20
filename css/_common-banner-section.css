@@ -9,7 +9,7 @@
 .common-banner-item li > a{color: var(--black); }
 .common-banner-item li > a:hover{color: var(--copperplate-color); }
 .common-banner-item li.active a { color: var(--copperplate-color); }
-.common-banner-item li.active ::before{content: ""; position: absolute; width: 100%; border-bottom: 1px solid var(--copperplate-color); bottom: -19px; left: 0; }
+.common-banner-item li.active::before{content: ""; position: absolute; width: 100%; border-bottom: 1px solid var(--copperplate-color); bottom: -19px; left: 0; }
 
 .position-location span{line-height: 1; color: var(--white-90); padding: 0 18px; border-left: 1px solid var(--white); }
 .position-location span:first-child{padding: 0 18px 0 0; border-left: none; }

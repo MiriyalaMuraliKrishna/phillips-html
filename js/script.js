@@ -51,6 +51,18 @@ $(document).ready(function(){
         $('.our-people-letter').fadeToggle(700);
         $('.our-people-dropdown').fadeToggle(700);
     });
+    $('.banner-dropdown').on('click', function(e){
+        e.preventDefault();
+        $(this).toggleClass('open');
+        $('ul.common-banner-item').slideToggle(900);
+    });
+    $('ul.common-banner-item li:first').addClass('active');
+
+    $('ul.common-banner-item li a').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().removeClass('active');
+        $(this).parent().addClass('active');
+    });
 });
 
 let desktopScn = function(){
