@@ -72,7 +72,8 @@
     .banner-dropdown::after{right: 19px; top: 50%; transform: translateY(-50%); content: "\f107"; font-family: "Font Awesome 6 Pro"; position: absolute;}
     .banner-dropdown.open{background-color: var(--white); color: var(--black);}
     .banner-dropdown.open::after{content: "\f106";}
-    ul.common-banner-item{display: none; padding: 0 21px 22px; background-color: var(--white); position: absolute;  z-index: 99;}
+    ul.common-banner-item{display: none; padding: 10px 21px 21px 22px; background-color: var(--white); position: relative;  z-index: 99;}
+    ul.common-banner-item li{text-align: left; line-height: 1.7; padding: 0;}
     ul.common-banner-item li > a{border: none; padding: 0; color: var(--black-80);}
     ul.common-banner-item li.active > a, ul.common-banner-item li > a:hover{color: var(--btn-color);}
 
