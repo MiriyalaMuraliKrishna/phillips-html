@@ -1,5 +1,4 @@
 .footer-main{z-index: 1;}
-.footer-overlay::after{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--black); opacity: 0.93; top: 0; z-index: 0;}
 .footer{isolation: isolate; z-index: 1;}
 .footer-logo{margin-bottom: 20px; }
 .footer-logo a{display: inline-block; }
