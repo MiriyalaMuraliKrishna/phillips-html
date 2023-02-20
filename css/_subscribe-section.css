@@ -10,6 +10,6 @@
 	.subscribe-wrap{max-width: 645px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.subscribe-wrap{max-width: 230px; padding: 0 0 10px;}
+	.subscribe-wrap{max-width: 230px; padding: 0;}
 	.subscribe-main{padding: 108px 0 91px;}
 }
