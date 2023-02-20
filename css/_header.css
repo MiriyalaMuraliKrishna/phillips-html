@@ -36,8 +36,8 @@
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children > a{color: var(--btn-color);}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children > a::after{right: 19px; font-size: 14px; content: "\2b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; position: absolute;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children:hover > a::after{content: "\f068";}
-    ul.main_menu > li:not(.expertise-nav-item) > ul > li:hover > ul{display: block;}
-    ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul{margin: 0; background-color: #f4ece7; display: none;}
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul{margin: 0; background-color: #f4ece7; display: block; height: 0; opacity: 0; visibility: inherit; overflow: hidden; transition: all 0.5s ease-in-out;}
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li:hover > ul{display: block; height: auto; opacity: 1; visibility: visible;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul > li{margin-bottom: 0;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul > li > a{padding: 5px 47px; opacity: 1;font-size: 14px; line-height: 2.33; font-weight: 500; color: var(--text-color); display: block;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul > li:hover > a, ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul > li > a:hover{color: var(--white); background-color: var(--btn-color);}
