@@ -169,3 +169,19 @@ let mobileScreen = function(){
 }
 $(window).resize(function () { mobileScreen(); });
 $(document).on('ready', function () { mobileScreen(); });
+
+
+$(window).on("load", function(){
+    $('a[href*=\\#]:not([href=\\#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
