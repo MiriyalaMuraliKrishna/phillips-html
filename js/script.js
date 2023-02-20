@@ -51,14 +51,8 @@ $(document).ready(function(){
         $('.our-people-letter').fadeToggle(700);
         $('.our-people-dropdown').fadeToggle(700);
     });
-    $('.banner-dropdown').on('click', function(e){
-        e.preventDefault();
-        $(this).toggleClass('open');
-        $('ul.common-banner-item').slideToggle(900);
-    });
     $('ul.common-banner-item li:first').addClass('active');
-
-    $('ul.common-banner-item li a').on('click', function(e){
+    $('ul.common-banner-item li > a').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
@@ -157,6 +151,18 @@ let mobileScreen = function(){
             $(this).toggleClass('active');
             $(this).parent().siblings().find('.bio-people-text').slideUp(500);
             $(this).siblings('.bio-people-text').slideToggle(500);
+        });
+
+        $('.banner-dropdown').on('click', function(e){
+            e.preventDefault();
+            $(this).toggleClass('open');
+            $('ul.common-banner-item').slideToggle(900);
+        });
+        $('ul.common-banner-item li > a').on('click', function(e){
+            e.preventDefault();
+            let text = $(this).text();
+            $('.banner-dropdown span').text(text);
+            $('ul.common-banner-item').slideUp();
         });
     }
 }
