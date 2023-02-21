@@ -13,7 +13,6 @@
 /* our people section */
 .about-people-section{background-color: #f0eae7; }
 .about-people-wrap{padding: 110px 0 76px; }
-.about-people-main{gap: 20px; padding: 0; }
 .about-people-thumb img{filter: saturate(0);}
 .about-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; }
 .about-people-list:hover .about-people-thumb::before{display: none;}
@@ -40,15 +39,17 @@
     .timeline-slide-image{width: 508px; }
     .timeline-slide-content{width: calc(100% - 508px); }
     .about-page .our-people-main{width: 100%;}
-    .about-people-list{width: 285px; }
-    .about-people-list:nth-child(7n){width: 49%;}
+    .about-people-main{gap: 20px; padding: 0; }
+    .about-people-list{flex:  0 0 calc(25% - 15px);}
+    .about-people-list:nth-child(7n){flex: 0 0 calc(50% - 10px);}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .timeline-slide-image{width: 408px;}
     .timeline-slide-content{width: calc(100% - 408px);}
-    .about-people-list:nth-child(7n){width: 61.5%;}
+    .about-people-list:nth-child(7n) .about-people-content { padding: 20px 20px 20px; }
 }
 @media only screen and (max-width:1023px) and (min-width: 768px){
+    .about-people-main{gap: 20px;}
     .about-people-list{flex: 0 0 calc(50% - 10px);}
     .about-page .home-practice-main { padding: 0 0 50px; }
 }
@@ -64,6 +65,7 @@
     .about-page .common-grid-lis:last-child{margin-bottom: 0;}
     .about-page .common-grid-image{margin-bottom: 30px;}
     .about-people-wrap { padding: 110px 0 1px; }
+    .about-people-main{gap: 20px;}
     .about-people-list{flex: 0 0 calc(50% - 10px);}
     .about-people-list:hover .about-people-content{display: none;}
     .about-people-list:nth-child(n+5){display: none;}
