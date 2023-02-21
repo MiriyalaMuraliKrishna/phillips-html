@@ -17,7 +17,7 @@
     .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-image{width: 790px; margin-right: 101px; }
     .common-grid-text{width: calc(100% - 891px); max-width: 424px;}
-    .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: auto;}
+    .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .common-grid-image{width: 490px; margin-right: 51px;}
