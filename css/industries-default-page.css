@@ -1,11 +1,12 @@
 
 /* Short headline section */
 .industries-default-page .short-headline-section{z-index: 1;}
-.industries-default-page .download-print-main{padding: 26px 0 36px; }
-.industries-default-page .short-headline-title{margin-bottom: 59px; }
-.industries-default-page .short-headline-section::before{content: ""; position: absolute; width: 100%; height: 705px; background-color: #f0eae7; bottom: 0; z-index: -1;}
+.industries-default-page .short-headline-title{margin-bottom: 59px;}
+.industries-default-page .short-headline-content h3{margin-top: 123px;}
+.industries-default-page .short-headline-section::before{content: ""; position: absolute; width: 100%; height: 733px; background-color: #f0eae7; bottom: 0; z-index: -1;}
 
 /* Logo slider section */
+.industries-default-page .logo-slider-section{background-color: #f8f4f2; }
 .industries-default-page .logo-slider-wrap{padding: 62px 0 84px; }
 .industries-default-page .logo-slider-main{margin-bottom: 80px; }
 .industries-default-page .logo-slider-item{border: none; }
@@ -14,7 +15,7 @@
 
 /* Product liability section */
 .industries-default-page .product-liability-wrap{padding: 109px 0 0; }
-.industries-default-page .product-liability-main{padding: 70px 82px 72px 81px; }
+.industries-default-page .product-liability-main{padding: 70px 82px 72px 81px; margin-bottom: 0;}
 
 /* Sub Topic section */
 .industries-default-page .sub-topic-section{background-color: #f8f4f2; }
@@ -77,19 +78,20 @@
     ul.common-banner-item li > a{border: none; padding: 0; color: var(--black-80);}
     ul.common-banner-item li.active > a, ul.common-banner-item li > a:hover{color: var(--btn-color);}
 
-    .industries-default-page .short-headline-wrap{padding: 0px 0 29px;}
+    .industries-default-page .short-headline-wrap{padding: 0;}
     .industries-default-page .download-print{margin-bottom: 0;}
     .industries-default-page .download-print-main{padding-bottom: 10px;}
 
     .short-headline-logo .optional-text{margin-bottom: 15px;}
-    .industries-default-page .short-headline-section::before { height: 890px; }
+    .industries-default-page .short-headline-content h3{margin-top: 86px;}
+    .industries-default-page .short-headline-section::before{height: 935px;}
     .how-help-main{padding: 32px;}
     .how-help-text{margin-bottom: 10px;}
     .how-help-text h2{font-size: 28px; line-height: 28px;}
 
-    .industries-default-page .logo-slider-wrap { padding: 62px 0 56px; }
-    .industries-default-page .product-liability-main { padding: 32px 20px 72px; }
-    .industries-default-page .sub-topic-wrap { padding: 51px 0 76px; }
+    .industries-default-page .logo-slider-wrap{padding: 62px 0 56px; }
+    .industries-default-page .product-liability-main{padding: 32px 20px 0px; }
+    .industries-default-page .sub-topic-wrap{padding: 51px 0 76px; }
 
     .industries-default-page .buffalo-team-wrap{padding: 47px 0 64px;}
     .industries-default-page .buffalo-team-heading{margin-bottom: 31px;}

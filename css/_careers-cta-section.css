@@ -9,6 +9,8 @@
 
 .careers-cta-list.reverse{flex-direction: row-reverse; }
 .careers-cta-list.reverse .careers-cta-text{margin:0 0 0 102px; }
+.careers-cta-list.no_image{display: block;}
+.careers-cta-list.no_image .careers-cta-text{width: 100%; margin: 0; display: block;}
 
 
 /*-- media css starts here --*/

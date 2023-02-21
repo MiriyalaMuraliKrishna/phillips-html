@@ -6,9 +6,11 @@
 .product-liability-main span{font-weight: bold;}
 
 .fullwidth-horizontal{flex-direction: column; }
-.fullwidth-horizontal .product-liability-text{width: 100%; background-color: #f9f8f8;}
+.fullwidth-horizontal .product-liability-text{width: 100%; background-color: #f9f8f8; padding-left: 30px;}
+.fullwidth-horizontal .product-liability-text ul{column-count: 1; }
 .product-liability-main span:nth-child(2n){margin-bottom: 11px; display: block; }
 .product-liability-text ul{column-gap: 65px; display: block; column-count: 2; }
+.product-liability-text ul li ul{column-count: 1; margin-bottom: 0;}
 
 /*-- media css starts heer --*/
 @media only screen and (min-width: 1024px){
@@ -21,7 +23,7 @@
     .product-liability-text ul{column-count: 1;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .fullwidth-horizontal .product-liability-text{background-color: transparent;}
+    .fullwidth-horizontal .product-liability-text{background-color: transparent; padding-left: 0;}
     .product-liability-text ul{column-count: 1;}
     .product-liability-main{padding: 31px 15px; margin-bottom: 54px;}
     .product-liability-main h4{margin-bottom: 17px;}

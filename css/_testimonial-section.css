@@ -7,6 +7,9 @@
 .testimonial-name h6{color: var(--copperplate-color); font-size: 18px; line-height: 1; font-family: 'Copperplate', serif; margin-bottom: 2px;}
 .testimonial-name span{font-size: 16px; line-height: 1.75; font-style: normal;}
 
+.testimonial-list.no_image{display: block;}
+.testimonial-list.no_image .testimonial-content{width: 100%;}
+
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width:1024px){
     .testimonial-image{width: 440px; }

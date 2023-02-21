@@ -12,6 +12,8 @@
 .sub-topic-thumb{z-index: 1; }
 .sub-topic-thumb::before{content: ""; position: absolute; width: 325px; height: 535px; border: solid 1px var(--copperplate-color); top: -29px; left: -29px; z-index: -1; }
 
+.sub-topic-main.no_image{display: block;}
+.sub-topic-main.no_image .sub-topic-content{width: 100%; margin: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

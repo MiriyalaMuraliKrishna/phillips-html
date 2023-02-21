@@ -5,7 +5,7 @@
 
 .buffalo-team-main{margin: 0 57px 0 0; width: 350px; }
 .buffalo-team-item{padding: 15px 23px 14px;}
-.no_image.buffalo-team-item{display: block; min-height: 86px;}
+.no_image.buffalo-team-item{min-height: 86px;}
 .no_image .buffalo-text{width: 100%;}
 .buffalo-team-item:hover{background-color: var(--copperplate-color); }
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
@@ -23,6 +23,7 @@
 
 .buffalo-team-content{width: calc(100% - 407px); }
 .buffalo-team-image{width: 387px; }
+.buffalo-team-image img{width: 387px; height: 491px; max-height: 100%;}
 .buffalo-team-text{width: calc(100% - 387px); align-items: center;}
 .buffalo-team-inner{background-color: var(--copperplate-color); padding: 61px 46px 63px 68px;}
 .buffalo-team-inner img{width: 23px; height: 19px; margin-left: -28px; }
@@ -37,6 +38,8 @@
 .buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 15px; height: 25px; margin: 0;}
 .buffalo-team .slick-arrow.slick-prev{top: calc(50% - 22px);}
 .buffalo-team .slick-btn{color: var(--copperplate-color); background-color: transparent; width: auto; height: auto;}
+.buffalo-team-list.no_image{display: block;}
+.buffalo-team-list.no_image .buffalo-team-text{width: 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
