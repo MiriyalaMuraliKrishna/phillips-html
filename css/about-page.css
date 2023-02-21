@@ -65,6 +65,7 @@
     .about-page .common-grid-lis:last-child{margin-bottom: 0;}
     .about-page .common-grid-image{margin-bottom: 30px;}
     .about-people-wrap { padding: 110px 0 1px; }
+    .about-people-main{gap: 20px;}
     .about-people-list{flex: 0 0 calc(50% - 10px);}
     .about-people-list:hover .about-people-content{display: none;}
     .about-people-list:nth-child(n+5){display: none;}

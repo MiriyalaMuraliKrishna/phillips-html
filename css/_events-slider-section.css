@@ -13,8 +13,9 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .events-slider-heading{width: calc(100% - 500px); }
-    .events-slider-btn{position: absolute; top: 0; right: 0; }
+    .events-slider-heading{width: calc(100% - 500px); min-height: 66px;}
+    .events-slider-heading .optional-text{margin-bottom: 7px;}
+    .events-slider-btn{position: absolute; top: 25px; right: 0; }
     .events-slider-row{gap: 22px; grid-template-columns: repeat(3, 1fr);}
     .news-event-slider.slick-slider{display: block; width: 100vw;}
     .news-event-slider .events-slide-list{margin-right: 21px; width: 386px;}

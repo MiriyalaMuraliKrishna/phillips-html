@@ -9,7 +9,7 @@
 .no_image .buffalo-text{width: 100%;}
 .buffalo-team-item:hover{background-color: var(--copperplate-color); }
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
-.buffalo-sm-image img{width: 58px; height: 58px; }
+.buffalo-sm-image img{width: 58px; height: 58px; border-radius: 50%;}
 .buffalo-text .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 0;}
 .buffalo-team-item:hover .buffalo-text .optional-tex{background-color: var(--white); }
 .buffalo-text span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 1.79; }
