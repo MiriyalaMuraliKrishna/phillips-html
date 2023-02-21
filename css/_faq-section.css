@@ -41,4 +41,7 @@
     .faq-content{padding: 116px 24px 45px; margin-top: -86px;}
     .faq-title { margin-bottom: 38px; padding: 0; }
     .faq-btn { text-align: center; margin-top: 40px; }
+    .accordion-header{padding: 15px 27px 16px 16px;} 
+    .accordion-header span.icon{right: 9px; top: 22px;}
+    .accordion-content{padding: 0 16px 32px;}
 }
