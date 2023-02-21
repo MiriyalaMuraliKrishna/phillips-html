@@ -33,6 +33,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-expertise-list ul{margin: 0 0 0 23px; }
 .bio-expertise-list ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0; color: var(--white-70);}
 .bio-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
+.bio-expertise-list ul > li a{color: var(--white);}
 
 .honor-awards{margin-bottom: 65px; }
 
@@ -57,7 +58,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters .accordion-active{background-color: var(--white); }
 .representative-matters ul{margin: 0 0 0 53px;}
 .representative-matters ul > li{font-size: 16px; line-height: 1.31; }
-.representative-matters .accordion-content.open{background-color: var(--white); }
+.representative-matters .accordion-content.open{background-color: var(--white); color: var(--text-color);}
 
 .people-bio-page .events-slider-wrap{padding: 0px 0 45px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
 .people-bio-page .events-slider-heading{margin-bottom: 8px;}

@@ -45,5 +45,5 @@
     .events-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 30px;}
     .events-view-btn .right-icon{margin-left: 10px;}
     .events-slide-link{margin-top: 30px;}
-    .events-slide-image img{max-height: 232px;}
+    .events-slide-image img{max-height: 273px; min-height: 273px;}
 }
