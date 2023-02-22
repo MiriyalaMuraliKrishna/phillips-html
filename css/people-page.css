@@ -1,13 +1,20 @@
+/* perk section */
+.people-page .perks-title{margin-bottom: 49px;}
+.people-page .perks-title h2{margin-bottom: 24px;}
 
 .find-person-section{background-color: #f0eae7; z-index: 1;}
 .find-person-section::before{content: ""; position: absolute; width: 100%; height: 210px; background-color: #f8f4f2; z-index: -1; }
-.find-person-wrap{padding: 0 0 50px; }
+.find-person-wrap{padding: 34px 0 50px; }
 .our-people-filter{background-color: var(--white); padding: 59px 97px 101px 101px; }
 .our-people-heading{margin-bottom: 45px; }
 .our-people-name span{opacity: 0.5;}
 .our-people-searchfeild{margin-bottom: 51px; }
 .our-people-frm::before{content: "\f002"; position: absolute; font-family: "Font Awesome 6 pro"; font-size: 20px; line-height: 1.4; opacity: 0.5; top: 20px; left: 14px; }
 .our-people-name{width: 152px; margin-right: 14px; }
+body.page-template-our-people ul.selectBox-dropdown-menu{margin-top: 1px; padding: 10px 0 0; border: none; min-width: 187px;}
+body.page-template-our-people ul.selectBox-dropdown-menu li{padding: 1px 17px;}
+body.page-template-our-people ul.selectBox-dropdown-menu li a{color: rgba(0, 0, 0, 0.7);}
+body.page-template-our-people ul.selectBox-dropdown-menu li:hover a{color: var(--white);}
 ul.alphabet-list{margin: 0; gap: 0 13px;}
 ul.alphabet-list li::before{display: none; }
 ul.alphabet-list li{margin:0; }
@@ -60,7 +67,7 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
     .our-people-searchfeild{display: block;}  
     .our-people-text{width: 100%; margin: 0;}
     .our-people-search{width: 100%;}
-    .our-people-dropdown{gap: 16px; }
+    .our-people-dropdown{gap: 16px;}
     .our-people-field{flex: 0 0 calc(33.333% - 13px);}
     .our-people-main{gap: 32px;}
     .our-people-list{flex: 0 0 calc(33.3333% - 22px);}
@@ -71,16 +78,27 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
     .our-people-field{flex: 0 0 calc(33.333% - 11px);}
     .our-people-main{gap: 32px;}
     .our-people-list{flex: 0 0 calc(50% - 16px);}
+    .our-people-dropdown{gap: 16px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .people-page .default-banner-main { padding: 178px 0 166px; }
-    .people-page .common-grid-wrap { padding: 2px 0 56px; }
-
-    .our-people-searchfeild{display: block; margin-bottom: 30px;}
+    .people-page .perks-wrap{padding: 47px 0 55px;}
+    .people-page .perks-title{margin-bottom: 29px;}
+    .people-page .perks-title h2{margin-bottom: 17px;}
+    .find-person-section{background-color: #f8f4f2;}
+    .find-person-wrap{padding: 34px 0 94px;}
+    .people-page .common-grid-wrap{padding: 2px 0 56px;}
+    .people-page .common-grid-text{text-align: left;}
+    .our-people-heading{margin-bottom: 21px;}
+    .our-people-searchfeild{display: block; margin-bottom: 20px;}
+    ul.our-people-details{margin: 0;}
+    ul.our-people-details li{margin-bottom: 0; font-size: 16px; line-height: 1.56;}
+    ul.our-people-details li a{font-size: 16px;}
     .filter_icon{right: 16px; top: 10px; opacity: 0.5; transition: all 0.3s ease-in-out; position: absolute; z-index: 1; cursor: pointer; color: var(--text-color);}
     .filter_icon.open{opacity: 1; }
     .filter_icon.open span::before{content: "\f00d";}
     .filter_icon:hover{opacity: 1;}
+    .people-page .our-office-title h2{margin-bottom: 15px;}
     .our-people-search{position: relative;}
     .our-people-filter{padding: 34px 20px 20px;}
     .our-people-frm{padding-right: 48px;}

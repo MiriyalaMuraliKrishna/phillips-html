@@ -14,6 +14,8 @@
 .careers-opportunities-button{flex-basis: 40%; justify-content: end; align-items: center;}
 .careers-opportunities-button .button{padding: 12px 28px 14px 27px;}
 .careers-opportunities-position h5{font-size: 20px; line-height: 1.35; margin-bottom: 0; }
+.careers-opportunities-position h5 a{color: var(--black);}
+.careers-opportunities-position h5 a:hover{color: var(--copperplate-color);}
 .careers-opportunities-position span{font-size: 14px; line-height: 1.79; color: rgba(0,0,0, 0.5); display: block;}
 
 /*-- media css starts here --*/

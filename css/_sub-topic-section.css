@@ -19,7 +19,7 @@
 @media only screen and (min-width: 1024px){
     .sub-topic-heading{max-width: 710px; }
     .sub-topic-main{width: 1066px; margin: 0 auto; }
-    .sub-topic-content{width: 590px; margin-right: 151px; }
+    .sub-topic-content{width: 590px; margin: 12px 151px 0 0;}
     .sub-topic-image{width: calc(100% - 741px); }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

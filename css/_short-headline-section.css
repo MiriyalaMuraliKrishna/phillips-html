@@ -1,9 +1,10 @@
 
 .short-headline-section{background-color: #f8f4f2; }
 .short-headline-wrap{padding: 99px 0 143px; }
-.short-headline-title{background: var(--white); padding: 56px 33px 60px 52px; }
+.short-headline-title{background: var(--white); padding: 56px 45px 60px 52px; }
 .short-headline-title .optional-text{line-height: 0.9; margin-bottom: 12px; }
 .short-headline-title h4{margin-bottom: 38px; }
+.short-headline-content h3{margin-top: 44px;}
 
 .short-headline-logo .optional-text{margin-bottom: 65px; }
 .short-logo-list img{width: 132px; opacity: 0.6; }
@@ -12,6 +13,7 @@
 @media only screen and (min-width: 1024px){
     .short-headline-heading{width: 387px; margin-right: 101px; }
     .short-headline-content{width: calc(100% - 488px); }
+    .short-headline-title .button{width: 100%;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width:768px){
@@ -25,7 +27,8 @@
     .short-headline-wrap{padding: 30px 0; }
     .short-headline-title{padding: 42px 32px 42px 31px; margin-bottom: 30px; }
     .short-headline-title h4{margin-bottom: 28px;}
+    .short-headline-title .button{width: 100%;}
     .short-headline-content h2{font-size: 30px; margin-bottom: 21px;}
-    .short-headline-content h3{font-size: 26px; margin-bottom: 19px; }
+    .short-headline-content h3{font-size: 26px; margin:35px 0 19px 0; }
 
 }
