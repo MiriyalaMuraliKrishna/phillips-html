@@ -12,6 +12,7 @@
 .industries-wrap{padding: 88px 0 112px; }
 .industries-main{justify-content: center; }
 .industries-desc{font-size: 15px; line-height: 1.6; }
+.industries-desc .angle-icon{top: 2.5px; transform: none;}
 figure.industries-thumb{margin-bottom: 20px; height: auto;}
 .industries-list h5{font-size: 20px; line-height: 1.35; margin-bottom: 7px;}
 .industries-list h5 a{color: var(--black);}
@@ -22,14 +23,17 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
 
 /* News Events Section */
 .industries-page .events-slider-section{background-color: #f0eae7; }
-.industries-page .events-slider-wrap{padding: 112px 0 368px; }
+.industries-page .events-slider-wrap{padding: 70px 0 368px; }
 
 /* CTA panel section */
-.industries-page .cta-panel-section{padding-bottom: 92px; }
+.industries-page .cta-panel-section{padding-bottom: 92px;}
 .industries-page .cta-panel-section:before{content: ""; position: absolute; width: 100%; background-color: #f0eae7; height: 241px; top: 0; }
 
 
 /*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .industries-page .news-event-slider ul.slick-dots{top: -53px;}
+}
 @media only screen and (min-width: 1024px){
     .industries-page .number-count-main{max-width: 960px; margin: 0 auto;}
     .industries-main{gap: 112px 20px;}
@@ -41,6 +45,14 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
     .industries-page .events-slider-wrap { padding: 70px 0 330px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .industries-page .default-banner-main{padding: 73px 0 39px;}
+    .industries-page .default-banner-main h1{margin-bottom: 14px;}
+    .industries-page .default-banner-main p{margin-bottom: 24px;}
+    .industries-page .number-count-main{padding: 35px 0 75px; gap: 27px 16px;}
+    .industries-page .number-count-bg .container{padding: 0;}
+    .industries-page .num-value{margin-bottom: 0;}
+    .industries-page .events-slide-link{margin-top: 20px;}
+    .industries-page .news-event-slider ul.slick-dots{margin: 15px 0 0;}
     .industries-wrap { padding: 88px 0 56px; }
     .industries-main{display: block;}
     .industries-list{margin-bottom: 50px;}

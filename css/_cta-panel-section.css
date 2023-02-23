@@ -20,4 +20,6 @@ span.cta-optional-text{font-size: 18px; line-height: 1.5; color: var(--white-70)
     .cta-panel-inner{padding: 104px 23px 61px;}
     span.cta-optional-text{font-size: 16px; line-height: 1.13; color: var(--white-60); margin-bottom: 9px;}
     .cta-panel-text h3{line-height: 1.27; margin-bottom: 20px;}
+    .cta-panel-content{padding: 6px 8px 9px;}
+    .cta-panel-inner{padding: 80px 23px 68px;}
 }
