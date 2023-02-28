@@ -1,7 +1,8 @@
 
 /* Banner section */
-.default-banner-main .optional-text{line-height: 0.9; color: var(--white-60); }
-.default-banner-main{color: var(--white-90); }
+.careers-default-page .default-banner-main .optional-text{line-height: 0.9; color: var(--white-60); margin-bottom: 22px;}
+.careers-default-page .default-banner-main{color: var(--white-90); }
+
 
 /* Careers default page */
 .careers-default-section{background-color: #f8f4f2;}

@@ -4,19 +4,20 @@
 .dei-point-wrap{padding: 90px 0 0;}
 .dei-point-title{margin-bottom: 42px; }
 .dei-point-feature{margin-bottom: 99px; }
-.feature-icon{margin-bottom: 23px; display: block; }
+.feature-icon{margin-bottom: 31px; display: block;}
 .dei-point-value-list{overflow: hidden;}
 .dei-point-feature-list h4{margin-bottom: 14px; }
 .dei-point-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(to bottom, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, 0.47) 55%, rgba(0, 0, 0, 0.8) 99%); }
 .dei-point-thumb::after{content: "";position: absolute; width: calc(100% - 28px); height: calc(100% - 27px); top: 13px; left: 14px; border: 1px solid rgba(255, 255, 255, 0.22);}
 
 
-.dei-point-pos{position: absolute; bottom: 0; padding: 59px 39px 29px; color: var(--white); width: 100%; transition: all .5s ease-in-out;}
+.dei-point-pos{position: absolute; bottom: 0; padding: 59px 39px 17px; color: var(--white); width: 100%; transition: all .5s ease-in-out;}
 .dei-point-text h3{font-size: 30px; line-height: 1.13; margin-bottom: 25px; color: var(--white); padding-left: 48px; position: relative;}
 .dei-point-content{position: absolute; bottom: 0; padding: 59px 39px 29px; transform: translateY(100%); color: var(--white); width: 100%; height: 100%; transition: all .5s ease-in-out; overflow: auto;}
 .dei-icon{color: var(--copperplate-color); position: absolute; left: 0;}
 .dei-point-content ul{margin: 24px 0 26px 18px;}
-.dei-point-content ul li::before{content: ""; position: absolute; top: 7px; left: -18px; width: 5px; height: 5px; background-color: #fff; border-radius: 50%; opacity: 0.5; background-image: none; background-clip: unset;}
+.dei-point-content ul li{margin-bottom: 0;}
+.dei-point-content ul li::before{content: ""; position: absolute; top: 11px; left: -18px; width: 5px; height: 5px; background-color: #fff; border-radius: 50%; opacity: 0.5; background-image: none; background-clip: unset;}
 
 .dei-point-value-list:hover .dei-point-pos{opacity: 0; visibility: hidden; z-index: -1;}
 .dei-point-value-list:hover .dei-point-content{transform: translateY(0); background-color: var(--copperplate-color);}
@@ -25,7 +26,7 @@
 /* Affinity Section */
 .affinity-section{background-color: #f8f4f2}
 .affinity-title{margin-bottom: 45px; }
-.affinity-thumb{margin-bottom: 12px; }
+.affinity-thumb{margin-bottom: 20px; }
 .affinity-desc{font-size: 15px; line-height: 1.6;}
 .affinity-desc h5{font-size: 20px; line-height: 1.35; }
 .affinity-desc h5 a{color: var(--black); }
@@ -78,4 +79,7 @@
     .affinity-main{display: block;}
     .affinity-thumb{margin-bottom: 31px;}
     .dei-page .cta-panel-wrap{padding: 56px 0;}
+    .affinity-wrap{padding: 95px 0 56px;}
+    .affinity-desc{max-width: 250px;}
+    .affinity-main ul.slick-dots{justify-content: left;}
 }

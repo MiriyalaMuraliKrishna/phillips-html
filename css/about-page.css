@@ -23,7 +23,9 @@
 .about-people-list:hover{box-shadow: none; }
 .about-people-list:hover .about-people-content{display: block;}
 .about-people-list:hover .about-people-thumb::after{content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; top: 0; mix-blend-mode: multiply; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 17%, rgba(40, 40, 40, 0.68) 70%, rgba(0, 0, 0, 0.76) 83%);}
-
+.about-people-content h2{margin-bottom: 23px;}
+.about-people-content h4 a{color: var(--white);}
+.about-people-content h4 a:hover{color: var(--copperplate-color);}
 
 .about-people-list:nth-child(7n) .about-people-content{display: block; background-color: var(--white); height: 100%; padding: 41px 32px 41px 53px;}
 
@@ -33,6 +35,7 @@
 .about-page .custom-cta-wrap{padding: 60px 0 108px; }
 .about-page .home-practice-main{padding: 0 0 133px;}
 .about-page .home-practice-icon{margin-bottom: 22px; }
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

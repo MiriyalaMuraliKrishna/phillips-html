@@ -1,4 +1,7 @@
 
+/* Banner */
+.office-page .common-banner-dates{flex-basis: 32%;}
+.office-page .common-banner-location{border-left: none; padding-left: 0;}
 
 /* short subheadline section */
 .office-page .short-headline-wrap{padding: 56px 0 134px; }
@@ -13,12 +16,20 @@
 .office-page .cta-panel-section{ margin-top: 0; padding: 0 0 112px; }
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .office-page .common-banner-location{margin-top: 5px;}
+}
 @media only screen and (max-width: 767px) and (min-width:200px){
+    .office-page .common-banner-text{padding: 35px 24px 28px;}
+    .office-page .common-banner-details{margin-top: -7px;}
+    .office-page .logo-slider-section h5{margin-bottom: 20px;}
+    .office-page .common-banner-dates{flex-basis: 100%;}
     .office-page .short-headline-title{margin-bottom: 55px;}
     .office-page .short-headline-wrap{padding: 56px 0 35px;}
     .office-page .buffalo-team-wrap{padding: 47px 0 60px;}
     .office-page .buffalo-team-heading{margin-bottom: 31px;}
     .office-page .careers-opportunities-wrap{padding: 55px 0 96px;}
     .office-page .cta-panel-section{padding: 0 0 56px;}
-
+    .office-page .careers-opportunities-date span{font-size: 16px; line-height: 1.63;}
+    .office-page .careers-opportunities-date span:last-of-type{font-size: 26px; line-height: 1.23;}
 }

@@ -13,6 +13,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 
 .our-firm-section{background-color: var(--copperplate-color);}
 .our-firm-text{color: var(--white-90);}
+.our-firm-text .optional-text{margin-bottom: 25px;}
 .our-firm-text::before{content: ""; position: absolute; background-image: url("images/logo-symbol.svg"); background-size: cover; width: 171px; height: 442px; top: -79px; left: -101px; z-index: -1;}
 .our-firm-text h2{color: var(--white); margin-bottom: 24px;}
 
@@ -25,7 +26,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 .number-count-bg{background-color: #9f6241; }
 .number-count-main{padding: 32px 0 46px;}
 .number-count{color: var(--white-90); line-height: 1.25;}
-.num-value{font-family: Lora, serif; font-size: 55px; line-height: 60px; color: #dca586; text-align: center; margin-bottom: 12px;}
+.num-value{font-family: Lora, serif; font-size: 55px; line-height: 60px; color: #dca586; text-align: center; margin-bottom: 12px; opacity: 0.75;}
 
 .home-page .common-grid-wrap{padding: 154px 0 161px; }
 
@@ -57,6 +58,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.our-firm-main{padding: 183px 0 115px 102px;}
 	.our-firm-text{ width: 505px; margin-right: 106px; z-index: 2;}
 	.our-firm-image{width: calc(100% - 611px); padding-top: 83px; z-index: 1;}
+	.our-firm-text p{max-width: 385px;}
 
 	.number-count-main{gap: 95px; justify-content: center;}
 	.number-count{flex: 0 0 calc(25% - 72px);}
@@ -117,8 +119,9 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.our-firm-image{position: static;}
 	.our-firm-bg{width: 165px; height: 194px; top: 51px; left: auto; right: -24px;}
 
-	.number-count-main{gap: 16px;}
+	.number-count-main{gap:26px 16px; padding: 32px 0 39px;}
 	.number-count{flex: 0 0 calc(50% - 8px);}
+	.num-value{font-size: 45px; margin-bottom: 0;}
 
 	.home-practice-image::after{width: calc(100% - 23px); height: calc(100% - 26px); top: 13px; left: 11px;}
 	.home-practice-icon img{width: 35px; }
@@ -132,6 +135,9 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.our-team-text{background-color: #f8f4f2; padding: 34px 32px 47px; position: relative; right: 0; top: 0; text-align: center; }
 	.our-team-text .optional-text{font-size: 16px; line-height: 1.13; margin-bottom: 8px;}
 	.our-team-text h2{font-size: 30px; line-height: 1.27; }
+
+	.home-page .events-slide-link{margin-top: 20px;}
+	.home-page .events-slider-row ul.slick-dots{margin: 16px 0 0;}
 
 	.home-page .common-grid-wrap { padding: 63px 0 68px; }
 	.home-page .events-slider-wrap{padding: 58px 0 30px; }

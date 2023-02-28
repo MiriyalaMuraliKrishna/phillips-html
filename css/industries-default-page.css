@@ -1,3 +1,7 @@
+/* Banner section */
+.industries-default-page .default-banner-main{padding: 134px 0 160px;}
+.industries-default-page .default-banner-main h1{margin-bottom: 30px;}
+.industries-default-page .default-banner-main p{margin-bottom: 31px;}
 
 /* Short headline section */
 .industries-default-page .short-headline-section{z-index: 1;}
@@ -26,6 +30,9 @@
 /* Buffalo team section */
 .industries-default-page .buffalo-team-section{background-color: #f0eae7; }
 .industries-default-page .buffalo-team-wrap{padding: 98px 0 164px;}
+.industries-default-page .buffalo-team-heading h2{margin-bottom: 25px;}
+.industries-default-page .buffalo-team-heading{margin-bottom: 60px;}
+
 
 /* Micro cta section */
 .industries-default-page .micro-cta-section::before{content: ""; position: absolute; width: 100%; height: 158px; background-color: #f0eae7; top: 0; }
@@ -38,6 +45,7 @@
 /* CTA PAnel section */
 .industries-default-page .cta-panel-section{margin-top: 0; padding: 0 0 108px; }
 
+body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{margin-top: 20px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
@@ -45,6 +53,7 @@
 }
 @media only screen and (min-width: 1024px){
     .how-help-text{width: 308px; margin-right: 119px; }
+    .how-help-text h2{max-width: 235px;}
     .how-help-frm{width: calc(100% - 427px); }
     .industries-default-page .short-headline-wrap{padding: 108px 0 29px; }
     .short-logo-lists{display: block;}
@@ -68,6 +77,8 @@
     .industries-default-page .cta-panel-section{padding-bottom: 56px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .industries-default-page .default-banner-main{padding: 117px 0 75px;}
+    .industries-default-page .default-banner-main h1{margin-bottom: 20px;}
     .banner-dropdown{padding: 13px 50px 12px 20px; cursor: pointer;  border: solid 1px rgba(174, 174, 174, 0.5); background-color: var(--white); font-size: 1rem; line-height: 1.5;  position: relative;}
     .banner-dropdown span{display: block;}
     .banner-dropdown::after{right: 19px; top: 50%; transform: translateY(-50%); content: "\f107"; font-family: "Font Awesome 6 Pro"; position: absolute;}
@@ -82,16 +93,20 @@
     .industries-default-page .download-print{margin-bottom: 0;}
     .industries-default-page .download-print-main{padding-bottom: 10px;}
 
-    .short-headline-logo .optional-text{margin-bottom: 15px;}
     .industries-default-page .short-headline-content h3{margin-top: 86px;}
     .industries-default-page .short-headline-section::before{height: 935px;}
     .how-help-main{padding: 32px;}
     .how-help-text{margin-bottom: 10px;}
     .how-help-text h2{font-size: 28px; line-height: 28px;}
 
-    .industries-default-page .logo-slider-wrap{padding: 62px 0 56px; }
+    .industries-default-page .logo-slider-wrap{padding: 55px 0 56px;}
+    .industries-default-page .logo-slider-main{margin-bottom: 50px;}
+    .industries-default-page .logo-slider-section h5{margin-bottom: 10px;}
+    .industries-default-page .how-help-main{padding: 32px 32px 43px;}
+    .industries-default-page .product-liability-wrap{padding: 32px 0 0;}
     .industries-default-page .product-liability-main{padding: 32px 20px 0px; }
     .industries-default-page .sub-topic-wrap{padding: 51px 0 76px; }
+    .industries-default-page .sub-topic-heading{margin-bottom: 57px;}
 
     .industries-default-page .buffalo-team-wrap{padding: 47px 0 64px;}
     .industries-default-page .buffalo-team-heading{margin-bottom: 31px;}

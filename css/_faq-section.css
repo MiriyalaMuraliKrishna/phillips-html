@@ -13,6 +13,8 @@
 .accordion-content.open{background-color: var(--copperplate-color); color: var(--white);}
 .faq-btn{text-align: right; margin-top: 48px;}
 
+.faq-content.full_width{flex: none; transform: none;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1600px){
     .faq-main{flex-wrap: nowrap; align-items: flex-start; max-width: 1600px; margin: 0 auto;}
@@ -38,9 +40,10 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .faq-image{padding: 0 24px; margin: 0 auto;}
-    .faq-content{padding: 116px 24px 45px; margin-top: -86px;}
-    .faq-title { margin-bottom: 38px; padding: 0; }
-    .faq-btn { text-align: center; margin-top: 40px; }
+    .faq-content{padding: 120px 24px 45px; margin-top: -86px;}
+    .faq-title{margin-bottom: 31px; padding: 0;}
+    .faq-title h2{margin-bottom: 13px;}
+    .faq-btn{text-align: center; margin-top: 40px;}
     .accordion-header{padding: 15px 27px 16px 16px;} 
     .accordion-header span.icon{right: 9px; top: 22px;}
     .accordion-content{padding: 0 16px 32px;}

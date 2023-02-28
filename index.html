@@ -120,13 +120,19 @@
             <span class="reverse_logo"><a href="index.html"><img src="images/logo-white.svg" alt="Phillips Lytle"></a></span><!-- only home page logo white-->
             <span class="normal_logo"><a href="index.html"><img src="images/logo-black.svg" alt="Phillips Lytle"></a></span>
         </div>
-        <form action="" class="header_srch flex">
-            <input type="search" name="search" id="search" placeholder="Search">
-            <div class="header_srch_btn flex flex-center">
-                <input type="submit" value="search"/>
+        <div class="search-main">
+            <form id="searchform" class="header_srch flex" method="get" action="/">
+                <input type="search" name="s" id="search" placeholder="Search">
+                <div class="header_srch_btn flex flex-center">
+                    <input type="submit" value="search">
+                    <span class="fa-regular fa-magnifying-glass"></span>
+                </div>
+
+            </form>
+            <div class="header_secondary_btn flex flex-center">
                 <span class="fa-regular fa-magnifying-glass"></span>
-            </div>
-        </form>
+            </div>   
+        </div>
     </div>
 </div>
 </header>

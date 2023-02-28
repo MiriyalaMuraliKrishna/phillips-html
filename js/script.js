@@ -14,8 +14,8 @@ $(document).ready(function(){
         $('.main-header').addClass('sticky_header');
         $('.site-main-cover').addClass('no_space');
     }
-    $('.header_srch_btn input').on('click', function(e){
-        e.preventDefault();
+    $('.header_secondary_btn').on('click', function(e){
+        $(this).addClass('hide');
         $('ul.main_menu').toggleClass('hide-menu');
         $('.header_srch').toggleClass('open');
     });

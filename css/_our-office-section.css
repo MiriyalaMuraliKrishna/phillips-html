@@ -47,6 +47,7 @@
 @media only screen and (max-width: 767px) and (min-width:200px){
     .our-office-wrap{padding: 45px 0 41px;}
     .our-office-title{margin-bottom: 28px;}
+    .our-office-title h2{margin-bottom: 15px;}
     .our-office-slider.slick-slider{width: calc(100% + 24px);}
     .our-office-slider .our-office-list{margin-right: 19px; width: 286px;}
     .slick-current .our-office-image img{filter: saturate(1); }

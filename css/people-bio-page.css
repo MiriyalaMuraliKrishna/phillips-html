@@ -1,19 +1,28 @@
 
 /* Banner section */
 .people-bio-page .position-location{margin-bottom: 27px; }
+.people-bio-page .common-banner-text-right{color: var(--white-70) !important;}
+.people-bio-page .common-banner-location{color: var(--white-70); border-left: solid 0.3px var(--white-22); margin-top: 5px;}
+/* .people-bio-page .common-banner-location .banner-icon{display: none;} */
+.people-bio-page .common-banner-location .common-banner-text-right{color: var(--white-70);}
+/* .people-bio-page .common-banner-location ul{margin: 5px 0 0 11px;} */
 
 /* Our people section */
 .bio-people-section{background-color: #f8f4f2; z-index: 1;}
 .bio-people-section::before{content: ""; position: absolute; top: 639px; width: 100%; height: 1323px; background-color: #f0eae7; z-index: -1;}
-.bio-people-wrap{padding: 26px 0 78px; }
+.bio-people-wrap{padding: 26px 0 78px;}
 
 .bio-people-list{background-color: var(--white); padding: 32px 43px 19px 52px; margin-bottom: 25px;}
-.bio-people-list h4{margin-bottom: 30px; }
+.bio-people-list h4{margin-bottom: 30px;}
 .bio-people-list ul{margin: 0; }
 .bio-people-list ul > li::before{display: none;}
 .bio-people-list ul > li{font-size: 20px; font-family: Lora; line-height: 1.15; margin-bottom: 23px;}
 .bio-people-list ul > li a{color: rgba(0, 0, 0, 0.7); }
 .bio-people-list ul > li a:hover{color: var(--copperplate-color);}
+
+.people-bio-page .video-sec{margin: 60px 0 39px;}
+.bio-people-content h3{margin-bottom: 32px;}
+.bio-people-content ol{margin: 48px 0 48px 54px;}
 
 .bio-people-news-list{padding-bottom: 19px; border-bottom: solid 1px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
 .bio-people-news-list:last-of-type{border-bottom: none; padding-bottom: 0; margin-bottom: 17px;}
@@ -46,7 +55,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-education-list ul > li{font-size: 16px; line-height: 1.31; }
 
 .education-admissions{margin-bottom: 24px; }
-.education-admissions-main{gap: 20px;}
+.education-admissions-main{gap: 20px; margin-top: 33px;}
 .bio-education-list{flex: 0 0 calc(50% - 10px); }
 
 .representative-matters{margin-bottom: 75px; }
@@ -89,12 +98,13 @@ span.bio-people-arrow{margin-left: 18px; }
 @media only screen and (min-width: 1024px){
     .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
     .bio-people-content { width: calc(100% - 487px); }
+    .people-bio-page .download-print-main{padding: 0 0 26px;}
 
     .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
-    .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px;}
+    .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px; top:0;}
     .people-bio-page .events-slide-text h4 { max-width: 330px;}
 
-    .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; top: -150px; padding-right: 205px;}
+    .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; top: -63px; padding:0 205px;}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}
@@ -112,12 +122,18 @@ span.bio-people-arrow{margin-left: 18px; }
 
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
+    .people-bio-page .common-banner-text{padding: 19px 24px 23px;}
+    .people-bio-page .common-banner-text h1{font-size: 26px; margin-bottom: 13px;}
+    .people-bio-page .position-location{margin-bottom: 22px; justify-content: center;}
+    .people-bio-page .common-banner-text-right{color: var(--white-90) !important;}
+    .people-bio-page .common-banner-text-right a{color: var(--white-90);}
+    .people-bio-page .common-banner-location{border-left: none;}
     .bio-people-section::before{top: 914px; height: 1205px;}
     .bio-people-wrap{padding: 11px 0 0;}
     .people-bio-page .download-print-main{padding: 0 0 8px; margin-bottom: 42px;}
     .people-bio-page .download-print{margin-bottom: 0;}
 
-    .bio-people-aside{width: 100%; margin-bottom: 30px;}
+    .bio-people-aside{width: 100%; margin-bottom: 45px;}
     .bio-people-list{padding: 9px 17px 11px; margin-bottom: 11px;}
     .bio-people-text{display: none;}
     .bio-people-list h4{margin-bottom: 0;}
@@ -128,11 +144,14 @@ span.bio-people-arrow{margin-left: 18px; }
     .bio-people-list ul > li{font-size: 18px; margin-bottom: 15px; }
     .bio-people-content{width: 100%;}
     .bio-people-content h2{font-size: 30px; }
-    .people-bio-page .video-sec{margin: 23px 0 50px; }
+    .people-bio-page .video-sec{margin: -11px 0 50px;}
     .video-sec-slider .slick-btn{width: 27px; height: 54px; font-size: 1.5rem;}
+    .bio-people-content h3{margin-bottom: 16px;}
     .bio-people-expertise{background-color: transparent; padding: 0; margin-bottom: 0;}
     .bio-expertise-title{background-color: var(--copperplate-color); padding: 16px 30px 28px 31px; margin-bottom: 10px;}
     .bio-people-expertise i{margin-bottom: 0;}
+    .people-bio-page .breakpoint-thumb:first-of-type{margin: 9px auto 32px;}
+    .bio-people-content ol{margin: 23px 0 48px 24px;}
     .bio-expertise-list{flex:0 0 100%; margin-bottom: 10px;}
     .bio-expertise-list h4{padding: 19px 21px 19px 30px; background-color: var(--white); margin-bottom: 0; color: var(--copperplate-color); font-size: 20px; line-height: 1.4;}
     .bio-expertise-desc{display: none; background-color: var(--copperplate-color); padding: 0 20px 13px 30px;}
@@ -140,16 +159,21 @@ span.bio-people-arrow{margin-left: 18px; }
     .bio-expertise-list h4.active{background-color: var(--copperplate-color); color: var(--white);}
     .bio-expertise-list h4.active::before{color: var(--white); content: "\f068";}
     .bio-expertise-list h4::before{content: "\2b"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 20px; }
-    .honor-awards{margin-bottom: 0;}
-    .honor-awards .expert-expand-content{max-height: 450px;}
+    .honor-awards{margin-bottom: 38px;}
+    .honor-awards .expert-expand-content{max-height: 430px;}
     .honor-awards.expert-expanded .expert-expand-content{max-height: fit-content; }
     .honor-awards .read-btn, .education-admissions .read-btn{opacity: 0.9;}
-    .icon-heading h3{font-size: 26px; }
+    .education-admissions-main{margin-top: 29px;}
+    .bio-education-list ul{margin: 20px 0 40px 24px;}
+    .icon-heading h3{font-size: 26px; margin-bottom: 0;}
+    .icon-heading{margin-bottom: 18px;}
     .bio-education-list{flex: 0 0 100%; }
     .education-admissions{margin-bottom: 44px; }
-    .education-admissions .expert-expand-content{max-height: 480px;}
+    .education-admissions .expert-expand-content{max-height: 445px;}
     .education-admissions.expert-expanded .expert-expand-content{max-height: fit-content; }
     .education-admissions .expert-expand-content h5{-webkit-text-fill-color: var(--copperplate-color);}
+    .people-bio-page .events-slider-wrap{padding: 21px 0 45px;}
+    .people-bio-page .events-slider-heading{margin-bottom: 15px;}
     .representative-matters{margin-bottom: 0; }
     .representative-matters h3{margin-bottom: 26px; font-size: 26px; }
     .representative-matters .accordion{margin-bottom: 10px; }

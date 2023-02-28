@@ -21,6 +21,7 @@
     .testimonial-image{width: 509px; }
     .testimonial-content{width: calc(100% - 509px); }
     .testimonial-sider ul.slick-dots{margin: 68px 0 0; padding: 0; width: auto; left: auto; right: auto; top: auto; display: flex; justify-content: center; flex-wrap: wrap; position: relative;}
+    .testimonial-sider .slick-arrow{top:40% !important;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){

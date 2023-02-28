@@ -1,8 +1,6 @@
 
 /* Banner section */
-.orphan-landing-page .common-banner-desc .btn-transparent{border: 1px solid #ebb89c; }
-.orphan-landing-page .common-banner-desc .btn-transparent:hover{border: 1px solid var(--text-color); }
-
+.orphan-landing-page .common-banner-desc p{margin-bottom: 36px;}
 
 .orphan-landing-section{background-color: #f8f4f2; z-index: 1;}
 .orphan-landing-section::before{content: ""; position: absolute; width: 100%; background-color: #f0eae7; bottom: 0; z-index: -1; }
@@ -13,9 +11,9 @@
 
 .orphan-landing-page .logo-slider-wrap { padding: 17px 0 94px; }
 
-.orphan-landing-page .video-sec{margin: 56px 0 46px; }
+.orphan-landing-page .video-sec{margin: 56px 0 55px; }
 
-.orphan-landing-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
+.orphan-landing-inner{background-color: var(--white); padding: 50px 45px 63px 52px; }
 
 
 /* FAQ section */
@@ -28,7 +26,6 @@
 
 /* Custom CTA section */
 .orphan-landing-page .custom-cta-wrap{padding: 0; z-index: 1;}
-
 .orphan-landing-page .cta-panel-section{ margin-top: 0; padding: 28px 0 109px; }
 
 /* Sub topic */
@@ -37,6 +34,11 @@
 .orphan-landing-page .sub-topic-heading .small{margin-bottom: 15px; }
 
 .orphan-landing-page .logo-slider-section{background-color: transparent;}
+.orphan-landing-page .buffalo-team-heading{margin-bottom: 53px;}
+.orphan-landing-page .buffalo-team-heading h2{margin-bottom: 24px;}
+
+body.page-template-orphan-landing .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
+body.page-template-orphan-landing .vertical_radio{margin: -8px 0 36px 0 !important;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -72,7 +74,7 @@
     .orphan-landing-content ul{margin: 37px 0 33px 25px; }
     .orphan-landing-page .video-sec{margin: 29px 0 31px; }
 
-    .orphan-landing-page .buffalo-team-wrap{padding: 51px 0 112px; }
+    .orphan-landing-page .buffalo-team-wrap{padding: 51px 0 55px; }
     .orphan-landing-page .buffalo-team-heading{margin-bottom: 31px; }
 
     .orphan-landing-page .events-slider-wrap {padding: 56px 0 0; }
@@ -90,7 +92,7 @@
     .orphan-landing-page .faq-wrap{padding: 40px 0; }
     .orphan-landing-page .cta-panel-section{padding: 16px 0 56px; }
 
-    .orphan-landing-section::before{height: calc(100% - 858px);}
+    .orphan-landing-section::before{height: calc(100% - 867px);}
     .orphan-landing-content p:nth-child(2){margin-bottom: 61px;}
 }
 

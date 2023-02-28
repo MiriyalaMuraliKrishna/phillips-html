@@ -38,5 +38,6 @@
     .common-grid-main{display: block; text-align: center;}
     .common-grid-list{display: block;}
     .common-grid-image{margin-bottom: 43px;}
+    .common-grid-text .optional-text{font-size: 16px; margin-bottom: 7px; line-height: 1.13;}
     .common-grid-text h2{font-size: 30px; line-height: 38px; margin-bottom: 17px;}
 }

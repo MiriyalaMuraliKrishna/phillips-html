@@ -31,8 +31,6 @@
 .buffalo-team-name{margin-bottom: 24px; }
 .buffalo-team-name .optional-text{color: var(--white-90); line-height: 0.9; margin-bottom: 0; }
 .buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 1.79; }
-.buffalo-team-inner .button{border: solid 1px #ebb89c; }
-.buffalo-team-inner .button:hover{border: solid 1px var(--text-color); }
 
 .buffalo-team-main .slick-arrow{position: absolute;}
 .buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 15px; height: 25px; margin: 0;}
