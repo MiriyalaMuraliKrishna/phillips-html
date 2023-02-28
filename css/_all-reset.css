@@ -102,13 +102,14 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button{padding: 13px 25px 13px; min-width: 165px; display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); overflow: hidden; z-index: 1;}
-button:hover, .button:hover{background-color: var(--copperplate-color); color: var(--white);}
-button::before, button::after, .button::before, .button::after { top: 0; right: 0; bottom: 0; left: 0; content: ""; transition: all 0.5s ease-in-out; position: absolute; z-index: -1; }
-button::before, .button::before { right: -50px; border-right: 50px solid transparent; border-bottom: 80px solid var(--text-color); transform: translateX(-100%); }
-button:hover::before, .button:hover::before { transform: translateX(-49%); }
-button::after, .button::after { left: -50px; border-left: 50px solid transparent; border-top: 80px solid var(--text-color); transform: translateX(100%); }
-button:hover::after, .button:hover::after { transform: translateX(49%);}
+button, .button, .insight-default-btn a[rel="prev"], .insight-default-btn a[rel="next"]{padding: 13px 25px 13px; min-width: 165px; display: inline-block; font-size: 1rem; line-height: 1.5; font-weight: 500; font-family: 'Roboto', sans-serif; letter-spacing: normal; vertical-align: middle; cursor: pointer; border: none; background-color: var(--copperplate-color); border-radius: 0; position: relative; transition: all 0.3s ease-in-out; text-align: center; color: var(--white-90); overflow: hidden; z-index: 1;}
+button:hover, .button:hover, .insight-default-btn a[rel="prev"]:hover, .insight-default-btn a[rel="next"]:hover{background-color: var(--copperplate-color); color: var(--white);}
+.insight-default-btn a[rel="prev"]::before, .insight-default-btn a[rel="next"]::before, .insight-default-btn a[rel="prev"]::after, .insight-default-btn a[rel="next"]::after, button::before, button::after, .button::before, .button::after { top: 0; right: 0; bottom: 0; left: 0; content: ""; transition: all 0.5s ease-in-out; position: absolute; z-index: -1; }
+button::before, .button::before ,
+.insight-default-btn a[rel="prev"]::before, .insight-default-btn a[rel="next"]::before{ right: -50px; border-right: 50px solid transparent; border-bottom: 80px solid var(--text-color); transform: translateX(-100%); }
+button:hover::before, .button:hover::before, .insight-default-btn a[rel="prev"]:hover::before, .insight-default-btn a[rel="next"]:hover::before { transform: translateX(-49%); }
+button::after, .button::after, .insight-default-btn a[rel="prev"]::after, .insight-default-btn a[rel="next"]::after { left: -50px; border-left: 50px solid transparent; border-top: 80px solid var(--text-color); transform: translateX(100%); }
+button:hover::after, .button:hover::after, .insight-default-btn a[rel="prev"]:hover::after, .insight-default-btn a[rel="next"]:hover::after{ transform: translateX(49%);}
 
 .btn-transparent{padding: 12px 25px 12px; background-color: transparent; border: 1px solid var(--btn-color); position: relative; overflow: hidden; z-index: 1;}
 .btn-transparent:hover{background-color: transparent; border-color: var(--btn-color);}
