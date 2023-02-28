@@ -1,5 +1,18 @@
 var $ = jQuery.noConflict();
 $(document).ready(function(){
+
+    $('.another-short-wrap').each(function(){
+        if( $(this).text().trim() === "" )
+        {
+            noentry = true;
+            $(this).addClass("no_content_jq");
+        }
+        else 
+        {
+          $(this).removeClass("no_content_jq");
+        }
+    });
+
     $(window).on('scroll load', function(){
         var scroll = $(this).scrollTop();
         if(scroll > 4){
@@ -183,3 +196,4 @@ $(window).on("load", function(){
         }
     });
 });
+
