@@ -1,9 +1,7 @@
-/* Benner section */
-.practices-default-page .common-banner-text h1{margin-bottom: 29px;}
 
 
 .practice-default-section{background-color: #f8f4f2; z-index: 1;}
-.practice-default-section::before{content: ""; position: absolute; width: 100%; height: 730px; background-color: #f0eae7; top: 391px; z-index: -1;}
+.practice-default-section::before{content: ""; position: absolute; width: 100%; height: 730px; background-color: #f0eae7; top: 398px; z-index: -1;}
 .practice-default-wrap{padding: 48px 0 44px;}
 
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
@@ -24,7 +22,10 @@
 .business-commercial-wrap{padding: 50px 0 123px;}
 
 /* Buffalo team section */
-.practices-default-page .buffalo-team-wrap { padding: 125px 0 85px; }
+.practices-default-page .buffalo-team-wrap{padding: 125px 0 85px;}
+.practices-default-page .buffalo-team-heading{margin-bottom: 67px;}
+.practices-default-page .buffalo-team-heading h2{margin-bottom: 25px;}
+.practices-default-page .buffalo-team-btn{margin-top: 27px;}
 
 /* News event section */
 .practices-default-page .events-slider-section{background-color: #f8f4f2; }
@@ -33,9 +34,12 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .practices-default-page .common-banner-text h1{margin-bottom: 29px;}
+    .practices-default-page .common-banner-desc p{margin-bottom: 41px;}
     .practice-default-content { width: 708px; margin-right: 104px; }
     .practice-default-form { width: calc(100% - 812px); }
     .practices-default-page .practice-default-content h3{margin-top: 179px;}
+    .practices-default-page .events-slider-heading{min-height: 0;}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .practice-default-content{width: 640px; margin-right: 40px;}
