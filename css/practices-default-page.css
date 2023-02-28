@@ -6,6 +6,8 @@
 
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
 
+.practices-default-page .practice-default-content h3{margin-top: 179px;}
+
 /* Sub topic section */
 .practices-default-page .sub-topic-wrap{padding: 75px 0 49px;}
 .practices-default-page .sub-topic-heading{margin-bottom: 92px; }
@@ -31,6 +33,7 @@
 .practices-default-page .events-slider-section{background-color: #f8f4f2; }
 .practices-default-page .events-slider-wrap{padding-top: 100px;}
 
+#articles .events-slider-btn{top: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -38,7 +41,6 @@
     .practices-default-page .common-banner-desc p{margin-bottom: 41px;}
     .practice-default-content { width: 708px; margin-right: 104px; }
     .practice-default-form { width: calc(100% - 812px); }
-    .practices-default-page .practice-default-content h3{margin-top: 179px;}
     .practices-default-page .events-slider-heading{min-height: 0;}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
@@ -53,6 +55,8 @@
     .practice-default-form{width: 100%;}
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
+    .practices-default-page .common-banner-text{padding: 33px 24px 37px;}
+    .practices-default-page .common-banner-text h1{margin-bottom: 15px;}
     .practice-default-section::before{height: 667px; top: 427px;}
     .common-banner-list{background-color: #f8f4f2; padding: 15px 0 12px;}
     .practice-default-wrap{padding: 0 0 55px;}
