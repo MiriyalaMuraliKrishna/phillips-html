@@ -57,7 +57,7 @@
     .practices-page .number-count-main{padding: 32px 0 150px;}
     .practices-page .number-count{color: var(--white-90);}
     .practices-page .number-count-bg .container{padding: 0;}
-    .practice-wrap{padding-bottom: 40px;}
+    .practice-wrap{padding-bottom: 56px;}
     .practice-big {margin: -105px 0 71px;}
     .practice-main{display: block;}
     .practice-inner{padding: 32px 20px 20px;}
@@ -67,4 +67,5 @@
     .practices-page .events-slider-wrap{padding: 42px 0 294px;}
     .practices-page .optional-text{margin-bottom: 0;}
     .practices-page .cta-panel-section{padding-bottom: 56px;}
+    .practice-btn{margin-top: 32px;}
 }

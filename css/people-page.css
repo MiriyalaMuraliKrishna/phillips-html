@@ -25,7 +25,7 @@ ul.alphabet-list li a:hover{color: var(--copperplate-color); opacity: 1;}
 .our-people-dropdown .selectBox-menuShowing{border-color: #cdb3a5;}
 
 .our-people-main{padding: 81px 0 53px;}
-.our-people-list{transition: all 0.3s ease-in-out;}
+.our-people-list{transition: all 0.3s ease-in-out; background-color: var(--white);}
 figure.our-people-thumb{height: auto;}
 .our-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; }
 .our-people-content{background-color: var(--white); padding: 23px 12px 23px 26px; }
