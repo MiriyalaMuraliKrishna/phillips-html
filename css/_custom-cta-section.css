@@ -1,5 +1,5 @@
 
-.custom-cta-section{ background-color: #f8f4f2; }
+.custom-cta-section{ background-color: #f8f4f2; position: relative; z-index: 1;}
 .custom-cta-wrap{padding: 112px 0 112px;}
 .custom-cta-main{background: var(--white);}
 .custom-cta-text{padding: 116px 100px 97px;}

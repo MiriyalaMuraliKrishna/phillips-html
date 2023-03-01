@@ -178,13 +178,14 @@ $(document).on('ready', function () { mobileScreen(); });
 
 
 $(window).on("load", function(){
+    let headerHeight = $('.main-header').outerHeight(true);
     $('a[href*=\\#]:not([href=\\#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
                 $('html, body').animate({
-                    scrollTop: target.offset().top
+                    scrollTop: target.offset().top - headerHeight
                 }, 1000);
                 return false;
             }
@@ -192,3 +193,19 @@ $(window).on("load", function(){
     });
 });
 
+$(document).ready(function(){
+    if($(".bio-people-main").length > 0 ){
+        $(window).on("scroll load", function(){
+        let headHeight = $('.main-header').outerHeight(true);
+        var height = $(".common-banner-section").outerHeight(true);
+        let totHeight = headHeight + height;
+        var scroll = $(this).scrollTop() + 92;
+        if( scroll >= totHeight ){
+            $(".bio-people-main").addClass("sticky_sidebar");  
+        }
+        else{
+            $(".bio-people-main").removeClass("sticky_sidebar");
+        }
+        });
+    }
+});

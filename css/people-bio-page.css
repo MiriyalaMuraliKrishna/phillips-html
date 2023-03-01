@@ -100,8 +100,10 @@ span.bio-people-arrow{margin-left: 18px; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
-    .bio-people-content { width: calc(100% - 487px); }
+    .bio-people-main{position: relative;}
+    .sticky_sidebar .bio-people-aside{position: fixed;}
+    .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px; top: 0; position: absolute;}
+    .bio-people-content { width: calc(100% - 487px); margin-left: 487px; }
     .people-bio-page .download-print-main{padding: 0 0 26px;}
 
     .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
