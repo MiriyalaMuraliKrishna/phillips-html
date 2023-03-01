@@ -38,7 +38,7 @@
 .image-caption-main{gap: 20px; }
 .image-caption-list{width: calc(50% - 10px); }
 .image-caption-text{position: absolute; bottom: 0; padding: 19px 44px 34px; text-align: center; background-color: rgba(168, 107, 73, 0.8); color: var(--white-90); width: 100%;}
-.image-caption-list:hover .image-caption-text{top:50%; left: 50%; transform: translate(-50% , -50%); bottom: auto; padding: 52px 50px 57px; background-color: var(--copperplate-color); max-width: 554px;}
+.image-caption-list:last-child .image-caption-text{top:50%; left: 50%; transform: translate(-50% , -50%); bottom: auto; padding: 52px 50px 57px; background-color: var(--copperplate-color); max-width: 554px;}
 
 .image-caption-text h4{color: var(--white); }
 
@@ -92,7 +92,8 @@ body.single-post td{padding: 14px 18px 12px;}
     .another-short-inner{padding: 50px 40px;}
     .another-short-two-content{width: 450px; margin-right: 50px; }
     .another-short-two-image{width: calc(100% - 540px);}
-    .image-caption-list:hover .image-caption-text{padding: 30px 25px;max-width: 450px;}
+    .image-caption-text{padding: 30px 25px;max-width: 100%;}
+    .image-caption-list:last-child .image-caption-text{padding: 30px 25px;max-width: 450px;}
     .medium-headline-image{margin-right: 60px;}
     .medium-headline-content{width: calc(100% - 422px);}
     .medium-headline.reverse .medium-headline-image{width: calc(100% - 610px);}
@@ -103,7 +104,7 @@ body.single-post td{padding: 14px 18px 12px;}
     .another-short-two{width: 100%; gap: 40px;}
     .another-short-two-image{max-width: 407px; margin: 0 auto;}
     .image-caption-text{padding: 19px 8px 34px;}
-    .image-caption-list:hover .image-caption-text{padding: 30px 25px; max-width: 335px;}
+    .image-caption-list:last-child .image-caption-text{padding: 30px 25px; max-width: 335px;}
     .medium-headline{padding: 70px 0 38px; gap: 50px; }
     .medium-headline-image{max-width: 407px; margin: 0 auto;}
     .insights-default-page .events-slider-wrap{padding: 90px 0 100px; }
@@ -136,7 +137,7 @@ body.single-post td{padding: 14px 18px 12px;}
     .image-caption-text{padding: 19px 6px 12px;}
     .image-caption-text h4{font-size: 20px; line-height: 1.35; margin-bottom: 5px;}
     .image-caption-text p{font-size: 14px; line-height: 1.79; color: var(--white-70);}
-    .image-caption-list:hover .image-caption-text{padding: 24px 14px 22px; max-width: 286px; }
+    .image-caption-list:last-child .image-caption-text{padding: 24px 14px 22px; max-width: 286px; }
     .another-short-wrap2::before{height: 1057px; top: 1260px;}
     .another-short-wrap2 h3{font-size: 26px; line-height: 1.15; }
     .insights-default-page .micro-cta-section{background-color: transparent; }

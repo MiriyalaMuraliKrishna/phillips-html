@@ -35,6 +35,8 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .careers-slider-wrap{padding: 46px 0 40px; }
     .careers-slider-thumb{position: relative;}
+    .careers-slider-thumb::before{background-color: rgba(0, 0, 0, 0.6);}
+    .careers-slick-slide.slick-current .careers-slider-thumb::before{background-color: transparent;}
     .careers-slider-caption{padding: 19px 0 10px; font-size: 14px; line-height: 25px; position: static; color: var(--text-color);}
     .careers-slider-caption::before{display: none;}
     .careers-slick-slider .slick-slide{margin: 0 5px; }

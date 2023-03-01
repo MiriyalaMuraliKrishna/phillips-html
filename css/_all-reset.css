@@ -250,7 +250,7 @@ div.no_content_jq{padding: 0;}
     .breakpoint-thumb::after{width: 38%;}
 
     .download-print-main{border-bottom: 1px solid #dacfca; margin-bottom: 50px; padding: 11px 0 8px;}
-    .download-print{flex-basis: 100%; margin-bottom: 0; }
+    .download-print{flex-basis: 100%; margin-bottom: 0; justify-content: center;}
 
     ul{margin: 25px 0 39px 24px; }
     ul > li{margin-bottom: 28px; }

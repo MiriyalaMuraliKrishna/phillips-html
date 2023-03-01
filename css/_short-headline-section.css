@@ -12,7 +12,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-headline-heading{width: 387px; margin-right: 101px; }
-    .short-headline-content{width: calc(100% - 488px); }
+    .short-headline-content{width: calc(100% - 488px); margin-top: -9px;}
     .short-headline-title .button{width: 100%;}
 }
 

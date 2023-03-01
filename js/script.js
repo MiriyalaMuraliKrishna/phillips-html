@@ -53,6 +53,10 @@ $(document).ready(function(){
         $("ul.alphabet-list li").removeClass("active");
         $(this).addClass("active");
     });
+    $(".bio-people-text li a").click(function () {
+        $(".bio-people-text li a").removeClass("active");
+        $(this).addClass("active");
+    });
 });
 
 let desktopScn = function(){
@@ -199,13 +203,13 @@ $(document).ready(function(){
         let headHeight = $('.main-header').outerHeight(true);
         var height = $(".common-banner-section").outerHeight(true);
         let totHeight = headHeight + height;
-        var scroll = $(this).scrollTop() + 92;
-        if( scroll >= totHeight ){
-            $(".bio-people-main").addClass("sticky_sidebar");  
-        }
-        else{
-            $(".bio-people-main").removeClass("sticky_sidebar");
-        }
+        var scroll = $(this).scrollTop();
+            if( scroll >= totHeight ){
+                $(".bio-people-main").addClass("sticky_sidebar"); 
+            }
+            else{
+                $(".bio-people-main").removeClass("sticky_sidebar");
+            }
         });
     }
 });
