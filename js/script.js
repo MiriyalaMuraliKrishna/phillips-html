@@ -49,6 +49,10 @@ $(document).ready(function(){
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
     });
+    $("ul.alphabet-list li").click(function () {
+        $("ul.alphabet-list li").removeClass("active");
+        $(this).addClass("active");
+    });
 });
 
 let desktopScn = function(){

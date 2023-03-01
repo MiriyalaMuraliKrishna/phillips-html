@@ -20,6 +20,7 @@ ul.alphabet-list li::before{display: none; }
 ul.alphabet-list li{margin:0; }
 ul.alphabet-list li a{color: var(--text-color); opacity: 0.5;}
 ul.alphabet-list li a:hover{color: var(--copperplate-color); opacity: 1;}
+ul.alphabet-list li.active a{color: var(--copperplate-color); opacity: 1;}
 
 .our-people-dropdown .selectBox-dropdown{border: solid 1px rgba(174, 174, 174, 0.5); }
 .our-people-dropdown .selectBox-menuShowing{border-color: #cdb3a5;}
