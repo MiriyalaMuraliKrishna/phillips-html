@@ -53,7 +53,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 }
 @media only screen and (min-width: 1024px){
 	ul.banner-category li{flex: 0 0 183px;}
-	ul.banner-category li > a span{max-width: 122px; display: block;}
+	ul.banner-category li > a span{max-width: 175px; display: block;}
 
 	.our-firm-main{padding: 183px 0 115px 102px;}
 	.our-firm-text{ width: 505px; margin-right: 106px; z-index: 2;}

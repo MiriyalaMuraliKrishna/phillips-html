@@ -18,7 +18,7 @@
     .careers-slick-slider .slick-slide{width: 991px; margin: 0 51px; }
     .careers-slick-slider .slick-arrow{left: 103px;}
     .careers-slick-slider .slick-arrow.slick-next { right: 103px; left: auto; }
-    .careers-slick-slider ul.slick-dots{margin: 40px 0 0; left: 0; right: 0; bottom: -60px; top: auto; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
+    .careers-slick-slider ul.slick-dots{margin: 40px 0 0; left: 0; right: 0; bottom: -68px; top: auto; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){   
     .careers-slick-slider .slick-slide{width: 791px; margin: 0 21px; }
