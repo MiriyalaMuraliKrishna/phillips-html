@@ -46,7 +46,7 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .industries-page .default-banner-main{padding: 73px 0 39px;}
-    .industries-page .default-banner-main h1{margin-bottom: 14px;}
+    /* .industries-page .default-banner-main h1{margin-bottom: 14px;} */
     .industries-page .default-banner-main p{margin-bottom: 24px;}
     .industries-page .number-count-main{padding: 35px 0 75px; gap: 27px 16px;}
     .industries-page .number-count-bg .container{padding: 0;}

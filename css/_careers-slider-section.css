@@ -39,7 +39,7 @@
     .careers-slick-slide.slick-current .careers-slider-thumb::before{background-color: transparent;}
     .careers-slider-caption{padding: 19px 0 10px; font-size: 14px; line-height: 25px; position: static; color: var(--text-color);}
     .careers-slider-caption::before{display: none;}
-    .careers-slick-slider .slick-slide{margin: 0 5px; }
+    .careers-slick-slider .slick-slide{margin: 0 3px; }
 
     .careers-slick-slider .slick-arrow { left: 4px; top: 100px; transform: none; }
     .careers-slick-slider .slick-arrow.slick-next{right: 4px; left: auto;}

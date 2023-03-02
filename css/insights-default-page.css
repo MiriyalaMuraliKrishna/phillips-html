@@ -70,7 +70,9 @@
 .insights-default-page .events-slider-heading{margin-bottom: 20px;}
 .insights-default-page .events-slider-btn{top: 0;}
 
-body.single-post td{padding: 14px 18px 12px;}
+body.single-post th{text-align: center;}
+body.single-post td{padding: 14px 18px 12px; min-width: 60px; max-width: 60px; text-align: center;}
+body.single-post td:first-child{min-width: 140px; max-width: 140px; text-align: left;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .another-short-image{width: 496px; }
@@ -93,8 +95,8 @@ body.single-post td{padding: 14px 18px 12px;}
     .another-short-two-image{width: calc(100% - 540px);}
     .image-caption-text{padding: 30px 25px;max-width: 100%;}
     .image-caption-text.center{padding: 30px 25px;max-width: 450px;}
-    .medium-headline-image{margin-right: 60px;}
-    .medium-headline-content{width: calc(100% - 422px);}
+    .medium-headline-image{margin: 0 60px 0 24px;}
+    .medium-headline-content{width: calc(100% - 446px);}
     .medium-headline.reverse .medium-headline-image{width: calc(100% - 610px);}
     .medium-headline.reverse .medium-headline-content{width: 550px; margin-right: 60px;}
     .full-width-image{margin: 62px 0;}
@@ -102,13 +104,14 @@ body.single-post td{padding: 14px 18px 12px;}
 }
 @media only screen and (max-width:1023px) and (min-width: 768px){
     .full-width-image{margin: 66px 0; }
-    .another-short-two{width: 100%; gap: 40px;}
+    .another-short-two{width: 100%; gap: 55px;}
     .another-short-two-image{max-width: 407px; margin: 0 auto;}
     .image-caption-text{padding: 19px 8px 34px;}
     .image-caption-text.center{padding: 30px 25px; max-width: 335px;}
     .medium-headline{padding: 70px 0 38px; gap: 50px; }
     .medium-headline-image{max-width: 407px; margin: 0 auto;}
-    .insights-default-page .events-slider-wrap{padding: 90px 0 100px; }
+    .insights-default-page .events-slider-wrap{padding: 90px 0 100px;}
+    .insights-default-page .careers-slider-wrap{padding: 87px 0 67px;}
 
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
@@ -124,15 +127,18 @@ body.single-post td{padding: 14px 18px 12px;}
     .insights-default-page .video-sec{margin: 48px 0 22px;}
     .full-width-image{margin: 46px 0 54px; }
     .full-width-content{bottom: 0; padding: 10px 24px 39px; width: 100%;}
-    .full-width-content h4{margin-bottom: 27px;}
+    .full-width-content h4{margin-bottom: 10px;}
     .another-short-wrap{padding: 37px 0 0; }
     .another-short-inner{padding: 24px 17px 28px 19px;}
     .another-short-inner h2{font-size: 30px; line-height: 1.27; }
+    .another-short-one{margin-bottom: 56px;}
     .another-short-two{width: 100%; flex-direction: column-reverse; gap: 34px;}
     .another-short-two-inner h3{font-size: 26px; line-height: 1.15; }
     .another-short-two-image{max-width: 307px; margin: 0 auto;}
     .another-short-two-thumb::before{left: -21px;}
-    .image-caption-section{padding: 53px 0; }
+    .another-short-two-thumb{margin-left: 10px;}
+    .another-short-two-thumb img{min-height: 317px; max-height: 317px; object-fit: fill;}
+    .image-caption-section{padding: 53px 0 60px; }
     .image-caption-main{gap: 16px; padding: 0 24px; }
     .image-caption-list{width: 100%;}
     .image-caption-text{padding: 19px 6px 12px;}
@@ -144,11 +150,14 @@ body.single-post td{padding: 14px 18px 12px;}
     .insights-default-page .micro-cta-section{background-color: transparent; }
     .insights-default-page .micro-cta-wrap{padding: 30px 0 56px; }
     .insight-default-sm-sec{text-align: left; }
-    .medium-headline{padding: 132px 0 30px; gap: 30px;}
+    .medium-headline{padding: 105px 0 30px; gap: 30px;}
     .medium-headline-image{max-width: 307px; margin: 0 auto; }
     .default-newsletter-main{padding: 21px 0 55px;}
     .default-newsletter-inner{padding: 41px 32px 28px 31px;}
     .medium-headline.reverse{flex-direction: column-reverse; padding: 31px 0 43px; gap: 56px; }
+    .medium-headline-thumb{margin-left: 10px;}
+    .medium-headline-thumb img{min-height: 317px; max-height: 317px;}
+    .insight-default-btn a[rel="next"], .insight-default-btn a[rel="prev"]{min-width: 155px;}
     .default-subscribe-main{padding: 34px 0; }
     .default-subscribe-inner{padding: 30px 32px; }
     .insights-default-page table{overflow-x: scroll; display: block; width: calc(100% + 48px); margin: 13px auto 44px; left: -24px; position: relative; }
@@ -160,4 +169,5 @@ body.single-post td{padding: 14px 18px 12px;}
     .insight-default-btn .button{min-width: 159px;}
     .insights-default-page .breakpoint-thumb{margin: 32px auto 0;}
     .insights-default-page .events-slider-wrap{padding: 32px 0 64px; }
+    .insights-default-page .events-view-btn{margin-top: 33px;}
 }
