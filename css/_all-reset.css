@@ -120,7 +120,9 @@ button:hover::after, .button:hover::after, .insight-default-btn a[rel="prev"]:ho
 .btn-transparent:hover::after { transform: translateX(49%);}
 
 .btn-white{border-color: #ebb89c;}
-.btn-white::before, .btn-white::after{border-color: var(--white);}
+.btn-white.btn-transparent::before{border-bottom-color: var(--white);}
+.btn-white.btn-transparent::after{border-top-color: var(--white);}
+.btn-white.btn-transparent:hover{color: var(--text-color);}
 .btn-md{padding: 10px 25px 10px}
 
 .btn-link{display: none; color: var(--white); font-size: 14px; line-height: 1.5; font-weight: 500;}

@@ -6,7 +6,7 @@
 .sub-topic-thumb img{max-width: 325px; }
 .sub-topic-heading .small{margin-bottom: 34px; }
 
-.sub-topic-section .accordion-header{padding: 26px 23px; line-height: 1.2; color: var(--black); border-bottom-color: rgba(0, 0, 0, 0.15);}
+.sub-topic-section .accordion-header{padding: 26px 70px 26px 23px; line-height: 1.2; color: var(--black); border-bottom-color: rgba(0, 0, 0, 0.15);}
 .sub-topic-section .accordion-active{color: var(--white); border-bottom-color: transparent;}
 
 .sub-topic-thumb{z-index: 1; }
