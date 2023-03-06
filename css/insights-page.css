@@ -85,6 +85,8 @@
     .insight-banner-main{gap: 21px;}
     .insight-banner-lt{flex: 1; max-height: 570px;}
     .insight-banner-rt{flex: 1;}
+    .insights-default-wrap h2:not(:first-child){padding-top: 40px;}
+
 }
 @media only screen and (min-width: 1600px){
     .insight-banner-main{max-width: 1600px; margin: 0 auto;}
@@ -103,6 +105,7 @@
     .insight-search{flex: 1;}
     .insight-page-main{gap: 20px;}
     .insight-page-list{flex: 0 0 calc(50% - 10px); }
+    .insights-default-wrap h2:not(:first-child){padding-top: 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .insight-banner-thumb img{min-height: 576px; max-height: 576px;}

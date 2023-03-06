@@ -18,7 +18,8 @@
 .sub-topic-main.topic-full{width: 1140px; margin: 0 auto; flex-direction: column-reverse;}
 .topic-full .sub-topic-image{width: 100%; margin-bottom: 26px;}
 .topic-full .sub-topic-content{width: 100%; margin: 0 10px;}
-  
+.sub-topic-content .accordion-content p a{color: var(--white); opacity: 0.75;}
+.sub-topic-content .accordion-content p a:hover{color: var(--white); opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
