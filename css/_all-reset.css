@@ -120,6 +120,7 @@ button:hover::after, .button:hover::after, .insight-default-btn a[rel="prev"]:ho
 .btn-transparent:hover::after { transform: translateX(49%);}
 
 .btn-white{border-color: #ebb89c;}
+.btn-white::before, .btn-white::after{border-color: var(--white);}
 .btn-md{padding: 10px 25px 10px}
 
 .btn-link{display: none; color: var(--white); font-size: 14px; line-height: 1.5; font-weight: 500;}
@@ -215,6 +216,7 @@ ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%;
 .full_width{width: 100% !important; max-width: 100% !important; margin-left: 0 !important; margin-right: 0 !important; float: none !important; display: block !important; padding-left: 0 !important; padding-right: 0 !important; left: 0 !important;}
 div.no_content_jq{padding: 0;}
 .no_result_found{padding-top: 60px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
     .container{max-width: 1200px; margin: 0 auto;}
