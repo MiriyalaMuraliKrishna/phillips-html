@@ -39,6 +39,7 @@
     .practices-default-page .common-banner-desc p{margin-bottom: 41px;}
     .practice-default-content{width: 708px; margin-right: 104px;}
     .practice-default-form{width: calc(100% - 812px);}
+    .practice-default-content h2:not(:first-child){padding-top: 40px;}
     .practices-default-page .practice-default-content h3{margin-top: 179px;}
     .practices-default-page .events-slider-heading{min-height: 0;}
 }
