@@ -15,6 +15,11 @@
 .sub-topic-main.no_image{display: block;}
 .sub-topic-main.no_image .sub-topic-content{width: 100%; margin: 0;}
 
+.sub-topic-main.topic-full{width: 1140px; margin: 0 auto; flex-direction: column-reverse;}
+.topic-full .sub-topic-image{width: 100%; margin-bottom: 26px;}
+.topic-full .sub-topic-content{width: 100%; margin: 0 10px;}
+  
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .sub-topic-heading{max-width: 710px; }
