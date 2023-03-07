@@ -1,26 +1,12 @@
 /* Banner section */
 .industries-default-page .default-banner-main{padding: 134px 0 160px;}
-/* .industries-default-page .default-banner-main h1{margin-bottom: 30px;}
-.industries-default-page .default-banner-main p{margin-bottom: 31px;} */
 
 /* Short headline section */
 .industries-default-page .short-headline-section{z-index: 1;}
 .industries-default-page .short-headline-title{margin-bottom: 59px;}
 .industries-default-page .short-headline-content h3{margin-top: 123px;}
-/* .industries-default-page .short-headline-section::before{content: ""; position: absolute; width: 100%; height: 733px; background-color: #f0eae7; bottom: 0; z-index: -1;} */
 .short-headline-heading{position: relative; z-index: 2;}
-.short-headline-content{padding-bottom: 84px; z-index: 1; position: relative;}
-.short-headline-content::before {
-	content: "";
-	display: block;
-	width: 1000%;
-	height: calc(100% - 239px);
-	z-index: -1;
-	background: #f0eae7;
-	left: -100%;
-	position: absolute;
-	bottom: 0;
-}
+
 
 /* Logo slider section */
 .industries-default-page .logo-slider-section{background-color: #f8f4f2; }
@@ -68,7 +54,7 @@ body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{ma
     .how-help-text{width: 308px; margin-right: 119px; }
     .how-help-text h2{max-width: 235px;}
     .how-help-frm{width: calc(100% - 427px); }
-    .industries-default-page .short-headline-wrap{padding: 108px 0 29px; }
+    .industries-default-page .short-headline-wrap{padding: 64px 0 29px; }
     .short-logo-lists{display: block;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

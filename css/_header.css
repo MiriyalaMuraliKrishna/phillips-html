@@ -52,11 +52,12 @@
 
     /* expertise-menu-item */
     ul.main_menu > li.expertise-nav-item{position: static;}
-    ul.main_menu > li.expertise-nav-item > ul{display: none; max-height: 500px; overflow: auto; justify-content: space-between; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 146px; max-width: 1660px; margin: 0 auto; position: absolute; background-color: var(--gray-color); overflow: hidden;} 
+    ul.main_menu > li.expertise-nav-item > ul{display: none; max-height: 500px; overflow: auto; justify-content: space-around; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 146px; max-width: 1660px; margin: 0 auto; position: absolute; background-color: var(--gray-color); overflow: hidden;} 
     ul.main_menu > li.expertise-nav-item:hover > ul{display: flex;}
     ul.main_menu > li.expertise-nav-item > ul > li{width: 200px; padding: 33px 0 180px; margin: 0; position: static;} 
     ul.main_menu > li.expertise-nav-item > ul > li:nth-child(2){width: 315px; margin-left: auto; transition: all 0.3s ease-in-out;}
-    ul.main_menu > li.expertise-nav-item > ul > li:last-child{width: 533px; padding: 0; margin-left: auto;}
+
+    ul.main_menu > li.expertise-nav-item > ul > li:nth-child(3){width: 533px; padding: 0; margin-left: auto;}
     ul.main_menu > li.expertise-nav-item > ul > li > a{padding: 0 0 13px; font-size: 24px; line-height: 1.3; font-family: 'Lora', serif; position: relative;}
     ul.main_menu > li.expertise-nav-item > ul > li > a::after{width: 36px; height: 2px; bottom: 0; left: 0; background-color: var(--btn-color); content: ""; display: block; position: absolute;}
     ul.main_menu > li.expertise-nav-item > ul > li > ul{margin: 34px 0 0; display: block; background-color: transparent; position: relative;}

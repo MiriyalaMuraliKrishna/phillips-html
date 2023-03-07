@@ -61,7 +61,6 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .about-page .default-banner-main{padding: 126px 0 6px; border-bottom: 1px solid var(--white-50);}
-    /* .about-page .default-banner-main h1{margin-bottom: 10px;} */
     .about-page .number-count-main{gap: 27px 16px; padding: 21px 0 48px;}
     .about-page .number-count-bg .container{padding: 0;}
     .about-page .short-headline-wrap{padding: 103px 0 30px;}
