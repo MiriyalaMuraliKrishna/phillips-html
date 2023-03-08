@@ -1,0 +1,35 @@
+
+
+
+
+.insights-default-wrap .dataTables_length label{display: flex; align-items: center; gap: 10px;}
+.insights-default-wrap .dataTables_wrapper label select.selectBox{display: none;}
+.insights-default-wrap .dataTables_filter label input{background: var(--white);}
+.insights-default-wrap .tablepress > :where(thead, tfoot) > * > th{border: 1px solid var(--copperplate-color); background-color: var(--copperplate-color); color: var(--white); font-family: 'Roboto', sans-serif; padding: 10px 20px; font-size: 1rem; line-height: 1.5;}
+.insights-default-wrap .tablepress .sorting::after, 
+.insights-default-wrap .tablepress .sorting_asc::after, 
+.insights-default-wrap .tablepress .sorting_desc::after { right: 20px; top: 0; }
+.insights-default-wrap .tablepress > :where(tbody) > .even > *{ padding: 10px 18px 9px 20px; }
+.insights-default-wrap .tablepress > :not(caption) > * > *{padding-right: 18px; padding-left: 20px; text-align: left;}
+.insights-default-wrap .tablepress > :not(caption) > * > td:last-child{text-align: right;}
+.insights-default-wrap .tablepress .sorting:hover, 
+.insights-default-wrap .tablepress .sorting_asc, 
+.insights-default-wrap .tablepress .sorting_desc{background-color: var(--copperplate-color); color: var(--white);}
+.insights-default-wrap .dataTables_wrapper .tablepress{margin: 50px 0 50px; left: 0; clear: both; float: left; width: 100%;}
+.insights-default-wrap .dataTables_wrapper .tablepress tr td{border-width: 0 1px 1px 1px; border-color: var(--text-color); border-style: solid;}  
+.insights-default-wrap .dataTables_paginate .paginate_button.disabled{color: var(--text-color);}
+.insights-default-wrap .dataTables_paginate.paging_simple .paginate_button.next::after, 
+.insights-default-wrap .dataTables_paginate.paging_simple .paginate_button.previous::before{ text-shadow: none; color: var(--copperplate-color); }
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .insights-default-wrap .dataTables_length{width: 50%;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .insights-default-wrap .dataTables_length{width: 45%;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .insights-default-wrap .dataTables_length{width: 100%; margin-bottom: 20px;}
+    .dataTables_filter{width: 100%;}
+    .insights-default-wrap .dataTables_filter label input{width: 80%;}
+}

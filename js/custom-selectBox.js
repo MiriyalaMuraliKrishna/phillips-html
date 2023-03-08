@@ -8,3 +8,4 @@ $(document).ready(function(){
     });
     $(".selectBox, .selectBox-dropdown .selectBox-label").removeAttr('style');
 });
+

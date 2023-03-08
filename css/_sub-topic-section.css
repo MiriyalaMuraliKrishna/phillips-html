@@ -9,6 +9,7 @@
 .sub-topic-section .accordion-active .accordion-header{color: var(--white); border-bottom-color: transparent;}
 .sub-topic-thumb{z-index: 1; }
 .sub-topic-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; border: solid 1px var(--copperplate-color); top: -29px; left: -29px; z-index: -1; }
+.sub-topic-main{align-items: flex-start;}
 .sub-topic-main.no_image{display: block;}
 .sub-topic-main.no_image .sub-topic-content{width: 100%; margin: 0;}
 .sub-topic-content .accordion-content p a{color: var(--white); opacity: 0.75;}

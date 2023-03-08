@@ -1,11 +1,9 @@
 
 
 .practice-default-section{background-color: #f8f4f2; z-index: 1;}
-.practice-default-wrap{padding: 48px 0 44px;}
+.practice-default-wrap{padding: 48px 0 0;}
+.practice-default-main{position: relative; z-index: 1;}
 .practice-default-content{position: relative;}
-.practice-default-content > p:nth-child(2)::before{content: ""; position: absolute; width: 1000%; height: 100%; background-color: #f0eae7; top: 260px; left: -100%; z-index: -1;}
-
-
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
 
 /* Sub topic section */
@@ -53,14 +51,10 @@
 }
 @media only screen and (max-width:1023px) and (min-width: 768px){
     .practice-default-form{width: 100%;}
-    .practice-default-content::before{top: 175px;}
-    .practice-default-content > p:nth-child(2){margin-bottom: 98px;}
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
     .practices-default-page .common-banner-text{padding: 33px 24px 37px;}
     .practices-default-page .common-banner-text h1{margin-bottom: 15px;}
-    .practice-default-content::before{top: 300px;}
-    .practice-default-content > p:nth-child(2){margin-bottom: 98px;}
     .common-banner-list{background-color: #f8f4f2; padding: 15px 0 12px;}
     .practice-default-wrap{padding: 0 0 55px;}
     .practices-default-page .download-print-main{padding: 11px 0 9px;}

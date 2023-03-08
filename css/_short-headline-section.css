@@ -1,24 +1,16 @@
 
 .short-headline-section{background-color: #f8f4f2; overflow: hidden; }
 .short-headline-wrap{padding: 99px 0 143px; }
+.short-headline-main{position: relative; z-index: 1;}
 .short-headline-title{background: var(--white); padding: 56px 45px 60px 52px; }
 .short-headline-title .optional-text{line-height: 0.9; margin-bottom: 12px; }
 .short-headline-title h4{margin-bottom: 38px; }
-.short-headline-content > p:nth-child(2){margin-bottom: 124px;}
+.short_intro_head{margin-bottom: 124px;}
 .short-headline-logo .optional-text{margin-bottom: 65px; }
 .short-logo-list img{width: 132px; opacity: 0.6; }
-.short-headline-content{padding-bottom: 84px; z-index: 1; position: relative;}
-.short-headline-content::before {
-	content: "";
-	display: block;
-	width: 1000%;
-	height: calc(100% - 239px);
-	z-index: -1;
-	background: #f0eae7;
-	left: -100%;
-	position: absolute;
-	bottom: 0;
-}
+
+.short_intro_desc{ padding-bottom: 84px; position: relative; }
+.short_intro_desc::before { width: 1000%; height: calc(100% + 62px); left: -100%; top: -62px; content: ""; display: block; background: #f0eae7; position: absolute; z-index: -1; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

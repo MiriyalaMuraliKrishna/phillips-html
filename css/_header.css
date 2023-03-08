@@ -33,8 +33,8 @@
     ul.main_menu > li:not(.expertise-nav-item) > ul > li{margin-bottom: 0;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > a{padding: 10px 33px 5px; font-size: 1rem; line-height: 1.5; font-weight: 500; color: var(--text-color); display: block;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li:last-child > a{padding: 10px 33px 20px;}
-    ul.main_menu > li:not(.expertise-nav-item) > ul > li > a:hover{color: var(--btn-color);}
-    ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children > a{color: var(--btn-color);}
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li.current-menu-item > a, ul.main_menu > li:not(.expertise-nav-item) > ul > li > a:hover{color: var(--btn-color);}
+    ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children:hover > a{color: var(--btn-color);}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children > a::after{right: 19px; font-size: 14px; content: "\2b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; position: absolute;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li.menu-item-has-children:hover > a::after{content: "\f068";}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > ul{margin: 0; background-color: #f4ece7; display: block; opacity: 0; visibility: hidden; max-height: 0; min-height: 0; padding: 0; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; height: 0; left: 100%; top: 0; position: absolute; min-width: 280px; max-width: 280px; width: 100%; }
