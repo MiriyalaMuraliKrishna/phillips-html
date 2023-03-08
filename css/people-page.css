@@ -34,10 +34,10 @@ figure.our-people-thumb{height: auto;}
 .our-people-content span{font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.7); }
 ul.our-people-details{margin: 11px 0 0; }
 ul.our-people-details li::before{display: none;}
-ul.our-people-details li{margin-bottom: 1px; font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.5); }
+ul.our-people-details li{margin-bottom: 1px; padding-left: 20px; font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.5); }
 ul.our-people-details li a{font-size: 14px; color: rgba(0, 0, 0, 0.5); }
 ul.our-people-details li a:hover{color: var(--copperplate-color); }
-ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(--copperplate-color);}
+ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; left: 0; top: -3px; position: absolute; color: var(--copperplate-color);}
 
 
 /*-- media css starts here --*/
@@ -55,7 +55,7 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
     .our-people-text{width: 226px; margin-right: 16px; }
 
     .our-people-dropdown{gap: 16px; }
-    .our-people-field{flex: 0 0 calc(20% - 13px);}
+    .our-people-field{flex: 0 0 calc(20% - 13px); width: calc(20% - 13px);}
     .our-people-main{gap: 53px 45px;}
     .our-people-list{flex: 0 0 calc(25% - 34px);}
 
@@ -76,7 +76,7 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; color: var(
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .our-people-filter{padding: 59px 20px 80px;}
     .our-people-searchfeild{display: block;}
-    .our-people-field{flex: 0 0 calc(33.333% - 11px);}
+    .our-people-field{flex: 0 0 calc(33.333% - 11px); width: calc(33.333% - 11px);}
     .our-people-main{gap: 32px;}
     .our-people-list{flex: 0 0 calc(50% - 16px);}
     .our-people-dropdown{gap: 16px;}

@@ -34,8 +34,8 @@
     .common-banner-desc{max-width: 692px; margin-left: auto; padding-right: 111px; z-index: 1;}
     .common-banner-desc::after {width: 171px; height: 412px; top: -90px; left: -101px; content: ""; position: absolute; background-image: url("./images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
     .common-banner-thumb{height: 100%;}
-    .common-banner-item li{width: 127px; padding: 0;}
-    body.page-template-industries-default .common-banner-item li{width: 148px;}
+    .common-banner-item{justify-content: space-around;}
+    .common-banner-item li{padding: 0;}
     .common-banner-dates{flex-basis: 40%;}
     .common-banner-location{flex-basis: 40%;}
     

@@ -9,12 +9,11 @@
 
 
 /* Logo slider section */
-.industries-default-page .logo-slider-section{background-color: #f8f4f2; }
 .industries-default-page .logo-slider-wrap{padding: 62px 0 84px; }
 .industries-default-page .logo-slider-main{margin-bottom: 80px; }
 .industries-default-page .logo-slider-item{border: none; }
 
-.how-help-main{background-color: var(--white); padding: 58px 82px 63px; }
+.how-help-main{background-color: var(--white); padding: 58px 72px 63px; }
 
 /* Product liability section */
 .industries-default-page .product-liability-wrap{padding: 109px 0 0; }
@@ -51,9 +50,8 @@ body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{ma
     .industries-default-page .default-banner-main{max-width: 630px; margin: 0 auto; text-align: center;}
 }
 @media only screen and (min-width: 1024px){
-    .how-help-text{width: 308px; margin-right: 119px; }
-    .how-help-text h2{max-width: 235px;}
-    .how-help-frm{width: calc(100% - 427px); }
+    .how-help-text{width: 365px; margin-right: 80px; }
+    .how-help-frm{width: calc(100% - 447px); }
     .industries-default-page .short-headline-wrap{padding: 64px 0 29px; }
     .short-logo-lists{display: block;}
 }

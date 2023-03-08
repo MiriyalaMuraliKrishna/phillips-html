@@ -6,6 +6,8 @@
 .perks-icon{width: 50px; height: 50px; align-items: end; margin: 0 auto 19px; }
 .perks-icon img{max-width: 50px; }
 .perks-list h4{margin-bottom: 14px;}
+.perks-list .num-value{color: var(--copperplate-color); opacity: 1;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

@@ -1,8 +1,10 @@
 
 
 .practice-default-section{background-color: #f8f4f2; z-index: 1;}
-.practice-default-section::before{content: ""; position: absolute; width: 100%; height: 730px; background-color: #f0eae7; top: 398px; z-index: -1;}
 .practice-default-wrap{padding: 48px 0 44px;}
+.practice-default-content{position: relative;}
+.practice-default-content > p:nth-child(2)::before{content: ""; position: absolute; width: 1000%; height: 100%; background-color: #f0eae7; top: 260px; left: -100%; z-index: -1;}
+
 
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
 
@@ -13,12 +15,10 @@
 .practices-default-page .sub-topic-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px; }
 .practices-default-page .accordion-header.accordion-active{color: var(--white); }
 
-/* Product liability section */
-/* .practices-default-page .product-liability-main{position: absolute; top: -270px; } */
 
 /* Business commerical section */
-.business-commercial-section{background-color: #f8f4f2; }
-.business-commercial-section::before{position: absolute; content: ""; width: 100%; height: 320px; background-color: #f0eae7;}
+.business-commercial-section{background-color: #f8f4f2; z-index: 1;}
+.business-commercial-section::before{position: absolute; content: ""; width: 100%; height: 320px; background-color: #f0eae7; z-index: -1;}
 .business-commercial-wrap{padding: 50px 0 123px;}
 
 /* Buffalo team section */
@@ -40,7 +40,7 @@
     .practice-default-content{width: 708px; margin-right: 104px;}
     .practice-default-form{width: calc(100% - 812px);}
     .practice-default-content h2:not(:first-child){padding-top: 40px;}
-    .practices-default-page .practice-default-content h3{margin-top: 179px;}
+    .practice-default-content > p:nth-child(2){margin-bottom: 179px;}
     .practices-default-page .events-slider-heading{min-height: 0;}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
@@ -53,13 +53,14 @@
 }
 @media only screen and (max-width:1023px) and (min-width: 768px){
     .practice-default-form{width: 100%;}
-    .practices-default-page .practice-default-content h3{margin-top: 98px;}
+    .practice-default-content::before{top: 175px;}
+    .practice-default-content > p:nth-child(2){margin-bottom: 98px;}
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
     .practices-default-page .common-banner-text{padding: 33px 24px 37px;}
     .practices-default-page .common-banner-text h1{margin-bottom: 15px;}
-    .practices-default-page .practice-default-content h3{margin-top: 98px;}
-    .practice-default-section::before{height: 667px; top: 427px;}
+    .practice-default-content::before{top: 300px;}
+    .practice-default-content > p:nth-child(2){margin-bottom: 98px;}
     .common-banner-list{background-color: #f8f4f2; padding: 15px 0 12px;}
     .practice-default-wrap{padding: 0 0 55px;}
     .practices-default-page .download-print-main{padding: 11px 0 9px;}
@@ -75,4 +76,5 @@
     .practices-default-page .faq-wrap{padding: 10px 0 55px;}
     .practices-default-page .product-liability-main h4:last-of-type{margin-top: 30px;}
     .practices-default-page .buffalo-team-heading h2{margin-bottom: 18px;}
+    .practice-default-form{margin-top: 46px;}
 }

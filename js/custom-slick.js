@@ -200,16 +200,16 @@ $(document).ready(function(){
     
     if($(window).width() >= 1024){
         $('.buffalo-slider-for').slick({
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                dots: false,
-                arrows: true,
-                prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-up flex flex-center"></span></div>',
-                nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-down flex flex-center"></span></div>',
-                focusOnSelect: true,
-                vertical: true,
-                verticalSwiping: true,
-                asNavFor: '.buffalo-slider-nav',
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: false,
+            dots: false,
+            arrows: true,
+            prevArrow: '<div class="slick-arrow slick-prev flex flex-center fa-light fa-angle-up"></div>',
+            nextArrow: '<div class="slick-arrow slick-next flex flex-center fa-light fa-angle-down"></div>',
+            vertical: true,
+            verticalSwiping: true,
+            asNavFor: '.buffalo-slider-nav',
         });
         $('.buffalo-slider-nav').slick({
             slidesToShow: 1,
@@ -274,7 +274,7 @@ let mobileMedia = function(){
                 }
             ]
         });
-    }
+    }      
 }
 $(window).resize(function () { mobileMedia(); });
 $(document).on('ready', function () { mobileMedia(); });

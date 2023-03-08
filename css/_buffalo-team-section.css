@@ -7,19 +7,19 @@
 .buffalo-team-item{padding: 15px 23px 14px;}
 .no_image.buffalo-team-item{min-height: 86px;}
 .no_image .buffalo-text{width: 100%;}
-.buffalo-team-item:hover{background-color: var(--copperplate-color); }
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
 .buffalo-sm-image img{width: 58px; height: 58px; border-radius: 50%;}
 .buffalo-text .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 0;}
 .buffalo-team-item:hover .buffalo-text .optional-tex{background-color: var(--white); }
 .buffalo-text span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 1.79; }
 .buffalo-text span a{color: rgba(0, 0, 0, 0.7); }
-.buffalo-team-item:hover .buffalo-text span a{color: var(--white); transition: none;}
-.buffalo-team-item:hover .buffalo-text span{color: var(--white-90);}
 .buffalo-text{width: calc(100% - 81px); }
 .buffalo-team-btn{margin-top: 40px;}
 .buffalo-team-btn .button{padding: 13px 27px 13px 27px; }
 
+.slick-current .buffalo-team-item{background-color: var(--copperplate-color); }
+.slick-current .buffalo-text span a{color: var(--white); transition: none;}
+.slick-current .buffalo-text span{color: var(--white-90);}
 
 .buffalo-team-content{width: calc(100% - 407px); }
 .buffalo-team-image{width: 387px; }
@@ -33,9 +33,10 @@
 .buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 1.79; }
 
 .buffalo-team-main .slick-arrow{position: absolute;}
-.buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 15px; height: 25px; margin: 0;}
+.buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 25px; height: auto; margin: 0; cursor: pointer; color: var(--copperplate-color); font-size: 2rem;}
 .buffalo-team .slick-arrow.slick-prev{top: calc(50% - 22px);}
-.buffalo-team .slick-btn{color: var(--copperplate-color); background-color: transparent; width: auto; height: auto;}
+.buffalo-team .slick-arrow::before{line-height: normal;}
+.buffalo-team .slick-arrow.slick-disabled{opacity: 0.75;}
 .buffalo-team-list.no_image{display: block;}
 .buffalo-team-list.no_image .buffalo-team-text{width: 100%;}
 
