@@ -83,28 +83,24 @@ let desktopScn = function(){
 $(window).resize(function () { desktopScn(); });
 $(document).on('ready', function () { desktopScn(); });
 
-let mobileIpad = function(){
-    if($(window).width() <= 1023){
-        $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
-          event.preventDefault();
-          $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');
-          $(this).toggleClass("active");
-          $(this).parent().siblings().find('ul.sub-menu').slideUp();
-          $(this).siblings('ul.main_menu > li > ul.sub-menu').slideToggle();
-          $(this).parent().siblings().toggleClass('sib');
-        });
-        $("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
-          event.preventDefault();
-          $('ul.main_menu ul > li.menu-item-has-children > a').not($(this)).removeClass('active');
-          $(this).toggleClass("active");
-          $(this).parent().siblings().find('ul.sub-menu').slideUp();
-          $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
-        });
 
-    }
+if($(window).width() <= 1023){
+    $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
+        event.preventDefault();
+        $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');
+        $(this).toggleClass("active");
+        $(this).parent().siblings().find('ul.sub-menu').slideUp();
+        $(this).next('ul.sub-menu').slideToggle();
+        $(this).parent().siblings().toggleClass('sib');
+    });
+    $("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
+        event.preventDefault();
+        $('ul.main_menu ul > li.menu-item-has-children > a').not($(this)).removeClass('active');
+        $(this).toggleClass("active");
+        $(this).parent().siblings().find('ul.sub-menu').slideUp();
+        $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
+    });
 }
-$(window).resize(function () { mobileIpad(); });
-$(document).on('ready', function () { mobileIpad(); });
 
 let mobileScreen = function(){
     if($(window).width() <= 767){
@@ -194,5 +190,10 @@ $(document).ready(function(){
                 $(".bio-people-main").removeClass("sticky_sidebar");
             }
         });
+    }
+    let countLi = $('ul.common-banner-item > li').length;
+    console.log(countLi);
+    if(countLi<=5){
+        $('ul.common-banner-item').addClass('center');
     }
 });

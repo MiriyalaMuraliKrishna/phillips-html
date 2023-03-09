@@ -36,6 +36,7 @@
     .common-banner-thumb{height: 100%;}
     .common-banner-item{justify-content: space-around;}
     .common-banner-item li{padding: 0;}
+    ul.common-banner-item{justify-content: center; gap: 40px;}
     .common-banner-dates{flex-basis: 40%;}
     .common-banner-location{flex-basis: 40%;}
     

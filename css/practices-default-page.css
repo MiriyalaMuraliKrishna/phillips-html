@@ -28,6 +28,7 @@
 /* News event section */
 .practices-default-page .events-slider-section{background-color: #f8f4f2; }
 .practices-default-page .events-slider-wrap{padding-top: 100px;}
+body.page-id-3416 .practices-default-page .events-slider-wrap{padding-top: 0;}
 
 #articles .events-slider-btn{top: 0;}
 
@@ -67,7 +68,7 @@
     .practices-default-page .buffalo-team-wrap{padding: 55px 0 5px; }
     .practices-default-page .buffalo-team-heading{margin-bottom: 31px; }
     .practices-default-page .events-slider-wrap{padding: 0 0 54px;}
-    .practices-default-page .faq-wrap{padding: 10px 0 55px;}
+    .practices-default-page .faq-wrap{padding: 60px 0 55px;}
     .practices-default-page .product-liability-main h4:last-of-type{margin-top: 30px;}
     .practices-default-page .buffalo-team-heading h2{margin-bottom: 18px;}
     .practice-default-form{margin-top: 46px;}

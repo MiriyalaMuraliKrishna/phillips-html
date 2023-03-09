@@ -8,6 +8,10 @@ ul.selectBox-dropdown-menu li:first-child{display: none;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0 18px; white-space: nowrap;}
 ul.selectBox-dropdown-menu li::before{display: none;}
 ul.selectBox-dropdown-menu li:hover{background-color: #9c5f3d; }
-ul.selectBox-dropdown-menu li a{color: var(--black); cursor: pointer; overflow: hidden; font-size: 14px; line-height: 2; letter-spacing: normal; display: block; padding: 0; white-space: normal; text-transform: capitalize; transition: none;}
+ul.selectBox-dropdown-menu li a{color: var(--black); cursor: pointer; font-size: 14px; line-height: 2; letter-spacing: normal; display: block; padding: 0; text-transform: capitalize; transition: none;}
 ul.selectBox-dropdown-menu li:hover a{color: var(--white);}
 
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    ul.selectBox-dropdown-menu li{width: 100%; max-width: 320px; }
+    ul.selectBox-dropdown-menu li a{ text-transform: capitalize; transition: none; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+}
