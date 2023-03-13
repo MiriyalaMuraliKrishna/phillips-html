@@ -17,9 +17,10 @@
 .buffalo-team-btn{margin-top: 40px;}
 .buffalo-team-btn .button{padding: 13px 27px 13px 27px; text-transform: capitalize;}
 
-.slick-current .buffalo-team-item{background-color: var(--copperplate-color); }
-.slick-current .buffalo-text span a{color: var(--white); transition: none;}
-.slick-current .buffalo-text span{color: var(--white-90);}
+.slick-current .buffalo-team-item{background-color: #eae0da; }
+.slick-current .buffalo-text span a{color: var(--text-color); transition: none;}
+.slick-current .buffalo-text span a:hover{color: var(--copperplate-color);}
+.slick-current .buffalo-text span{color: var(--text-color);}
 
 .buffalo-team-content{width: calc(100% - 407px); }
 .buffalo-team-image{width: 387px; }

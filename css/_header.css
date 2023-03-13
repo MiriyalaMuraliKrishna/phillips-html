@@ -28,7 +28,7 @@
     ul.main_menu > li:hover > a, ul.main_menu > li > a:hover{color: var(--white); background-color: var(--copperplate-color);}
     ul.main_menu > li.menu-item-has-children > a::after{width: 100%; height: 6px; opacity: 0; top: auto; bottom: 0; right: 0; position: absolute; content: ""; background-color: var(--copperplate-color); transition: opacity 0.3s ease-in-out; }
     ul.main_menu > li.menu-item-has-children:hover > a::after{opacity: 1;}
-    ul.main_menu > li:not(.expertise-nav-item) > ul{margin: 0; min-width: 333px; position: absolute; background-color: var(--gray-color); display: block; opacity: 0; visibility: hidden; max-height: 0; min-height: 0; padding: 0; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; height: 0; box-shadow: 0 2px 4px #a86b49cf;}
+    ul.main_menu > li:not(.expertise-nav-item) > ul{margin: 0; min-width: 333px; position: absolute; background-color: var(--gray-color); display: block; opacity: 0; visibility: hidden; max-height: 0; min-height: 0; padding: 0; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; height: 0; box-shadow: 0 5px 10px rgb(168 107 73 / 25%);}
     ul.main_menu > li:not(.expertise-nav-item):hover > ul{ display: block; visibility: visible; opacity: 1; max-height: inherit; min-height: 100%; padding: 15px 0 0; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; height: auto; }
     ul.main_menu > li:not(.expertise-nav-item) > ul > li{margin-bottom: 0;}
     ul.main_menu > li:not(.expertise-nav-item) > ul > li > a{padding: 10px 33px 5px; font-size: 1rem; line-height: 1.5; font-weight: 500; color: var(--text-color); display: block;}
@@ -53,7 +53,7 @@
 
     /* expertise-menu-item */
     ul.main_menu > li.expertise-nav-item{position: static;}
-    ul.main_menu > li.expertise-nav-item > ul{display: none; max-height: 500px; overflow: auto; justify-content: space-around; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 146px; max-width: 1200px; margin: 0 auto; position: absolute; background-color: var(--gray-color); overflow: hidden; box-shadow: 0 2px 4px #a86b49cf;} 
+    ul.main_menu > li.expertise-nav-item > ul{display: none; max-height: 500px; overflow: auto; justify-content: space-around; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 146px; max-width: 1200px; margin: 0 auto; position: absolute; background-color: var(--gray-color); overflow: hidden; box-shadow: 0 5px 10px rgb(168 107 73 / 25%);} 
     ul.main_menu > li.expertise-nav-item:hover > ul{display: flex;}
     ul.main_menu > li.expertise-nav-item > ul > li{width: 200px; padding: 33px 0 180px; margin: 0; position: static;} 
     ul.main_menu > li.expertise-nav-item > ul > li:nth-child(2){width: 315px; margin-left: auto; transition: all 0.3s ease-in-out;}

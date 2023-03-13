@@ -7,7 +7,7 @@
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
 
 /* Sub topic section */
-.practices-default-page .sub-topic-wrap{padding: 75px 0 49px;}
+.practices-default-page .sub-topic-wrap{padding: 75px 0 128px;}
 .practices-default-page .sub-topic-heading{margin-bottom: 92px; }
 .practices-default-page .sub-topic-heading h2{margin-bottom: 61px; }
 .practices-default-page .sub-topic-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px; }

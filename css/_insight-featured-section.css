@@ -10,7 +10,7 @@
 .insight-featured-text h3 a:hover{color: var(--copperplate-color);}
 .insight-featured-text .button{width: max-content; }
 
-.insight-featured-list{gap: 30px; padding-top: 102px;}
+.insight-featured-list{gap: 30px; padding-top: 82px;}
 .insight-featured-item{background-color: rgba(0, 0, 0, 0.67); padding: 32px 17px 44px 40px; }
 .insight-featured-item .optional-text{margin-bottom: 18px; }
 .insight-featured-item h4 { margin-bottom: 17px; }
@@ -26,7 +26,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .insight-featured-main{max-width: 1115px; margin: 0 auto; }
-    .insight-featured-big{width: 590px; margin-right: 82px; height: 100%; }
+    .insight-featured-big{width: 590px; margin-right: 82px;}
     .insight-featured-image{max-height: 631px; }
     .insight-featured-sm { width: calc(100% - 672px); }
 }

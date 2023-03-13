@@ -34,8 +34,8 @@ $(document).ready(function(){
         e.preventDefault();
         $(this).parent('.accordion').siblings().removeClass('accordion-active');
         $(this).parent('.accordion').toggleClass("accordion-active");
-        $(this).parent().siblings().find('.accordion-content').removeClass('open').hide(700);
-        $(this).siblings('.accordion-content').addClass('open').slideToggle(700);
+        $(this).parent().siblings().find('.accordion-content').removeClass('open').hide();
+        $(this).siblings('.accordion-content').addClass('open').slideToggle();
     });
 
     $('.filter_icon').on('click', function(e){

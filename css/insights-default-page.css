@@ -5,8 +5,7 @@
 
 /* Insights default section */
 .insights-default-section{background-color: #f8f4f2; z-index: 1;}
-.insights-default-section::before{position: absolute; content: ""; width: 100%; background-color: #f0eae7; height: 699px; z-index: -1; top: 980px;}
-.insights-default-wrap{padding: 4px 0 90px; }
+.insights-default-wrap{padding: 4px 0 13px; }
 .author-name{display: inline-block; color: rgba(168, 107, 73, 0.8); font-size: 16px; font-weight: 600; line-height: 1.56; background-color: #f0eae7; padding: 14px 16px 13px 16px; margin-bottom: 28px;}
 .author-name a{color:rgba(168, 107, 73, 0.8);}
 .author-name a:hover{color: var(--copperplate-color);}
@@ -30,7 +29,6 @@
 
 /* Another short section2 */
 .another-short-wrap2{z-index: 1;}
-.another-short-wrap2::before { content: ""; position: absolute; width: 100%; height: 728px; background-color: #f0eae7; top: 853px; z-index: -1;}
 
 
 /* image caption  section*/
@@ -63,10 +61,10 @@
 .default-subscribe-inner{background: #f0eae7; padding: 46px 102px 46px 104px;}
 
 /* insight button */
-.insight-default-btn{gap: 20px; padding: 45px 0;} 
+.insight-default-btn{gap: 20px; padding: 60px 0 80px;} 
 
 /* events slider section */
-.insights-default-page .events-slider-wrap{padding: 138px 0 100px; }
+.insights-default-page .events-slider-wrap{padding: 131px 0 100px; }
 .insights-default-page .events-slider-heading{margin-bottom: 20px;}
 .insights-default-page .events-slider-btn{top: 0;}
 
@@ -145,7 +143,6 @@ body.single-post td:first-child{min-width: 140px; max-width: 140px; text-align: 
     .image-caption-text h4{font-size: 20px; line-height: 1.35; margin-bottom: 5px;}
     .image-caption-text p{font-size: 14px; line-height: 1.79; color: var(--white-70);}
     .image-caption-text.center{padding: 24px 14px 22px; max-width: 286px; }
-    .another-short-wrap2::before{height: 1057px; top: 1260px;}
     .another-short-wrap2 h3{font-size: 26px; line-height: 1.15; }
     .insights-default-page .micro-cta-section{background-color: transparent; }
     .insights-default-page .micro-cta-wrap{padding: 30px 0 56px; }
