@@ -60,7 +60,7 @@ ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; left: 0; to
     .our-people-list{flex: 0 0 calc(25% - 34px);}
 
     .our-people-thumb img{filter: saturate(0); }
-    .our-people-list:hover{box-shadow: 0 5px 15px #945c3d;}
+    .our-people-list:hover{box-shadow: 0 8px 25px rgb(148 92 61 / 60%);}
     .our-people-list:hover .our-people-thumb img{filter: saturate(1); }
     .our-people-list:hover .our-people-thumb::before{display: none;}
 }

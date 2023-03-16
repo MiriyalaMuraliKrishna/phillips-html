@@ -4,7 +4,7 @@
 /* Short headline section */
 .industries-default-page .short-headline-section{z-index: 1;}
 .industries-default-page .short-headline-title{margin-bottom: 59px;}
-.industries-default-page .short-headline-content h3{margin-top: 123px;}
+.industries-default-page .short-headline-content h3{margin-top: 50px;}
 .short-headline-heading{position: relative; z-index: 2;}
 
 
@@ -89,7 +89,6 @@ body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{ma
     .industries-default-page .download-print{margin-bottom: 0;}
     .industries-default-page .download-print-main{padding-bottom: 10px;}
 
-    .industries-default-page .short-headline-content h3{margin-top: 86px;}
     .how-help-main{padding: 32px;}
     .how-help-text{margin-bottom: 10px;}
     .how-help-text h2{font-size: 28px; line-height: 28px;}
