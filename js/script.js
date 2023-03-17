@@ -80,7 +80,6 @@ let desktopScn = function(){
         });
     }
 }
-$(window).resize(function () { desktopScn(); });
 $(document).on('ready', function () { desktopScn(); });
 
 
@@ -173,7 +172,6 @@ let mobileScreen = function(){
         });
     }
 }
-$(window).resize(function () { mobileScreen(); });
 $(document).on('ready', function () { mobileScreen(); });
 
 $(document).ready(function(){
@@ -197,3 +195,4 @@ $(document).ready(function(){
         $('ul.common-banner-item').addClass('center');
     }
 });
+

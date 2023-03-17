@@ -34,10 +34,10 @@ figure.our-people-thumb{height: auto;}
 .our-people-content span{font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.7); }
 ul.our-people-details{margin: 11px 0 0; }
 ul.our-people-details li::before{display: none;}
-ul.our-people-details li{margin-bottom: 1px; padding-left: 20px; font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.5); }
+ul.our-people-details li{margin-bottom: 1px; padding-left: 22px; font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.5); }
 ul.our-people-details li a{font-size: 14px; color: rgba(0, 0, 0, 0.5); }
 ul.our-people-details li a:hover{color: var(--copperplate-color); }
-ul.our-people-details .contact-icon{width: 14px; margin-right: 10px; left: 0; top: -3px; position: absolute; color: var(--copperplate-color);}
+ul.our-people-details .contact-icon{width: 14px; left: 0; top: -4px; position: absolute; color: var(--copperplate-color);}
 
 
 /*-- media css starts here --*/

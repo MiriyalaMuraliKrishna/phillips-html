@@ -32,6 +32,7 @@ ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 	.footer-list:nth-child(1){flex: 0 0 188px;}
 	.footer-list:nth-child(2){flex: 0 0 180px;}
 	.footer-list:nth-child(4){flex: 0 0 100px;}
+	.footer-list:nth-child(3){padding-left: 50px;}
 	ul.copyrights-links > li{margin-left: 31px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
