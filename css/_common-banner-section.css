@@ -24,10 +24,7 @@
 .common-banner-text-right{width: calc(100% - 30px); }
 
 /*-- media css starts here --*/
-@media only screen and (max-width: 1420px) and (min-width: 1024px){
-    .common-banner-image{flex: 50% !important;}
-    .common-banner-desc {padding: 0 5% !important;}
-}
+
 @media only screen and (min-width: 1024px){
     .common-banner-text{flex: 50%;}
     .common-banner-image{flex: 0 0 710px;}
@@ -39,11 +36,17 @@
     ul.common-banner-item{justify-content: center; gap: 40px;}
     .common-banner-dates{flex-basis: 40%;}
     .common-banner-location{flex-basis: 40%;}
-    
 }
 @media only screen and (min-width: 1601px){
     .common-banner-text{flex: 50%;}
     .common-banner-image{flex: 50%;} 
+}
+@media only screen and (max-width: 1599px) and (min-width: 1024px){
+    .common-banner-image{flex: 50%;}
+    .common-banner-desc {max-width: 600px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .common-banner-text{padding-left: 32px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .common-banner-main{flex-direction: column-reverse; }
@@ -57,6 +60,5 @@
     .common-banner-location ul{margin: 0 0 0 42px; }
     .common-banner-location span{line-height: 1.79;}
     .common-banner-dates-item .common-banner-text-right, .common-banner-location .common-banner-text-right{font-size: 16px; font-weight: 500; line-height: 1.75; }
-
 }
 

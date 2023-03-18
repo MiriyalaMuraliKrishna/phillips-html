@@ -68,6 +68,5 @@
     .buffalo-team-content .slick-dots{margin: 17px 0; position: relative;}
     .buffalo-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 32px; }
     .buffalo-view-btn .right-icon{margin-left: 10px; }
+    .buffalo-team-image img{height: auto;}
 }
-
-
