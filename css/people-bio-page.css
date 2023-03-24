@@ -84,7 +84,7 @@ span.bio-people-arrow{margin-left: 18px; }
 body.single-our_people .speaking-engagements{padding-top: 5px;}
 .speaking-engagements{padding: 34px 0 20px; }
 .speaking-engagements h5{font-size: 20px; line-height: 1.2; color: var(--copperplate-color); margin-bottom: 37px;}
-.speaking-engagements-list{display: block; column-count: 2; column-gap: 0px;}
+.speaking-engagements-list{display: block;}
 .speaking-engagements-list.single-item{column-count: auto;}
 .speaking-engagements-list ul{margin-top: 0; }
 .speaking-engagements-list ul li{margin-bottom: 21px; line-height: 21px;}
@@ -104,11 +104,11 @@ body.single-our_people .speaking-engagements{padding-top: 5px;}
     .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
     .bio-people-content { width: calc(100% - 487px); }
     .people-bio-page .download-print-main{padding: 0 0 26px;}
-
     .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
     .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px; top:0;}
     .people-bio-page .events-slide-text h4 { max-width: 330px;}
     .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; top: -150px; padding:0 205px;}
+    .speaking-engagements-list ul{gap: 5px 60px; display: grid; grid-template-columns: repeat(2, 1fr);}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}
@@ -127,7 +127,7 @@ body.single-our_people .speaking-engagements{padding-top: 5px;}
 @media only screen and (max-width:767px) and (min-width: 200px){
     .people-bio-page .common-banner-text{padding: 19px 24px 23px;}
     .people-bio-page .common-banner-text h1{font-size: 26px; margin-bottom: 13px;}
-    .people-bio-page .position-location{margin-bottom: 22px; justify-content: center;}
+    .people-bio-page .position-location{margin-bottom: 22px;}
     .people-bio-page .common-banner-text-right{color: var(--white-90) !important;}
     .people-bio-page .common-banner-text-right a{color: var(--white-90);}
     .people-bio-page .common-banner-location{border-left: none;}

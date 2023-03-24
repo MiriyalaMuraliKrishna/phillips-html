@@ -123,6 +123,7 @@ let mobileScreen = function(){
         });
         $('ul.banner-category li a').on('click', function(e){
             e.preventDefault();
+            $('.banner-category-mobile').removeClass('open');
             let text = $(this).text();
             $('.banner-category-mobile span').text(text);
             $('ul.banner-category').slideUp();
