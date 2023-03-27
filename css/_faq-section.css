@@ -7,7 +7,7 @@
 .faq-title h2{color: var(--white); margin-bottom: 20px;}
 .accordion{ margin-top: -1px; transition-duration: .7s; transition-property: all; transition-delay: 0s; transition-timing-function: cubic-bezier(0.075,0.82,0.165,1); }
 .accordion-active{background-color: var(--copperplate-color); color: var(--white); border-bottom-color: transparent;}
-.accordion-header{padding: 26px 27px 23px; border-bottom: 1px solid var(--white-50); background-color: transparent; cursor: pointer; font-family: Lora, serif; font-size: 20px; line-height: 1.5; color: var(--white); transition-duration: .7s; transition-property: all; transition-delay: 0s; transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);}
+.accordion-header{padding: 26px 57px 23px 27px; border-bottom: 1px solid var(--white-50); background-color: transparent; cursor: pointer; font-family: Lora, serif; font-size: 20px; line-height: 1.5; color: var(--white); transition-duration: .7s; transition-property: all; transition-delay: 0s; transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);}
 .accordion-header span.icon{right: 28px; top: 50%; transform: translateY(-50%); position: absolute; }
 .accordion-active span:before{content: "\f068";}
 .accordion-active .accordion-header{border-bottom-color: var(--copperplate-color);}
@@ -44,7 +44,7 @@
     .faq-title{margin-bottom: 31px; padding: 0;}
     .faq-title h2{margin-bottom: 13px;}
     .faq-btn{text-align: center; margin-top: 40px;}
-    .accordion-header{padding: 15px 27px 16px 16px;} 
+    .accordion-header{padding: 15px 57px 16px 16px;} 
     .accordion-header span.icon{right: 9px;}
     .accordion-content{padding: 0 16px 32px;}
     .sub-topic-section .accordion-header { padding: 26px 70px 26px 10px; }

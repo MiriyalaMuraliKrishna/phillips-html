@@ -13,6 +13,9 @@
 @media only screen and (min-width: 1600px){
     .common-grid-section .container{max-width: 1600px; margin: 0 auto; width: 100%;}
 }
+@media only screen and (max-width: 1599px) and (min-width: 1024px){
+    .common-grid-section .container{max-width: 100%; padding: 0;}
+}
 @media only screen and (min-width: 1024px){
     .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-image{width: 790px; margin-right: 101px; }
@@ -25,11 +28,9 @@
     .common-grid-list.reverse .common-grid-image{margin-left: 51px; margin-right: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .common-grid-list.reverse{flex-direction: row-reverse; }
     .common-grid-wrap{padding: 65px 0; }
-    .common-grid-image{width: 390px; margin-right: 32px; }
-    .common-grid-list.reverse .common-grid-image{margin-left: 32px; margin-right: auto;}
-    .common-grid-text{width: calc(100% - 422px);}
+    .common-grid-list{display: block;}
+    .common-grid-image{margin-bottom: 32px;}
     .common-grid-text .optional-text{font-size: 16px; margin-bottom: 10px;}
     .common-grid-text h2{margin-bottom: 15px; }
     .common-grid-text p{margin-bottom: 20px; }

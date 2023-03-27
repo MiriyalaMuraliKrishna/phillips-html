@@ -9,6 +9,8 @@
 .events-slide-text h4{font-family: 'Playfair Display', serif; font-size: 22px; line-height: 1.36;}
 .events-slide-text h4 a{color: var(--text-color);}
 .events-slide-text h4 a:hover{color: var(--copperplate-color);}
+.events-slide-image figure a{width: 100%; display: block;}
+.events-slide-image figure img{min-height: 274px; max-height: 274px; overflow: hidden;}
 
 .news-event-slider  .slick-arrow{display: none !important;}
 body.single-our_people .news-event-slider .slick-arrow{display: block !important;}

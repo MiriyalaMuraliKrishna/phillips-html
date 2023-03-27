@@ -10,7 +10,6 @@
 
 .industries-section{background-color: #f8f4f2; }
 .industries-wrap{padding: 88px 0 112px; }
-.industries-main{justify-content: center; }
 .industries-desc{font-size: 15px; line-height: 1.6; }
 .industries-desc .angle-icon{top: 2.5px; transform: none;}
 figure.industries-thumb{margin-bottom: 20px; height: auto;}
@@ -37,7 +36,7 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
 @media only screen and (min-width: 1024px){
     .industries-page .number-count-main{max-width: 960px; margin: 0 auto;}
     .industries-main{gap: 112px 20px;}
-    .industries-list{flex: 0 0 calc(25% - 15px);}
+    .industries-list{flex: 0 0 calc(33.3333% - 14px); justify-content: center;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .industries-main{gap: 32px;}
@@ -46,7 +45,6 @@ figure.industries-thumb{margin-bottom: 20px; height: auto;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .industries-page .default-banner-main{padding: 73px 0 39px;}
-    /* .industries-page .default-banner-main h1{margin-bottom: 14px;} */
     .industries-page .default-banner-main p{margin-bottom: 24px;}
     .industries-page .number-count-main{padding: 35px 0 75px; gap: 27px 16px;}
     .industries-page .number-count-bg .container{padding: 0;}

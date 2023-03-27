@@ -55,7 +55,7 @@
     ul.main_menu > li.expertise-nav-item{position: static;}
     ul.main_menu > li.expertise-nav-item > ul{display: none; max-height: 500px; overflow: auto; justify-content: space-around; gap: 20px; width: 100vw; left: 0; right: 0; padding-left: 146px; max-width: 1200px; margin: 0 auto; position: absolute; background-color: var(--gray-color); overflow: hidden; box-shadow: 0 5px 10px rgb(168 107 73 / 25%);} 
     ul.main_menu > li.expertise-nav-item:hover > ul{display: flex;}
-    ul.main_menu > li.expertise-nav-item > ul > li{width: 200px; padding: 33px 0 180px; margin: 0; position: static;} 
+    ul.main_menu > li.expertise-nav-item > ul > li{width: 215px; padding: 33px 0 180px; margin: 0; position: static;} 
     ul.main_menu > li.expertise-nav-item > ul > li:nth-child(2){width: 315px; margin-left: auto; transition: all 0.3s ease-in-out;}
 
     ul.main_menu > li.expertise-nav-item > ul > li:nth-child(3){width: 533px; padding: 0; margin-left: auto;}

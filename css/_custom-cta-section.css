@@ -13,6 +13,7 @@
 @media only screen and (min-width: 1024px){
 	.custom-cta-text{width: 691px;}
 	.custom-cta-image{width: calc(100% - 691px);}
+	.home-page .custom-cta-wrap{padding-top: 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
 	.custom-cta-text{width: 620px; padding: 116px 75px 97px;}

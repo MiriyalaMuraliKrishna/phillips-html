@@ -9,22 +9,20 @@
 .fullwidth-horizontal .product-liability-text{width: 100%; background-color: #f9f8f8; padding-left: 30px;}
 .fullwidth-horizontal .product-liability-text ul{column-count: 1; }
 .product-liability-main span:nth-child(2n){margin-bottom: 11px; display: block; }
-.product-liability-text ul{column-gap: 65px; display: block; column-count: 2; }
-.product-liability-text ul li ul{column-count: 1; margin-bottom: 0;}
+.product-liability-text ul li ul{margin-bottom: 0;}
 
 /*-- media css starts heer --*/
 @media only screen and (min-width: 1024px){
     .expert-expand-content{gap: 27px; }
-    .product-liability-text ul{margin: 35px 0 37px 25px; }
+    .product-liability-text ul{margin: 35px 0 37px 25px; gap: 0 64px; display: flex; flex-wrap: wrap;}
+    .product-liability-text ul > li{flex: 0 0 calc(50% - 32px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .fullwidth-horizontal .product-liability-text{background-color: transparent;}
     .product-liability-text{width: 100%;}
-    .product-liability-text ul{column-count: 1;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .fullwidth-horizontal .product-liability-text{background-color: transparent; padding-left: 0;}
-    .product-liability-text ul{column-count: 1;}
     .product-liability-main{padding: 31px 15px; margin-bottom: 54px;}
     .product-liability-main h4{margin-bottom: 17px;}
     .expert-expand-content{width: 100%; max-height: 380px; overflow: hidden; transition: all .5s ease-in-out; background-image: linear-gradient(180deg,#2b2c2d 80%,rgba(43,44,45,0) 100%); -webkit-background-clip: text; -webkit-text-fill-color: var(--text-color); background-clip: text;}

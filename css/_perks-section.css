@@ -18,8 +18,9 @@
 }
 @media only screen and (max-width: 767px) and (min-width:200px){
     .perks-wrap{padding: 55px 0; }
-    .perks-main{gap: 20px; }
-    .perks-list { flex: 0 0 calc(50% - 10px); font-size: 14px; line-height: normal; }
+    .perks-main{display: block;}
+    .perks-list { margin-bottom: 28px; font-size: 14px; line-height: normal; }
+    .perks-list:last-child{margin-bottom: 0;}
     .perks-title{margin-bottom: 30px; }
     .perks-title h2{font-size: 28px; line-height: 1.36; }
     .perks-icon{margin: 0 auto 15px; }

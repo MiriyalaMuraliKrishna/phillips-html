@@ -27,7 +27,7 @@
 .default-page .events-slider-wrap{padding: 140px 0 136px; }
 
 /* custom cta section */
-.custom-cta-section{background-color: #f0eae7; }
+.default-page .custom-cta-section{background-color: #f0eae7; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

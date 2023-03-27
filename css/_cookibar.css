@@ -31,6 +31,7 @@ button.cky-btn-close::before, button.cky-btn-close::after{display: none;}
 body .cky-modal.cky-modal-open .cky-btn-close:hover{background: transparent !important; }
 body .cky-modal.cky-modal-open .cky-btn-preferences:hover, body .cky-modal.cky-modal-open .cky-btn-reject:hover{background: var(--text-color) !important;}
 body .cky-modal.cky-modal-open button:hover::before, body .cky-modal.cky-modal-open button:hover::after{display: none;}
+body .cky-revisit-bottom-left:hover::before{background-color: var(--copperplate-color);}
 
 /*-- media css starts heer --*/
 @media only screen and (min-width: 1024px){
