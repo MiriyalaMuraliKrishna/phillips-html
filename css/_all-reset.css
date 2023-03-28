@@ -210,9 +210,8 @@ ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%;
 
 /* Download section */
 .download-print-main{justify-content: space-between; padding: 26px 0 64px;}
-.download-print{flex-basis: 50%; align-items: center; }
-.download-print-text{font-size: 16px; font-weight: 600; margin-left: 34px;}
-.download-print-text:first-child{margin-left: 0; }
+.download-print{flex-basis: 50%; align-items: center; gap: 30px; }
+.download-print-text{font-size: 16px; font-weight: 600;}
 .download-print-text .icon{font-size: 18px; margin-right: 8px; opacity: 0.8;}
 
 .btn_show_less{display: none;}
@@ -256,18 +255,16 @@ div.no_content_jq{padding: 0;}
     .breakpoint-thumb::after{width: 38%;}
 
     .download-print-main{border-bottom: 1px solid #dacfca; margin-bottom: 50px; padding: 11px 0 8px;}
-    .download-print{flex-basis: 100%; margin-bottom: 0; justify-content: center;}
+    .download-print{flex-basis: 100%; justify-content: center;}
 
     ul{margin: 0 0 24px 24px; }
     ol{margin: 36px 0 54px 24px; }
     
     h2{font-size: 28px; line-height: 38px;}
-    h3 {
-        font-size: 30px;
-        line-height: 1.31;
-    }
+    h3 { font-size: 30px; line-height: 1.31; }
     .btn-mobile{background-color: var(--copperplate-color);}
     .expand-btns{margin: 30px 0;}
     .play-btn { width: 58px; height: 58px; }
     .play-btn-bg img { width: 17px; }
+    .download-print{gap: 12px; justify-content: space-between;}
 } 

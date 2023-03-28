@@ -60,5 +60,6 @@
     .common-banner-location ul{margin: 0 0 0 42px; }
     .common-banner-location span{line-height: 1.79;}
     .common-banner-dates-item .common-banner-text-right, .common-banner-location .common-banner-text-right{font-size: 16px; font-weight: 500; line-height: 1.75; }
+    .common-banner-item li{padding: 0 8px;}
 }
 
