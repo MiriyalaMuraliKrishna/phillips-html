@@ -7,7 +7,7 @@
 .subscribe-wrap{padding: 60px 0 60px }
 .subscribe-main{padding: 83px 0 91px; z-index: 1;}
 .subscribe-icon{width: 106px; height: 276px; top: 50%; left: 50%; transform: translate(-50%, -50%); background-repeat: no-repeat; background-size: cover;  z-index: -1; opacity: 0.11; position: absolute;}
-.subscribe-main h2{margin-bottom: 6px; }
+.subscribe-main h3{margin-bottom: 6px; font-size: 40px; line-height: 1.25;}
 
 
 /*-- media css starts here --*/
@@ -17,4 +17,5 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.subscribe-wrap{max-width: 230px; padding: 0;}
 	.subscribe-main{padding: 108px 0 91px;}
+	.subscribe-main h3{font-size: 28px; line-height: 38px;}
 }

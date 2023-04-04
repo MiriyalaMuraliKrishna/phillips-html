@@ -5,16 +5,16 @@
 .insight-featured-content{position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 15px 15px 15px 13px; }
 .insight-featured-text{ flex-direction: column; justify-content: flex-end; padding: 40px 90px 41px 38px; border: solid 1px rgba(255, 255, 255, 0.22); height: 100%; }
 .insight-featured-text .optional-text{font-size: 18px; color: var(--white-70); }
-.insight-featured-text h3{line-height: 1.25; margin-bottom: 30px;}
-.insight-featured-text h3 a{color: var(--white);}
-.insight-featured-text h3 a:hover{color: var(--copperplate-color);}
+.insight-featured-text h2{font-size: 32px; line-height: 1.25; margin-bottom: 30px;}
+.insight-featured-text h2 a{color: var(--white);}
+.insight-featured-text h2 a:hover{color: var(--copperplate-color);}
 .insight-featured-text .button{width: max-content; }
 
 .insight-featured-list{gap: 30px; padding-top: 82px;}
 .insight-featured-item{background-color: rgba(0, 0, 0, 0.67); padding: 32px 17px 44px 40px; }
 .insight-featured-item .optional-text{margin-bottom: 18px; }
-.insight-featured-item h4 { margin-bottom: 17px; }
-.insight-featured-item h4 a{color: var(--white);}
+.insight-featured-item h2 { margin-bottom: 17px; color: var(--white); font-size: 24px; line-height: 1.33;}
+.insight-featured-item h2 a{color: var(--white);}
 .insight-arrow{font-size: 33px; color: var(--white); position:absolute; display: none;}
 .insight-arrow span { line-height: 0.55; }
 .insight-featured-btn{text-align: right; width: 100%; margin-top: 7px;}
@@ -43,7 +43,7 @@
     .insight-featured-list{gap: 20px; padding-top: 26px;}
     .insight-featured-text{flex-direction: column; justify-content: center; padding: 25px 9px 25px 10px; text-align: center; align-items: center; }
     .insight-featured-text .optional-text{font-size: 16px; line-height: 1.13; margin-bottom: 8px;}
-    .insight-featured-text h3{font-size: 24px; margin-bottom: 20px; }
+    .insight-featured-text h2{font-size: 24px; margin-bottom: 20px; }
     .insight-featured-btn{text-align: center; margin-top: 0;}
     .insight-featured-content{padding: 9px 7px 8px;}
 }
