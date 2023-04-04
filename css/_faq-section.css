@@ -14,6 +14,7 @@
 .accordion-content{display: none; padding: 0 27px 40px;}
 .faq-btn{text-align: right; margin-top: 48px;}
 .faq-content.full_width{flex: none; transform: none;}
+.sub-topic-content .accordion-content ul > li::before{background-color: var(--white);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1600px){

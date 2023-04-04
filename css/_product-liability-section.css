@@ -14,8 +14,8 @@
 /*-- media css starts heer --*/
 @media only screen and (min-width: 1024px){
     .expert-expand-content{gap: 27px; }
-    .product-liability-text ul{margin: 35px 0 37px 25px; gap: 0 64px; display: flex; flex-wrap: wrap;}
-    .product-liability-text ul > li{flex: 0 0 calc(50% - 32px);}
+    .product-liability-text ul{margin: 35px 0 37px 25px; column-count: 2; gap: 0 64px; display: block; flex-wrap: wrap;} 
+    .product-liability-text ul > li{flex: 0 0 calc(50% - 32px); -moz-column-break-inside: avoid; break-inside: avoid; margin-bottom: 15px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .fullwidth-horizontal .product-liability-text{background-color: transparent;}
