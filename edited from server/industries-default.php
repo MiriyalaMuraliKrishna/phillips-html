@@ -197,7 +197,7 @@ if(!empty($featured_insight_select_post)){
 
 <?php if(!empty($featured_insight_select_post)){ ?>
 <section class="insight-featured-section pos-relative" id="featured-insights">
-<picture class="object-fit insight-featured-bg background-bg">
+<picture class="object-fit insight-banner-bg background-bg">
 <source srcset="<?php echo $featured_insight_background_image['url']; ?>" media="(min-width:768px)">
 <img src="<?php echo $featured_insight_background_image_mobile['url']; ?>" alt="<?php echo $featured_insight_background_image['alt']; ?>">
 </picture>  

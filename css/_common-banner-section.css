@@ -36,6 +36,7 @@
     ul.common-banner-item{justify-content: center; gap: 40px;}
     .common-banner-dates{flex-basis: 40%;}
     .common-banner-location{flex-basis: 40%;}
+    body.postid-7388 .common-banner-desc .button{margin-top: 19px;}
 }
 @media only screen and (min-width: 1601px){
     .common-banner-text{flex: 50%;}

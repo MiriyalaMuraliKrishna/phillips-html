@@ -57,6 +57,13 @@ $(document).ready(function(){
         $(".bio-people-text li a").removeClass("active");
         $(this).addClass("active");
     });
+
+    if($(window).width()>=768){
+       let countsLi =  $('.short_intro_desc ul li').length;
+       if(countsLi > 10){
+        $('.short_intro_desc ul').addClass('count');
+       }
+    }
 });
 
 let desktopScn = function(){
