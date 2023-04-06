@@ -11,17 +11,20 @@
 .insight-featured-text .button{width: max-content; }
 
 .insight-featured-list{gap: 30px; padding-top: 82px;}
-.insight-featured-item{background-color: rgba(0, 0, 0, 0.67); padding: 32px 17px 44px 40px; }
+.insight-featured-item{background-color: rgba(0, 0, 0, 0.67); padding: 32px 17px 44px 40px; width: 100%; }
 .insight-featured-item .optional-text{margin-bottom: 18px; }
 .insight-featured-item h2 { margin-bottom: 17px; color: var(--white); font-size: 24px; line-height: 1.33;}
 .insight-featured-item h2 a{color: var(--white);}
 .insight-arrow{font-size: 33px; color: var(--white); position:absolute; display: none;}
 .insight-arrow span { line-height: 0.55; }
 .insight-featured-btn{text-align: right; width: 100%; margin-top: 7px;}
-.insight-featured-item:hover{background-color: var(--copperplate-color); padding-bottom:45px;} 
+.insight-featured-item{z-index: 1;}
+.insight-featured-item:hover{padding-bottom:45px;} 
 .insight-featured-item:hover .optional-text{color: var(--white);}
 .insight-featured-item:hover hr{display: none;}
 .insight-featured-item:hover .insight-arrow{display: block;}
+.insight-featured-bg{width: 100%; height: 100%; opacity: 0; transition: opacity 0.5s ease-in-out; background-color: var(--copperplate-color); display: block; top: 0; left: 0; position: absolute; z-index: -1;}
+.insight-featured-item:hover .insight-featured-bg{opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -36,7 +39,6 @@
     .insight-featured-list{padding-top: 84px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .insight-featured-item{width: 100%;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .insight-featured-wrap{padding: 27px 0 48px;}
