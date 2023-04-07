@@ -6,7 +6,7 @@
 .product-liability-main span{font-weight: bold;}
 
 .fullwidth-horizontal{flex-direction: column; }
-.fullwidth-horizontal .product-liability-text{width: 100%; background-color: #f9f8f8; padding-left: 30px;}
+.fullwidth-horizontal .product-liability-text{width: 100%; background-color: #f9f8f8; padding: 0 30px;}
 .fullwidth-horizontal .product-liability-text ul{column-count: 1; }
 .product-liability-main span:nth-child(2n){margin-bottom: 11px; display: block; }
 .product-liability-text ul li ul{margin-bottom: 0;}

@@ -30,6 +30,7 @@ body.page-template-orphan-landing .sub-topic-section{z-index: inherit;}
     .sub-topic-main{width: 100%;}
     .sub-topic-content{width: 540px; margin-right: 80px; }
     .sub-topic-image{width: calc(100% - 620px); }
+    .sub-topic-main.topic-full{width: 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .sub-topic-wrap{padding: 80px 0; }

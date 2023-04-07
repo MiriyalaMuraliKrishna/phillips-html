@@ -26,6 +26,8 @@
 /*-- media css starts here --*/
 
 @media only screen and (min-width: 1024px){
+    .common-banner-main.no_banner_image{padding: 80px 0; display: block;}
+    .no_banner_image .common-banner-desc{max-width: 1260px; padding: 0 30px; margin-right: auto;}
     .common-banner-text{flex: 50%;}
     .common-banner-image{flex: 0 0 710px;}
     .common-banner-desc{max-width: 692px; width: 100%; margin-left: auto; padding-right: 111px; z-index: 1;}

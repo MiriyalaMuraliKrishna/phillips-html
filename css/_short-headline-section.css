@@ -14,18 +14,23 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .short_intro_desc ul.count{ -moz-column-count: 2; -webkit-column-count: 2; column-count: 2; gap: 40px;}
+    .short_intro_desc ul.count{ -moz-column-count: 2; -webkit-column-count: 2; column-count: 2; gap: 80px;}
 }
 @media only screen and (min-width: 1024px){
     .short-headline-heading{width: 387px; margin-right: 101px; }
     .short-headline-title .button{width: 100%;}
     .short-headline-content{width: calc(100% - 488px); margin-top: -9px;}
     .insights-default-page .short-headline-content{width: 100%; margin-top: 0;}
+    body.page-id-4102 .short_intro_desc{width: 100vw; max-width: 1200px !important;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    body.page-id-4102 .short_intro_desc { width: 100vw; max-width: 940px !important; }
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .short-headline-wrap{padding: 40px 0; }
     .short-headline-title{padding: 42px 32px 42px 31px; margin-bottom: 30px; }
     .short-headline-title h4{margin-bottom: 28px;}
+    .short_intro_desc ul.count{ gap: 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width:200px){
     .short-headline-wrap{padding: 30px 0; }
