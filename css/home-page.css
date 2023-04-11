@@ -3,7 +3,8 @@
 .home-banner-text h1{color: var(--white);}
 .home-banner-desc{color: var(--white-90);}
 .home-banner-text p{margin-bottom: 25px; }
-.home-banner-text .button{margin-top: 11px; }
+.home-banner-text p:nth-last-child(2){margin-bottom: 0; }
+.home-banner-text .button{margin-top: 26px; }
 
 .home-banner-category{padding: 93px 0 0; }
 ul.banner-category{gap: 20px; margin: 0;}

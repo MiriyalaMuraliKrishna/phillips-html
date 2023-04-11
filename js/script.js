@@ -28,6 +28,7 @@ $(document).ready(function(){
         $('.main-header').toggleClass('header_mobile');
         $(this).toggleClass('active');
         $('.navigation:not(nav.pagination)').toggleClass('open');
+        $('.search-main').toggleClass('search_hide');
     });
 
     $('.accordion-header').on('click', function(e){
