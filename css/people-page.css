@@ -28,7 +28,8 @@ ul.alphabet-list li.active a{color: var(--copperplate-color); opacity: 1;}
 .find-person-wrap ul.blog_list{padding: 28px 0 53px;}
 .our-people-list{transition: all 0.3s ease-in-out; background-color: var(--white);}
 figure.our-people-thumb{height: auto;}
-.our-people-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; transition: all .3s ease-in-out; opacity: 1;}
+.our-people-thumb a{width: 100%; height: 100%; display: block;}
+.our-people-thumb a::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: var(--copperplate-color); z-index: 1; mix-blend-mode: multiply; transition: all .3s ease-in-out; opacity: 1;}
 .our-people-content{background-color: var(--white); padding: 23px 12px 23px 26px; }
 .our-people-content .optional-text{font-size: 18px; color: var(--copperplate-color); line-height: 1; margin-bottom: -2px; text-transform: uppercase;}
 .our-people-content span{font-size: 14px; line-height: 1.79; color: rgba(0, 0, 0, 0.7); }
@@ -62,7 +63,7 @@ ul.our-people-details .contact-icon{width: 14px; left: 0; top: -4px; position: a
     .our-people-thumb img{filter: saturate(0); }
     .our-people-list:hover{box-shadow: 0 8px 25px rgb(148 92 61 / 60%);}
     .our-people-list:hover .our-people-thumb img{filter: saturate(1); }
-    .our-people-list:hover .our-people-thumb::before{opacity: 0;}
+    .our-people-list:hover .our-people-thumb a::before{opacity: 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){  
     .our-people-searchfeild{display: block;}  
