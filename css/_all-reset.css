@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 14px; color: var(--black); lett
 h1 {font-size: 50px; line-height: 1.14; margin-bottom: 23px;}
 h2 {font-size: 40px; line-height: 1.25; margin-bottom: 15px;}
 h3 {font-size: 32px; line-height: 1.31; margin-bottom: 15px;}
-h4 {font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
+h4{font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
 h5 {font-size: 1.125rem; line-height: 1.375rem;}
 h6 {font-size: 1rem; line-height: 1.5;}
 address { margin-bottom: 14px;}
@@ -38,7 +38,7 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 24px 53px;}
+ul {list-style: none; margin: 15px 0 24px 53px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 7px;}
 ul > li::before{content: " "; position: absolute; top: 11px; left: -23px; background-color: var(--copperplate-color); width: 5px; height: 5px; border-radius: 50%; }
 li > ul {margin: 24px 0 24px 25px;}
@@ -47,6 +47,7 @@ ol {counter-reset: section; list-style: none; margin: 0 0 24px 54px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 7px;}
 ol > li::before{top: 5px; left: -25px; width: 14px; height: 15px; font-weight: bold; position: absolute; counter-increment: section; content: counter(section, decimal) "."; font-size: 16px; align-items: center; display: flex; justify-content: center; color: var(--copperplate-color); font-family: 'Lora', serif; }
 li > ol {margin: 25px 0 26px 25px;}
+ol > li::marker{display: none; font-size: 0; line-height: 0;}
 
 figure{margin: 0;}
 fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
@@ -202,6 +203,7 @@ ul.slick-dots li.slick-active button::before{width: 13px; height: 13px; backgrou
 ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; position: absolute; border: 1px solid var(--text-color); display: block; border-radius: 50%; transition: none;}
 
 /* Breakpoint logo */
+.product-liability-main .breakpoint-thumb{margin-bottom: 66px;}
 .breakpoint-thumb{width: 712px; margin: 32px auto; text-align: center; }
 .breakpoint-thumb::before{content: ""; position: absolute; top: 50%; transform: translateY(-50%); width: 45%; border: solid 1px #dacfca; left: 0; }
 .breakpoint-thumb::after{content: ""; position: absolute; top: 50%; transform: translateY(-50%); width: 45%; border: solid 1px #dacfca; right: 0; }
@@ -258,7 +260,7 @@ h1.sup, h2.sup, h1 sup, h2 sup { bottom: 2.75ex; font-size: .75rem; }
     .download-print-main{border-bottom: 1px solid #dacfca; margin-bottom: 50px; padding: 11px 0 8px;}
     .download-print{flex-basis: 100%; justify-content: center;}
 
-    ul{margin: 0 0 24px 24px; }
+    ul{margin: 15px 0 24px 24px; }
     ol{margin: 36px 0 54px 24px; }
     
     h2{font-size: 28px; line-height: 38px;}

@@ -5,7 +5,7 @@
 .perks-title{margin-bottom: 78px;}
 .perks-icon{width: 50px; height: 50px; align-items: end; margin: 0 auto 19px; }
 .perks-icon img{max-width: 50px; }
-.perks-list h4{margin-bottom: 14px;}
+.perks-list h2{margin-bottom: 14px; font-size: 24px; line-height: 1.33;}
 .perks-list .num-value{color: var(--copperplate-color); opacity: 1;}
 
 
@@ -24,5 +24,5 @@
     .perks-title{margin-bottom: 30px; }
     .perks-title h2{font-size: 28px; line-height: 1.36; }
     .perks-icon{margin: 0 auto 15px; }
-    .perks-list h4{margin-bottom: 9px; line-height: 1.25; }
+    .perks-list h2{margin-bottom: 9px; line-height: 1.25; }
 }

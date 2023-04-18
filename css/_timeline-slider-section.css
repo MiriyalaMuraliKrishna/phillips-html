@@ -20,7 +20,7 @@
 .timeline-slide-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(168, 107, 73, 0.4);}
 .timeline-slide-content{align-items: center; }
 .timeline-slide-text{background-color: #f8f4f2; padding: 65px 20px 67.5px 39px; }
-.timeline-slide-text h3{margin-bottom: 12px; }
+.timeline-slide-text h2{margin-bottom: 12px; font-size: 32px; line-height: 1.31;}
  
 .timeline-for-slide:hover .timeline-number::after{ width: calc(100vw + 272px); height: 2px; left: -100vw; background-color: var(--copperplate-color); content: ""; display: block; position: absolute; bottom: 16px; transition-duration: 0.95s; transition-property: all; transition-delay: 0s; transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
 .timeline-for-slide:hover span, .timeline-for-slide.prev-slides span{color: var(--copperplate-color);}

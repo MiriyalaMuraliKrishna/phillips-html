@@ -21,7 +21,7 @@
 .careers-group-page .careers-opportunities-section{background-color: #f0eae7; }
 .careers-group-page .careers-opportunities-wrap{padding: 54px 0 140px; }
 
-.careers-group-page .testimonial-name h6{font-style: normal;}
+.testimonial-name span.optional-text{margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
@@ -31,7 +31,6 @@
     .careers-group-page .short-headline-wrap{padding: 40px 0; }
 
 }
-
 @media only screen and (max-width: 767px) and (min-width:200px){
     .default-banner-main{padding: 164px 0 166px; }
     .careers-group-page .short-headline-wrap{padding: 26px 0 30px; }
@@ -40,5 +39,4 @@
     .careers-group-page .perks-wrap{padding: 55px 0; }
     .careers-group-page .custom-cta-wrap{padding: 55px 0 30px; }
     .careers-group-page .careers-opportunities-wrap{padding: 26px 0 56px;}
-
 }

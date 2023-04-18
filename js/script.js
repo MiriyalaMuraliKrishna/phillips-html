@@ -143,7 +143,7 @@ let mobileScreen = function(){
             $(this).siblings('.bio-expertise-desc').slideToggle(500);
         });
 
-        $('.bio-people-list h4').on('click', function(e){
+        $('.bio-people-list h2').on('click', function(e){
             e.preventDefault();
             $(this).parent().siblings().find('h4').removeClass('active');
             $(this).toggleClass('active');

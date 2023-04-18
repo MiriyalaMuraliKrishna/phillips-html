@@ -3,7 +3,7 @@
 .careers-opportunities-wrap{padding: 102px 0 140px; }
 .careers-opportunities-heading{margin-bottom: 80px; }
 /* .careers-opportunities-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px;} */
-.careers-opportunities-title h5{font-size: 20px; line-height: 1.35; margin-bottom: 21px;}
+.careers-opportunities-title h3{font-size: 20px; line-height: 1.35; margin-bottom: 21px;}
 .careers-opportunities-list{background: var(--white); padding: 21px 19px 17px 21px; margin-bottom: 16px;}
 .careers-opportunities-list:last-of-type{margin-bottom: 0;}
 .careers-opportunities-text{flex-basis: 60%; }
@@ -13,9 +13,9 @@
 .careers-opportunities-position{width: calc(100% - 60px); border-left: solid 1px rgba(0, 0, 0, 0.1); padding-left: 26px;}
 .careers-opportunities-button{flex-basis: 40%; justify-content: end; align-items: center;}
 .careers-opportunities-button .button{padding: 12px 28px 14px 27px;}
-.careers-opportunities-position h5{font-size: 20px; line-height: 1.35; margin-bottom: 0; }
-.careers-opportunities-position h5 a{color: var(--black);}
-.careers-opportunities-position h5 a:hover{color: var(--copperplate-color);}
+.careers-opportunities-position h3{font-size: 20px; line-height: 1.35; margin-bottom: 0; }
+.careers-opportunities-position h3 a{color: var(--black);}
+.careers-opportunities-position h3 a:hover{color: var(--copperplate-color);}
 .careers-opportunities-position span{font-size: 14px; line-height: 1.79; color: rgba(0,0,0, 0.5); display: block;}
 
 /*-- media css starts here --*/

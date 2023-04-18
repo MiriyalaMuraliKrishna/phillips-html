@@ -9,9 +9,10 @@
 .accordion-active{background-color: var(--copperplate-color); color: var(--white); border-bottom-color: transparent;}
 .accordion-header{padding: 26px 57px 23px 27px; border-bottom: 1px solid var(--white-50); background-color: transparent; cursor: pointer; font-family: Lora, serif; font-size: 20px; line-height: 1.5; color: var(--white); transition-duration: .7s; transition-property: all; transition-delay: 0s; transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);}
 .accordion-header span.icon{right: 28px; top: 50%; transform: translateY(-50%); position: absolute; }
-.accordion-active span:before{content: "\f068";}
+.accordion-active span.icon:before{content: "\f068";}
 .accordion-active .accordion-header{border-bottom-color: var(--copperplate-color);}
 .accordion-content{display: none; padding: 0 27px 40px;}
+.accordion-content h3{font-size: 17px; margin-bottom: 5px; color: var(--white); font-family: Arial; font-weight: 800;}
 .faq-btn{text-align: right; margin-top: 48px;}
 .faq-content.full_width{flex: none; transform: none;}
 .sub-topic-content .accordion-content ul > li::before{background-color: var(--white);}

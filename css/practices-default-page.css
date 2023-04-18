@@ -5,6 +5,7 @@
 .practice-default-main{position: relative; z-index: 1;}
 .practice-default-content{position: relative;}
 .practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
+.practice-default-inner h3{font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
 
 /* Sub topic section */
 .practices-default-page .sub-topic-wrap{padding: 75px 0 128px;}
