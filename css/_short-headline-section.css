@@ -23,10 +23,6 @@
     .short-headline-title .button{width: 100%;}
     .short-headline-content{width: calc(100% - 488px); margin-top: -9px;}
     .insights-default-page .short-headline-content{width: 100%; margin-top: 0;}
-    body.page-id-4102 .short_intro_desc{width: 100vw; max-width: 1200px !important;}
-}
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-    body.page-id-4102 .short_intro_desc { width: 100vw; max-width: 940px !important; }
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .short-headline-wrap{padding: 40px 0; }

@@ -39,7 +39,7 @@
     .practice-big img{width: 100%; }
     .practice-main{gap: 35px 22px;}
     .practice-list{flex: 0 0 calc(33.333% - 15px);}
-    .practice-thumb img{min-height: 220px;}
+    .practice-thumb img{min-height: 250px;}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .practices-page .number-count-main{padding: 28px 0 223px;}

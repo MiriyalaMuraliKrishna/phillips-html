@@ -4,8 +4,11 @@
 .practice-default-wrap{padding: 48px 0 0;}
 .practice-default-main{position: relative; z-index: 1;}
 .practice-default-content{position: relative;}
-.practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; }
+.practice-default-inner{background-color: var(--white); padding: 50px 45px 45px 52px; margin-bottom: 30px;}
 .practice-default-inner h3{font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
+
+.practice-sidebar-title .optional-text { line-height: .9; margin-bottom: 12px; }
+.practice-sidebar-title h2{margin-bottom: 28px; font-size: 24px; line-height: 1.33;}
 
 /* Sub topic section */
 .practices-default-page .sub-topic-wrap{padding: 75px 0 128px;}
@@ -38,7 +41,7 @@ body.page-id-3416 .practices-default-page .events-slider-wrap{padding-top: 0;}
     .practices-default-page .common-banner-text h1{margin-bottom: 29px;}
     .practices-default-page .common-banner-desc p{margin-bottom: 41px;}
     .practice-default-content{width: 708px; margin-right: 104px;}
-    .practice-default-form{width: calc(100% - 812px);}
+    .practice-default-form{width: calc(100% - 812px); position: relative; z-index: 1;}
     .practice-default-content h2:not(:first-child){padding-top: 40px;}
     .practice-default-content > p:nth-child(2){margin-bottom: 179px;}
     .practices-default-page .events-slider-heading{min-height: 0;}

@@ -39,7 +39,7 @@ ul.our-people-details li{margin-bottom: 1px; padding-left: 22px; font-size: 14px
 ul.our-people-details li a{font-size: 14px; color: rgba(0, 0, 0, 0.5); }
 ul.our-people-details li a:hover{color: var(--copperplate-color); }
 ul.our-people-details .contact-icon{width: 14px; left: 0; top: -4px; position: absolute; color: var(--copperplate-color);}
-
+.our-people-search.no_heading{width: 100%; flex: 0 0 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
@@ -64,6 +64,7 @@ ul.our-people-details .contact-icon{width: 14px; left: 0; top: -4px; position: a
     .our-people-list:hover{box-shadow: 0 8px 25px rgb(148 92 61 / 60%);}
     .our-people-list:hover .our-people-thumb img{filter: saturate(1); }
     .our-people-list:hover .our-people-thumb a::before{opacity: 0;}
+    .no_heading ul.alphabet-list{gap: 0 22px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){  
     .our-people-searchfeild{display: block;}  
