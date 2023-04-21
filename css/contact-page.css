@@ -17,14 +17,14 @@
 
 ul.phone-list{margin: 0; }
 ul.phone-list li::before{display: none;}
-ul.phone-list li{margin-bottom: 8px;}
+ul.phone-list li{margin-bottom: 3px;}
 ul.phone-list li:first-child{margin-bottom: 13px; }
-ul.phone-list li a{font-size: 16px; line-height: 1.75; padding-right: 15px; color: #9c5f3d;}
+ul.phone-list li a{font-size: 16px; line-height: 1.75; padding-right: 15px; color: var(--copperplate-color);}
 ul.phone-list li a:hover{color: var(--black);}
 ul.phone-list address{margin-bottom: 4px; color: var(--text-color); line-height: 1.38;}
 .contact-icon{font-size: 16px; color: #9c5f3d; width: 16px; margin: 5px 10px 0 0; }
 .contact-icon-text{width: calc(100% - 26px); }
-.contact-icon-text .read-btn{color: var(--copperplate-color); opacity: 0.9; padding-right: 22px;}
+.contact-icon-text .read-btn{color: var(--copperplate-color); opacity: 1; padding-right: 22px; font-weight: normal;}
 .office-form-bg{background-color: var(--white); padding: 37px 45px 57px 52px;}
 .office-form-bg h4{margin-bottom: 23px;}
 

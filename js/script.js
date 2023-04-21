@@ -76,10 +76,12 @@ $(document).ready(function(){
     $('.wheel-close').on('click', function(e){
         e.preventDefault();
         $('.short-headline-section').removeClass('wheel-pos');
-        $('.wheel-overlay-bg').fadeOut();
-        $('.wheel-container').fadeOut();
+        $('.wheel-overlay-bg').fadeOut(700);
+        $('.wheel-container').fadeOut(700);
         $('.wheel-sm-circle').removeClass('active');
-        $('.wheel-content').removeClass('current-tab').hide();
+        $('.wheel-content').removeClass('active-wheel');
+        let wheelAttr = $(this).attr('data-value');
+        $('.wheel-content[data-target="' + wheelAttr + '"]').addClass('active-wheel');
     });
 });
 

@@ -10,25 +10,7 @@ Version: 2022.12.23-01
 Text Domain: 
 */
 
-@font-face {
-	font-family: 'Copperplate-Regular';
-	src: url('./fonts/Copperplate-Regular.eot');
-	src: url('./fonts/Copperplate-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/Copperplate-Regular.woff2') format('woff2'), url('../fonts/Copperplate-Regular.woff') format('woff'), url('./fonts/Copperplate-Regular.ttf') format('truetype'); 
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'FranklinGothic-Medium';
-	src: url('./fonts/FranklinGothic-Medium.ttf') format('truetype'); 
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'FranklinGothic-Bold';
-	src: url('./fonts/FranklinGothic-Bold.ttf') format('truetype'); 
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
+@font-face { font-family: 'Copperplate-Regular'; src: url('./fonts/Copperplate-Regular.eot'); src: url('./fonts/Copperplate-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/Copperplate-Regular.woff2') format('woff2'), url('../fonts/Copperplate-Regular.woff') format('woff'), url('./fonts/Copperplate-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FranklinGothic-Book'; src: url('./fonts/FranklinGothic-Medium.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FranklinGothic-Medium'; src: url('./fonts/FranklinGothic-Medium.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FranklinGothic-Bold'; src: url('./fonts/FranklinGothic-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
