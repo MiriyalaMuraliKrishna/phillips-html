@@ -232,5 +232,12 @@ $(document).ready(function(){
     if(countLi<=5){
         $('ul.common-banner-item').addClass('center');
     }
+
+    $('.product-liability-text > ul').each(function(){
+        if($(this).find('li').length > 10) {
+            $(this).addClass('ul-count-2');
+        }
+    });   
+
 });
 

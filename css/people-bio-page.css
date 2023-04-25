@@ -7,7 +7,7 @@
 
 /* Our people section */
 .bio-people-section{background-color: #f8f4f2; z-index: 1;}
-.bio-people-section::before{content: ""; position: absolute; top: 639px; width: 100%; height: 1323px; background-color: #f0eae7; z-index: -1;}
+.bio-people-section::before{content: ""; position: absolute; top: 639px; width: 100%; height: calc(100% - 639px); background-color: #f0eae7; z-index: -1;}
 .bio-people-wrap{padding: 26px 0 78px;}
 
 .bio-people-list{background-color: var(--white); padding: 32px 43px 22px 52px; margin-bottom: 25px;}
@@ -97,6 +97,10 @@ body.single-our_people .speaking-engagements{padding-top: 5px;}
 .bio-people-expand-content{max-height: 330px; margin-bottom: 18px; overflow: hidden;}
 .bio-people-expand-content.expert-expanded{max-height: fit-content;}
 .bio-expand-btns{padding-bottom: 35px;}
+
+.activites-row{padding-top: 40px;}
+.activites-list{margin-bottom: 30px;}
+.activites-list:last-child{margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
