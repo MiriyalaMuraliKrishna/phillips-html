@@ -7,7 +7,6 @@
 .common-grid-text h2{margin-bottom: 23px; }
 .common-grid-text p{margin-bottom: 30px; }
 .common-grid-text .button { width: max-content; }
-.common-grid-section .common-grid-wrap{padding-top: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1600px){

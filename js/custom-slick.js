@@ -22,8 +22,8 @@ $(document).ready(function(){
     let countSlides = $('.news-event-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true,
-        dots: true,
+        infinite: false,
+        dots: false,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
         nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',

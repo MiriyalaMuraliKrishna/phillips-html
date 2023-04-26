@@ -55,7 +55,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-education-list ul > li{font-size: 16px; line-height: 1.31; }
 
 .education-admissions{margin-bottom: 24px; }
-.education-admissions-main{gap: 20px; margin-top: 33px;}
+.education-admissions-main{gap: 20px; margin-top: 33px; display: block;} 
 .bio-education-list{flex: 0 0 calc(50% - 10px); }
 
 .representative-matters{margin-bottom: 75px; }
@@ -98,7 +98,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px;}
 .bio-people-expand-content.expert-expanded{max-height: fit-content;}
 .bio-expand-btns{padding-bottom: 35px;}
 
-.activites-row{padding-top: 40px;}
 .activites-list{margin-bottom: 30px;}
 .activites-list:last-child{margin-bottom: 0;}
 
@@ -111,8 +110,9 @@ body.single-our_people .speaking-engagements{padding-top: 5px;}
     .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
     .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px; top:0;}
     .people-bio-page .events-slide-text h2 { max-width: 330px;}
-    .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; top: -150px; padding:0 205px;}
+    .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; position: static;}
     .speaking-engagements-list ul{gap: 5px 60px; display: grid; grid-template-columns: repeat(2, 1fr);}
+    body.single-our_people.postid-3886 .bio-people-section::before{top: 495px; height: calc(100% - 495px);}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}
@@ -169,11 +169,11 @@ body.single-our_people .speaking-engagements{padding-top: 5px;}
     .honor-awards .expert-expand-content{max-height: 430px;}
     .honor-awards.expert-expanded .expert-expand-content{max-height: fit-content; }
     .honor-awards .read-btn, .education-admissions .read-btn{opacity: 0.9;}
-    .education-admissions-main{margin-top: 29px;}
+    .education-admissions-main{margin-top: 29px; display: block;}
     .bio-education-list ul{margin: 20px 0 0 24px;}
     .icon-heading h3{font-size: 26px; margin-bottom: 0;}
     .icon-heading{margin-bottom: 18px;}
-    .bio-education-list{flex: 0 0 100%; }
+    .bio-education-list{ margin-bottom: 30px;}
     .education-admissions{margin-bottom: 44px; }
     .education-admissions .expert-expand-content{max-height: 430px;}
     .education-admissions.expert-expanded .expert-expand-content{max-height: fit-content; }

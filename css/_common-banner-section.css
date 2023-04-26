@@ -17,7 +17,7 @@
 .common-banner-location ul{margin: 5px 0 0 35px; }
 .common-banner-location ul li{margin-bottom: 0; }
 .common-banner-location ul > li::before{left: -10px; background-color: #f0eae7; opacity: 0.7; }
-.common-banner-dates-item span:not(span.optional-text){font-size: 14px; line-height: 1.79; color: var(--white-90); display: inline-block;}
+.common-banner-dates-item span:not(span.optional-text){font-size: 14px; line-height: 1.79; color: var(--white-90);}
 .common-banner-text-right a{color: var(--white-70);}
 .common-banner-text-right a:hover{color: var(--white);}
 .common-banner-location span{font-size: 14px; line-height: 1.36; color: var(--white-90);}
