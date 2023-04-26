@@ -31,6 +31,9 @@
     body.single-our_people .news-event-slider .slick-list{overflow: hidden; padding-bottom: 50px;}
     body.single-our_people .news-event-slider .slick-arrow.slick-next{ left: calc(50% - 52px); right: auto; }
 }
+@media only screen and (max-width: 1499px) and (min-width: 1024px){
+    body.single-our_people .news-event-slider .slick-arrow.slick-next{left: calc(50% - 10px);}
+}
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .news-event-slider ul.slick-dots{right: 215px; left: auto; top: -74px; width: auto; max-width: 100%; padding: 0 37px 0 510px;}
     .events-slider-btn{top: 0;}

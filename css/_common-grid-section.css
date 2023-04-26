@@ -18,10 +18,10 @@
     .common-grid-text{width: calc(100% - 891px); max-width: 424px;}
     .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: 0;}
 
-    body.page-template-our-people .common-grid-main, body.page-template-dei .common-grid-main{max-width: 1037px; margin: 0 auto;}
-    body.page-template-our-people .common-grid-image, body.page-template-dei .common-grid-image { width: calc(100% - 426px); margin-right: 101px; }
-    body.page-template-our-people .common-grid-text, body.page-template-dei .common-grid-text  { width: 325px;}
-    body.page-template-our-people .common-grid-list.reverse .common-grid-image, body.page-template-dei .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: 0;}
+    body.page-template-our-people .common-grid-main{max-width: 1037px; margin: 0 auto;}
+    body.page-template-our-people .common-grid-image{ width: calc(100% - 426px); margin-right: 101px; }
+    body.page-template-our-people .common-grid-text{ width: 325px;}
+    body.page-template-our-people .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: 0;}
 }
 @media only screen and (max-width: 1599px) and (min-width: 1024px){
     .common-grid-section .container{max-width: 100%; padding: 0;}

@@ -43,6 +43,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
 .bio-expertise-list ul > li a{color: var(--white);}
 .bio-expertise-list ul > li a:hover{color: var(--white-70);}
+.bio_additional_areas { padding-top: 30px; }
 
 .honor-awards{margin-bottom: 65px;}
 .honor-awards ul > li, .honor-awards ul li ul li{margin-bottom: 14px;}
@@ -70,6 +71,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters ul > li{font-size: 16px; line-height: 1.31; }
 .representative-matters .accordion-content.open{background-color: var(--white); color: var(--text-color);}
 
+.people-bio-page .events-slider-wrap.no_past_speaking{border-bottom: none;}
 .people-bio-page .events-slider-wrap{padding: 0; margin-bottom: 41px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
 .people-bio-page .events-slider-heading{margin-bottom: 8px;}
 .people-bio-page .events-slider-title .icon-heading { margin-bottom: 0; }
@@ -81,7 +83,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .people-bio-page .events-slider-btn .button{min-width: inherit}
 .events_bio_text{margin-bottom: 32px;}
 
-body.single-our_people .speaking-engagements{padding-top: 5px;}
+body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0;}
 .speaking-engagements{padding: 34px 0 20px; }
 .speaking-engagements h5{font-size: 20px; line-height: 1.2; color: var(--copperplate-color); margin-bottom: 37px;}
 .speaking-engagements-list{display: block;}

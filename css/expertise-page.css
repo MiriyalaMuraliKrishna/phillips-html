@@ -1,0 +1,21 @@
+.expertise-row h2{ font-size: 35px; }    
+.expertise-row h4{ font-size: 21px; margin-bottom: 10px; margin-top: 30px; padding-top:30px; border-top:1px solid #a86b49 }
+.expertise-row h5{ font-size: 1.02rem; line-height: 1rem; font-family: Roboto,sans-serif; font-weight: 500; margin-bottom:10px; margin-top:20px; }
+.expertise-row ul>li{ font-size: .95rem; font-family: Roboto,sans-serif; font-weight: 500; margin-bottom:2px; }
+    
+.expertise-row ul{ margin:0 25px 25px; }
+.expertise-row ul>li::before{ left:-16px; }
+    
+.expertise-row h5 a, .expertise-row li a{ color: var(--black); }    
+.expertise-row h5 a:hover, .expertise-row h6 a:hover{ color: var(--copperplate-color); }
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .expertise-row{ gap: 60px; padding-top: 35px;}
+    .expertise-list { flex: 0 0 calc(50% - 30px); margin-bottom: 0;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .expertise-row{display: block;}
+    .expertise-list{margin-bottom: 60px;}
+    .expertise-list:last-child{margin-bottom: 0;}
+}
