@@ -29,13 +29,13 @@
 .insight-page-wrap{padding: 82px 0 124px; }
 .insight-page-heading{margin-bottom: 54px; }
 .insight-page-title h2{margin-bottom: 0; }
-
+.insight-page-title h2 span{font-size: 24px; line-height: 28px; display: block; color: var(--copperplate-color); }
 
 .insight-dropdown ul.selectBox-dropdown-menu li{padding: 1.5px 18px;}
 .insight-dropdown select{background-color: var(--white); border-radius: 0; padding: 11px 15px; font-size: 16px; line-height: 1.75; border: solid 1px #cdb3a5; }
 .insight-search input{border-radius: 0; background-color: var(--white); font-size: 16px; font-weight: normal; line-height: 1.75; padding: 10px 45px 10px 15px; border: solid 1px rgba(174, 174, 174, 0.5); width: 100%; margin-bottom: 0;}
 .insight-search input[type="submit"]{opacity: 0; padding: 0; right: 0; top: 0; position: absolute; }
-.insight-search-btn{right: 21px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); position: absolute;}
+.insight-search-btn{right: 21px; top: 17px; width: 16px; height: 16px; position: absolute;}
 
 .insight-page-main{margin-bottom: 50px;}
 .insight-page-image{margin-bottom: 20px; }
@@ -112,6 +112,7 @@
     .insight-page-wrap { padding: 32px 0 56px; }
     .insight-page-heading{display: block;   margin-bottom: 32px;}
     .insight-page-title h2{font-size: 30px; line-height: 38px;}
+    .insight-page-title h2 span{font-size: 20px; line-height: 26px;}
     .insight-page-filter{display: block;}
     .insight-search{margin-top: 16px;}
     .insight-page-main{display: block;}

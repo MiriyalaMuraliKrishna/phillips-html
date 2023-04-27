@@ -2,9 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../Javascript"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "phillips-html"
+		"liveServer.settings.multiRootWorkspaceName": "Javascript"
 	}
 }

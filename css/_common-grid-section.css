@@ -22,6 +22,7 @@
     body.page-template-our-people .common-grid-image{ width: calc(100% - 426px); margin-right: 101px; }
     body.page-template-our-people .common-grid-text{ width: 325px;}
     body.page-template-our-people .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: 0;}
+    body.page-template-dei .common-grid-wrap{padding: 50px 0 100px;}
 }
 @media only screen and (max-width: 1599px) and (min-width: 1024px){
     .common-grid-section .container{max-width: 100%; padding: 0;}

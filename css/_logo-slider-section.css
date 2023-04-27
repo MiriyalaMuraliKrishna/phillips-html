@@ -1,10 +1,10 @@
 
 
 .logo-slider-section{background-color: #f8f4f2; }
-.logo-slider-wrap{padding: 105px 0 0; }
-span.logo-optional-text{text-align: center; font-size: 20px; color: var(--copperplate-color); line-height: 0.9; font-family: 'Copperplate-Regular', sans-serif; margin-bottom: 31px; display: block;}
+.logo-slider-wrap{padding: 65px 0 0; }
+span.logo-optional-text{font-size: 20px; color: var(--copperplate-color); line-height: 0.9; font-family: 'Copperplate-Regular', sans-serif; margin-bottom: 31px; display: block;}
 
-.logo-slider-main{gap: 19px; justify-content: center;}
+.logo-slider-main{gap: 19px;}
 .logo-slider-item{width: 183px; height: 121px; justify-content: center; align-items: center; border: 1px solid #aeaeae; }
 .logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 0.6;}
 
@@ -17,7 +17,7 @@ span.logo-optional-text{text-align: center; font-size: 20px; color: var(--copper
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .logo-slider-item{flex: 0 0 calc(50% - 10px);}
-    .logo-slider-wrap{padding: 56px 0 0;}
+    .logo-slider-wrap{padding: 26px 0 0;}
     span.logo-optional-text{font-size: 16px; line-height: 1.13;}
     .logo-slider-main{gap: 11px 8px;}
 }

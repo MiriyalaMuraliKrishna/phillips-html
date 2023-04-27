@@ -239,5 +239,23 @@ $(document).ready(function(){
         }
     });   
 
+    if($(window).width() >= 768){
+        var lists = $('ul.read-more-list');
+        lists.each(function(){
+            var list = $(this);
+            var listItems = list.children('li');
+            if(listItems.length > 8) {
+                listItems.slice(8).fadeOut();
+                list.after('<button class="show-more">Read More</button>');
+                var button = list.next('.show-more');
+            button.on('click', function() {
+                listItems.slice(8).fadeToggle();
+                $(this).toggleClass('expanded');
+                $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
+            });
+            }
+        });
+    }
+
 });
 

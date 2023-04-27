@@ -6,8 +6,8 @@
 .short-headline-title .optional-text{line-height: 0.9; margin-bottom: 12px; }
 .short-headline-title h2{margin-bottom: 38px; font-size: 24px; line-height: 1.33;}
 .short_intro_head{margin-bottom: 124px;}
-.short-headline-logo .optional-text{margin-bottom: 65px; }
-.short-logo-list img{width: 132px; opacity: 0.6; }
+.short-headline-logo .optional-text{margin-bottom: 30px; }
+.short-logo-list img{width: 132px; opacity: 1; }
 
 .continued-middle-section .short_intro_desc{padding-top: 84px;}
 .short_intro_desc{ padding-bottom: 84px; position: relative; }
@@ -25,6 +25,7 @@
     .short-headline-content{width: calc(100% - 488px); margin-top: -9px;}
     .insights-default-page .short-headline-content{width: 100%; margin-top: 0;}
     body.page-id-3416 .short_intro_desc::before{height: calc(100% + 140px);}
+    body.page-template-dei .short-headline-wrap{padding-bottom: 13px;}
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .short-headline-wrap{padding: 40px 0; }
