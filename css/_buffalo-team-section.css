@@ -32,7 +32,8 @@
 .buffalo-team-name{margin-bottom: 24px; }
 .buffalo-team-name .optional-text{color: var(--white-90); line-height: 0.9; margin-bottom: 0; }
 .buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 1.79; }
-.buffalo-team-profile{gap: 12px; color: var(--white);}
+.buffalo-team-profiles{padding-top: 10px;}
+.buffalo-team-profile{gap: 12px; align-items: baseline; color: var(--white);}
 .buffalo-team-profile a{color: var(--white);}
 .buffalo-team-profile a:hover{color: var(--text-color);}
 

@@ -19,10 +19,13 @@
     .product-liability-text ul{margin: 11px 0 28px 25px; gap: 0 64px; display: block; flex-wrap: wrap;} 
     .product-liability-text ul > li{flex: 0 0 calc(50% - 32px); -moz-column-break-inside: avoid; break-inside: avoid; margin-bottom: 8px;}
     body.page-template-dei .product-liability-wrap{padding: 10px 0 5px;}
+    body.page-template-dei .dei-product-liability-wrap{padding-top: 100px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .product-liability-main { padding: 70px 30px 55px; }
     .fullwidth-horizontal .product-liability-text{background-color: transparent;}
     .product-liability-text{width: 100%;}
+    body.page-template-dei .dei-product-liability-wrap{padding: 100px 0 16px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .fullwidth-horizontal .product-liability-text{background-color: transparent; padding-left: 0;}
@@ -32,4 +35,5 @@
     .product-liability-text{width: 100%; }
     .expert-expanded .expert-expand-content{max-height: fit-content;}
     .show_less{display: none;}
+    body.page-template-dei .dei-product-liability-wrap{padding: 70px 0 16px;}
 }
