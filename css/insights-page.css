@@ -24,8 +24,7 @@
 .insight-item-arrow{ font-size: 33px; line-height: 1.5; color: var(--white); display: none;}
 .insight-item-arrow:hover{color: var(--white);}
 
-.insight-page-section{background-color: #f8f4f2; z-index: 1;}
-.insight-page-section::before{content: ""; position: absolute; width: 100%; height: 1002px; background-color: #f0eae7; bottom: 0; z-index: -1;}
+.insight-page-section{background-color: #f0eae7; z-index: 1;}
 .insight-page-wrap{padding: 82px 0 124px; }
 .insight-page-heading{margin-bottom: 54px; }
 .insight-page-title h2{margin-bottom: 0; }
@@ -37,14 +36,13 @@
 .insight-search input[type="submit"]{opacity: 0; padding: 0; right: 0; top: 0; position: absolute; }
 .insight-search-btn{right: 21px; top: 17px; width: 16px; height: 16px; position: absolute;}
 
-.insight-page-main{margin-bottom: 50px;}
+.insight-page-main{margin-bottom: 40px;}
 .insight-page-image{margin-bottom: 20px; }
 .insight-page-thumb img{min-height: 274px; max-height: 274px;}
 .insight-page-category{position: absolute; top: 16px; }
 .insight-page-category a{font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; color: var(--white); background-color: var(--copperplate-color); text-transform: uppercase; padding: 10px 12px 9px 11px; margin: 0 10px 10px 0; }
 .insight-page-category a:hover{background-color: var(--text-color); }
-/* .insight-page-category a:nth-child(2n+1){margin-left: 0; }
-.insight-page-category a:nth-child(3n+1){margin-left: 0; } */
+
 .insight-page-desc .optional-text{font-size: 15px; line-height: 1.2; color: #9c5f3d; margin-bottom: 7px; }
 .insight-page-desc h3{font-size: 20px; line-height: 1.35; }
 .insight-page-desc h3 > a{color: var(--black);}
@@ -63,8 +61,11 @@
 .insight-page-content p{margin-bottom: 35px; }
 .insight-page-btn .button{padding: 13px 34px; }
 
-.insights-page ul.blog_list{width: 100%;}
-
+.insights-page ul.blog_list{width: 100%; height: auto; display: block;}
+.list_count{display: block;}
+.more.blog_more{text-align: center;}
+.close-media-search{display: block; width: 100%; padding-top: 0;}
+.close-media-search span.fa-xmark{top: 1px; position: relative;}
 
 /* CTA panel section */
 .insights-page .cta-panel-section{margin-top: 0; padding: 112px 0 108px; }

@@ -16,8 +16,11 @@
 .news-events-inner h2{font-size: 24px; line-height: 1.33; margin-bottom: 16px;}
 .news-events-inner h2 a{color: var(--black); }
 .news-events-inner h2 a:hover{color: var(--copperplate-color); }
-.read-btn{font-size: 16px; line-height: 1.75; }
+.read-btn{font-size: 16px; line-height: 1.75; position: relative;}
 .read-btn:hover .angle-icon{right: 0;}
+.show-more{ font-size: 16px; line-height: 1.75; font-weight: 500; padding-right: 22px; color: #9c5f3d; position: relative; }
+.show-more::after{ position: absolute; top: 50%; transform: translateY(-50%); right: 4px; transition: all .5s ease; font-family: "Font Awesome 6 Pro"; font-weight: 900; content: "\f107"; font-size: 12px; }
+.show-more.expanded::after{ content: "\f106"; }
 .angle-icon{position: absolute; top: 55%; transform: translateY(-50%); right: 4px; transition: all .5s ease;}
 .news-events-image .button{color: var(--copperplate-color); }
 .news-events-image .button:hover{color: var(--white); }

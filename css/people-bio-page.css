@@ -7,7 +7,6 @@
 
 /* Our people section */
 .bio-people-section{background-color: #f8f4f2; z-index: 1;}
-.bio-people-section::before{content: ""; position: absolute; top: 639px; width: 100%; height: calc(100% - 639px); background-color: #f0eae7; z-index: -1;}
 .bio-people-wrap{padding: 26px 0 78px;}
 
 .bio-people-list{background-color: var(--white); padding: 32px 43px 22px 52px; margin-bottom: 25px;}
@@ -114,7 +113,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .events-slide-text h2 { max-width: 330px;}
     .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; position: static;}
     .speaking-engagements-list ul{gap: 5px 60px; display: grid; grid-template-columns: repeat(2, 1fr);}
-    body.single-our_people.postid-3886 .bio-people-section::before{top: 495px; height: calc(100% - 495px);}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}
@@ -137,7 +135,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .common-banner-text-right{color: var(--white-90) !important;}
     .people-bio-page .common-banner-text-right a{color: var(--white-90);}
     .people-bio-page .common-banner-location{border-left: none;}
-    .bio-people-section::before{top: 914px; height: 1205px;}
     .bio-people-wrap{padding: 11px 0 0;}
     .people-bio-page .download-print-main{padding: 0 0 8px; margin-bottom: 42px;}
     .people-bio-page .download-print{margin-bottom: 0;}

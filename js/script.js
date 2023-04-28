@@ -245,14 +245,14 @@ $(document).ready(function(){
             var list = $(this);
             var listItems = list.children('li');
             if(listItems.length > 8) {
-                listItems.slice(8).fadeOut();
-                list.after('<button class="show-more">Read More</button>');
+                listItems.slice(8).hide();
+                list.after('<a href="javascript:void(0);" class="show-more">Read More</a>');
                 var button = list.next('.show-more');
-            button.on('click', function() {
-                listItems.slice(8).fadeToggle();
-                $(this).toggleClass('expanded');
-                $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
-            });
+                button.on('click', function() {
+                    listItems.slice(8).fadeToggle('fast');
+                    $(this).toggleClass('expanded');
+                    $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
+                });
             }
         });
     }
