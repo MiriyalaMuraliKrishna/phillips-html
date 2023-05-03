@@ -31,6 +31,8 @@
 .buffalo-team-inner p{font-size: 16px; font-style: italic; line-height: 1.75; color: var(--white-90); margin-bottom: 38px;}
 .buffalo-team-name{margin-bottom: 24px; }
 .buffalo-team-name .optional-text{color: var(--white-90); line-height: 0.9; margin-bottom: 0; }
+.buffalo-team-name .optional-text a{color: var(--white-90);}
+.buffalo-team-name .optional-text a:hover{color: var(--white-50);}
 .buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 1.79; }
 .buffalo-team-profiles{padding-top: 10px;}
 .buffalo-team-profile{gap: 12px; align-items: baseline; color: var(--white);}
@@ -69,7 +71,7 @@
     .buffalo-team-text{width: 100%; display: block; margin-top: -130px;}
     .buffalo-team-inner p{margin-bottom: 17px; }
     .buffalo-team-name{margin-bottom: 19px; }
-    .buffalo-team-content .slick-dots{margin: 17px 0; position: relative;}
+    .buffalo-team-content .slick-dots{margin: 17px 0; position: relative; }
     .buffalo-view-btn{text-align: center; display: block; font-size: 16px; font-weight: 500; line-height: 0.88; margin-top: 32px; }
     .buffalo-view-btn .right-icon{margin-left: 10px; }
     .buffalo-team-image img{height: auto;}

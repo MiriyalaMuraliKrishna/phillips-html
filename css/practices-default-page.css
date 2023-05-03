@@ -66,12 +66,13 @@
     .practice-default-inner{padding: 34px 32px 43px;}
     .practices-default-page .sub-topic-wrap{padding: 45px 0 26px;}
     .practices-default-page .sub-topic-heading{margin-bottom: 30px;}
-    .business-commercial-wrap{padding: 30px 0 50px; }
+    .business-commercial-wrap{padding: 50px 0 50px; }
     .practices-default-page .buffalo-team-wrap{padding: 55px 0 5px; }
     .practices-default-page .buffalo-team-heading{margin-bottom: 31px; }
     .practices-default-page .events-slider-wrap{padding: 50px 0 54px;}
     .practices-default-page .faq-wrap{padding: 60px 0 55px;}
     .practices-default-page .product-liability-main h4:last-of-type{margin-top: 30px;}
     .practices-default-page .buffalo-team-heading h2{margin-bottom: 18px;}
-    .practice-default-form{margin-top: 46px;}
+    .practice-default-form{margin-top: 50px;}
+    .practice-default-form .practice-default-inner{margin-bottom: 0;}
 }

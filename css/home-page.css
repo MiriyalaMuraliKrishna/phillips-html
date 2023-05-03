@@ -107,7 +107,12 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.home-practice-main{display: block;}
 	.home-practice-list{margin-bottom: 49px;}
 	.home-practice-list:last-child{margin-bottom: 0; }
-	.home-practice-mobile{top: 50%; left: 0; z-index: 1; position: absolute; color: var(--white); transform: translateY(-50%); width: 100%; text-align: center; }
+	.home-practice-mobile{top: 50%; left: 0; z-index: 2; position: absolute; color: var(--white); transform: translateY(-50%); width: 100%; text-align: center; }
+	.home-practice-mobile h3{color: var(--white);}
+	.home-practice-mobile h3 a{color: var(--white);}
+	.home-practice-mobile h3 a:hover{color: var(--copperplate-color);}
+	.home-practice-mobile p{display: none;}
+	.home-practice-image picture.object-fit img{min-height: 300px;}
 
 	.home-banner-text h1{font-size: 33px; text-align: center; line-height: 1.27; }
 	.home-banner-desc{text-align: center; }

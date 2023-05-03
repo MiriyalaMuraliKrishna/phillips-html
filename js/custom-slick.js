@@ -212,6 +212,7 @@ $(document).ready(function(){
             slidesToScroll: 1,
             infinite: true,
             dots: false,
+            speed: 1000,
             arrows: true,
             prevArrow: '<div class="slick-arrow slick-prev flex flex-center fa-light fa-angle-up"></div>',
             nextArrow: '<div class="slick-arrow slick-next flex flex-center fa-light fa-angle-down"></div>',
@@ -225,6 +226,7 @@ $(document).ready(function(){
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
+            speed: 1000,
             fade: true,
             asNavFor: '.buffalo-slider-for',
         });

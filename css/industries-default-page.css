@@ -50,6 +50,7 @@ body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{ma
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .industries-default-page .default-banner-main{max-width: 630px; margin: 0 auto; text-align: center;}
+    .how-can-wrap.our-office{padding: 0 0 112px;}
 }
 @media only screen and (min-width: 1024px){
     .how-help-text{width: 365px; margin-right: 80px; }
@@ -111,4 +112,5 @@ body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{ma
     .industries-default-page .faq-wrap { padding: 0px 0 32px; }
     .industries-default-page .faq-thumb::before{display: none;}
     .industries-default-page .cta-panel-section{padding-bottom: 56px;}
+    .how-can-wrap.our-office{padding: 18px 0 80px;}
 }
