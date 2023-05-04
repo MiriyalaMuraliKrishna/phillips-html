@@ -8,7 +8,7 @@ section.wheel-pos{position: relative; z-index: 1800;}
 .wheel-close:hover{ color: var(--copperplate-color); }
 .wheel-heading{font-size: 24px; line-height: 28px; margin-bottom: 14px; letter-spacing: normal; font-weight: 500; font-family: 'Lora', serif; display: block; color: var(--copperplate-color);}
 .wheel-heading br{display: none;}
-.wheel-center{ width: 680px; height: 680px; margin: 50px auto; position: relative;}
+.wheel-center{ width: 680px; height: 680px; margin: 80px auto 60px; position: relative;}
 #wheel-spin{ top:50%; left:50%; transform:translate(-50%,-50%); width: 448px; height: 448px; border-radius:50%; background-color: var(--white); box-shadow: 0 0 8px var(--black-25); text-align: center; overflow: hidden; position: absolute; z-index: 12; }
 #wheel-spin::after{ display: none; width: 50%; height: 100%; left: 50%; content: ""; background-color: rgb(75, 101, 126); position: absolute; }
 .wheel-title{ font-size: 63px; line-height: 84px; letter-spacing: -3.5px; font-family: 'FranklinGothic-Bold', sans-serif; font-weight: normal; }
@@ -33,30 +33,30 @@ section.wheel-pos{position: relative; z-index: 1800;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
-	.wheel-center{float: right; margin-left: 50px;}
+	.diversity-right{float: right; margin: 50px 0 50px 50px;}
 	.wheel-circle-1{ transform: translateX(-50%) rotate(-19deg); left:50%; }
 	.wheel-circle-2{ transform: rotate(15deg); }
-	.wheel-circle-3{ transform:rotate(51.5deg);}
-	.wheel-circle-4{ transform: translateX(8px) rotate(87deg);}
+	.wheel-circle-3{ transform:rotate(51deg);}
+	.wheel-circle-4{ transform: translateX(8px) rotate(87.5deg);}
 	.wheel-circle-5{ transform: translateX(26px) rotate(120deg); }
 	.wheel-circle-6{ transform: translateX(14px) rotate(151.5deg); top: 8px;}
 	.wheel-circle-7{ transform: translateY(26px) rotate(184deg); top: 0; }
 	.wheel-circle-8{ transform: translateY(36px) rotate(221deg); top: 0; }
 	.wheel-circle-9{ transform: translateX(-36px) rotate(246.5deg); top: 0; }
-	.wheel-circle-10{ transform: translateX(-40px) rotate(279deg); top: 4px;}
+	.wheel-circle-10{ transform: translateX(-40px) rotate(280deg); top: 4px;}
 	.wheel-circle-11{ transform: translateX(-28px) rotate(306deg); }
 	
 	.wheel-text{ font-size: 23px; line-height: 26px; font-family: 'Roboto', sans-serif; font-weight: 800; padding-top: 60px; }
 	.wheel-circle-1 .wheel-text{padding-top: 68px;}
 	.wheel-circle-2 .wheel-text{padding-top: 56px;}
-	.wheel-circle-3 .wheel-text{padding-top: 68px;}
-	.wheel-circle-4 .wheel-text{padding-top: 68px;}
-	.wheel-circle-5 .wheel-text{padding-top: 0; padding-bottom: 70px; transform: rotate(172deg);}
+	.wheel-circle-3 .wheel-text{padding-top: 80px;}
+	.wheel-circle-4 .wheel-text{padding-top: 72px;}
+	.wheel-circle-5 .wheel-text{padding-top: 0; padding-bottom: 80px; transform: rotate(172deg);}
 	.wheel-circle-6 .wheel-text{padding-top: 0; padding-bottom: 58px; transform: rotate(180deg); font-size: 22px; line-height: 24px;}
 	.wheel-circle-7 .wheel-text{padding-top: 0; padding-bottom: 66px; transform: rotate(180deg);}
 	.wheel-circle-8 .wheel-text{padding-top: 0; padding-bottom: 68px; transform: rotate(175deg);}
 	.wheel-circle-9 .wheel-text{padding-top: 0; padding-bottom: 68px; transform: rotate(180deg);}
-	.wheel-circle-10 .wheel-text{padding-top: 70px; }
+	.wheel-circle-10 .wheel-text{padding-top: 78px; }
 	.wheel-circle-11 .wheel-text{padding-top: 55px; }
 
 	.wheel-shape-1{ transform: translateX(-50%) rotate(-18deg); left:50%; z-index: 2;}
@@ -72,7 +72,7 @@ section.wheel-pos{position: relative; z-index: 1800;}
 	.wheel-shape-11 { transform: rotate(311.5deg); left: 211px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 200px){
-	.wheel-center{width: 320px; height: 320px; border: 1px solid transparent;}
+	.wheel-center{width: 320px; height: 320px; margin: 50px auto 30px; border: 1px solid transparent;}
 	#wheel-spin{width: 255px; height: 255px;}
 	.wheel-title{font-size: 32px; line-height: 48px; letter-spacing: -1px;}
 	.wheel-title span { padding-top: 5px; font-size: 20px; line-height: 24px; letter-spacing: -1px; }

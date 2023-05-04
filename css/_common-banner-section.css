@@ -53,8 +53,8 @@
     .common-banner-text{padding-left: 32px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .common-banner-main{flex-direction: column-reverse; }
-    .common-banner-text{padding: 48px 24px; }
+    .common-banner-text{flex: 0 0 calc(100% - 376px); padding: 48px 24px;}
+    .common-banner-image{flex: 0 0 376px;}
     .common-banner-text h1{font-size: 30px; margin-bottom: 23px;}
     .common-banner-desc{z-index: 1; }
     .common-banner-desc::after {width: 171px; height: 412px; top: 0px; left: -101px; content: ""; position: absolute; background-image: url("./images/banner-symbol.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; }
@@ -65,6 +65,10 @@
     .common-banner-location span{line-height: 1.79;}
     .common-banner-dates-item .common-banner-text-right, .common-banner-location .common-banner-text-right{font-size: 16px; font-weight: 500; line-height: 1.75; }
     .common-banner-item li{padding: 0 8px;}
-    .common-banner-image{height: 100%; width: 100%;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .common-banner-main{flex-direction: column-reverse;}
+    .common-banner-text{flex: none;}
+    .common-banner-image{flex: none;}
 }
 
