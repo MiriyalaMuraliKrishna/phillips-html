@@ -29,7 +29,7 @@
     
     body.single-our_people .news-event-slider.slick-slider{display: block; width: 100vw;}
     body.single-our_people .news-event-slider .slick-list{overflow: hidden; padding-bottom: 50px;}
-    body.single-our_people .news-event-slider .slick-arrow.slick-next{ left: calc(50% - 52px); right: auto; }
+    body.single-our_people .news-event-slider .slick-arrow.slick-next{ left: calc(50% - 56px); right: auto; }
 }
 @media only screen and (max-width: 1499px) and (min-width: 1024px){
     body.single-our_people .news-event-slider .slick-arrow.slick-next{left: calc(50% - 10px);}

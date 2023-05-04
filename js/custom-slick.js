@@ -20,7 +20,7 @@ $(document).ready(function(){
             ]
     });
     let countSlides = $('.news-event-slider').slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: false,
         dots: false,
@@ -210,7 +210,7 @@ $(document).ready(function(){
         $('.buffalo-slider-for').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
-            infinite: true,
+            infinite: false,
             dots: false,
             speed: 1000,
             arrows: true,
