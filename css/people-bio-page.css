@@ -35,6 +35,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-people-expertise h3{color: var(--white); }
 .bio-people-expertise i{max-width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 58px;}
 
+.bio-expertise-main{display: block;}
 .bio-expertise-list{flex:0 0 50%; }
 .bio-expertise-list h4{color: var(--white); margin-bottom: 14px; }
 .bio-expertise-list ul{margin: 0 0 0 23px; }
@@ -42,7 +43,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
 .bio-expertise-list ul > li a{color: var(--white);}
 .bio-expertise-list ul > li a:hover{color: var(--white-70);}
-.bio_additional_areas { padding-top: 30px; }
+.bio_additional_areas { padding: 30px 0 30px; color: var(--text-color);}
 
 .honor-awards{margin-bottom: 65px;}
 .honor-awards ul > li, .honor-awards ul li ul li{margin-bottom: 14px;}
@@ -70,8 +71,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters ul > li{font-size: 16px; line-height: 1.31; }
 .representative-matters .accordion-content.open{background-color: var(--white); color: var(--text-color);}
 
-.people-bio-page .events-slider-wrap.no_past_speaking{border-bottom: none;}
-.people-bio-page .events-slider-wrap{padding: 0; margin-bottom: 41px; border-bottom: 1px solid rgba(0, 0, 0 , 0.1); }
+.people-bio-page .events-slider-wrap{padding: 0; margin-bottom: 41px;}
 .people-bio-page .events-slider-heading{margin-bottom: 8px;}
 .people-bio-page .events-slider-title .icon-heading { margin-bottom: 0; }
 .people-bio-page .events-slide-text h2{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
@@ -95,12 +95,17 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
 .speaking-engagements-list ul li a:hover{color: var(--copperplate-color);}
 
 .people-bio-page .custom-cta-wrap{padding: 145px 0 112px; }
-.bio-people-expand-content{max-height: 330px; margin-bottom: 18px; overflow: hidden;}
+.bio-people-expand-content{max-height: 370px; margin-bottom: 18px; overflow: hidden;}
 .bio-people-expand-content.expert-expanded{max-height: fit-content;}
 .bio-expand-btns{padding-bottom: 35px;}
 
 .activites-list{margin-bottom: 30px;}
 .activites-list:last-child{margin-bottom: 0;}
+.activites-list h4{ line-height: 1.2; font-size: 20px; color: var(--copperplate-color); font-family: 'Lora', serif; }
+.articles_pbns{ padding: 64px 0 58px; background-color: #f0eae7; }
+.articles_pbns .activites-main { margin-bottom: 30px; }
+
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -113,6 +118,8 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .events-slide-text h2 { max-width: 330px;}
     .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; position: static;}
     .speaking-engagements-list ul{gap: 5px 60px; display: grid; grid-template-columns: repeat(2, 1fr);}
+    #articles-publications .activites-row{gap: 40px; width: 100%; display: flex; flex-wrap: wrap;}
+    #articles-publications .activites-list{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}
@@ -127,6 +134,8 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
 @media only screen and (max-width:1023px) and (min-width: 768px){
     .bio-people-aside{width: 100%; }
     .bio-people-main{display: block;}
+    #articles-publications .activites-row{gap: 40px; width: 100%; display: flex; flex-wrap: wrap;}
+    #articles-publications .activites-list{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
     .people-bio-page .common-banner-text{padding: 19px 24px 23px;}
@@ -190,4 +199,7 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .custom-cta-wrap{padding: 56px 0; }
     .bio-activis#activites{padding-bottom: 56px;}
     .events_bio_text{margin-top: 40px;}
+    .buffalo-team-content.buffalo-slider-nav .slick-arrow{top: 198px;}
+    .buffalo-team-content.buffalo-slider-nav .slick-btn{ height: 50px; background-color: var(--text-color);}
+    .buffalo-team-content.buffalo-slider-nav .slick-btn:hover{opacity: 0.8;}
 }

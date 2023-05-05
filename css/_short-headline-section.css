@@ -36,13 +36,16 @@
 @media only screen and (max-width: 767px) and (min-width:200px){
     .short-headline-wrap{padding: 30px 0; }
     .short-headline-main{display: block;}
+    .short-headline-main.hide-mobile{display: none;}
     .short-headline-title{padding: 42px 32px 42px 31px; margin-bottom: 30px; }
     .short-headline-title h2{margin-bottom: 28px;}
     .short-headline-title .button{width: 100%;}
     .short-headline-content h2{font-size: 30px; margin-bottom: 21px;}
     .short-headline-content h3{font-size: 26px; }
+    .short-headline-logo{margin-bottom: 50px;}
     .short-headline-logo .optional-text{margin-bottom: 15px; font-size: 16px; line-height: 1.13;}
     .short-headline-content::before{height: calc(100% - 378px);}
-    #overview .practice-default-content .short_intro_desc{padding-bottom: 40px;}
-    #overview .practice-default-content .short_intro_head{margin-bottom: 0;}
+    .short_intro_head{margin-bottom: 40px;}
+    .short_intro_desc{padding: 40px 0 40px;}
+    .short_intro_desc::before{top: 0; height: 100%;}
 }

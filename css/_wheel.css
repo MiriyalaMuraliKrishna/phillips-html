@@ -70,6 +70,15 @@ section.wheel-pos{position: relative; z-index: 1800;}
 	.wheel-shape-9 { transform: translateY(40px) rotate(256deg); left: 224px; }
 	.wheel-shape-10 { transform: translateY(0px) rotate(282deg); left: 214px; }
 	.wheel-shape-11 { transform: rotate(311.5deg); left: 211px; }
+
+    .dei-page .short-headline-content h2,
+	.dei-page .short-headline-content h3,
+	.dei-page .short-headline-content h4,
+	.dei-page .short-headline-content h5,
+    .dei-page .short-headline-content h6 {
+    	clear: none;
+    }
+	.wheel-title{padding-bottom: 22px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 200px){
 	.wheel-center{width: 320px; height: 320px; margin: 50px auto 30px; border: 1px solid transparent;}

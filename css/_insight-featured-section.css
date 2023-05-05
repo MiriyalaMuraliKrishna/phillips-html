@@ -27,7 +27,6 @@
 .insight-featured-item:hover .insight-featured-bg{opacity: 1;}
 .insight-featured-section.no_cta_section{padding-bottom: 88px;}
 body.single-our_people .insight-featured-section{padding: 80px 0 80px;}
-.activites-list h4{ line-height: 1.2; font-size: 20px; color: var(--copperplate-color); font-family: 'Lora', serif; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

@@ -1,12 +1,11 @@
 
-
 .logo-slider-section{background-color: #f8f4f2; }
 .logo-slider-wrap{padding: 65px 0 0; }
 span.logo-optional-text{font-size: 20px; color: var(--copperplate-color); line-height: 0.9; font-family: 'Copperplate-Regular', sans-serif; margin-bottom: 31px; display: block;}
 
 .logo-slider-main{gap: 19px;}
-.logo-slider-item{width: 183px; height: 121px; justify-content: center; align-items: center; border: 1px solid #aeaeae; }
-.logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 0.6;}
+.logo-slider-item{width: 183px; height: 121px; background-color: var(--white); justify-content: center; align-items: center; border: 1px solid #aeaeae; }
+.logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

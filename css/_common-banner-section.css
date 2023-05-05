@@ -40,6 +40,7 @@
     .common-banner-dates{flex-basis: 40%;}
     .common-banner-location{flex-basis: 40%;}
     body.postid-7388 .common-banner-desc .button{margin-top: 19px;}
+    .people-bio-page .common-banner-dates{flex-basis: 100%;}
 }
 @media only screen and (min-width: 1601px){
     .common-banner-text{flex: 50%;}

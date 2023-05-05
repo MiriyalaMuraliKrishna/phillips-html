@@ -83,7 +83,7 @@ nav.pagination .wp-pagenavi span.pages{color: #2d2d2d; margin-right: auto;}
     ul.filter-list li a:hover::after{color: var(--copperplate-color);}
 
     .srch-results-image{width: 100%; margin: 0 0 24px 0;}
-    .srch-results-image img{min-height: 231px; max-height: 231px;}
+    .srch-results-image img{min-height: 231px;}
     .srch-results-text{width: 100%; }
     .srch-results-text p{margin-bottom: 16px; }
     .srch-results-list{padding-bottom: 31px; margin-bottom: 31px;}

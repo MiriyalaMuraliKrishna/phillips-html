@@ -204,6 +204,8 @@ img { -ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-wi
 .slick-btn{width: 45px; height: 89px; font-size: 2rem; line-height: 2.5rem; background-color: var(--copperplate-color); color: var(--white); cursor: pointer; z-index: 1; transition: all 0.3s ease;}
 .slick-next .slick-btn{margin-left: auto;}
 .slick-btn:hover{background-color: var(--black);}
+.slick-arrow.slick-next.slick-disabled{opacity: 0.5;}
+.slick-arrow.slick-next.slick-disabled .slick-btn{background-color: var(--text-color);}
 
 .video-sec-slider .slick-arrow{left: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1;}
 .video-sec-slider .slick-next{left: auto; right: 0;}
