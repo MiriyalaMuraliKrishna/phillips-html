@@ -80,4 +80,6 @@
     .dei-page .cta-panel-wrap{padding: 56px 0;}
     .affinity-wrap{padding: 95px 0 56px;}
     .affinity-main ul.slick-dots{justify-content: center;}
+    .dei-point-thumb img{min-height: 320px;}
+    .dei-point-content{padding: 30px 30px 29px;}
 }

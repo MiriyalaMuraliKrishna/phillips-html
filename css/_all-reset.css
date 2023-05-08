@@ -238,6 +238,8 @@ ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%;
 div.no_content_jq{padding: 0;}
 .no_result_found{padding-top: 60px;}
 h1.sup, h2.sup, h1 sup, h2 sup { bottom: 2.75ex; font-size: .75rem; }
+#wpfront-scroll-top-container{z-index: 800;}
+#wpfront-scroll-top-container::after { width: 75%; height: 75%; top: 50%; left: 50%; z-index: -1; transform: translate(-50%, -50%); background-color: var(--white); border-radius: 50%; content: ""; position: absolute; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){

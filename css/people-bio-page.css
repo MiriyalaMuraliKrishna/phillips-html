@@ -120,6 +120,7 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .speaking-engagements-list ul{gap: 5px 60px; display: grid; grid-template-columns: repeat(2, 1fr);}
     #articles-publications .activites-row{gap: 40px; width: 100%; display: flex; flex-wrap: wrap;}
     #articles-publications .activites-list{flex: 0 0 calc(50% - 20px);}
+    #articles-publications.activities_fullwidth .activites-row{display: block;}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}

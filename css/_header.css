@@ -1,5 +1,5 @@
 
-.main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white); z-index: 800; transition: background-color 0.3s ease;}
+.main-header{width: 100%; top: 0; left: 0; position: fixed; background-color: var(--white); z-index: 1800; transition: background-color 0.3s ease;}
 .logo a{width: 100%; height: auto; display: block;}
 .logo img{width: 100%;}
 .reverse_logo{display: none;}
@@ -154,7 +154,7 @@
     .sticky_header:not(.fixed_header) .toggle_bar{background-image: url('images/toggle-icon-white.svg');}
     .header_mobile .toggle_bar{background-image: url('images/toggle-icon-white.svg');}
 
-    .navigation:not(nav.pagination){left: -100%; top: 0; width: 100%; height: 100%; margin-top: 65px; padding-top: 0; padding-bottom: 63px; max-width: 408px; background-color: var(--white); display: block; position: fixed; z-index: 800; overflow-y: scroll; -webkit-overflow-scrolling: touch; transition: left 0.3s ease-in-out;}
+    .navigation:not(nav.pagination){left: -100%; top: 0; width: 100%; height: 100%; margin-top: 65px; padding-top: 0; padding-bottom: 63px; max-width: 408px; background-color: var(--white); display: block; position: fixed; z-index: 1850; overflow-y: scroll; -webkit-overflow-scrolling: touch; transition: left 0.3s ease-in-out;}
     .navigation:not(nav.pagination).open{left: 0;}
     ul.main_menu{display: block; margin: 0;}
     ul.main_menu > li{margin: 0;}

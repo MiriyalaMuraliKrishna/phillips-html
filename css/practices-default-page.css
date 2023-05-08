@@ -34,6 +34,15 @@
 .practices-default-page .events-slider-wrap{padding-top: 100px;}
 
 #articles .events-slider-btn{top: 0;}
+.practice-default-inner .short-headline-logo{margin-top: 40px; margin-bottom: 0;}
+.practice-default-inner .short-logo-lists{gap: 20px; display: flex;}
+.practice-default-inner .short-logo-list{ flex: 0 0 calc(50% - 10px); }
+.practice-default-inner .short-logo-list img{width: 100px; object-fit: contain;}
+
+.short-intro-logos .short-headline-logo{background-color: var(--white); padding: 56px 45px 60px 52px;}
+.short-intro-logos .short-logo-lists{gap: 20px; display: flex;}
+.short-intro-logos .short-logo-list{ flex: 0 0 calc(50% - 10px); }
+.short-intro-logos .short-logo-list img{width: 100px; object-fit: contain;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -77,4 +86,5 @@
     .practice-default-form .practice-default-inner{margin-bottom: 0;}
     .practice-mobile-section{padding: 30px 0 30px; background-color: #f8f4f2;}
     .practice-mobile-section.no_space{padding-top: 0;}
+    .short-intro-logos .short-headline-logo{padding: 30px 20px 40px;}
 }

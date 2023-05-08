@@ -48,4 +48,5 @@
     .short_intro_head{margin-bottom: 40px;}
     .short_intro_desc{padding: 40px 0 40px;}
     .short_intro_desc::before{top: 0; height: 100%;}
+    .sidebar_mob_cta{background-color: #F0EAE7; padding-bottom: 15px;}
 }
