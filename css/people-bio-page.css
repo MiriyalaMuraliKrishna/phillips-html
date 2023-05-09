@@ -72,7 +72,7 @@ span.bio-people-arrow{margin-left: 18px; }
 .representative-matters ul > li{font-size: 16px; line-height: 1.31; }
 .representative-matters .accordion-content.open{background-color: var(--white); color: var(--text-color);}
 
-.people-bio-page .events-slider-wrap{padding: 0; margin-bottom: 68px;}
+.people-bio-page .events-slider-wrap{padding: 0;}
 .people-bio-page .events-slider-heading{margin-bottom: 8px;}
 .people-bio-page .events-slider-title .icon-heading { margin-bottom: 0; }
 .people-bio-page .events-slide-text h2{font-family: Lora; font-size: 20px; line-height: 1.35; color: var(--black); }
@@ -105,12 +105,12 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
 .activites-list h4{ line-height: 1.2; font-size: 20px; color: var(--copperplate-color); font-family: 'Lora', serif; }
 .articles_pbns{ padding: 64px 0 58px; background-color: #f0eae7; }
 .articles_pbns .activites-main { margin-bottom: 30px; }
-
-
+#speaking-engagements .show-more{margin-bottom: 30px; display: inline-block;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .bio_additional_areas { color: var(--white);}
+    .bio_additional_areas h4{color: var(--white);}
 }
 @media only screen and (min-width: 1024px){
     .bio-people-main{position: relative;}

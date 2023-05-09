@@ -6,13 +6,13 @@
 .office-page .common-banner-text-right a:hover{color: var(--white);}
 
 /* short subheadline section */
-.office-page .short-headline-wrap{padding: 56px 0 134px;}
+.office-page .short-headline-wrap{padding: 56px 0 91px;}
 
 /* News & events */
 .office-page .events-slider-section{background-color: #f0eae7; }
 
 /* Careers Opportunities */
-.office-page .careers-opportunities-wrap{padding: 130px 0 105px; }
+.office-page .careers-opportunities-wrap{padding: 62px 0 80px; }
 
 /* CTA section */
 .office-page .cta-panel-section{ margin-top: 0; padding: 0 0 60px; }
