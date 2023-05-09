@@ -9,12 +9,13 @@ span.cta-optional-text{font-size: 18px; line-height: 1.5; color: var(--white-70)
 .cta-panel-text h3{font-size: 30px; margin-bottom: 19px; color: var(--white);}
 .cta-panel-text a:not(.button){color: var(--white);}
 .cta-panel-text a:not(.button):hover{color: var(--copperplate-color);}
-
+.cta-panel-main.no_cta_bg{background-color: var(--text-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .cta-panel-text{max-width: 470px;}
     .cta-panel-text .button{margin-top: 11px;}
+    .no_cta_bg .cta-panel-text{max-width: 100%;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .cta-panel-inner{padding: 104px 23px 61px;}

@@ -8,6 +8,8 @@ span.testimonial_author{color: rgba(168, 107, 73, 0.9); font-size: 18px; line-he
 
 .testimonial-list.no_image{display: block;}
 .testimonial-list.no_image .testimonial-content{width: 100%;}
+.no_testi_slide.slick-slider{padding-bottom: 60px;}
+.no_testi_slide.slick-slider ul.slick-dots{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width:1024px){

@@ -8,11 +8,11 @@
 
 /* Sub topic section */
 .default-page .sub-topic-section{background-color: #f8f4f2; }
-.default-page .sub-topic-wrap{padding: 106px 0 107px; }
+.default-page .sub-topic-wrap{padding: 74px 0 90px; }
 .default-page .sub-topic-heading h2{margin-bottom: 23px; }
 
 /* cta panel section */
-.default-page .cta-panel-section{background-color: #f0eae7; margin-top: 0; padding: 109px 0 112px; }
+.default-page .cta-panel-section{background-color: #f0eae7; margin-top: 0; padding: 92px 0 90px; }
 
 /* partner organization section */
 .partners-default-section{background-color: #f8f4f2; }
@@ -24,7 +24,7 @@
 .partners-default-list:hover .partners-default-thumb img{opacity: 1; filter: saturate(1);}
 
 /* Events slider section */
-.default-page .events-slider-wrap{padding: 140px 0 136px; }
+.default-page .events-slider-wrap{padding: 140px 0 74px; }
 
 /* custom cta section */
 .default-page .custom-cta-section{background-color: #f0eae7; }

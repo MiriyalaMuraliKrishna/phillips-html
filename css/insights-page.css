@@ -29,6 +29,7 @@
 .insight-page-heading{margin-bottom: 54px; }
 .insight-page-title h2{margin-bottom: 0; }
 .insight-page-title h2 span{font-size: 24px; line-height: 28px; display: block; color: var(--copperplate-color); }
+.insight-page-wrap .page-header h2{font-size: 28px;}
 
 .insight-dropdown ul.selectBox-dropdown-menu li{padding: 1.5px 18px;}
 .insight-dropdown select{background-color: var(--white); border-radius: 0; padding: 11px 15px; font-size: 16px; line-height: 1.75; border: solid 1px #cdb3a5; }
@@ -40,8 +41,12 @@
 .insight-page-image{margin-bottom: 20px; }
 .insight-page-thumb img{min-height: 274px; max-height: 274px;}
 .insight-page-category{position: absolute; top: 16px; }
-.insight-page-category a{font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; color: var(--white); background-color: var(--copperplate-color); text-transform: uppercase; padding: 10px 12px 9px 11px; margin: 0 10px 10px 0; }
-.insight-page-category a:hover{background-color: var(--text-color); }
+.insight-page-category > a{font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; color: var(--white); background-color: var(--copperplate-color); text-transform: uppercase; padding: 10px 12px 9px 11px; margin: 0 10px 10px 0; }
+.insight-page-category > a:hover{background-color: var(--text-color); }
+.client_single_cat{background-color: var(--copperplate-color); text-transform: uppercase; padding: 10px 12px 9px 11px; margin: 0 10px 10px 0; line-height: normal;}
+.client_single_cat a{font-size: 11px; line-height: 1.64; letter-spacing: 0.46px; font-weight: bold; color: var(--white); text-transform: uppercase;}
+.client_single_cat a:hover{color: var(--text-color);}
+.client_single_cat span{ padding: 0 8px; font-size: 24px; line-height: 0; color: var(--white); display: inline-block; vertical-align: middle; }
 
 .insight-page-desc .optional-text{font-size: 15px; line-height: 1.2; color: #9c5f3d; margin-bottom: 7px; }
 .insight-page-desc h3{font-size: 20px; line-height: 1.35; }

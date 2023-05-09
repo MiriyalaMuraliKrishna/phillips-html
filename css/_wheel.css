@@ -78,7 +78,7 @@ section.wheel-pos{position: relative; z-index: 1800;}
     .dei-page .short-headline-content h6 {
     	clear: none;
     }
-	.wheel-title{padding-bottom: 22px;}
+
 }
 @media only screen and (max-width: 1299px) and (min-width: 200px){
 	.wheel-center{width: 320px; height: 320px; margin: 50px auto 30px; border: 1px solid transparent;}

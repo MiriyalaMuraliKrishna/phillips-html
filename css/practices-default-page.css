@@ -11,8 +11,7 @@
 .practice-sidebar-title h2{margin-bottom: 28px; font-size: 24px; line-height: 1.33;}
 
 /* Sub topic section */
-.practices-default-page .sub-topic-wrap{padding: 75px 0 128px;}
-.practices-default-page .sub-topic-heading{margin-bottom: 92px; }
+.practices-default-page .sub-topic-wrap{padding: 75px 0 54px;}
 .practices-default-page .sub-topic-heading h2{margin-bottom: 61px; }
 .practices-default-page .sub-topic-heading h2::after{content: ""; position: absolute; width: 50px; height: 4px; background-color: #9c5f3d; left: 50%; transform: translateX(-50%); bottom: -27px; }
 .practices-default-page .accordion-header.accordion-active{color: var(--white); }
@@ -21,10 +20,10 @@
 /* Business commerical section */
 .business-commercial-section{background-color: #f8f4f2; z-index: 1;}
 .business-commercial-section::before{position: absolute; content: ""; width: 100%; height: 320px; background-color: #f0eae7; z-index: -1;}
-.business-commercial-wrap{padding: 50px 0 123px;}
+.business-commercial-wrap{padding: 50px 0 90px;}
 
 /* Buffalo team section */
-.practices-default-page .buffalo-team-wrap{padding: 125px 0 85px;}
+.practices-default-page .buffalo-team-wrap{padding: 125px 0 8px;}
 .practices-default-page .buffalo-team-heading{margin-bottom: 67px;}
 .practices-default-page .buffalo-team-heading h2{margin-bottom: 25px;}
 .practices-default-page .buffalo-team-btn{margin-top: 27px;}
@@ -39,7 +38,7 @@
 .practice-default-inner .short-logo-list{ flex: 0 0 calc(50% - 10px); }
 .practice-default-inner .short-logo-list img{width: 100px; object-fit: contain;}
 
-.short-intro-logos .short-headline-logo{background-color: var(--white); padding: 56px 45px 60px 52px;}
+.short-intro-logos .short-headline-logo{background-color: var(--white); padding: 56px 45px 60px 52px; margin-bottom: 59px;}
 .short-intro-logos .short-logo-lists{gap: 20px; display: flex;}
 .short-intro-logos .short-logo-list{ flex: 0 0 calc(50% - 10px); }
 .short-intro-logos .short-logo-list img{width: 100px; object-fit: contain;}
