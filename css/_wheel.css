@@ -33,6 +33,8 @@ section.wheel-pos{position: relative; z-index: 1800;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
+	.diversity-wheel-main{flex-direction: row-reverse;}
+	.diversity-wheel-text{flex: 0 0 calc(100% - 730px);}
 	.diversity-right{float: right; margin: 50px 0 50px 50px;}
 	.wheel-circle-1{ transform: translateX(-50%) rotate(-19deg); left:50%; }
 	.wheel-circle-2{ transform: rotate(15deg); }

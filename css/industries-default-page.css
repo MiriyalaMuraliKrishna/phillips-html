@@ -55,7 +55,7 @@ body.page-template-industries-default .frm_forms .frm_form_fields .frm_submit{ma
 @media only screen and (min-width: 1024px){
     .how-help-text{width: 365px; margin-right: 80px; }
     .how-help-frm{width: calc(100% - 447px); padding-top: 15px;}
-    .industries-default-page .short-headline-wrap{padding: 64px 0 29px; }
+    .industries-default-page .short-headline-wrap{padding: 0 0 29px; }
     .short-logo-lists{display: block;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

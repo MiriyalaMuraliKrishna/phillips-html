@@ -7,7 +7,7 @@
 
 /* Our people section */
 .bio-people-section{background-color: #f8f4f2; z-index: 1;}
-.bio-people-wrap{padding: 26px 0 78px;}
+.bio-people-wrap{padding: 0 0 78px;}
 
 .bio-people-list{background-color: var(--white); padding: 32px 43px 22px 52px; margin-bottom: 25px;}
 .bio-people-list h2{margin-bottom: 30px; font-size: 24px; line-height: 1.33;}
@@ -31,7 +31,7 @@
 .bio-people-btn{font-size: 16px; font-weight: 500; opacity: 0.9;}
 span.bio-people-arrow{margin-left: 18px; }
 
-.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 50px 41px; color: var(--white); margin-bottom: 64px;}
+.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 20px 41px; color: var(--white); margin-bottom: 64px;}
 .bio-people-expertise h3{color: var(--white); }
 .bio-people-expertise i{max-width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 58px;}
 
@@ -39,15 +39,15 @@ span.bio-people-arrow{margin-left: 18px; }
 .bio-expertise-list{flex:0 0 50%; margin-bottom: 30px;}
 .bio-expertise-list:last-child{margin-bottom: 0;}
 .bio-expertise-list h4{color: var(--white); margin-bottom: 14px; }
-.bio-expertise-list ul{margin: 0 0 0 23px; }
-.bio-expertise-list ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0; color: var(--white-70);}
-.bio-expertise-list ul > li::before{top:12px; background-color: var(--white-50);}
-.bio-expertise-list ul > li a{color: var(--white);}
-.bio-expertise-list ul > li a:hover{color: var(--white-70);}
+.bio-people-expertise ul{margin: 0 0 0 23px; }
+.bio-people-expertise ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0; color: var(--white-70);}
+.bio-people-expertise ul > li::before{top:12px; background-color: var(--white-50);}
+.bio-people-expertise ul > li a{color: var(--white);}
+.bio-people-expertise ul > li a:hover{color: var(--white-70);}
 .bio_additional_areas { padding: 30px 0 30px; color: var(--text-color);}
 
 .honor-awards{margin-bottom: 65px;}
-.honor-awards ul > li, .honor-awards ul li ul li{margin-bottom: 14px;}
+.honor-awards ul > li, .honor-awards ul li ul li{margin-bottom: 14px; font-size: 16px; line-height: 1.31;}
 .icon-heading{margin-bottom: 32px; gap: 15px;}
 .icon-heading span{flex: 0 0 29px; margin-top: 5px;}
 .icon-heading h3{margin-bottom: 0; flex: 1;}
@@ -119,7 +119,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .bio-people-main{position: relative;}
     .bio-people-aside { width: 385px; margin-right: 102px; margin-top: 8px;}
     .bio-people-content { width: calc(100% - 487px); }
-    .people-bio-page .download-print-main{padding: 0 0 26px;}
     .people-bio-page .events-slider-title{flex-basis: 60%; margin-bottom: 25px;}
     .people-bio-page .events-slider-btn{flex-basis: 40%; margin-bottom: 25px; top:0;}
     .people-bio-page .events-slide-text h2 { max-width: 330px;}
@@ -152,7 +151,7 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .common-banner-text-right a{color: var(--white-90);}
     .people-bio-page .common-banner-location{border-left: none;}
     .bio-people-wrap{padding: 11px 0 0;}
-    .people-bio-page .download-print-main{padding: 0 0 8px; margin-bottom: 42px;}
+    .people-bio-page .download-print-main{ margin-bottom: 42px;}
     .people-bio-page .download-print{margin-bottom: 0;}
     .bio-people-aside{width: 100%; margin-bottom: 45px;}
     .bio-people-list{padding: 9px 17px 11px; margin-bottom: 11px;}

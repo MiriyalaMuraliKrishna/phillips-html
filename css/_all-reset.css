@@ -228,7 +228,7 @@ ul.slick-dots li.slick-active button::after{width: 23px; height: 23px; top: 50%;
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 
 /* Download section */
-.download-print-main{justify-content: space-between; padding: 26px 0 64px;}
+.download-print-main{justify-content: space-between; padding: 54px 0 52px;}
 .download-print{flex-basis: 50%; align-items: center; gap: 30px; }
 .download-print-text{font-size: 16px; font-weight: 600;}
 .download-print-text .icon{font-size: 18px; margin-right: 8px; opacity: 0.8;}

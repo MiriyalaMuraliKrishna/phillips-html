@@ -1,7 +1,7 @@
 .common-grid-section.tin-bg{background-color: #f0eae7;}
 .common-grid-section{background-color: #f8f4f2;}
-.common-grid-wrap{padding: 108px 0 112px;}
-.common-grid-main{gap: 106px;}
+.common-grid-wrap{padding: 80px 0 112px;}
+.common-grid-main{gap: 80px 90px;}
 .common-grid-text{flex-direction: column; justify-content: center;}
 .common-grid-text .optional-text{margin-bottom: 12px; line-height: 0.9;}
 .common-grid-text h2{margin-bottom: 23px; }
@@ -22,7 +22,7 @@
     body.page-template-our-people .common-grid-image{ width: calc(100% - 426px); margin-right: 101px; }
     body.page-template-our-people .common-grid-text{ width: 325px;}
     body.page-template-our-people .common-grid-list.reverse .common-grid-image{margin-left: 101px; margin-right: 0;}
-    body.page-template-dei .common-grid-wrap{padding: 50px 0 100px;}
+    body.page-template-dei .common-grid-wrap{padding: 50px 0 80px;}
 }
 @media only screen and (max-width: 1599px) and (min-width: 1024px){
     .common-grid-section .container{max-width: 100%; padding: 0;}

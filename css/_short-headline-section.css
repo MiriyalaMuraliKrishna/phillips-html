@@ -5,13 +5,12 @@
 .short-headline-title{background: var(--white); padding: 56px 45px 60px 52px; }
 .short-headline-title .optional-text{line-height: 0.9; margin-bottom: 12px; }
 .short-headline-title h2{margin-bottom: 38px; font-size: 24px; line-height: 1.33;}
-.short_intro_head{margin-bottom: 124px;}
-.short-headline-logo .optional-text{margin-bottom: 30px; }
+.short_intro_head{margin-bottom: 80px;}
 .short-logo-list img{width: 132px; opacity: 1; }
 
 .continued-middle-section .short_intro_desc{padding-top: 84px;}
 .short_intro_desc{ padding-bottom: 64px; position: relative; }
-.short_intro_desc::before { width: 1000%; height: calc(100% + 62px); left: -500%; top: -62px; content: ""; display: block; background: #f0eae7; position: absolute; z-index: -1; }
+.short_intro_desc::before { width: 1000%; height: calc(100% + 62px); left: -500%; top: -37px; content: ""; display: block; background: #f0eae7; position: absolute; z-index: -1; }
 .short_intro_desc.full-width { width: 100vw; left: calc(245px - 50vw); margin-left: 50%; }
 body.page-template-careers-group .short_intro_head{margin-bottom: 0;}
 
@@ -27,7 +26,7 @@ body.page-template-careers-group .short_intro_head{margin-bottom: 0;}
     .short-headline-content{width: calc(100% - 488px); margin-top: -9px;}
     .insights-default-page .short-headline-content{width: 100%; margin-top: 0;}
     body.page-id-3416 .short_intro_desc::before{height: calc(100% + 140px);}
-    body.page-template-dei .short-headline-wrap{padding-bottom: 113px;}
+    body.page-template-dei .short-headline-wrap{padding-bottom: 60px;}
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .short-headline-wrap{padding: 40px 0; }

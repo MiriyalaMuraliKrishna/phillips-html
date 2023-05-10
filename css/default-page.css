@@ -16,10 +16,11 @@
 
 /* partner organization section */
 .partners-default-section{background-color: #f8f4f2; }
-.partners-default-main{padding: 136px 0 137px; }
-.partners-default-heading{width: 691px; margin-bottom: 44px;}
+.partners-default-main{padding: 63px 0 90px; }
+.partners-default-heading{width: 691px; margin: 0 auto 44px; text-align: center;}
 .partners-default-heading h2{margin-bottom: 23px; }
-.partners-default-list{border: solid 1px rgba(174, 174, 174, 0.5); min-height: 183px; align-items: center; display: flex; flex-wrap: wrap;}
+.partners-default-heading hr{margin-bottom: 20px;}
+.partners-default-list{border: solid 1px rgba(174, 174, 174, 0.5); background-color: var(--white); min-height: 183px; align-items: center; display: flex; flex-wrap: wrap;}
 .partners-default-thumb img{max-width: 155px; margin: 0 auto; display: block; opacity: 0.6; filter: saturate(0); object-fit: contain;}
 .partners-default-list:hover .partners-default-thumb img{opacity: 1; filter: saturate(1);}
 

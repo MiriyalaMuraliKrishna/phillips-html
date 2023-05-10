@@ -50,6 +50,8 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(32.777% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_last{margin-right: 0;}
+
+    body .practice-default-inner .frm_forms .frm_form_fields .frm_form_field.frm_half{width: 100%; float: none; margin-left: 0; margin-right: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;}

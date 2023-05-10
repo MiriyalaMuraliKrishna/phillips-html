@@ -35,7 +35,7 @@
 
 /* CTA Panel Section */
 .dei-page .cta-panel-section{background-color: #f0eae7; margin-top: 0;}
-.dei-page .cta-panel-wrap{padding: 109px 0 112px;}
+.dei-page .cta-panel-wrap{padding: 80px 0 81px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -47,7 +47,7 @@
     .dei-point-value-list{flex: 0 0 calc(33.333% - 14px); }
     figure.dei-point-thumb{height: 100%;}
 
-    .affinity-wrap{padding: 111px 0 118px; }
+    .affinity-wrap{padding: 111px 0 60px; }
     .affinity-title{max-width: 590px;}
     .affinity-main{gap: 50px 30px; }
     .affinity-list{flex: 0 0 calc( 50% - 15px);}

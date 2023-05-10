@@ -1,6 +1,6 @@
 .micro-cta-section{background-color: #F8F4F2; }
 .micro-cta-main{z-index: 1; isolation: isolate; }
-.micro-cta-wrap{padding: 109px 0 111px; }
+.micro-cta-wrap{padding: 109px 0 110px; }
 .micro-cta-image{z-index: -1;}
 
 .micro-cta-text{top: 0; background: rgba(255, 255, 255, 0.1); display: block; backdrop-filter: blur(20px); z-index: 1;}
