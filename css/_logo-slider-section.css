@@ -1,13 +1,14 @@
 
 .logo-slider-section{background-color: #f8f4f2; }
-.logo-slider-wrap{padding: 65px 0 0; }
+.logo-slider-wrap{padding: 65px 0 0; text-align: center;}
 span.logo-optional-text{font-size: 20px; color: var(--copperplate-color); line-height: 0.9; font-family: 'Copperplate-Regular', sans-serif; margin-bottom: 31px; display: block;}
-
-.logo-slider-main{gap: 19px;}
+.logo-slider-main{gap: 19px; justify-content: center;}
 .logo-slider-item{width: 183px; height: 121px; background-color: var(--white); justify-content: center; align-items: center; border: 1px solid #aeaeae; }
 .logo-slider-thumb img{max-width: 140px; max-height: 85px; opacity: 1;}
-#industry-recognition .logo-slider-wrap{padding-bottom: 70px; text-align: center;}
-#industry-recognition .logo-slider-main{justify-content: center;}
+#industry-recognition .logo-slider-wrap{padding-bottom: 70px;}
+
+.people-bio-page .logo-slider-wrap { padding: 9px 0 0 28px; }
+.people-bio-page span.logo-optional-text{margin-bottom: 17px;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

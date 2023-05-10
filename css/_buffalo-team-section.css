@@ -9,9 +9,9 @@
 .no_image .buffalo-text{width: 100%;}
 .buffalo-sm-image{width: 58px; margin-right: 23px; }
 .buffalo-sm-image img{width: 58px; height: 58px; border-radius: 50%;}
-.buffalo-text .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 0;}
+.buffalo-text .optional-text{color: var(--copperplate-color); font-size: 18px; line-height: 1; margin-bottom: 2px;}
 .buffalo-team-item:hover .buffalo-text .optional-tex{background-color: var(--white); }
-.buffalo-text span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 1.79; }
+.buffalo-text span{font-size: 14px; color: rgba(0, 0, 0, 0.7); line-height: 18px; display: block;}
 .buffalo-text span a{color: rgba(0, 0, 0, 0.7); }
 .buffalo-text{width: calc(100% - 81px); }
 .buffalo-team-btn{margin-top: 40px;}
@@ -30,10 +30,10 @@
 .buffalo-team-inner img{width: 23px; height: 19px; margin-left: -28px; }
 .buffalo-team-inner p{font-size: 16px; font-style: italic; line-height: 1.75; color: var(--white-90); margin-bottom: 38px;}
 .buffalo-team-name{margin-bottom: 24px; }
-.buffalo-team-name .optional-text{color: var(--white-90); line-height: 0.9; margin-bottom: 0; }
+.buffalo-team-name .optional-text{color: var(--white-90); line-height: 0.9; margin-bottom: 4px; }
 .buffalo-team-name .optional-text a{color: var(--white-90);}
 .buffalo-team-name .optional-text a:hover{color: var(--white-50);}
-.buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 1.79; }
+.buffalo-team-name .buffalo-team-position{color: var(--white-90); font-size: 14px; line-height: 18px; display: block;}
 .buffalo-team-profiles{padding-top: 10px;}
 .buffalo-team-profile{gap: 12px; align-items: baseline; color: var(--white);}
 .buffalo-team-profile a{color: var(--white);}
