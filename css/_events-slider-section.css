@@ -13,7 +13,8 @@
 .events-slide-image figure img{min-height: 274px; max-height: 274px; overflow: hidden;}
 
 .news-event-slider .slick-btn { width: 45px; height: 50px; }
-
+.events-category-cat{position: absolute; top: 22px; left: 0; gap: 10px;}
+section.event-slider-bg{background-color: #f0eae7;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

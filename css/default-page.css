@@ -21,8 +21,8 @@
 .partners-default-heading h2{margin-bottom: 23px; }
 .partners-default-heading hr{margin-bottom: 20px;}
 .partners-default-list{border: solid 1px rgba(174, 174, 174, 0.5); background-color: var(--white); min-height: 183px; align-items: center; display: flex; flex-wrap: wrap;}
-.partners-default-thumb img{max-width: 155px; margin: 0 auto; display: block; opacity: 0.6; filter: saturate(0); object-fit: contain;}
-.partners-default-list:hover .partners-default-thumb img{opacity: 1; filter: saturate(1);}
+.partners-default-thumb img{max-width: 155px; margin: 0 auto; display: block; object-fit: contain; transition: all 0.5s ease-in-out;}
+.partners-default-list:hover .partners-default-thumb img{opacity: 0.6; filter: saturate(1);}
 
 /* Events slider section */
 .default-page .events-slider-wrap{padding: 140px 0 74px; }

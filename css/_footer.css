@@ -5,6 +5,8 @@
 .footer-lt{font-size: 14px; line-height: 1.79; color: var(--white-60);}
 
 .footer-list span{font-family: 'Lora', sans-serif; font-size: 17px; line-height: 1.06; color: var(--copperplate-color); margin-bottom: 36px; display: block;}
+.footer-list span a{color: var(--copperplate-color);}
+.footer-list span a:hover{color: var(--white);}
 ul.footer-links{margin: 0;}
 ul.footer-links > li{font-size: 14px; line-height: 1.5; margin-bottom: 16px; }
 ul.footer-links > li:before{display: none;}

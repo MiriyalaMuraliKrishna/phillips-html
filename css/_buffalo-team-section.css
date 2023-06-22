@@ -15,7 +15,7 @@
 .buffalo-text span a{color: rgba(0, 0, 0, 0.7); }
 .buffalo-text{width: calc(100% - 81px); }
 .buffalo-team-btn{margin-top: 40px;}
-.buffalo-team-btn .button{padding: 13px 27px 13px 27px; text-transform: capitalize;}
+.buffalo-team-btn .button{padding: 13px 27px 13px 27px;}
 
 .slick-current .buffalo-team-item{background-color: #eae0da; }
 .slick-current .buffalo-text span a{color: var(--text-color); transition: none;}

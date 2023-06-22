@@ -11,8 +11,8 @@
 .common-banner-item li.active a { color: var(--copperplate-color); }
 .common-banner-item li.active::before{content: ""; position: absolute; width: 100%; border-bottom: 1px solid var(--copperplate-color); bottom: -19px; left: 0; }
 
-.position-location span{line-height: 1; color: var(--white-90); padding: 0 18px; border-left: 1px solid var(--white); }
-.position-location span:first-child{padding: 0 18px 0 0; border-left: none; }
+.position-location span{line-height: 1; color: var(--white-90); padding-left: 12px; border-left: 1px solid var(--white); }
+.position-location span:first-child{padding: 0; border-left: none; }
 .common-banner-location{border-left: solid 0.3px var(--white); padding-left: 42px; } 
 .common-banner-location ul{margin: 5px 0 0 35px; }
 .common-banner-location ul li{margin-bottom: 0; }
@@ -41,6 +41,7 @@
     .common-banner-location{flex-basis: 40%;}
     body.postid-7388 .common-banner-desc .button{margin-top: 19px;}
     .people-bio-page .common-banner-dates{flex-basis: 100%;}
+    body.single-news_events .common-banner-text h1{font-size: 40px;}
 }
 @media only screen and (min-width: 1601px){
     .common-banner-text{flex: 50%;}

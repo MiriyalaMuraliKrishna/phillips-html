@@ -92,18 +92,7 @@ let desktopScn = function(){
             event.preventDefault();
             $(this).parent().parent().siblings('li').toggleClass('expertise-submenu');
         });
-        $('.btn_show_more').on('click', function(e){
-            e.preventDefault();
-            $(this).parent().siblings('.bio-people-expand-content').addClass('expert-expanded');
-            $(this).hide();
-            $(this).siblings('.btn_show_less').show();
-        });
-        $('.btn_show_less').on('click', function(e){
-            e.preventDefault();
-            $(this).parent().siblings('.bio-people-expand-content').removeClass('expert-expanded');
-            $(this).hide();
-            $(this).siblings('.btn_show_more').show();
-        });
+        $("ul.main_menu > li.expertise-nav-item > ul > li.no_underline").remove();
     }
 }
 $(document).on('ready', function () { desktopScn(); });
@@ -129,19 +118,7 @@ if($(window).width() <= 1023){
 
 let mobileScreen = function(){
     if($(window).width() <= 767){
-        $('.show_more').on('click', function(e){
-            e.preventDefault();
-            $(this).parent().closest('.expert-expand').addClass('expert-expanded');
-            $(this).hide();
-            $(this).siblings('.show_less').show();
-        });
-        $('.show_less').on('click', function(e){
-            e.preventDefault();
-            $(this).parent().closest('.expert-expand').removeClass('expert-expanded');
-            $(this).hide();
-            $(this).siblings('.show_more').show();
-        });
-
+        
         $('.banner-category-mobile').on('click', function(e){
             e.preventDefault();
             $(this).toggleClass('open');
@@ -169,6 +146,7 @@ let mobileScreen = function(){
 
         $('.bio-people-list h2').on('click', function(e){
             e.preventDefault();
+            $(this).children("a").remove();
             $(this).parent().siblings().find('h4').removeClass('active');
             $(this).toggleClass('active');
             $(this).parent().siblings().find('.bio-people-text').slideUp(500);
@@ -239,23 +217,36 @@ $(document).ready(function(){
         }
     });   
 
-    if($(window).width() >= 768){
-        var lists = $('ul.read-more-list');
-        lists.each(function(){
-            var list = $(this);
-            var listItems = list.children('li');
-            if(listItems.length > 8) {
-                listItems.slice(8).hide();
-                list.after('<a href="javascript:void(0);" class="show-more">Read More</a>');
-                var button = list.next('.show-more');
-                button.on('click', function() {
-                    listItems.slice(8).fadeToggle('fast');
-                    $(this).toggleClass('expanded');
-                    $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
-                });
-            }
-        });
-    }
+    let biolists = $('.bio-people-expand-content');
+    biolists.each(function(){
+        var biolist = jQuery(this);
+        var biolistItems = biolist.children('.bio-people-news-list');
+        if(biolistItems.length > 3) {
+            biolistItems.slice(3).hide();
+            biolist.after('<a href="javascript:void(0);" class="show-more">Read More</a>');
+            var button = biolist.next('.show-more');
+            button.on('click', function() {
+                biolistItems.slice(3).fadeToggle('fast');
+                $(this).toggleClass('expanded');
+                $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
+            });
+        }
+    });
 
+    var lists = $('ul.read-more-list');
+    lists.each(function(){
+        var list = jQuery(this);
+        var listItems = list.children('li');
+        if(listItems.length > 8) {
+            listItems.slice(8).hide();
+            list.after('<a href="javascript:void(0);" class="show-more">Read More</a>');
+            var button = list.next('.show-more');
+            button.on('click', function() {
+                listItems.slice(8).fadeToggle('fast');
+                $(this).toggleClass('expanded');
+                $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
+            });
+        }
+    });
+    
 });
-

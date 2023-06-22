@@ -17,6 +17,7 @@
 .two-dropdown form{width: 100%; }
 .two-dropdown .selectBox-dropdown{border: solid 1px rgba(174, 174, 174, 0.5);margin-bottom: 16px; }
 .careers-default-page .careers-default-button .button{min-width: 186px;}
+.careers-opportunities-content.full_width h5{margin-top: 20px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -36,6 +37,7 @@
     .careers-default-main .video-sec{margin: 39px 0 32px; }
     .careers-default-page .careers-opportunities-wrap{padding: 56px 0; }
     .careers-opportunities-title{margin-bottom: 24px; width: 100%;}
+    .careers-opportunities-title.full_width{margin-bottom: 0;}
     .careers-opportunities-content{width: 100%;}
     .careers-opportunities-list{padding: 23px 19px 15px 0px;}
     .careers-opportunities-text{flex-basis: 100%; }

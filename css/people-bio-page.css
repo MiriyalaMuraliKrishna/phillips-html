@@ -1,6 +1,6 @@
 
 /* Banner section */
-.people-bio-page .position-location{margin-bottom: 27px; }
+.people-bio-page .position-location{margin-bottom: 27px; gap: 12px;}
 .people-bio-page .common-banner-text-right{color: var(--white-70) !important;}
 .people-bio-page .common-banner-location{color: var(--white-70); border-left: solid 0.3px var(--white-22); margin-top: 5px;}
 .people-bio-page .common-banner-location .common-banner-text-right{color: var(--white-70);}
@@ -17,9 +17,11 @@
 .bio-people-list ul > li a{color: rgba(0, 0, 0, 0.7); }
 .bio-people-list ul > li a:hover{color: var(--copperplate-color);}
 .bio-people-text li a.active{color: var(--copperplate-color);}
+.bio-people-text img{margin-bottom: 10px;}
+div.sidebar_graphics{padding: 0; background-color: transparent;}
 
 .people-bio-page .video-sec{margin: 60px 0 39px;}
-.bio-people-content h3{margin-bottom: 32px;}
+.bio-people-content h3{margin-bottom: 20px;}
 .bio-people-content ol{margin: 48px 0 48px 54px;}
 
 .bio-people-news-list{padding-bottom: 19px; border-bottom: solid 1px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
@@ -31,45 +33,47 @@
 .bio-people-btn{font-size: 16px; font-weight: 500; opacity: 0.9;}
 span.bio-people-arrow{margin-left: 18px; }
 
-.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 20px 41px; color: var(--white); margin-bottom: 64px;}
+.bio-people-expertise{background-color: var(--copperplate-color); padding: 49px 52px 40px 41px; color: var(--white); margin-top: 45px;}
 .bio-people-expertise h3{color: var(--white); }
-.bio-people-expertise i{max-width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 58px;}
+.bio-people-expertise i{max-width: 468px; display: block; color: var(--white-90); padding-left: 17px; border-left: 1px solid var(--white); margin-bottom: 38px;}
 
 .bio-expertise-main{display: block;}
 .bio-expertise-list{flex:0 0 50%; margin-bottom: 30px;}
 .bio-expertise-list:last-child{margin-bottom: 0;}
-.bio-expertise-list h4{color: var(--white); margin-bottom: 14px; }
+.bio-expertise-list h4{color: var(--white); margin-bottom: 9px; }
 .bio-people-expertise ul{margin: 0 0 0 23px; }
 .bio-people-expertise ul > li{font-size: 16px; line-height: 1.88; margin-bottom: 0; color: var(--white-70);}
 .bio-people-expertise ul > li::before{top:12px; background-color: var(--white-50);}
 .bio-people-expertise ul > li a{color: var(--white);}
 .bio-people-expertise ul > li a:hover{color: var(--white-70);}
-.bio_additional_areas { padding: 30px 0 30px; color: var(--text-color);}
+.bio_additional_areas { padding: 30px 0 0; color: var(--text-color);}
+.people-bio-page .bio_additional_areas h4{color: var(--white);}
 
-.honor-awards{margin-bottom: 65px;}
-.honor-awards ul > li, .honor-awards ul li ul li{margin-bottom: 14px; font-size: 16px; line-height: 1.31;}
-.icon-heading{margin-bottom: 32px; gap: 15px;}
+.people-bio-page .honor-awards{margin-top: 55px;}
+.honor-awards{margin-bottom: 55px;}
+.honor-awards ul > li, .honor-awards ul li ul li{margin-bottom: 11px; font-size: 16px; line-height: 1.31;}
+.icon-heading{margin-bottom: 20px; gap: 15px;}
 .icon-heading span{flex: 0 0 29px; margin-top: 5px;}
 .icon-heading h3{margin-bottom: 0; flex: 1;}
 
+
 .bio-education-list h5{line-height: 1.2; font-size: 20px; color: var(--copperplate-color); }
-/* .bio-education-list ul{margin: 28px 0 40px 53px; } */
 .bio-education-list ul > li{font-size: 16px; line-height: 1.31; }
 
 .education-admissions{margin-bottom: 24px; }
-.education-admissions-main{gap: 20px; margin-top: 33px; display: block;} 
+.education-admissions-main{gap: 20px; margin-top: 14px; display: block;} 
 .bio-education-list{flex: 0 0 calc(50% - 10px); }
 
-.representative-matters{margin-bottom: 75px; }
+.representative-matters{margin-bottom: 50px; }
 .representative-matters h3{margin-bottom: 30px; }
-.representative-matters .accordion{margin-bottom: 29px; }
+.representative-matters .accordion{margin-bottom: 16px; }
 .representative-matters .accordion-active .accordion-header{background-color: var(--white); color: var(--text-color); border-bottom-color: var(--white);}
 .representative-matters .accordion-header{background-color: var(--white); color: var(--copperplate-color); margin-bottom: 0;}
 .representative-matters .accordion-header span.icon{right: 36px; top: 50%; transform: translateY(-50%); }
 .representative-matters .accordion-content{padding: 0 60px 40px 27px;}
 .representative-matters .accordion-active{background-color: var(--white); }
-.representative-matters ul{margin: 0 0 0 53px;}
-.representative-matters ul > li{font-size: 16px; line-height: 1.31; }
+.representative-matters ul{margin: 0 0 0 16px;}
+.representative-matters ul > li{font-size: 16px; line-height: 1.31; margin-bottom: 7px;}
 .representative-matters .accordion-content.open{background-color: var(--white); color: var(--text-color);}
 
 .people-bio-page .events-slider-wrap{padding: 0;}
@@ -96,8 +100,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
 .speaking-engagements-list ul li a:hover{color: var(--copperplate-color);}
 
 .people-bio-page .custom-cta-wrap{padding: 145px 0 112px; }
-.bio-people-expand-content{max-height: 370px; margin-bottom: 18px; overflow: hidden;}
-.bio-people-expand-content.expert-expanded{max-height: fit-content;}
 .bio-expand-btns{padding-bottom: 35px;}
 
 .activites-list{margin-bottom: 30px;}
@@ -105,9 +107,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
 .activites-list h4{ line-height: 1.2; font-size: 20px; color: var(--copperplate-color); font-family: 'Lora', serif; }
 .articles_pbns{ padding: 64px 0 58px; background-color: #f0eae7; }
 .articles_pbns .activites-main { margin-bottom: 30px; }
-#speaking-engagements .show-more{margin-bottom: 30px; display: inline-block;}
-
-
 
 
 /*-- media css starts here --*/
@@ -124,8 +123,8 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .events-slide-text h2 { max-width: 330px;}
     .people-bio-page .news-event-slider ul.slick-dots{max-width: 800px; width: 100%; position: static;}
     .speaking-engagements-list ul{gap: 5px 60px; display: grid; grid-template-columns: repeat(2, 1fr);}
-    #articles-publications .activites-row{gap: 40px; width: 100%; display: flex; flex-wrap: wrap;}
-    #articles-publications .activites-list{flex: 0 0 calc(50% - 20px);}
+    .articles_pbns .activites-list ul{width: 100%; gap: 0 40px; display: flex; flex-wrap: wrap;}
+    .articles_pbns .activites-list ul li{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width:1299px) and (min-width: 1024px){
     .bio-people-aside{width: 330px; margin-right: 40px;}
@@ -141,7 +140,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .bio-people-aside{width: 100%; }
     .bio-people-main{display: block;}
     #articles-publications .activites-row{gap: 40px; width: 100%; display: flex; flex-wrap: wrap;}
-    #articles-publications .activites-list{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width:767px) and (min-width: 200px){
     .people-bio-page .common-banner-text{padding: 19px 24px 23px;}
@@ -155,11 +153,13 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .download-print{margin-bottom: 0;}
     .bio-people-aside{width: 100%; margin-bottom: 45px;}
     .bio-people-list{padding: 9px 17px 11px; margin-bottom: 11px;}
+    .sidebar_graphics .bio-people-text{display: block;}
     .bio-people-text{display: none;}
     .bio-people-list h2{margin-bottom: 0;}
     .bio-people-list:hover{cursor: pointer;}
     .bio-people-list h2::before{content: "\f054"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 18px; top: 14px; }
     .bio-people-list h2.active::before{content: "\f078";}
+    .bio-people-list h2 a{color: inherit;}
     .bio-people-text{padding-top: 20px; }
     .bio-people-list ul > li{font-size: 18px; margin-bottom: 15px; }
     .bio-people-content{width: 100%;}
@@ -167,7 +167,7 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .people-bio-page .video-sec{margin: 55px 0 50px;}
     .video-sec-slider .slick-btn{width: 27px; height: 54px; font-size: 1.5rem;}
     .bio-people-content h3{margin-bottom: 16px;}
-    .bio-people-expertise{background-color: transparent; padding: 0; margin-bottom: 0;}
+    .bio-people-expertise{background-color: transparent; padding: 0;}
     .bio-expertise-title{background-color: var(--copperplate-color); padding: 16px 30px 28px 31px; margin-bottom: 10px;}
     .bio-people-expertise i{margin-bottom: 0;}
     .people-bio-page .breakpoint-thumb:first-of-type{margin: 9px auto 32px;}
@@ -180,8 +180,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .bio-expertise-list h4.active::before{color: var(--white); content: "\f068";}
     .bio-expertise-list h4::before{content: "\2b"; font-family: "Font Awesome 6 Pro"; color: var(--copperplate-color); position: absolute; right: 23px; font-size: 20px; }
     .honor-awards{margin-bottom: 38px;}
-    .honor-awards .expert-expand-content{max-height: 430px;}
-    .honor-awards.expert-expanded .expert-expand-content{max-height: fit-content; }
     .honor-awards .read-btn, .education-admissions .read-btn{opacity: 0.9;}
     .education-admissions-main{margin-top: 29px; display: block;}
     .bio-education-list ul{margin: 20px 0 0 24px;}
@@ -189,8 +187,6 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .icon-heading{margin-bottom: 18px;}
     .bio-education-list{ margin-bottom: 30px;}
     .education-admissions{margin-bottom: 44px; }
-    .education-admissions .expert-expand-content{max-height: 430px;}
-    .education-admissions.expert-expanded .expert-expand-content{max-height: fit-content; }
     .education-admissions .expert-expand-content h5{-webkit-text-fill-color: var(--copperplate-color);}
     .people-bio-page .events-slider-wrap{padding: 21px 0 45px;}
     .people-bio-page .events-slider-heading{margin-bottom: 15px;}
@@ -208,5 +204,5 @@ body.single-our_people .speaking-engagements{padding-top: 5px; padding-bottom: 0
     .buffalo-team-content.buffalo-slider-nav .slick-arrow{top: 198px;}
     .buffalo-team-content.buffalo-slider-nav .slick-btn{ height: 50px; background-color: var(--text-color);}
     .buffalo-team-content.buffalo-slider-nav .slick-btn:hover{opacity: 0.8;}
-
+    div.sidebar_graphics{margin: 0;}
 }

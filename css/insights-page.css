@@ -69,11 +69,14 @@
 .insights-page ul.blog_list{width: 100%; height: auto; display: block;}
 .list_count{display: block;}
 .more.blog_more{text-align: center;}
-.close-media-search{display: block; width: 100%; padding-top: 0;}
+.close-media-main{display: flex; flex-wrap: wrap; width: 100%;}
+.close-media-search{display: block; padding-top: 0; padding-right: 20px;}
 .close-media-search span.fa-xmark{top: 1px; position: relative;}
+.close-media-search a span{margin-right: 6px;}
 
 /* CTA panel section */
-.insights-page .cta-panel-section{margin-top: 0; padding: 112px 0 108px; }
+.insights-page .cta-panel-section{margin-top: 0; padding: 112px 0 108px;}
+.insight-page-title.no-search{flex: 0 0 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width:1299px) and (min-width: 1024px){

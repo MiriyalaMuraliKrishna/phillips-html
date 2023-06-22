@@ -11,6 +11,9 @@ span.cta-optional-text{font-size: 18px; line-height: 1.5; color: var(--white-70)
 .cta-panel-text a:not(.button):hover{color: var(--copperplate-color);}
 .cta-panel-main.no_cta_bg{background-color: var(--text-color);}
 
+.new-cta-panel-section{background-color: #f8f4f2;}
+.cta-panel-wrap{padding: 0 0 80px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .cta-panel-text{max-width: 470px;}

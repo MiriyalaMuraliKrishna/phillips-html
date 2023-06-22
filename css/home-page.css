@@ -57,7 +57,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 }
 @media only screen and (min-width: 1024px){
 	ul.banner-category li{flex: 0 0 183px;}
-	ul.banner-category li > a span{max-width: 175px; min-height: 40px; display: block;}
+	ul.banner-category li > a span{max-width: 175px; display: block;}
 
 	.our-firm-main{padding: 183px 0 115px 102px;}
 	.our-firm-text{ width: 505px; margin-right: 106px; z-index: 2;}
@@ -83,7 +83,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 	ul.banner-category li{flex: 0 0 calc(33.333% - 14px);}
-	ul.banner-category li > a span{max-width: 180px; min-height: 57xpx; display: block;}
+	ul.banner-category li > a span{max-width: 180px; display: block;}
 	.home-practice-list{margin-bottom: 49px;}
 	.our-firm-main{ display: block; padding: 80px 0 80px; }
 	.our-firm-text{margin-bottom: 60px; z-index: 1;}
@@ -126,7 +126,7 @@ ul.banner-category li.active > a, ul.banner-category li > a:hover{color: var(--w
 	.our-firm-main{padding: 119px 0 52px; position: relative; z-index: 1;}
 	.our-firm-text span.optional-text{font-size: 16px; line-height: 18px; margin-bottom: 19px;}
 	.our-firm-text h2{font-size: 30px; line-height: 1.27;}
-	.our-firm-text{z-index: 1; margin-bottom: 11px;}
+	.our-firm-text{z-index: 1; margin-bottom: 51px;}
 	.our-firm-text::before{width: 99px; height: 344px; top: -39px; left: -24px;}
 	.our-firm-image{position: static;}
 	.our-firm-bg{width: 165px; height: 194px; top: 51px; left: auto; right: -24px;}

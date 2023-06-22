@@ -8,7 +8,7 @@ input.search{background-color: var(--white); padding: 19px 133px 17px 30px; bord
 input.search-btn{width: 146px; background: #9c5f3d; padding: 20px 40px 20px 41px; font-size: 16px; font-weight: 500; line-height: 1.75; margin-left: 2px;}
 .srch-txt{ color: #f0eae7;}
 .search-results-main .search-text-feild input{padding: 20px;}
-.search-results-main .search-text-feild input[type="search"]::-webkit-search-cancel-button { display: none; }
+/* .search-results-main .search-text-feild input[type="search"]::-webkit-search-cancel-button { display: none; } */
 
 ul.filter-list{margin: 0;}
 ul.filter-list li::before{display: none; }
