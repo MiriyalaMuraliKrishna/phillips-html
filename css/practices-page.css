@@ -14,9 +14,9 @@
 .practice-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.75); }
 .practice-content{position: absolute; top: 0; width: 100%; height: 100%; padding: 9px 7px; transition: all .3s ease; }
 .practice-inner{width: 100%; height: 100%; border: solid 1px var(--copperplate-color); padding: 33px 38px 22px 32px; color: var(--white); font-size: 15px; line-height: 1.6;}
-.practice-inner h4{font-size: 22px; color: var(--white); margin-bottom: 13px;}
-.practice-inner h4 a{color: var(--white);}
-.practice-inner h4 a:hover{color: var(--text-color);}
+.practice-inner h2{font-size: 22px; color: var(--white); margin-bottom: 13px;}
+.practice-inner h2 a{color: var(--white);}
+.practice-inner h2 a:hover{color: var(--text-color);}
 .practice-inner p{margin-bottom: 18px;}
 .practice-list:hover .practice-content{padding: 0 7px; background-color: var(--copperplate-color);}
 .practice-list:hover .btn-link{display: inline-block;}
