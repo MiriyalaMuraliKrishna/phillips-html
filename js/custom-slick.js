@@ -1,7 +1,6 @@
 
-var $ = jQuery.noConflict();
-$(document).ready(function(){
-    $('.our-office-slider').slick({
+jQuery(document).ready(function(){
+    jQuery('.our-office-slider').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
             dots: true,
@@ -19,7 +18,7 @@ $(document).ready(function(){
                 }
             ]
     });
-    let countSlides = $('.news-event-slider').slick({
+    let countSlides = jQuery('.news-event-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: false,
@@ -51,11 +50,11 @@ $(document).ready(function(){
     });
     countSlides.on('setPosition', function(event, slick){
         if (slick.slideCount <= 1) {
-           $('.slick-dots').hide();
+            jQuery('.slick-dots').hide();
         }
      });
 
-    $('.timeline-slider-for').slick({
+     jQuery('.timeline-slider-for').slick({
         dots: false,
         infinity: true,
         speed: 300,
@@ -81,12 +80,12 @@ $(document).ready(function(){
         ]
     });
 
-    $('.timeline-for-slide.slick-slide').click(function(){
-        $(this).closest('.slick-list').addClass('slick-new');
+    jQuery('.timeline-for-slide.slick-slide').click(function(){
+        jQuery(this).closest('.slick-list').addClass('slick-new');
     });
-    $('.slick-slide').hover(function(){ $(this).prevAll().addClass('prev-slides'); }, function(){ $(this).prevAll().removeClass('prev-slides'); });
+    jQuery('.slick-slide').hover(function(){ jQuery(this).prevAll().addClass('prev-slides'); }, function(){ jQuery(this).prevAll().removeClass('prev-slides'); });
 
-    $('.timeline-slider-nav').slick({
+    jQuery('.timeline-slider-nav').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
@@ -111,7 +110,7 @@ $(document).ready(function(){
         ]
     });
 
-    $('.community-event-slider').slick({
+    jQuery('.community-event-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
@@ -141,7 +140,7 @@ $(document).ready(function(){
         ]
     });
   
-    $('.careers-slick-slider').slick({
+    jQuery('.careers-slick-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
@@ -171,7 +170,7 @@ $(document).ready(function(){
         ]
     });
 
-    $('.video-sec-slider').slick({
+    jQuery('.video-sec-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
@@ -180,7 +179,7 @@ $(document).ready(function(){
         focusOnSelect: true
     });
 
-    $('.testimonial-sider').slick({
+    jQuery('.testimonial-sider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
@@ -206,8 +205,8 @@ $(document).ready(function(){
         ]
     });
     
-    if($(window).width() >= 1024){
-        $('.buffalo-slider-for').slick({
+    if(jQuery(window).width() >= 1024){
+        jQuery('.buffalo-slider-for').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
             infinite: false,
@@ -222,7 +221,7 @@ $(document).ready(function(){
             focusOnSelect: true,
             asNavFor: '.buffalo-slider-nav',
         });
-        $('.buffalo-slider-nav').slick({
+        jQuery('.buffalo-slider-nav').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
@@ -231,13 +230,13 @@ $(document).ready(function(){
             asNavFor: '.buffalo-slider-for',
         });
     }
-    if($(window).width() <= 1023){
-        $('.buffalo-slider-nav').on('init', function(event, slick){
+    if(jQuery(window).width() <= 1023){
+        jQuery('.buffalo-slider-nav').on('init', function(event, slick){
             if (slick.slideCount <= 1) {
-                $('.slick-dots').hide();
+                jQuery('.slick-dots').hide();
               }
         });
-        $('.buffalo-slider-nav').slick({
+        jQuery('.buffalo-slider-nav').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
@@ -252,31 +251,31 @@ $(document).ready(function(){
 });
 
 let mobileMedia = function(){
-    if($(window).width() <= 767){       
-        let countList = $(".partners-default-list");
+    if(jQuery(window).width() <= 767){       
+        let countList = jQuery(".partners-default-list");
         for(let i=0; i<countList.length; i+=6 ) {
             countList.slice(i, i+6).wrapAll("<div class='partners-row flex'></div>");
         }
-        let $testSlider =  $('.partners-default-slider').slick({
+        let $testSlider =  jQuery('.partners-default-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
             dots: true,
             focusOnSelect: true,
         });
-        $('.dei-point-feature').slick({
+        jQuery('.dei-point-feature').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
             dots: true,
         });
-        $('.affinity-main').slick({
+        jQuery('.affinity-main').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
             dots: true,
         });
-        $('.presenters-slider').slick({
+        jQuery('.presenters-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
@@ -296,14 +295,14 @@ let mobileMedia = function(){
         });
     } 
 }
-$(window).resize(function () { mobileMedia(); });
-$(document).on('ready', function () { mobileMedia(); });
+jQuery(window).resize(function () { mobileMedia(); });
+jQuery(document).on('ready', function () { mobileMedia(); });
 
 let ipadAbove = function(){
-    if($(window).width() >= 768){ 
-        $('.partners-default-slider').slick('unslick');
+    if(jQuery(window).width() >= 768){ 
+        jQuery('.partners-default-slider').slick('unslick');
     }
 }   
-$(window).resize(function () { ipadAbove(); });
-$(document).on('ready', function () { ipadAbove(); });
+jQuery(window).resize(function () { ipadAbove(); });
+jQuery(document).on('ready', function () { ipadAbove(); });
 

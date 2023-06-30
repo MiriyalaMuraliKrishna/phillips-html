@@ -14,3 +14,11 @@ Text Domain:
 @font-face { font-family: 'FranklinGothic-Book'; src: url('./fonts/FranklinGothic-Medium.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
 @font-face { font-family: 'FranklinGothic-Medium'; src: url('./fonts/FranklinGothic-Medium.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
 @font-face { font-family: 'FranklinGothic-Bold'; src: url('./fonts/FranklinGothic-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+
+
+@media print{
+    .search-main{display: none;}
+    .navigation{display: none !important;}
+    ul.main_menu{display: none;}
+    footer.footer-main{display: none;}
+}

@@ -25,7 +25,7 @@ ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 @media only screen and (min-width: 1024px){
 	.footer{padding: 109px 0 0;}
 	.footer-row{padding-bottom: 31px; border-bottom: 1px solid var(--white-20);}
-	.copyrights-main{flex-direction: row-reverse; justify-content: space-between;}
+	.copyrights-main{flex-direction: row-reverse; justify-content: center; gap: 10px;}
 }
 @media only screen and (min-width: 1300px){
 	.footer-lt{width: 306px; margin-right: 84px;}

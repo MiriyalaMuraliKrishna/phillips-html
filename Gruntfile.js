@@ -18,13 +18,13 @@ module.exports = function(grunt) {
       uglify: {
         my_target: {
           files: {
-            'dist/core.bundle.js': ['js/slick.min.js', 'js/custom-slick.js', 'js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js',]
+            'dist/core.bundle.js': ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/slick.min.js', 'js/custom-slick.js']
           }
         }
       },
       concat: {
         dist: {
-          src: ['js/slick.min.js', 'js/custom-slick.js', 'js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js'],
+          src: ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/slick.min.js', 'js/custom-slick.js',],
           dest: 'dist/core.bundle.js'
         }
       },
@@ -50,5 +50,5 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('dist', ['concat', 'uglify', 'cssmin', 'grunt']);
     grunt.registerTask('default', ['watch']);
-  
+
   };
