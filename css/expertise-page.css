@@ -8,6 +8,7 @@
     
 .expertise-row h5 a, .expertise-row li a{ color: var(--black); }    
 .expertise-row h5 a:hover, .expertise-row h6 a:hover{ color: var(--copperplate-color); }
+.expertise-row li a:hover{ color: var(--copperplate-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

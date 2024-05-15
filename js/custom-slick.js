@@ -207,7 +207,7 @@ jQuery(document).ready(function(){
     
     if(jQuery(window).width() >= 1024){
         jQuery('.buffalo-slider-for').slick({
-            slidesToShow: 4,
+            slidesToShow: 1,
             slidesToScroll: 1,
             infinite: false,
             dots: false,
@@ -220,15 +220,20 @@ jQuery(document).ready(function(){
             swipeToSlide: true,
             focusOnSelect: true,
             asNavFor: '.buffalo-slider-nav',
+        }).on('setPosition', function() {
+            jQuery('.buffalo-slider-for .slick-list').css('height', '445px');
         });
+    
         jQuery('.buffalo-slider-nav').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
             speed: 1000,
             fade: true,
+            focusOnSelect: true,
             asNavFor: '.buffalo-slider-for',
         });
+
     }
     if(jQuery(window).width() <= 1023){
         jQuery('.buffalo-slider-nav').on('init', function(event, slick){

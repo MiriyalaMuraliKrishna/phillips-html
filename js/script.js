@@ -29,6 +29,7 @@ jQuery(document).ready(function(){
         jQuery('.search-main').toggleClass('search_hide');
     });
 
+
     jQuery('.accordion-header').on('click', function(e){
         e.preventDefault();
         jQuery(this).parent('.accordion').siblings().removeClass('accordion-active');
@@ -246,5 +247,44 @@ jQuery(document).ready(function(){
             });
         }
     });
-    
+
+
+    jQuery("ul.cutom-filter > li").has("ul").addClass("menu-level-1");
+    jQuery("ul.cutom-filter > li > ul > li").has("ul").addClass("menu-level-2");
+    const firstLevel = jQuery('ul.cutom-filter > li.menu-level-1 > a');
+    const secondlevel = jQuery('ul.cutom-filter > li > ul > li.menu-level-2 > a');
+    jQuery('.cutom-filter-btn').on('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        jQuery(this).toggleClass('active');
+        jQuery(this).parents().siblings(".our-people-field").find("ul.cutom-filter").slideUp(900);
+        jQuery(this).siblings('ul.cutom-filter').slideToggle(900);
+    });
+    if(jQuery(window).width() <= 1023){
+        firstLevel.on('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            jQuery(this).parent().siblings().find("a").removeClass("active");
+            jQuery(this).toggleClass('active');
+            jQuery(this).parent().siblings().find('ul').slideUp(900);
+            jQuery(this).siblings().slideToggle(900);
+        });
+        secondlevel.on('click', function (e){
+            e.preventDefault();
+            e.stopPropagation();
+            jQuery(this).parent().siblings().find("a").removeClass("active");
+            jQuery(this).toggleClass('active');
+            jQuery(this).parent().siblings().find('ul').slideUp(900);
+            jQuery(this).siblings().slideToggle(900);
+        });
+    }
+    jQuery("body").on("click", function(){
+        jQuery("ul.cutom-filter").slideUp(900);
+    });
+    jQuery(".our-people-dropdown .selectBox-dropdown").on("click", function(){
+        jQuery("ul.cutom-filter").slideUp(900);
+    });
 });
+
+    
+

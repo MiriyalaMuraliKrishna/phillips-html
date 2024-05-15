@@ -6,7 +6,7 @@
 .social-share-icons #st-1.st-animated .st-btn:hover{background: var(--btn-color) !important; color: var(--white) !important; opacity: 1; top: 0; transition: all 0.5s ease-in-out;}
 .social-share-icons #st-1.st-animated span.st-label{display: none;}
 .social-share-icons #st-1.st-animated .st-btn[data-network="facebook"]::after {content: "\f39e"; } 
-.social-share-icons #st-1.st-animated .st-btn[data-network="twitter"]::after {content: "\f099"; } 
+.social-share-icons #st-1.st-animated .st-btn[data-network="twitter"]::after {content: "\e61b"; } 
 .social-share-icons #st-1.st-animated .st-btn[data-network="linkedin"]::after{content: "\f0e1"; }
 .social-share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
 .social-share-icons #st-1.st-animated img{display: none;}

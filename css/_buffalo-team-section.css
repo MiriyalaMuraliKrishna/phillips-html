@@ -16,6 +16,7 @@
 .buffalo-text{width: calc(100% - 81px); }
 .buffalo-team-btn{margin-top: 40px;}
 .buffalo-team-btn .button{padding: 13px 27px 13px 27px;}
+.buffalo-team-leader
 
 .slick-current .buffalo-team-item{background-color: #eae0da; }
 .slick-current .buffalo-text span a{color: var(--text-color); transition: none;}
@@ -26,7 +27,8 @@
 .buffalo-team-image{width: 387px; }
 .buffalo-team-image img{width: 387px; height: 491px; max-height: 100%;}
 .buffalo-team-text{width: calc(100% - 387px); align-items: center;}
-.buffalo-team-inner{width: 100%; min-height: 395px; flex-direction: column; justify-content: center; background-color: var(--copperplate-color); padding: 61px 46px 63px 68px;}
+.buffalo-team-inner{width: 100%; min-height: 395px; flex-direction: column; justify-content: center; background-color: var(--copperplate-color); padding: 101px 46px 63px 68px; position: relative;}
+.buffalo-team-leader { right: 0; top: 30px; padding: 8px 24px 7px; border-radius: 1px 0 0 1px; background-color: var(--white); display: inline-block; font-family: "Copperplate-Regular", sans-serif; position: absolute; text-transform: uppercase; }
 .buffalo-team-inner img{width: 23px; height: 19px; margin-left: -28px; }
 .buffalo-team-inner p{font-size: 16px; font-style: italic; line-height: 1.75; color: var(--white-90); margin-bottom: 38px;}
 .buffalo-team-name{margin-bottom: 24px; }
@@ -43,7 +45,7 @@
 .buffalo-team .slick-arrow{top: calc(50% + 22px); left: -48px; width: 25px; height: auto; margin: 0; cursor: pointer; color: var(--copperplate-color); font-size: 2rem;}
 .buffalo-team .slick-arrow.slick-prev{top: calc(50% - 22px);}
 .buffalo-team .slick-arrow::before{line-height: normal;}
-.buffalo-team .slick-arrow.slick-disabled{opacity: 0.25;}
+.buffalo-team .slick-arrow.slick-disabled{opacity: 0.25; pointer-events: none;}
 .buffalo-team-list.no_image{display: block;}
 .buffalo-team-list.no_image .buffalo-team-text{width: 100%;}
 
@@ -66,9 +68,10 @@
     .buffalo-team-content{width: 100%;}
     .buffalo-team-list{display: block; }
     .buffalo-team-image{width: 248px; margin: 0 auto; }
-    .buffalo-team-inner{padding: 151px 15px 41px 25px; }
+    .buffalo-team-inner{padding: 110px 15px 41px 25px; min-height: 340px; }
     .buffalo-team-inner img{margin: 0 0 13px 7px; }
-    .buffalo-team-text{width: 100%; display: block; margin-top: -130px;}
+    .buffalo-team-text{width: 100%; display: block; margin-top: -80px; position: relative; z-index: -1;}
+    .buffalo-team-leader{position: static; margin-bottom: 24px;}
     .buffalo-team-inner p{margin-bottom: 17px; }
     .buffalo-team-name{margin-bottom: 19px; }
     .buffalo-team-content .slick-dots{margin: 17px 0; position: relative; }

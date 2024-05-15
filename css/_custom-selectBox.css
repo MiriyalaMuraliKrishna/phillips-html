@@ -5,13 +5,13 @@ body .selectBox-dropdown .selectBox-arrow::after{right: 15px; top: 50%; transfor
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f106";}
 ul.selectBox-dropdown-menu{margin: 0; padding: 8px 0 10px; top: 100%; left: 0; max-height: 213px; min-height: 1em; min-width: 213px; overflow: auto; display: block; border-radius: 0; background-color: var(--white); position: absolute; z-index: 2; border: solid 1px #d6d6d6; box-shadow: 0 6px 10px 0 rgba(168, 107, 73, 0.25);}
 ul.selectBox-dropdown-menu li:first-child{display: none;}
-ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0 18px; white-space: nowrap;}
+ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 4px 17px; white-space: normal;}
 ul.selectBox-dropdown-menu li::before{display: none;}
 ul.selectBox-dropdown-menu li:hover{background-color: #9c5f3d; }
-ul.selectBox-dropdown-menu li a{color: var(--black); cursor: pointer; font-size: 14px; line-height: 2; letter-spacing: normal; display: block; padding: 0; text-transform: capitalize; transition: none;}
+ul.selectBox-dropdown-menu li a{color: var(--black); cursor: pointer; font-size: 14px; line-height: 18px; letter-spacing: normal; display: block; padding: 0; text-transform: none; transition: none;}
 ul.selectBox-dropdown-menu li:hover a{color: var(--white);}
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     ul.selectBox-dropdown-menu li{width: 100%; max-width: 320px; }
-    ul.selectBox-dropdown-menu li a{ text-transform: capitalize; transition: none; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+    ul.selectBox-dropdown-menu li a{ text-transform: capitalize; transition: none; text-overflow: ellipsis; overflow: hidden; }
 }
