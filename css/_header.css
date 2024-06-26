@@ -89,8 +89,7 @@
     .header_srch_btn input{ padding: 0; width: 100%; height: 100%; opacity: 0; background: none; font-size: 0; line-height: 0; position: absolute; z-index: 1;}
     .sticky_header:not(.fixed_header) .header_srch_btn{color: var(--white);}
         
-    .site-main-cover{padding-top: 86px;}
-    .site-main-cover.no_space{padding-top: 0;}
+
     .header_secondary_btn{right: 15px; top: 9px; width: 22px; height: 22px; cursor: pointer; font-size: 17px; position: absolute; color: var(--text-color); display: none; transition: opacity 0.5s linear;}
     li.nav-item-overview{display: none !important;}
     ul.main_menu > li.expertise-nav-item > ul > li.no_underline{display: none;}
@@ -211,8 +210,7 @@
     .header_secondary_btn{display: block; color: var(--white);}
     .fixed_header .header_secondary_btn{color: var(--black);}
     .header_secondary_btn.hide{visibility: hidden; opacity: 0;}
-    .site-main-cover{padding-top: 65px;}
-    .site-main-cover.no_space{padding-top: 0;}
+
 }   
 @media only screen and (max-width: 370px) and (min-width: 200px){
     .logo{margin-left: 50px;}

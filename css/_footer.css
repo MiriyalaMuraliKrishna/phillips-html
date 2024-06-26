@@ -17,10 +17,10 @@ ul.footer-links > li a:hover{background-position: 0;}
 .copyrights-main{padding: 43px 0 53px;}
 .copyrights-text{font-size: 14px; line-height: 1.79; color: var(--white-70); }
 ul.copyrights-links{margin: 0}
-ul.copyrights-links > li{font-size: 14px; line-height: 1.79; margin-bottom: 0}
+ul.copyrights-links > li{margin-bottom: 0}
 ul.copyrights-links > li:before{display: none;} 
-ul.copyrights-links > li > a{color: var(--white); opacity: 0.7; }
-ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
+ul.copyrights-links > li > a{color: rgb(255 255 255 / 70%); font-size: 14px; line-height: 1.79;}
+ul.copyrights-links > li > a:hover{color: var(--copperplate-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -36,7 +36,7 @@ ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 	.footer-list:nth-child(2){flex: 0 0 180px;}
 	.footer-list:nth-child(4){flex: 0 0 100px;}
 	.footer-list:nth-child(3){padding-left: 50px;}
-	ul.copyrights-links > li{margin-left: 31px;}
+	ul.copyrights-links > li > a{margin: 0 16px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
 	.footer{padding-top: 69px;}
@@ -45,7 +45,7 @@ ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 	.footer-rt{gap: 32px;}
 	.footer-list{flex: 0 0 calc(26% - 21px);}
 	.footer-list:nth-child(4){flex: 0 0 calc(20% - 15px);}
-	ul.copyrights-links{gap: 14px;}
+	ul.copyrights-links > li > a{margin: 0 7px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 	.footer{padding: 44px 0 0;}
@@ -54,7 +54,7 @@ ul.copyrights-links > li > a:hover{color: var(--copperplate-color); opacity: 1;}
 	.footer-rt{gap: 20px; padding-bottom: 20px;}
 	.footer-list{flex: 0 0 calc(26% - 15px);}
 	.footer-list:nth-child(4){flex: 0 0 calc(20% - 15px);}
-	ul.copyrights-links{gap: 30px;}
+	ul.copyrights-links > li > a{margin: 0 15px;}
 	.copyrights-main{gap: 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
