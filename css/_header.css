@@ -94,6 +94,8 @@
     li.nav-item-overview{display: none !important;}
     ul.main_menu > li.expertise-nav-item > ul > li.no_underline{display: none;}
 
+    .site-main-cover{padding-top: 86px;}
+    .site-main-cover.no_space{padding-top: 0;}
 } 
 @media only screen and (min-width: 1400px){
     .sticky_header:not(.fixed_header) .header_srch input::-webkit-input-placeholder {color: var(--white-70);}
@@ -210,7 +212,9 @@
     .header_secondary_btn{display: block; color: var(--white);}
     .fixed_header .header_secondary_btn{color: var(--black);}
     .header_secondary_btn.hide{visibility: hidden; opacity: 0;}
-
+    
+    .site-main-cover.no_space{padding-top: 0;}
+    .site-main-cover { padding-top: 65px; }
 }   
 @media only screen and (max-width: 370px) and (min-width: 200px){
     .logo{margin-left: 50px;}

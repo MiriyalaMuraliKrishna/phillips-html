@@ -1,3 +1,6 @@
+
+
+
 .cky-btn-revisit-wrapper.cky-revisit-bottom-left{background: linear-gradient(to right,var(--blaze-color) 0,var(--pump-color) 108%) !important; z-index: 800;}
 body .cky-consent-container{left: auto; right: 40px;}
 body .cky-consent-bar .cky-notice-des p, body .cky-gpc-wrapper .cky-gpc-desc p, body .cky-preference-body-wrapper .cky-preference-content-wrapper p, body .cky-accordion-header-wrapper .cky-accordion-header-des p, body .cky-cookie-des-table li div:last-child p{font-family: 'Roboto',sans-serif; color: var(--text-color); font-size: 1rem; line-height: 1.5; font-weight: 300; }
